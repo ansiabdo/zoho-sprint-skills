@@ -1,0 +1,20 @@
+[
+  {
+    "ok": true,
+    "tool": "ZohoSprints_UpdateItem",
+    "isError": false,
+    "data": {
+      "description": "# Fixture List API — League Filter + LeagueId on DTOs\n\nتوثيق تتبع للعمل المسجل، استنادًا إلى BMAD Story 10.5 والتغييرات المحلية. لا يغير هذا التوثيق حالة المهمة أو معايير القصة الرئيسية.\n\n## الحالة الفعلية مقابل معايير القبول\n1. leagueId صالح يقيّد النتائج بالدوري المطلوب ضمن نطاق المستأجر — منفذ في الكود (FixtureAppService/AdminFixtureAppService)، ولم يُعد تشغيله في هذه الجولة: unverified runtime.\n2. حذف leagueId يحافظ على السلوك السابق للنطاق المسموح — منفذ في الكود، unverified runtime.\n3. DTOs تعرض معرف واسم الدوري وتتعامل مع الاسم غير المعروف دون استثناء — منفذ في الكود.\n4. cache الدوري منفصل عن cache الترتيب الإجمالي، ومسار الاستعلام يحترم حد Oracle عبر تقسيم المعرفات عند الحاجة — منفذ في الكود.\n5. لا تُعتبر هذه المهمة تغطية كاملة لمتطلبات season scoring أو entitlement redesign في القصص الأوسع — acknowledged.\n\n## الأدلة\n- BMAD: _bmad-output/implementation-artifacts/10-5-fixture-list-api-league-filter-dto.md\n- Git: 7d251dec, 026d2741\n- Code: FixtureAppService.cs, AdminFixtureAppService.Extended.cs, LeaderboardAppService.cs, GetAdminFixturesInput.cs\n- Tests in source: TenantLeagueFixtureGatingTests, AdminFixtureListDetail2_13Tests, LeaderboardAppServiceTests\n- 2026-10-28: قرئت التغييرات والمصادر؛ لم تُشغّل الاختبارات أو واجهة حية في هذه الجولة.\n\n--- [ZOHO-ACTUAL-DELIVERY v1 | SNA-141-2026-10-28-01] ---\nالحالة: التنفيذ موجود في الكود ضمن نطاق فلتر الدوري، لكن التحقق التشغيلي (اختبارات/واجهة) غير مُعاد في هذه الجولة. لا يغيّر هذا الملحق حالة المهمة أو معايير القبول، ولا يدّعي تغطية كاملة للقصص الأوسع.\n--- [/ZOHO-ACTUAL-DELIVERY | SNA-141-2026-10-28-01] ---",
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_UpdateItem",
+    "isError": false,
+    "data": {
+      "description": "# Admin interface to manage tenant leagues\n\nتوثيق تتبع للعمل المسجل استنادًا إلى BMAD Story 10.4 وتغييرات واجهة الأدمن. لا يغير هذا التوثيق الأب الحالي أو حالة المهمة.\n\n## الحالة الفعلية مقابل معايير القبول\n1. لا تظهر دوريات خارج خيارات الخطة المعتمدة في نموذج التعيين — منفذ في الكود، unverified runtime.\n2. تحديث الخطة يراجع الاختيارات ويعرض أثر الإزالة قبل الحفظ عند وجود تنبؤات — منفذ في الكود (DowngradeWarningModal)، unverified runtime.\n3. المستخدم غير المخول لا يستطيع تنفيذ الحفظ — منفذ في الكود عبر الصلاحيات، unverified runtime.\n4. توضيح معنى الاختيار الفارغ — **غير محسوم**: BMAD يستخدم القائمة الفارغة بمعنى default-all، بينما SNA-127 تميز Selected الفارغة عن AllEntitled. لم يُغيّر هذا الملحق السلوك.\n\n## الأدلة\n- BMAD: _bmad-output/implementation-artifacts/10-4-admin-league-catalog-tenant-assignment-ui.md\n- Git: 4546b679, 5dd2c6a3\n- App: LeagueCatalogAppService, TenantLeagueSettingsAppService, LeagueCatalog, TenantLeagueAssignment, DowngradeWarningModal\n- 2026-10-28: مراجعة مصادر ووثائق فقط؛ لم تُنفّذ جلسة UI حية أو اختبارات جديدة.\n\n--- [ZOHO-ACTUAL-DELIVERY v1 | SNA-142-2026-10-28-01] ---\nالحالة: واجهة إدارة دوريات المستأجرين منفذة في الكود بدرجة كبيرة، مع تعارض منتج غير محسوم حول دلالة الاختيار الفارغ (default-all مقابل Selected ≠ AllEntitled). لم يُعد تشغيل اختبارات أو جلسة UI في هذه الجولة، ولا يغيّر هذا الملحق حالة المهمة أو معايير القصة الأب SNA-117.\n--- [/ZOHO-ACTUAL-DELIVERY | SNA-142-2026-10-28-01] ---",
+      "status": "success"
+    }
+  }
+]

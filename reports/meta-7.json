@@ -1,0 +1,58 @@
+{
+ "hasCustomStatusAvailable": true,
+ "userDisplayName": {},
+ "workflowName": "VMASTER LOCAL for non bank customers",
+ "isDefault": true,
+ "statuses": [
+  {
+   "statusType": 0,
+   "wipMax": -1,
+   "statusPercentage": 0,
+   "isStart": true,
+   "isEnd": false,
+   "isDefault": true,
+   "statusDescription": "To do",
+   "statusId": "120216000000003629",
+   "createdBy": "120216000000010017",
+   "statusName": "To do",
+   "wipMin": -1,
+   "createdTime": "2024-02-20T00:38:02.823Z",
+   "colorCode": "#fa335c"
+  },
+  {
+   "statusType": 2,
+   "wipMax": -1,
+   "statusPercentage": 50,
+   "isStart": false,
+   "isEnd": false,
+   "isDefault": true,
+   "statusDescription": "Doing",
+   "statusId": "120216000000003631",
+   "createdBy": "120216000000010017",
+   "statusName": "In progress",
+   "wipMin": -1,
+   "createdTime": "2024-02-20T00:38:02.823Z",
+   "colorCode": "#4a7297"
+  },
+  {
+   "statusType": 1,
+   "wipMax": -1,
+   "statusPercentage": 100,
+   "isStart": false,
+   "isEnd": true,
+   "isDefault": true,
+   "statusDescription": "Done",
+   "statusId": "120216000000003637",
+   "createdBy": "120216000000010017",
+   "statusName": "Done",
+   "wipMin": -1,
+   "createdTime": "2024-02-20T00:38:02.823Z",
+   "colorCode": "#259e92"
+  }
+ ],
+ "hasPermission_customStatus": true,
+ "wipType": 0,
+ "workflowId": "120216000000593003",
+ "zsuserIdvsZUID": {},
+ "status": "success"
+}

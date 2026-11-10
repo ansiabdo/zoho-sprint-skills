@@ -1,0 +1,9 @@
+[
+ {"tool":"ZohoSprints_getAllWorkspaces","args":{}},
+ {"tool":"ZohoSprints_GetProjectDetails","args":{"headers":{"x-za-ui-version":"v2","X-convert-response":"true"},"path_variables":{"teamId":"767679505","projectId":"120216000004162606"},"query_params":{"action":"details"}}},
+ {"tool":"ZohoSprints_GetWorkspaceUsers","args":{"headers":{"x-za-ui-version":"v2","X-convert-response":"true"},"path_variables":{"teamId":"767679505"},"query_params":{"action":"data","index":1,"range":250}}},
+ {"tool":"ZohoSprints_getCustomLayouts","args":{"headers":{"x-za-ui-version":"v2","X-convert-response":"true"},"path_variables":{"teamId":"767679505","moduleId":"120216000000002031"},"query_params":{"action":"data","index":1,"range":25}}},
+ {"tool":"ZohoSprints_getItemTypes","args":{"headers":{"x-convert-response":true},"path_variables":{"teamId":"767679505","projectId":"120216000004162606"},"query_params":{"action":"data","index":1,"range":250}}},
+ {"tool":"ZohoSprints_getItemStatus","args":{"headers":{"x-convert-response":true},"path_variables":{"teamId":"767679505","projectId":"120216000004162606"},"query_params":{"action":"data","index":1,"range":250}}},
+ {"tool":"ZohoSprints_getPriorityTypes","args":{"headers":{"x-convert-response":true},"path_variables":{"teamId":"767679505","projectId":"120216000004162606"},"query_params":{"action":"data","index":1,"range":250}}}
+]

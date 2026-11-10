@@ -1,0 +1,28 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {execFileSync} from 'node:child_process';
+import {createHash} from 'node:crypto';
+const repo='F:/WorldCup-New';
+const output=import.meta.dirname;
+const git=(...args)=>execFileSync('git',args,{cwd:repo,encoding:'utf8',maxBuffer:20*1024*1024});
+const hash=s=>createHash('sha256').update(s).digest('hex');
+const status=git('status','--porcelain=v1','-z');
+const entries=status.split('\0').filter(Boolean).map(s=>({state:s.slice(0,2),file:s.slice(3)}));
+const head=git('rev-parse','HEAD').trim();
+const base=git('rev-parse','1030f85e^').trim();
+const range=`${base}..${head}`;
+const commits=git('log','--reverse','--format=%H|%ad|%s','--date=iso-strict',range).trim().split('\n').map(s=>{const [sha,date,...subject]=s.split('|');return {sha,date,subject:subject.join('|')};});
+const changedFiles=git('diff','--name-only',range,'--','src','test','angular','wc-app','_bmad-output').trim().split('\n').filter(Boolean);
+const excluded=s=>/(^|\/)(node_modules|bin|obj|dist|wwwroot|\.angular)(\/|$)|(^|\/)(appsettings[^/]*\.json|\.env[^/]*|NuGet\.Config)$|\.(patch|png|jpg|jpeg|map)$/i.test(s);
+const statusText=fs.readFileSync(path.join(repo,'_bmad-output/implementation-artifacts/sprint-status.yaml'),'utf8');
+const stories=[...statusText.matchAll(/^  (\d+-\d+-[^:]+):\s+(\S+)/gm)].map(m=>({key:m[1],status:m[2]}));
+const epic10=stories.filter(s=>s.key.startsWith('10-')).map(s=>{
+const relative=`_bmad-output/implementation-artifacts/${s.key}.md`;
+const full=path.join(repo,relative);
+if(!fs.existsSync(full))return {...s,file:relative,exists:false};
+const content=fs.readFileSync(full,'utf8');
+return {...s,file:relative,exists:true,sha256:hash(content),checkedTasks:(content.match(/^-\s*\[x\]/gmi)||[]).length,uncheckedTasks:(content.match(/^-\s*\[ \]/gm)||[]).length};
+});
+const result={capturedAt:new Date().toISOString(),repo,branch:git('branch','--show-current').trim(),head,baseline:{type:'bounded_trial_not_full_history',base,head,range,reason:'Earliest explicit Epic 10 implementation commit 1030f85e; not a production checkpoint'},commits,commitCount:commits.length,status:{sha256:hash(status),total:entries.length,staged:entries.filter(e=>e.state[0]!==' '&&e.state[0]!=='?').length,unstaged:entries.filter(e=>e.state[1]!==' '&&e.state[1]!=='?').length,untracked:entries.filter(e=>e.state==='??').length,temporaryBuildDeletions:entries.filter(e=>e.file.startsWith('.codex-tmp/')&&e.state===' D').length,nonTemporary:entries.filter(e=>!e.file.startsWith('.codex-tmp/'))},changedFileCount:changedFiles.length,excludedFromContent:changedFiles.filter(excluded),eligibleChangedFiles:changedFiles.filter(s=>!excluded(s)),bmad:{version:'6.6.0',trackingSystem:'file-system',storyCount:stories.length,statusCounts:stories.reduce((a,s)=>(a[s.status]=(a[s.status]||0)+1,a),{}),epic10},existingAuditState:fs.existsSync(path.join(repo,'.zoho-sprints/audit-state.json'))};
+fs.writeFileSync(path.join(output,'local-evidence.json'),JSON.stringify(result,null,2)+'\n');
+console.log(JSON.stringify({commitCount:result.commitCount,base,head,status:result.status,changedFileCount:result.changedFileCount,eligibleFiles:result.eligibleChangedFiles.length,bmad:result.bmad},null,2));

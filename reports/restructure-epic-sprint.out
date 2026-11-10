@@ -1,0 +1,43 @@
+[
+  {
+    "ok": true,
+    "method": "tools/call",
+    "params": "ZohoSprints_UpdateEpic",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"status\":\"success\"}"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "status": "success",
+        "data": {
+          "status": "success"
+        }
+      }
+    }
+  },
+  {
+    "ok": true,
+    "method": "tools/call",
+    "params": "ZohoSprints_UpdateSprint",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"desc\":\"نطاق Sprint10 (Phase 1): Banky Lite API + Friend Debt + subscribers.\\n- بنكي مزود ومستأجر.\\n- الفاتورة: provider + issuer + subscriber.\\n- تسجيل المشتركين والأصدقاء.\\n- API عرض/إصدار/سداد/استعلام/Webhooks.\\n- مديونية الأصدقاء حسب #122 وPRD.\\n- دفع جزئي، قبول/رفض، تعديل بنود، سجل تاريخي.\\nخارج النطاق: تسجيل الدخول المستقل، دفتر التسويات، النزاعات الكاملة، استيراد جهات الاتصال، API عام للمزودين (Backlog).\\nالمتطلب التجاري: #122.\\nBusiness Requester: Nidhal.\",\"status\":\"success\"}"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "status": "success",
+        "data": {
+          "desc": "نطاق Sprint10 (Phase 1): Banky Lite API + Friend Debt + subscribers.\n- بنكي مزود ومستأجر.\n- الفاتورة: provider + issuer + subscriber.\n- تسجيل المشتركين والأصدقاء.\n- API عرض/إصدار/سداد/استعلام/Webhooks.\n- مديونية الأصدقاء حسب #122 وPRD.\n- دفع جزئي، قبول/رفض، تعديل بنود، سجل تاريخي.\nخارج النطاق: تسجيل الدخول المستقل، دفتر التسويات، النزاعات الكاملة، استيراد جهات الاتصال، API عام للمزودين (Backlog).\nالمتطلب التجاري: #122.\nBusiness Requester: Nidhal.",
+          "status": "success"
+        }
+      }
+    }
+  }
+]

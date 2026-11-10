@@ -1,0 +1,33 @@
+[
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": {
+        "X-convert-response": "true",
+        "x-za-ui-version": "v2"
+      },
+      "path_variables": {
+        "teamId": "767679505",
+        "projectId": "120216000000593007",
+        "sprintId": "120216000004656294",
+        "itemId": "120216000004655029"
+      },
+      "query_params": {
+        "name": "تهيئة بنكي كمزود ومستأجر | Banky Provider & Tenant Setup",
+        "description": "Business Requester: Nidhal\nEpic: بنكي لايت: الفواتير والأصدقاء والمديونية\n\nكـ مدير منصة، أريد تعريف بنكي لايت كمزود ومستأجر مع بيانات اعتماد API وعزل بيانات، حتى يستخدم فاتورتي بأمان.\n\nمعايير القبول:\n1. سجل مزود/مستأجر لبنكي لايت بحالة نشطة وعملة وبيانات اتصال.\n2. إصدار API Client (client id/secret أو مفتاح) وصلاحيات محددة.\n3. عزل كل قراءة/كتابة حسب tenant_id؛ رفض الوصول عبر المستأجرين 403/404.\n4. بيئة Sandbox وProduction منفصلتان.\n5. Audit لإنشاء/تعديل/تعطيل بيانات الاعتماد.\n6. لا واجهة تسجيل دخول مستقلة في هذه المرحلة.\nخارج النطاق: دورة تأهيل مستأجرين عامة، تسجيل الدخول، التسويات.",
+        "epicid": "120216000004657001",
+        "projitemtypeid": "120216000000593045",
+        "projpriorityid": "120216000000593039",
+        "newusers": "[\"120216000000359035\"]",
+        "startdate": "2026-10-31T21:00:00+0000",
+        "enddate": "2026-11-15T20:59:59+0000",
+        "point": 1,
+        "UDF_CHAR5": "Nidhal",
+        "UDF_CHAR3": "تهيئة بنكي كمزود ومستأجر",
+        "UDF_CHAR4": "Banky Provider & Tenant Setup",
+        "statusid": "120216000000003629",
+        "duration": "11d"
+      }
+    }
+  }
+]

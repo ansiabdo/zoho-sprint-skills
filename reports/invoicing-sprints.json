@@ -1,0 +1,10 @@
+[
+  {
+    "tool": "ZohoSprints_GetSprints",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000000593007" },
+      "query_params": { "type": "[1,2,3,4]", "action": "data", "index": 1, "range": 50 }
+    }
+  }
+]

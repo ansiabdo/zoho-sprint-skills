@@ -1,0 +1,27 @@
+[
+  {
+    "ok": true,
+    "method": "tools/call",
+    "params": "ZohoSprints_UpdateItem",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"followers\":[],\"ownerIds\":[\"120216000000359035\"],\"description\":\"Business Requester: Nidhal\\nEpic: بنكي لايت: الفواتير والأصدقاء والمديونية\\n\\nكـ مطور، أريد إضافة provider_id وissuer_id وsubscriber_id إلى الفاتورة، حتى يكون لكل فاتورة مزود ومصدر ومشترك واضحون.\\n\\nمعايير القبول:\\n1. حقول provider_id وissuer_id وsubscriber_id في نموذج الفاتورة وDTO وAPI.\\n2. بنكي هو provider في Phase 1؛ المصدر تاجر/شخص؛ المشترك دافع/عميل.\\n3. ترحيل/backfill للفواتير الحالية دون فقدان بيانات.\\n4. فهارس وقواعد تكامل وtenant scoping.\\n5. التحقق من أن المشترك يتبع نفس المزود/المصدر.\\n6. تحديث الاستعلامات والتقارير والحقول المرجعية.\\n7. اختبارات عزل وعدم تسريب بين المستأجرين.\\nخارج النطاق: تسجيل الدخول، دفتر التسويات.\",\"status\":\"success\"}"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "data": {
+          "followers": [],
+          "ownerIds": [
+            "120216000000359035"
+          ],
+          "description": "Business Requester: Nidhal\nEpic: بنكي لايت: الفواتير والأصدقاء والمديونية\n\nكـ مطور، أريد إضافة provider_id وissuer_id وsubscriber_id إلى الفاتورة، حتى يكون لكل فاتورة مزود ومصدر ومشترك واضحون.\n\nمعايير القبول:\n1. حقول provider_id وissuer_id وsubscriber_id في نموذج الفاتورة وDTO وAPI.\n2. بنكي هو provider في Phase 1؛ المصدر تاجر/شخص؛ المشترك دافع/عميل.\n3. ترحيل/backfill للفواتير الحالية دون فقدان بيانات.\n4. فهارس وقواعد تكامل وtenant scoping.\n5. التحقق من أن المشترك يتبع نفس المزود/المصدر.\n6. تحديث الاستعلامات والتقارير والحقول المرجعية.\n7. اختبارات عزل وعدم تسريب بين المستأجرين.\nخارج النطاق: تسجيل الدخول، دفتر التسويات.",
+          "status": "success"
+        },
+        "status": "success"
+      }
+    }
+  }
+]

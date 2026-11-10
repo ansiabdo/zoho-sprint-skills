@@ -1,0 +1,55 @@
+{
+  "projItemTypes": [
+    {
+      "itemTypeImage": "2",
+      "prefix": "I",
+      "baseType": 2,
+      "costPerHour": "0.000",
+      "sequence": "0",
+      "isDefault": true,
+      "createdBy": "120216000000010017",
+      "itemTypeDescription": "A short description that defines your requirement.",
+      "ratePerHour": "0.000",
+      "createdTime": "2026-04-20T17:05:08.193Z",
+      "projItemTypeId": "120216000004162630",
+      "itemTypeName": "Story",
+      "lastUpdatedTime": "2026-04-20T17:05:08.193Z",
+      "itemTypeId": "120216000000003627"
+    },
+    {
+      "itemTypeImage": "1",
+      "prefix": "I",
+      "baseType": 0,
+      "costPerHour": "0.000",
+      "sequence": "1",
+      "isDefault": true,
+      "createdBy": "120216000000010017",
+      "itemTypeDescription": "A smaller entity that builds your requirement.",
+      "ratePerHour": "0.000",
+      "createdTime": "2026-04-20T17:05:08.193Z",
+      "projItemTypeId": "120216000004162628",
+      "itemTypeName": "Task",
+      "lastUpdatedTime": "2026-04-20T17:05:08.193Z",
+      "itemTypeId": "120216000000003623"
+    },
+    {
+      "itemTypeImage": "0",
+      "prefix": "I",
+      "baseType": 1,
+      "costPerHour": "0.000",
+      "sequence": "2",
+      "isDefault": true,
+      "createdBy": "120216000000010017",
+      "itemTypeDescription": "Issues while working on the stories and tasks.",
+      "ratePerHour": "0.000",
+      "createdTime": "2026-04-20T17:05:08.193Z",
+      "projItemTypeId": "120216000004162629",
+      "itemTypeName": "Bug",
+      "lastUpdatedTime": "2026-04-20T17:05:08.193Z",
+      "itemTypeId": "120216000000003625"
+    }
+  ],
+  "userDisplayName": {},
+  "zsuserIdvsZUID": {},
+  "status": "success"
+}

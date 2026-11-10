@@ -1,0 +1,108 @@
+{
+  "name": "Zoho Sprints Professional Skills",
+  "version": "2.0.0",
+  "canonical_skill": ".agents/skills/zoho-sprints/SKILL.md",
+  "distribution_skill": "skills/zoho-sprints/SKILL.md",
+  "source_files": [
+    {
+      "path": "assets/actual-delivery.template.md",
+      "sha256": "dea528c4bd534e3aef6fd60df0872253e07ea50527e1169db1a9f35cb78ef625"
+    },
+    {
+      "path": "assets/audit-config.example.yaml",
+      "sha256": "3b4206cf4d237d86d186ee7d446b3696be99800391e9dedf2e71a6dd25787210"
+    },
+    {
+      "path": "assets/audit-report.template.md",
+      "sha256": "5ed8e32f3411a0e5515491e7f267c7fcbe2317af30787fcdaa9b423f354ad41a"
+    },
+    {
+      "path": "assets/gitignore-zoho-sprints.txt",
+      "sha256": "261bbfe518bced986ade6fe2287aa0ebb41c7037958136773ab12fc71234c62d"
+    },
+    {
+      "path": "assets/profile.example.yaml",
+      "sha256": "61335b502dedf563ce749bcb4850d6036faade30e00ef284ad7da79527ef66bb"
+    },
+    {
+      "path": "assets/read-report.template.md",
+      "sha256": "6b196e716fe81a8de1b3203f2b4bf0339c08127b9759147e033e380d0783191e"
+    },
+    {
+      "path": "assets/work-item.template.md",
+      "sha256": "a5e301dc0d99177ca58f8740501cfb8df320eb478c4142f2563d9e6f86250bbb"
+    },
+    {
+      "path": "checks/audit-continuity.md",
+      "sha256": "5fc17c1616f38a6bc3497420ed2a5878f03695078926704077a02427f08e379a"
+    },
+    {
+      "path": "checks/connection.md",
+      "sha256": "2b0b10534afc9dae7082883229af643026168ac122b5d618a67582acfcc0267b"
+    },
+    {
+      "path": "checks/read-coverage.md",
+      "sha256": "4ec34debac572b5fc5cc360f2b7320d30bde8fa8e48ae8e41e44ee66017ebc1f"
+    },
+    {
+      "path": "checks/write-verification.md",
+      "sha256": "3d3d5c0108866f94ad15ac37f78ce1c1aafc5ea026604787d52f77ccab7e8abb"
+    },
+    {
+      "path": "references/audit-ledger.md",
+      "sha256": "996f8562cb7ea523fca9ceb8dfae2e4f4fb26859729f387b5fe89131e66710e1"
+    },
+    {
+      "path": "references/contract.json",
+      "sha256": "4c338133011e30968669d0cb6a98309fa14622dd47034a268f5bc57fc6f569e1"
+    },
+    {
+      "path": "references/field-completeness.md",
+      "sha256": "881a421b169b4064b332ae65d416e289a2cf3fd311b2189e7c5419163b15fc3f"
+    },
+    {
+      "path": "references/mcp-discovery.md",
+      "sha256": "5615a28560140dbaeefb1d9ff99bbc3da9f2ff7e28f31386d369360b13bd5927"
+    },
+    {
+      "path": "references/policy-contract.md",
+      "sha256": "57826aa6450ea3a82acaa84ab314c5a9cb80b1893cd4f1919787920a542e33e0"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "67ed337638a9f0b0fd9e21c4ae7be2f9a896fcb8a1071f90fc5e0006a4115fc2"
+    },
+    {
+      "path": "workflows/admin-management.md",
+      "sha256": "b7e75a06eddecc7ad93d7a284ce272143e707837737b2b28d19430d388bdbc96"
+    },
+    {
+      "path": "workflows/bmad-import.md",
+      "sha256": "806f293413b143a103fb07145466cc17e5e38145739b13366f6efd480f6e7e71"
+    },
+    {
+      "path": "workflows/developer-browse.md",
+      "sha256": "cb7bbcad647df5ce39b7527131168f1a93385be08a5ed36eb2a3b1256c22315f"
+    },
+    {
+      "path": "workflows/developer-child-item.md",
+      "sha256": "6b886211aa98bcea102394e3d632293ac8dfb7d168562bfaad4285d2c9166d6e"
+    },
+    {
+      "path": "workflows/developer-story.md",
+      "sha256": "9dae795588b0b7a47e644a05d5c9f05f6d195054189ef6013c6d9c6475aa422b"
+    },
+    {
+      "path": "workflows/document-actual-delivery.md",
+      "sha256": "79c2e043019401a3732d1d38ab17e86ce0f2d967e5e6fc1084eb5e736f6e6619"
+    },
+    {
+      "path": "workflows/git-audit.md",
+      "sha256": "14b66b8377e1c7551853809f488f5fa7d6858703b4470ced5f6c14c0e39fcb28"
+    },
+    {
+      "path": "workflows/self-assignment.md",
+      "sha256": "6a046db19413ec824e1f9dcb2ff11ab2dcda0d32d51fa18b337da52ec0552179"
+    }
+  ]
+}

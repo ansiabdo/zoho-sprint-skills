@@ -1,0 +1,102 @@
+[
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000000593007", "sprintId": "120216000004656294", "itemId": "120216000004655029" },
+      "query_params": {
+        "name": "تمكين Banky Lite: التكامل والتهيئة وأطراف الفاتورة | Banky Lite Enablement & API Integration",
+        "UDF_CHAR3": "تمكين Banky Lite: التكامل والتهيئة وأطراف الفاتورة",
+        "UDF_CHAR4": "Banky Lite Enablement & API Integration",
+        "point": 8
+      }
+    }
+  },
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000000593007", "sprintId": "120216000004656294", "itemId": "120216000004656300" },
+      "query_params": {
+        "name": "دورة حياة مديونية الأصدقاء | Friend Debt End-to-End Lifecycle",
+        "UDF_CHAR3": "دورة حياة مديونية الأصدقاء",
+        "UDF_CHAR4": "Friend Debt End-to-End Lifecycle",
+        "point": 8
+      }
+    }
+  },
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000000593007", "sprintId": "120216000004656294", "itemId": "120216000004655033" },
+      "query_params": {
+        "name": "المشتركون وتسجيل الأصدقاء | Subscribers & Friend Registration",
+        "UDF_CHAR3": "المشتركون وتسجيل الأصدقاء",
+        "UDF_CHAR4": "Subscribers & Friend Registration",
+        "point": 3,
+        "newusers": "[\"120216000000535227\"]"
+      }
+    }
+  },
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000000593007", "sprintId": "120216000004656294", "itemId": "120216000004656304" },
+      "query_params": {
+        "name": "[Merged into SNA-129] تكامل API بنكي لايت | Banky Lite API Integration",
+        "UDF_CHAR3": "[Merged into SNA-129] تكامل API بنكي لايت",
+        "UDF_CHAR4": "[Merged into SNA-129] Banky Lite API Integration"
+      }
+    }
+  },
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000000593007", "sprintId": "120216000004656294", "itemId": "120216000004657094" },
+      "query_params": {
+        "name": "[Merged into SNA-129] نموذج أطراف الفاتورة: المزود والمصدر والمشترك | Invoice Provider, Issuer & Subscriber",
+        "UDF_CHAR3": "[Merged into SNA-129] نموذج أطراف الفاتورة: المزود والمصدر والمشترك",
+        "UDF_CHAR4": "[Merged into SNA-129] Invoice Provider, Issuer & Subscriber"
+      }
+    }
+  },
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000000593007", "sprintId": "120216000004656294", "itemId": "120216000004657007" },
+      "query_params": {
+        "name": "[Merged into SNA-126] الدفع الجزئي والتحقق الخلفي | Partial Payment & Backend Verification",
+        "UDF_CHAR3": "[Merged into SNA-126] الدفع الجزئي والتحقق الخلفي",
+        "UDF_CHAR4": "[Merged into SNA-126] Partial Payment & Backend Verification"
+      }
+    }
+  },
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000000593007", "sprintId": "120216000004656294", "itemId": "120216000004656360" },
+      "query_params": {
+        "name": "[Merged into SNA-126] تنفيذ خدمة مديونية الأصدقاء | Friend Debt Service",
+        "UDF_CHAR3": "[Merged into SNA-126] تنفيذ خدمة مديونية الأصدقاء",
+        "UDF_CHAR4": "[Merged into SNA-126] Friend Debt Service"
+      }
+    }
+  },
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000000593007", "sprintId": "120216000004656294", "itemId": "120216000004655091" },
+      "query_params": {
+        "name": "[Merged into SNA-126] سجل المديونية ومصادر التسوية | Debt History & Settlement Sources",
+        "UDF_CHAR3": "[Merged into SNA-126] سجل المديونية ومصادر التسوية",
+        "UDF_CHAR4": "[Merged into SNA-126] Debt History & Settlement Sources"
+      }
+    }
+  }
+]

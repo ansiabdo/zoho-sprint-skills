@@ -1,0 +1,23 @@
+[
+  {
+    "ok": true,
+    "method": "tools/call",
+    "params": "ZohoSprints_CreateSprint",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"sprintId\":\"120216000004656294\",\"status\":\"success\"}"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "data": {
+          "sprintId": "120216000004656294",
+          "status": "success"
+        },
+        "status": "success"
+      }
+    }
+  }
+]

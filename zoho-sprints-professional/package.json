@@ -1,0 +1,11 @@
+{
+  "name": "zoho-sprints-professional-skills",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "sync": "node tools/skill.mjs sync",
+    "check": "node --test tests/*.test.mjs && node tools/skill.mjs check"
+  }
+}

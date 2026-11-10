@@ -1,0 +1,13 @@
+[
+  {
+    "ok": true,
+    "tool": "ZohoSprints_GetReleases",
+    "isError": false,
+    "data": {
+      "userDisplayName": {},
+      "zsuserIdvsZUID": {},
+      "status": "success",
+      "releases": []
+    }
+  }
+]

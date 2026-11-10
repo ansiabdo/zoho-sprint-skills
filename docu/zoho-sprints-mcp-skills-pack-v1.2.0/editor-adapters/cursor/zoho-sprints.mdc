@@ -1,0 +1,7 @@
+---
+description: Apply the Zoho Sprints skill when using Zoho Sprints MCP tools.
+globs: []
+alwaysApply: false
+---
+
+For Zoho Sprints requests, read `.agents/skills/zoho-sprints/SKILL.md` and its relevant references before acting. Discover the current MCP tools and schemas; keep Zoho credentials outside project rules.

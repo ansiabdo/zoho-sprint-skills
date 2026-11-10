@@ -1,0 +1,32 @@
+[stderr] [37884] Using transport strategy: http-only
+[stderr] [37884] Using callback port derived from the server URL: 41544
+[stderr] [37884] Discovering OAuth server configuration...
+[stderr] [37884] Discovered authorization server: https://sprint-918973013.zohomcp.com
+[stderr] [37884] [37884] Connecting to remote server: https://sprint-918973013.zohomcp.com/mcp/d406618d63cc5990dab3c3830ff90f0e/message
+[stderr] [37884] Using transport strategy: http-only
+[stderr] [37884] Connected to remote server using StreamableHTTPClientTransport
+[stderr] [37884] Local STDIO server running
+[stderr] [37884] Proxy established successfully between local STDIO and remote StreamableHTTPClientTransport
+[37884] Press Ctrl+C to exit
+[stderr] [37884] [Local→Remote] initialize
+[stderr] [37884] {
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "initialize",
+  "params": {
+    "protocolVersion": "2025-03-26",
+    "capabilities": {
+      "tools": {}
+    },
+    "clientInfo": {
+      "name": "zoho-workspace-client (via mcp-remote 0.15.2)",
+      "version": "1.0.0"
+    }
+  }
+}
+[stderr] [37884] [Remote→Local] 1
+[stderr] [37884] [Local→Remote] notifications/initialized
+[stderr] [37884] [Local→Remote] tools/call
+[stderr] [37884] [Remote→Local] 2
+[stderr] [37884] 
+Shutting down...

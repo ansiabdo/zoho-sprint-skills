@@ -1,0 +1,108 @@
+[
+  {
+    "ok": true,
+    "method": "tools/call",
+    "params": "ZohoSprints_GetSprints",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"next\":false,\"sprints\":[],\"status\":\"success\"}"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "status": "success",
+        "data": {
+          "next": false,
+          "sprints": [],
+          "status": "success"
+        }
+      }
+    }
+  },
+  {
+    "ok": true,
+    "method": "tools/call",
+    "params": "ZohoSprints_GetSprints",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"next\":false,\"sprints\":[],\"status\":\"success\"}"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "status": "success",
+        "data": {
+          "next": false,
+          "sprints": [],
+          "status": "success"
+        }
+      }
+    }
+  },
+  {
+    "ok": true,
+    "method": "tools/call",
+    "params": "ZohoSprints_GetSprints",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"next\":true,\"userDisplayName\":{\"120216000000175003\":\"Eissa Musleh\",\"120216000000359035\":\"Mohammed  Alaqari\"},\"sprints\":[{\"canceledOn\":\"-1\",\"scrumMaster\":\"120216000000175003\",\"endDate\":\"2025-07-31T20:59:59.999Z\",\"canceledBy\":\"\",\"itemAlias\":\"additem_g82t7jx3jzyu3czla5w2v3vk90zmqdf2zzv7o8jw50vrk2n3@mailactions.zohosprints.com\",\"duration\":\"10d\",\"isOverDue\":true,\"diffDays\":-119,\"startAfter\":\"-1\",\"releaseId\":\"\",\"sprintType\":3,\"createdTime\":\"2025-07-20T21:49:21.618Z\",\"sprintName\":\"Sprint9: Jul-2025 Publish-Last\",\"startedOn\":\"2025-07-20T21:51:34.527Z\",\"sprintNo\":\"11\",\"isRolled\":false,\"sprintNotesAlias\":\"addcomment_g82t7jx3jzyu3czla6h3ttauto8rurf32j942p4gvn5izwzn@mailactions.zohosprints.com\",\"businessDays\":10,\"userId\":\"120216000000359035\",\"sprintId\":\"120216000002936631\",\"sequence\":\"10\",\"createdBy\":\"120216000000175003\",\"completedOn\":\"2026-01-13T18:50:34.409Z\",\"tagCount\":0,\"projectId\":\"120216000000593007\",\"startDate\":\"2025-07-19T21:00:00.000Z\",\"completedBy\":\"120216000000359035\",\"workflowId\":\"120216000000593003\"}],\"nextIndex\":2,\"zsuserIdvsZUID\":{\"120216000000175003\":\"793914823\",\"120216000000359035\":\"814269634\"},\"status\":\"success\"}"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "status": "success",
+        "data": {
+          "next": true,
+          "userDisplayName": {
+            "120216000000175003": "Eissa Musleh",
+            "120216000000359035": "Mohammed  Alaqari"
+          },
+          "sprints": [
+            {
+              "canceledOn": "-1",
+              "scrumMaster": "120216000000175003",
+              "endDate": "2025-07-31T20:59:59.999Z",
+              "canceledBy": "",
+              "itemAlias": "additem_g82t7jx3jzyu3czla5w2v3vk90zmqdf2zzv7o8jw50vrk2n3@mailactions.zohosprints.com",
+              "duration": "10d",
+              "isOverDue": true,
+              "diffDays": -119,
+              "startAfter": "-1",
+              "releaseId": "",
+              "sprintType": 3,
+              "createdTime": "2025-07-20T21:49:21.618Z",
+              "sprintName": "Sprint9: Jul-2025 Publish-Last",
+              "startedOn": "2025-07-20T21:51:34.527Z",
+              "sprintNo": "11",
+              "isRolled": false,
+              "sprintNotesAlias": "addcomment_g82t7jx3jzyu3czla6h3ttauto8rurf32j942p4gvn5izwzn@mailactions.zohosprints.com",
+              "businessDays": 10,
+              "userId": "120216000000359035",
+              "sprintId": "120216000002936631",
+              "sequence": "10",
+              "createdBy": "120216000000175003",
+              "completedOn": "2026-01-13T18:50:34.409Z",
+              "tagCount": 0,
+              "projectId": "120216000000593007",
+              "startDate": "2025-07-19T21:00:00.000Z",
+              "completedBy": "120216000000359035",
+              "workflowId": "120216000000593003"
+            }
+          ],
+          "nextIndex": 2,
+          "zsuserIdvsZUID": {
+            "120216000000175003": "793914823",
+            "120216000000359035": "814269634"
+          },
+          "status": "success"
+        }
+      }
+    }
+  }
+]

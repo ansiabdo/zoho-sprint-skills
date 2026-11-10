@@ -1,0 +1,12 @@
+[
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606", "sprintId": "120216000004192758", "itemId": "120216000004558543" },
+      "query_params": {
+        "UDF_CHAR3": "Competition and Season Catalog"
+      }
+    }
+  }
+]

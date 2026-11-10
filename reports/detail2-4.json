@@ -1,0 +1,103 @@
+{
+ "userDisplayName": {
+  "120216000000535227": "Abdullah Al-Ansi"
+ },
+ "items": [
+  {
+   "priorityName": "None",
+   "statusType": 1,
+   "endDate": "2025-07-19T20:00:00.000Z",
+   "releaseCount": 1,
+   "isNotesAdded": false,
+   "itemNo": "107",
+   "ownerId": [
+    "120216000000535227"
+   ],
+   "points": 6,
+   "itemBlockId": "",
+   "UDF_CHAR8": "",
+   "estimationPoints": 13,
+   "itemName": "Publish Invoicing system on Test Environment",
+   "UDF_CHAR7": "Mohammed Alraady",
+   "isOverDue": false,
+   "projectInfo": {
+    "no": "37",
+    "name": "Invoicing MService",
+    "id": "120216000000593007"
+   },
+   "UDF_CHAR6": "",
+   "startAfter": "-1",
+   "createdTime": "2025-07-13T15:26:30.975Z",
+   "isIntegrated": "0",
+   "sharedType": -1,
+   "rootItem": "",
+   "UDF_CHAR5": "",
+   "UDF_CHAR4": "Publish Invoiceing System",
+   "UDF_CHAR3": "نشر منصة فاتورتي",
+   "workhourType": 0,
+   "projPriorityId": "120216000000593033",
+   "UDF_ROLLUP8": "5",
+   "UDF_ROLLUP9": "0",
+   "isParent": true,
+   "cycleTime": "49500000",
+   "UDF_TEXT1": "",
+   "userGroupCount": 0,
+   "UDF_ROLLUP3": "01/07/2025 04:00 PM",
+   "UDF_ROLLUP4": "13",
+   "UDF_ROLLUP5": "5",
+   "completedDate": "2025-07-14T23:11:04.025Z",
+   "UDF_ROLLUP6": "19/07/2025 11:00 PM",
+   "UDF_ROLLUP7": "0",
+   "commentCount": 0,
+   "itemId": "120216000002904059",
+   "sequence": "6",
+   "sprintId": "120216000002879961",
+   "UDF_FORMULADBL1": 1,
+   "epicId": "120216000002409263",
+   "statusId": "120216000000003637",
+   "sprintInfo": {
+    "owner": "120216000000175003",
+    "no": "10",
+    "name": "Sprint9: Jul-2025 Publish-First",
+    "id": "120216000002879961",
+    "type": 3
+   },
+   "parentItem": "",
+   "projItemTypeId": "120216000000593045",
+   "itemTypeName": "Story",
+   "userIdVsWorkhours": {
+    "120216000000535227": "0"
+   },
+   "startDate": "2025-07-01T13:00:00.000Z",
+   "description": "",
+   "leadTime": "49500000",
+   "sharedItemCount": 0,
+   "addedVia": 0,
+   "hasCheckList": false,
+   "UDF_CHKBOX2": "",
+   "duration": "14d",
+   "UDF_CHKBOX1": "120216000000420559,120216000000420563",
+   "diffDays": "5d 6h 49m",
+   "statusName": "Done",
+   "totalWorkhours": "0",
+   "isDocsAdded": false,
+   "UDF_FORMULASTR1": "7/2025",
+   "UDF_RADIO1": "",
+   "UDF_DATE1": "-1",
+   "baseItemType": 2,
+   "UDF_EMAIL1": "",
+   "depth": "0",
+   "createdBy": "120216000000535227",
+   "UDF_MULTIUSERPKL1": [],
+   "UDF_ROLLUP10": "1d 11h",
+   "tagCount": 0,
+   "voteCount": 0,
+   "completedBy": "120216000000535227",
+   "plannedHours": "0"
+  }
+ ],
+ "zsuserIdvsZUID": {
+  "120216000000535227": "830852660"
+ },
+ "status": "success"
+}

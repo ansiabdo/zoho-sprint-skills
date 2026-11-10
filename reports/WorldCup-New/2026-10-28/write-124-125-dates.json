@@ -1,0 +1,18 @@
+[
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606", "sprintId": "120216000004192758", "itemId": "120216000004558551" },
+      "query_params": { "UDF_CHAR3": "إشعارات سياق الموسم والمشاركة", "UDF_CHAR4": "Season Context Notifications", "UDF_CHAR5": "محمد الاخفش", "UDF_CHAR7": "إدارة الأفراد", "startdate": "2026-10-01T13:00:00+0000", "enddate": "2026-10-31T20:00:00+0000", "duration": "22d" }
+    }
+  },
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606", "sprintId": "120216000004192758", "itemId": "120216000004558552" },
+      "query_params": { "UDF_CHAR3": "ذاكرة تقارير المسابقات واتساق البيانات الفورية", "UDF_CHAR4": "Competition Reports Cache", "UDF_CHAR5": "محمد الاخفش", "UDF_CHAR7": "إدارة الأفراد", "startdate": "2026-10-01T13:00:00+0000", "enddate": "2026-10-31T20:00:00+0000", "duration": "22d" }
+    }
+  }
+]

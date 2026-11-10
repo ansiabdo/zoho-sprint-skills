@@ -1,0 +1,71 @@
+[
+  {
+    "ok": true,
+    "method": "tools/call",
+    "params": "ZohoSprints_MoveItem",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"itemIds\":[\"120216000004656296\"],\"status\":\"success\"}"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "status": "success",
+        "data": {
+          "itemIds": [
+            "120216000004656296"
+          ],
+          "status": "success"
+        }
+      }
+    }
+  },
+  {
+    "ok": true,
+    "method": "tools/call",
+    "params": "ZohoSprints_MoveItem",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"itemIds\":[\"120216000004655019\"],\"status\":\"success\"}"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "status": "success",
+        "data": {
+          "itemIds": [
+            "120216000004655019"
+          ],
+          "status": "success"
+        }
+      }
+    }
+  },
+  {
+    "ok": true,
+    "method": "tools/call",
+    "params": "ZohoSprints_MoveItem",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"itemIds\":[\"120216000004655023\"],\"status\":\"success\"}"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "status": "success",
+        "data": {
+          "itemIds": [
+            "120216000004655023"
+          ],
+          "status": "success"
+        }
+      }
+    }
+  }
+]

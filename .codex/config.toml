@@ -1,0 +1,6 @@
+[mcp_servers.ZohoMCP]
+command = "C:\\Program Files\\nodejs\\node.exe"
+args = ["F:\\zoho sprint skills\\mcp\\zoho-mcp-launcher.js"]
+cwd = "F:\\zoho sprint skills"
+startup_timeout_sec = 60
+tool_timeout_sec = 60

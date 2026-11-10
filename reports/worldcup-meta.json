@@ -1,0 +1,293 @@
+[
+  {
+    "ok": true,
+    "tool": "ZohoSprints_GetEpics",
+    "isError": false,
+    "data": {
+      "next": false,
+      "userDisplayName": {
+        "120216000000010017": "Abdullah Al-Measar",
+        "120216000000359035": "Mohammed  Alaqari"
+      },
+      "epics": [
+        {
+          "hasDeletePermission": true,
+          "endDate": "2026-10-30T21:00:00.000Z",
+          "epicType": 0,
+          "hasAssocItemPermission": true,
+          "fieldPerm_EndDate": true,
+          "duration": "23d 2h",
+          "fieldPerm_Color": true,
+          "epicNo": "5",
+          "isOverDue": false,
+          "diffDays": 0,
+          "okrCount": 0,
+          "startAfter": "-1",
+          "fieldPerm_Owner": true,
+          "epicStatus": 0,
+          "createdTime": "2026-10-05T19:18:36.773Z",
+          "owner": "120216000000359035",
+          "fieldPerm_StartDate": true,
+          "epicName": "Multi Competition ",
+          "hasEditPermission": true,
+          "sequence": 5,
+          "epicId": "120216000004557316",
+          "createdBy": "120216000000359035",
+          "completedOn": "-1",
+          "tagCount": 0,
+          "colorCode": "#967bdc",
+          "hasViewPermission": true,
+          "hasAddItemPermission": true,
+          "startDate": "2026-09-30T21:00:00.000Z"
+        },
+        {
+          "hasDeletePermission": true,
+          "endDate": "2026-05-29T21:00:00.000Z",
+          "epicType": 0,
+          "hasAssocItemPermission": true,
+          "fieldPerm_EndDate": true,
+          "duration": "23d 2h",
+          "fieldPerm_Color": true,
+          "epicNo": "4",
+          "isOverDue": true,
+          "diffDays": 109,
+          "okrCount": 0,
+          "startAfter": "-1",
+          "fieldPerm_Owner": true,
+          "epicStatus": 0,
+          "createdTime": "2026-05-17T15:01:47.986Z",
+          "owner": "120216000000359035",
+          "fieldPerm_StartDate": true,
+          "epicName": "S:DEVOPS & ENVIROMENT",
+          "hasEditPermission": true,
+          "sequence": 4,
+          "epicId": "120216000004237129",
+          "createdBy": "120216000000359035",
+          "completedOn": "-1",
+          "tagCount": 0,
+          "colorCode": "#fa335c",
+          "hasViewPermission": true,
+          "hasAddItemPermission": true,
+          "startDate": "2026-04-30T21:00:00.000Z"
+        },
+        {
+          "hasDeletePermission": true,
+          "endDate": "-1",
+          "epicType": 0,
+          "hasAssocItemPermission": true,
+          "fieldPerm_EndDate": true,
+          "duration": "-1",
+          "fieldPerm_Color": true,
+          "epicNo": "3",
+          "isOverDue": false,
+          "diffDays": 0,
+          "okrCount": 0,
+          "startAfter": "-1",
+          "fieldPerm_Owner": true,
+          "epicStatus": 0,
+          "createdTime": "2026-05-06T23:03:07.960Z",
+          "owner": "120216000000010017",
+          "fieldPerm_StartDate": true,
+          "epicName": "Tenants & Integrations",
+          "hasEditPermission": true,
+          "sequence": 3,
+          "epicId": "120216000004220081",
+          "createdBy": "120216000000010017",
+          "completedOn": "-1",
+          "tagCount": 0,
+          "colorCode": "#f0d6a7",
+          "hasViewPermission": true,
+          "hasAddItemPermission": true,
+          "startDate": "-1"
+        },
+        {
+          "hasDeletePermission": true,
+          "endDate": "-1",
+          "epicType": 0,
+          "hasAssocItemPermission": true,
+          "fieldPerm_EndDate": true,
+          "duration": "-1",
+          "fieldPerm_Color": true,
+          "epicNo": "2",
+          "isOverDue": false,
+          "diffDays": 0,
+          "okrCount": 0,
+          "startAfter": "-1",
+          "fieldPerm_Owner": true,
+          "epicStatus": 0,
+          "createdTime": "2026-05-04T16:17:44.928Z",
+          "owner": "120216000000010017",
+          "fieldPerm_StartDate": true,
+          "epicName": "Matches , sports news",
+          "hasEditPermission": true,
+          "sequence": 2,
+          "epicId": "120216000004208118",
+          "createdBy": "120216000000010017",
+          "completedOn": "-1",
+          "tagCount": 0,
+          "colorCode": "#259e92",
+          "hasViewPermission": true,
+          "hasAddItemPermission": true,
+          "startDate": "-1"
+        },
+        {
+          "hasDeletePermission": true,
+          "endDate": "-1",
+          "epicType": 0,
+          "hasAssocItemPermission": true,
+          "fieldPerm_EndDate": true,
+          "duration": "-1",
+          "fieldPerm_Color": true,
+          "epicNo": "1",
+          "isOverDue": false,
+          "diffDays": 0,
+          "okrCount": 0,
+          "startAfter": "-1",
+          "fieldPerm_Owner": true,
+          "epicStatus": 0,
+          "createdTime": "2026-05-04T16:17:19.495Z",
+          "owner": "120216000000010017",
+          "fieldPerm_StartDate": true,
+          "epicName": "Predictions , points",
+          "hasEditPermission": true,
+          "sequence": 1,
+          "epicId": "120216000004208116",
+          "createdBy": "120216000000010017",
+          "completedOn": "-1",
+          "tagCount": 0,
+          "colorCode": "#f0d6a7",
+          "hasViewPermission": true,
+          "hasAddItemPermission": true,
+          "startDate": "-1"
+        }
+      ],
+      "zsuserIdvsZUID": {
+        "120216000000010017": "768061022",
+        "120216000000359035": "814269634"
+      },
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_GetReleases",
+    "isError": false,
+    "data": {
+      "next": false,
+      "userDisplayName": {
+        "120216000000010017": "Abdullah Al-Measar",
+        "120216000000359035": "Mohammed  Alaqari"
+      },
+      "zsuserIdvsZUID": {
+        "120216000000010017": "768061022",
+        "120216000000359035": "814269634"
+      },
+      "status": "success",
+      "releases": [
+        {
+          "goal": "",
+          "color": "#cc181f",
+          "releaseDate": "2026-05-30T21:00:00.000Z",
+          "releaseName": "Prototype ",
+          "releasedBy": "120216000000359035",
+          "addedVia": 0,
+          "userId": [
+            "120216000000359035"
+          ],
+          "releasedOn": "2026-06-10T14:26:37.704Z",
+          "sequence": 2,
+          "statusId": "120216000000003805",
+          "releaseId": "120216000004220414",
+          "createdBy": "120216000000359035",
+          "tagCount": 0,
+          "startDate": "2026-04-30T21:00:00.000Z",
+          "releaseNo": "2"
+        },
+        {
+          "goal": "",
+          "color": "#92a5cc",
+          "releaseDate": "2026-06-10T21:00:00.000Z",
+          "releaseName": "V1 MVP APP - Admin portal",
+          "releasedBy": "120216000000359035",
+          "addedVia": 0,
+          "userId": [
+            "120216000000359035"
+          ],
+          "releasedOn": "2026-06-10T14:33:35.694Z",
+          "sequence": 1,
+          "statusId": "120216000000003805",
+          "releaseId": "120216000004192427",
+          "createdBy": "120216000000359035",
+          "tagCount": 0,
+          "startDate": "2026-03-31T21:00:00.000Z",
+          "releaseNo": "1"
+        },
+        {
+          "goal": "",
+          "color": "#ff90c2",
+          "releaseDate": "2026-06-29T21:00:00.000Z",
+          "releaseName": "V1 wc-web-app Angular",
+          "releasedBy": "",
+          "addedVia": 0,
+          "userId": [
+            "120216000000359035"
+          ],
+          "releasedOn": "-1",
+          "sequence": 4,
+          "statusId": "120216000000003801",
+          "releaseId": "120216000004285218",
+          "createdBy": "120216000000359035",
+          "tagCount": 0,
+          "startDate": "2026-05-31T21:00:00.000Z",
+          "releaseNo": "4"
+        },
+        {
+          "goal": "",
+          "color": "#ffc500",
+          "releaseDate": "2026-07-30T21:00:00.000Z",
+          "releaseName": "v3 APP",
+          "releasedBy": "120216000000010017",
+          "addedVia": 0,
+          "userId": [
+            "120216000000359035"
+          ],
+          "releasedOn": "2026-08-02T22:12:29.198Z",
+          "sequence": 5,
+          "statusId": "120216000000003805",
+          "releaseId": "120216000004329628",
+          "createdBy": "120216000000359035",
+          "tagCount": 0,
+          "startDate": "2026-06-30T21:00:00.000Z",
+          "releaseNo": "5"
+        },
+        {
+          "goal": "",
+          "color": "#fa335c",
+          "releaseDate": "2026-06-17T21:00:00.000Z",
+          "releaseName": "v2 APP",
+          "releasedBy": "120216000000359035",
+          "addedVia": 0,
+          "userId": [
+            "120216000000359035"
+          ],
+          "releasedOn": "2026-07-01T20:38:40.245Z",
+          "sequence": 3,
+          "statusId": "120216000000003805",
+          "releaseId": "120216000004285214",
+          "createdBy": "120216000000359035",
+          "tagCount": 0,
+          "startDate": "2026-05-31T21:00:00.000Z",
+          "releaseNo": "3"
+        }
+      ]
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_GetSprints",
+    "isError": false,
+    "data": {
+      "raw": "Mandatory query param \"type\" is not present in tool body"
+    }
+  }
+]

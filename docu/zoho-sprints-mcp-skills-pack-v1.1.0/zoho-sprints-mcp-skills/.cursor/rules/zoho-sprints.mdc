@@ -1,0 +1,19 @@
+---
+description: Safe Zoho Sprints MCP operations using Admin/Developer role policy
+alwaysApply: false
+---
+
+When using Zoho Sprints MCP, follow `skills/zoho-sprints/SKILL.md` and the matching role policy in `policies/`.
+
+- Discover real MCP tools and schemas; never invent a tool or ID.
+- Developer: show only stories assigned to the configured user and assigned work in active sprints.
+- Create a child Task/Bug only beneath a User Story assigned to the configured user.
+- Create a new story only in an active sprint and only when current time is within the inclusive sprint date range.
+- Search all relevant active sprints for duplicate/overlapping stories before creating.
+- Pause and warn on likely duplicates.
+- Verify every successful mutation by reading the record again when possible.
+- Do not claim success if the tool is missing or the operation fails.
+
+
+## Git Change Audit
+For local Git-to-Zoho reconciliation, follow `workflows/git-change-audit.md` and `workflows/git-change-ledger.md`. Read the local checkpoint and pending queue first, refresh prior Zoho item statuses, process only unaccounted changes, check duplicates, respect current-user assignment and inclusive sprint date windows, default to dry-run, verify writes, and never blindly retry an ambiguous create.

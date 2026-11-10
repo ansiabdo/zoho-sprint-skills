@@ -1,0 +1,17 @@
+[
+  {
+    "ok": true,
+    "tool": "ZohoSprints_UpdateItem",
+    "isError": false,
+    "data": {
+      "code": 7500.12,
+      "data": {
+        "displayName": "Assignee",
+        "isMandatory": true,
+        "fieldId": "120216000000002115"
+      },
+      "message": "Please fill up the mandatory fields",
+      "status": "failed"
+    }
+  }
+]

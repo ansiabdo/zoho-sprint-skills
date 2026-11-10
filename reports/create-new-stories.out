@@ -1,0 +1,83 @@
+[
+  {
+    "ok": true,
+    "method": "tools/call",
+    "params": "ZohoSprints_CreateItem",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"addedItemId\":\"120216000004657094\",\"statusId\":\"120216000000003629\",\"itemNo\":\"I132\",\"dueDateDurObj\":{\"duration\":\"11d 5h 45m\",\"isOverdueItem\":false},\"status\":\"success\"}"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "status": "success",
+        "data": {
+          "addedItemId": "120216000004657094",
+          "statusId": "120216000000003629",
+          "itemNo": "I132",
+          "dueDateDurObj": {
+            "duration": "11d 5h 45m",
+            "isOverdueItem": false
+          },
+          "status": "success"
+        }
+      }
+    }
+  },
+  {
+    "ok": true,
+    "method": "tools/call",
+    "params": "ZohoSprints_CreateItem",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"addedItemId\":\"120216000004656360\",\"statusId\":\"120216000000003629\",\"itemNo\":\"I133\",\"dueDateDurObj\":{\"duration\":\"11d 5h 45m\",\"isOverdueItem\":false},\"status\":\"success\"}"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "status": "success",
+        "data": {
+          "addedItemId": "120216000004656360",
+          "statusId": "120216000000003629",
+          "itemNo": "I133",
+          "dueDateDurObj": {
+            "duration": "11d 5h 45m",
+            "isOverdueItem": false
+          },
+          "status": "success"
+        }
+      }
+    }
+  },
+  {
+    "ok": true,
+    "method": "tools/call",
+    "params": "ZohoSprints_CreateItem",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"addedItemId\":\"120216000004655091\",\"statusId\":\"120216000000003629\",\"itemNo\":\"I134\",\"dueDateDurObj\":{\"duration\":\"11d 5h 45m\",\"isOverdueItem\":false},\"status\":\"success\"}"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "status": "success",
+        "data": {
+          "addedItemId": "120216000004655091",
+          "statusId": "120216000000003629",
+          "itemNo": "I134",
+          "dueDateDurObj": {
+            "duration": "11d 5h 45m",
+            "isOverdueItem": false
+          },
+          "status": "success"
+        }
+      }
+    }
+  }
+]

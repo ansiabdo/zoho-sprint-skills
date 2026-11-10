@@ -1,0 +1,8 @@
+# Copy to a private .zoho-sprints/profile.yaml in the working project.
+# Verify IDs with the connected Zoho account. No OAuth credentials here.
+role: null                 # admin | developer
+workspace_id: null
+current_user_id: null
+timezone: null             # e.g. Asia/Aden, after verification
+default_project_id: null
+language: ar

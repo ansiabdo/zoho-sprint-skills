@@ -1,0 +1,18 @@
+[
+  {
+    "ok": true,
+    "tool": "ZohoSprints_AssociateItemsWithRelease",
+    "isError": false,
+    "data": {
+      "linkedItemIds": [
+        120216000004558540
+      ],
+      "itemVsRelease": {
+        "120216000004558543": [
+          "120216000004656366"
+        ]
+      },
+      "status": "success"
+    }
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "tool": "ZohoSprints_getCustomLayouts",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "moduleId": "120216000000002031" },
+      "query_params": { "action": "data", "index": 1, "range": 25 }
+    }
+  }
+]

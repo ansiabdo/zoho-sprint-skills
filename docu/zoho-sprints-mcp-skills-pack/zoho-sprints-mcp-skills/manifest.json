@@ -1,0 +1,21 @@
+{
+  "name": "Zoho Sprints MCP Skills Pack",
+  "version": "1.0.0",
+  "canonical_skill": "skills/zoho-sprints/SKILL.md",
+  "file_count": 30,
+  "roles": [
+    "admin",
+    "developer"
+  ],
+  "editors": [
+    "Claude Code",
+    "OpenAI Codex",
+    "ChatGPT",
+    "Cursor",
+    "Kiro",
+    "OpenCode",
+    "Antigravity",
+    "other MCP-capable editors"
+  ],
+  "security_note": "No secrets or tokens included."
+}

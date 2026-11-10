@@ -1,0 +1,38 @@
+[stderr] [30408] Using transport strategy: http-only
+[stderr] [30408] Using callback port derived from the server URL: 41544
+[stderr] [30408] Discovering OAuth server configuration...
+[stderr] [30408] Discovered authorization server: https://sprint-918973013.zohomcp.com
+[stderr] [30408] [30408] Connecting to remote server: https://sprint-918973013.zohomcp.com/mcp/d406618d63cc5990dab3c3830ff90f0e/message
+[stderr] [30408] Using transport strategy: http-only
+[stderr] [30408] Connected to remote server using StreamableHTTPClientTransport
+[stderr] [30408] Local STDIO server running
+[stderr] [30408] Proxy established successfully between local STDIO and remote StreamableHTTPClientTransport
+[30408] Press Ctrl+C to exit
+[stderr] [30408] [Local→Remote] initialize
+[30408] {
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "initialize",
+  "params": {
+    "protocolVersion": "2025-03-26",
+    "capabilities": {
+      "tools": {}
+    },
+    "clientInfo": {
+      "name": "zoho-workspace-client (via mcp-remote 0.15.2)",
+      "version": "1.0.0"
+    }
+  }
+}
+[stderr] [30408] [Remote→Local] 1
+[stderr] [30408] [Local→Remote] notifications/initialized
+[stderr] [30408] [Local→Remote] tools/call
+[stderr] [30408] [Remote→Local] 2
+[stderr] [30408] [Local→Remote] tools/call
+[stderr] [30408] [Remote→Local] 3
+[stderr] [30408] [Local→Remote] tools/call
+[stderr] [30408] [Remote→Local] 4
+[stderr] [30408] [Local→Remote] tools/call
+[stderr] [30408] [Remote→Local] 5
+[stderr] [30408] 
+Shutting down...

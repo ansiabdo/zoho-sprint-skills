@@ -1,0 +1,265 @@
+{
+  "capturedAt": "2026-10-28T16:23:50.253Z",
+  "repo": "F:/WorldCup-New",
+  "branch": "test",
+  "head": "026d27416a3854d354539a49c9b4105f113e06ab",
+  "baseline": {
+    "type": "bounded_trial_not_full_history",
+    "base": "044df54925ce68320d40d1a47d4e2faa8eb08bee",
+    "head": "026d27416a3854d354539a49c9b4105f113e06ab",
+    "range": "044df54925ce68320d40d1a47d4e2faa8eb08bee..026d27416a3854d354539a49c9b4105f113e06ab",
+    "reason": "Earliest explicit Epic 10 implementation commit 1030f85e; not a production checkpoint"
+  },
+  "commits": [
+    {
+      "sha": "1030f85eef65406894f37cf064e840cd35f9ade4",
+      "date": "2026-10-19T21:11:44+03:00",
+      "subject": "feat(migrations): add LeagueId to GlobalMatchEntities with validation and backfill logic"
+    },
+    {
+      "sha": "71df6def8733776566f0e5244d2c28d4555ea561",
+      "date": "2026-10-21T01:23:11+03:00",
+      "subject": "feat: add league season catalog and database schema migration for league-aware data sync"
+    },
+    {
+      "sha": "289d044c3962c317259226e996ec3b3173fbf5a4",
+      "date": "2026-10-21T02:09:03+03:00",
+      "subject": "feat: implement SportMonks season catalog and league schema migration support for match data pipeline"
+    },
+    {
+      "sha": "2858708341496ece4eb1d1b9e85ab5364de3aa58",
+      "date": "2026-10-21T02:47:52+03:00",
+      "subject": "feat: add multi-season match data sync job and sportmonks rate limiting services"
+    },
+    {
+      "sha": "015911753c89862f38acf115318adfc7fbd3ea1f",
+      "date": "2026-10-21T18:31:22+03:00",
+      "subject": "feat: implement MatchDataSyncJob and related synchronization tests and artifacts"
+    },
+    {
+      "sha": "a81f9e40ebff18724bbe2b97088185bd681f0ef2",
+      "date": "2026-10-21T19:41:20+03:00",
+      "subject": "feat: implement tenant league assignment settings and fixture gating validation in prediction service"
+    },
+    {
+      "sha": "50565d341761afbc0f0c34e20b07c2ea43538c8c",
+      "date": "2026-10-21T20:32:36+03:00",
+      "subject": "feat: implement tenant league service and prediction app service for multi-tenancy settings"
+    },
+    {
+      "sha": "4546b6797db1761f114973929139820c7f44340d",
+      "date": "2026-10-21T21:29:03+03:00",
+      "subject": "feat: add admin league catalog UI and tenant league assignment functionality"
+    },
+    {
+      "sha": "5dd2c6a334a2c7836cc61c822ab4428eb3587e93",
+      "date": "2026-10-22T00:04:40+03:00",
+      "subject": "feat: implement admin league catalog and tenant league assignment service"
+    },
+    {
+      "sha": "7d251dec4787b5d614023ab28f5412f62dc31ccf",
+      "date": "2026-10-25T20:22:19+03:00",
+      "subject": "feat: add leaderboard and fixture application services, tests, controllers, and UI components"
+    },
+    {
+      "sha": "026d27416a3854d354539a49c9b4105f113e06ab",
+      "date": "2026-10-25T20:53:33+03:00",
+      "subject": "fix: resolve code review findings for sprint 10.5 league filter and leaderboard features"
+    }
+  ],
+  "commitCount": 11,
+  "status": {
+    "sha256": "c06be10554d43339659c93a2e6f68e540434fce5ecdea44523a57e0500d4d80e",
+    "total": 1159,
+    "staged": 0,
+    "unstaged": 1158,
+    "untracked": 1,
+    "temporaryBuildDeletions": 1158,
+    "nonTemporary": [
+      {
+        "state": "??",
+        "file": "delete-bin-obj-folders.bat"
+      }
+    ]
+  },
+  "changedFileCount": 111,
+  "excludedFromContent": [
+    "_bmad-output/implementation-artifacts/review-10-1-diff.patch",
+    "_bmad-output/implementation-artifacts/review-10-3-diff.patch",
+    "_bmad-output/implementation-artifacts/review-10-4-diff.patch",
+    "_bmad-output/implementation-artifacts/review-10-5-diff.patch",
+    "src/ExampleAbpApplicationLayer.HttpApi.Host/appsettings.Production.json",
+    "src/ExampleAbpApplicationLayer.HttpApi.Host/appsettings.Test.json",
+    "src/ExampleAbpApplicationLayer.HttpApi.Host/appsettings.json",
+    "test/ExampleAbpApplicationLayer.TestBase/appsettings.json"
+  ],
+  "eligibleChangedFiles": [
+    "_bmad-output/implementation-artifacts/10-1-league-backfill-manifest.json",
+    "_bmad-output/implementation-artifacts/10-1-league-season-catalog-schema-migration.md",
+    "_bmad-output/implementation-artifacts/10-2-multi-season-sync-job-loop.md",
+    "_bmad-output/implementation-artifacts/10-3-tenant-league-assignment-admin-api-settings.md",
+    "_bmad-output/implementation-artifacts/10-4-admin-league-catalog-tenant-assignment-ui.md",
+    "_bmad-output/implementation-artifacts/10-5-fixture-list-api-league-filter-dto.md",
+    "_bmad-output/implementation-artifacts/deferred-work.md",
+    "_bmad-output/implementation-artifacts/review-10-1-acceptance-auditor.md",
+    "_bmad-output/implementation-artifacts/review-10-1-blind-hunter.md",
+    "_bmad-output/implementation-artifacts/review-10-1-edge-case-hunter.md",
+    "_bmad-output/implementation-artifacts/review-10-4-acceptance-auditor.md",
+    "_bmad-output/implementation-artifacts/review-10-4-blind-hunter.md",
+    "_bmad-output/implementation-artifacts/review-10-4-edge-case-hunter.md",
+    "_bmad-output/implementation-artifacts/review-10-5-acceptance-auditor.md",
+    "_bmad-output/implementation-artifacts/review-10-5-blind-hunter.md",
+    "_bmad-output/implementation-artifacts/review-10-5-edge-case-hunter.md",
+    "_bmad-output/implementation-artifacts/sprint-status.yaml",
+    "_bmad-output/planning-artifacts/epics.md",
+    "angular/src/app/match-data/fixtures/admin-fixture-detail.component.spec.ts",
+    "angular/src/app/match-data/fixtures/admin-fixture-detail.component.ts",
+    "angular/src/app/match-data/fixtures/admin-fixtures.component.html",
+    "angular/src/app/match-data/fixtures/admin-fixtures.component.ts",
+    "angular/src/app/match-data/league-catalog/admin-league-catalog.component.html",
+    "angular/src/app/match-data/league-catalog/admin-league-catalog.component.spec.ts",
+    "angular/src/app/match-data/league-catalog/admin-league-catalog.component.ts",
+    "angular/src/app/match-data/match-data.routes.ts",
+    "angular/src/app/proxy/admin/admin-fixture.models.ts",
+    "angular/src/app/proxy/match-data/index.ts",
+    "angular/src/app/proxy/match-data/league-catalog.models.ts",
+    "angular/src/app/proxy/match-data/league-catalog.service.ts",
+    "angular/src/app/proxy/multi-tenancy/index.ts",
+    "angular/src/app/proxy/multi-tenancy/tenant-league-settings.models.ts",
+    "angular/src/app/proxy/multi-tenancy/tenant-league-settings.service.ts",
+    "angular/src/app/route.provider.ts",
+    "angular/src/app/tenants/tenant-detail/downgrade-warning-modal.component.ts",
+    "angular/src/app/tenants/tenant-detail/tenant-detail.component.html",
+    "angular/src/app/tenants/tenant-detail/tenant-detail.component.spec.ts",
+    "angular/src/app/tenants/tenant-detail/tenant-detail.component.ts",
+    "src/ExampleAbpApplicationLayer.Application.Contracts/Fixtures/Admin/AdminFixtureListDto.cs",
+    "src/ExampleAbpApplicationLayer.Application.Contracts/Fixtures/Admin/GetAdminFixturesInput.cs",
+    "src/ExampleAbpApplicationLayer.Application.Contracts/Fixtures/FixtureDto.cs",
+    "src/ExampleAbpApplicationLayer.Application.Contracts/Fixtures/IFixtureAppService.cs",
+    "src/ExampleAbpApplicationLayer.Application.Contracts/Leaderboards/ILeaderboardAppService.cs",
+    "src/ExampleAbpApplicationLayer.Application.Contracts/Leaderboards/LeaderboardCacheKeys.cs",
+    "src/ExampleAbpApplicationLayer.Application.Contracts/MatchProviders/ILeagueCatalogAppService.cs",
+    "src/ExampleAbpApplicationLayer.Application.Contracts/MatchProviders/LeagueCatalogItemDto.cs",
+    "src/ExampleAbpApplicationLayer.Application.Contracts/MatchProviders/SetSeasonActiveInputDto.cs",
+    "src/ExampleAbpApplicationLayer.Application.Contracts/MultiTenancy/ITenantLeagueSettingsAppService.cs",
+    "src/ExampleAbpApplicationLayer.Application.Contracts/MultiTenancy/TenantLeagueDto.cs",
+    "src/ExampleAbpApplicationLayer.Application.Contracts/MultiTenancy/TenantLeagueSettingsDto.cs",
+    "src/ExampleAbpApplicationLayer.Application.Contracts/MultiTenancy/UpdateTenantLeagueSettingsDto.cs",
+    "src/ExampleAbpApplicationLayer.Application.Contracts/Permissions/ExampleAbpApplicationLayerPermissionDefinitionProvider.cs",
+    "src/ExampleAbpApplicationLayer.Application/ExampleAbpApplicationLayerApplicationAutoMapperProfile.cs",
+    "src/ExampleAbpApplicationLayer.Application/Fixtures/ActiveSeasonFixtureScope.cs",
+    "src/ExampleAbpApplicationLayer.Application/Fixtures/Admin/AdminFixtureAppService.Extended.cs",
+    "src/ExampleAbpApplicationLayer.Application/Fixtures/FixtureAppService.cs",
+    "src/ExampleAbpApplicationLayer.Application/Jobs/MatchDataSyncJob.cs",
+    "src/ExampleAbpApplicationLayer.Application/Leaderboards/LeaderboardAppService.cs",
+    "src/ExampleAbpApplicationLayer.Application/MatchProviders/ApiFootballMatchDataProvider.cs",
+    "src/ExampleAbpApplicationLayer.Application/MatchProviders/LeagueCatalogAppService.cs",
+    "src/ExampleAbpApplicationLayer.Application/MatchProviders/RateLimiting/SportMonksRateLimitBudgetService.cs",
+    "src/ExampleAbpApplicationLayer.Application/MatchProviders/RateLimiting/SportMonksRateLimitModels.cs",
+    "src/ExampleAbpApplicationLayer.Application/MatchProviders/SportMonksMatchDataProvider.cs",
+    "src/ExampleAbpApplicationLayer.Application/MatchProviders/SportMonksOptions.cs",
+    "src/ExampleAbpApplicationLayer.Application/MultiTenancy/ITenantLeagueService.cs",
+    "src/ExampleAbpApplicationLayer.Application/MultiTenancy/TenantLeagueService.cs",
+    "src/ExampleAbpApplicationLayer.Application/MultiTenancy/TenantLeagueSettingsAppService.cs",
+    "src/ExampleAbpApplicationLayer.Application/Predictions/PredictionAppService.cs",
+    "src/ExampleAbpApplicationLayer.Domain.Shared/Localization/ExampleAbpApplicationLayer/ar.json",
+    "src/ExampleAbpApplicationLayer.Domain.Shared/Localization/ExampleAbpApplicationLayer/en.json",
+    "src/ExampleAbpApplicationLayer.Domain.Shared/Permissions/WorldCupPermissions.cs",
+    "src/ExampleAbpApplicationLayer.Domain.Shared/Settings/WorldCupSettings.cs",
+    "src/ExampleAbpApplicationLayer.Domain.Shared/WorldCupErrorCodes.cs",
+    "src/ExampleAbpApplicationLayer.Domain/Fixtures/Fixture.Extended.cs",
+    "src/ExampleAbpApplicationLayer.Domain/Fixtures/IFixtureRepository.cs",
+    "src/ExampleAbpApplicationLayer.Domain/Groups/TournamentGroup.Extended.cs",
+    "src/ExampleAbpApplicationLayer.Domain/MatchProviders/IMatchDataProvider.cs",
+    "src/ExampleAbpApplicationLayer.Domain/Settings/ExampleAbpApplicationLayerSettingDefinitionProvider.cs",
+    "src/ExampleAbpApplicationLayer.Domain/Stages/Stage.Extended.cs",
+    "src/ExampleAbpApplicationLayer.EntityFrameworkCore/EntityFrameworkCore/ExampleAbpApplicationLayerDbContext.cs",
+    "src/ExampleAbpApplicationLayer.EntityFrameworkCore/Fixtures/EfCoreFixtureRepository.cs",
+    "src/ExampleAbpApplicationLayer.EntityFrameworkCore/Migrations/20261019171818_AddLeagueIdToGlobalMatchEntities.Designer.cs",
+    "src/ExampleAbpApplicationLayer.EntityFrameworkCore/Migrations/20261019171818_AddLeagueIdToGlobalMatchEntities.cs",
+    "src/ExampleAbpApplicationLayer.EntityFrameworkCore/Migrations/ExampleAbpApplicationLayerDbContextModelSnapshot.cs",
+    "src/ExampleAbpApplicationLayer.HttpApi/Controllers/Fixtures/FixtureController.cs",
+    "src/ExampleAbpApplicationLayer.HttpApi/Controllers/Leaderboards/LeaderboardController.cs",
+    "src/ExampleAbpApplicationLayer.HttpApi/Controllers/MatchProviders/LeagueCatalogController.cs",
+    "src/ExampleAbpApplicationLayer.HttpApi/Controllers/MultiTenancy/TenantLeagueSettingsController.cs",
+    "test/ExampleAbpApplicationLayer.Application.Tests/Fixtures/Admin/AdminFixtureListDetail2_13Tests.cs",
+    "test/ExampleAbpApplicationLayer.Application.Tests/Fixtures/TenantLeagueFixtureGatingTests.cs",
+    "test/ExampleAbpApplicationLayer.Application.Tests/Jobs/Fakes/FakeMatchDataProvider.cs",
+    "test/ExampleAbpApplicationLayer.Application.Tests/Jobs/FixtureDetailSyncTests.cs",
+    "test/ExampleAbpApplicationLayer.Application.Tests/Jobs/StandingsSyncTests.cs",
+    "test/ExampleAbpApplicationLayer.Application.Tests/Leaderboards/LeaderboardAppServiceTests.cs",
+    "test/ExampleAbpApplicationLayer.Application.Tests/MatchProviders/LeagueCatalogAppServiceTests.cs",
+    "test/ExampleAbpApplicationLayer.Application.Tests/MatchProviders/SportMonksFixtureDetailProviderTests.cs",
+    "test/ExampleAbpApplicationLayer.Application.Tests/MatchProviders/SportMonksRateLimitBudgetServiceTests.cs",
+    "test/ExampleAbpApplicationLayer.Application.Tests/MatchProviders/SportMonksSeasonCatalogTests.cs",
+    "test/ExampleAbpApplicationLayer.Application.Tests/MultiTenancy/TenantLeagueServiceTests.cs",
+    "test/ExampleAbpApplicationLayer.Application.Tests/MultiTenancy/TenantLeagueSettingsAppServiceTests.cs",
+    "test/ExampleAbpApplicationLayer.EntityFrameworkCore.Tests/EntityFrameworkCore/ExampleAbpApplicationLayerEntityFrameworkCoreJobsTestModule.cs",
+    "test/ExampleAbpApplicationLayer.EntityFrameworkCore.Tests/EntityFrameworkCore/LeagueBackfillMigrationTests.cs",
+    "test/ExampleAbpApplicationLayer.EntityFrameworkCore.Tests/EntityFrameworkCore/LeagueIdModelTests.cs"
+  ],
+  "bmad": {
+    "version": "6.6.0",
+    "trackingSystem": "file-system",
+    "storyCount": 106,
+    "statusCounts": {
+      "done": 102,
+      "ready-for-dev": 3,
+      "backlog": 1
+    },
+    "epic10": [
+      {
+        "key": "10-1-league-season-catalog-schema-migration",
+        "status": "done",
+        "file": "_bmad-output/implementation-artifacts/10-1-league-season-catalog-schema-migration.md",
+        "exists": true,
+        "sha256": "46b4a7b3fec6159ecddda7cb85b2c8333733c49b01eff2e580672cba4d6271df",
+        "checkedTasks": 10,
+        "uncheckedTasks": 0
+      },
+      {
+        "key": "10-2-multi-season-sync-job-loop",
+        "status": "done",
+        "file": "_bmad-output/implementation-artifacts/10-2-multi-season-sync-job-loop.md",
+        "exists": true,
+        "sha256": "688c09ad4cbef9843f045e0e239f51f4e88f4afdb5bdd4b6815f660509646e9b",
+        "checkedTasks": 15,
+        "uncheckedTasks": 0
+      },
+      {
+        "key": "10-3-tenant-league-assignment-admin-api-settings",
+        "status": "done",
+        "file": "_bmad-output/implementation-artifacts/10-3-tenant-league-assignment-admin-api-settings.md",
+        "exists": true,
+        "sha256": "938966157b232d723d403c7496fc31b362357a01fe6282dfb133236fd9929628",
+        "checkedTasks": 11,
+        "uncheckedTasks": 0
+      },
+      {
+        "key": "10-4-admin-league-catalog-tenant-assignment-ui",
+        "status": "done",
+        "file": "_bmad-output/implementation-artifacts/10-4-admin-league-catalog-tenant-assignment-ui.md",
+        "exists": true,
+        "sha256": "358b9d0825c647eb0ac92e0f7fdf587f4dc701a2514b3eaf34e7b24e5bedf4e4",
+        "checkedTasks": 14,
+        "uncheckedTasks": 0
+      },
+      {
+        "key": "10-5-fixture-list-api-league-filter-dto",
+        "status": "done",
+        "file": "_bmad-output/implementation-artifacts/10-5-fixture-list-api-league-filter-dto.md",
+        "exists": true,
+        "sha256": "c3d9fdd42610efc624940dd40739a0c4bb5caaa72d7402e8bb24f41465fe0fc7",
+        "checkedTasks": 13,
+        "uncheckedTasks": 0
+      },
+      {
+        "key": "10-6-enduser-pwa-league-tab-fixture-list",
+        "status": "backlog",
+        "file": "_bmad-output/implementation-artifacts/10-6-enduser-pwa-league-tab-fixture-list.md",
+        "exists": false
+      }
+    ]
+  },
+  "existingAuditState": false
+}

@@ -1,0 +1,232 @@
+[
+  {
+    "ok": true,
+    "tool": "ZohoSprints_GetItemDetails",
+    "isError": false,
+    "data": {
+      "userDisplayName": {
+        "120216000000535227": "Abdullah Al-Ansi",
+        "120216000000293163": "Mushtaq Alabbasi",
+        "120216000000010017": "Abdullah Al-Measar",
+        "120216000000359035": "Mohammed  Alaqari"
+      },
+      "items": [
+        {
+          "priorityName": "None",
+          "statusType": 0,
+          "endDate": "2026-10-15T20:00:00.000Z",
+          "releaseCount": 0,
+          "isNotesAdded": false,
+          "itemNo": "122",
+          "ownerId": [
+            "120216000000293163",
+            "120216000000535227"
+          ],
+          "points": 6,
+          "itemBlockId": "",
+          "UDF_CHAR8": "",
+          "estimationPoints": 13,
+          "itemName": "[ Shared ] خدمة تسجيل وإدارة مديونية الاصدقاء",
+          "UDF_CHAR7": "",
+          "isOverDue": true,
+          "projectInfo": {
+            "no": "37",
+            "name": "Invoicing MService",
+            "id": "120216000000593007"
+          },
+          "UDF_CHAR6": "",
+          "startAfter": "-1",
+          "createdTime": "2026-10-28T18:11:24.034Z",
+          "isIntegrated": "0",
+          "sharedType": 1,
+          "rootItem": "",
+          "UDF_CHAR5": "Nidhal",
+          "UDF_CHAR4": "Friends Debt Registration & Management",
+          "UDF_CHAR3": "خدمة تسجيل وإدارة مديونية الأصدقاء",
+          "workhourType": 0,
+          "projPriorityId": "120216000000593033",
+          "UDF_ROLLUP8": "1",
+          "UDF_ROLLUP9": "0",
+          "isParent": false,
+          "cycleTime": "-1",
+          "UDF_TEXT1": "تم إدخال المهمة بالزوهو ",
+          "userGroupCount": 0,
+          "UDF_ROLLUP3": "05/10/2026 04:00 PM",
+          "UDF_ROLLUP4": "13",
+          "UDF_ROLLUP5": "0",
+          "completedDate": "-1",
+          "UDF_ROLLUP6": "15/10/2026 11:00 PM",
+          "UDF_ROLLUP7": "1",
+          "commentCount": 0,
+          "itemId": "120216000004656142",
+          "sequence": "1",
+          "sprintId": "120216000000593009",
+          "UDF_FORMULADBL1": "",
+          "epicId": "120216000004657001",
+          "statusId": "120216000000003629",
+          "sprintInfo": {
+            "owner": "120216000000010017",
+            "no": "0",
+            "name": "Backlog",
+            "id": "120216000000593009",
+            "type": 5
+          },
+          "parentItem": "",
+          "projItemTypeId": "120216000000593045",
+          "itemTypeName": "Story",
+          "userIdVsWorkhours": {
+            "120216000000535227": "0",
+            "120216000000293163": "0"
+          },
+          "startDate": "2026-10-05T13:00:00.000Z",
+          "description": "<p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">معلومات\nمسبقة</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">خدمة\nالاصدقاء جاهزة وهي لاتسمح لاحد اضافة صديق الا بعد مشاركته رقم </span><span dir=\"LTR\">QR</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">او\nالموافقة من صفحة الاصدقاء في بنكي</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">وهي\nمنفذه في خدمة توقعات كاس العالم وخدمة فرقي</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">**</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">بصفتي** صاحب محل تجاري،&nbsp;&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">**</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">أرغب في** تسجيل مديونية على عميل معروف (صديق\nمضاف مسبقا&nbsp; خلال مشاركة رمز</span><span dir=\"LTR\">QR</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\"> &nbsp;)&nbsp;الخاص بحسابه في التطبيق\nالمالي،&nbsp;&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">**</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">حتى يتمكن** العميل من استلام إشعار بالمبلغ\nالمستحق عليه وسداده إلكترونيًا، مع ضمان عدم حذف المديونية أو تعديلها دون إتمام\nالسداد</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">**</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">بصفتي** عميل بالبنك،&nbsp;&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">**</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">أرغب في** تسجيل مديونية على عميل اخر معروف\n(صديق مضاف مسبقا&nbsp; خلال مشاركة رمز</span><span dir=\"LTR\">QR</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\"> &nbsp;)&nbsp;الخاص بحسابه في التطبيق\nالمالي،&nbsp;&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">**</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">حتى يتمكن** العميل من استلام إشعار بالمبلغ\nالمستحق عليه وسداده إلكترونيًا، مع ضمان عدم حذف المديونية أو تعديلها دون إتمام\nالسداد</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">### </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">الوصف الوظيفي</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">1. </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">يفتح صاحب المحل خدمة *مديونية الأصدقاء*</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">تسجيل\nمديونية جديدة</span><span dir=\"LTR\">**.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">2. </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">يدخل مبلغ المديونية، والوصف أو سببها، <span class=\"highlight\" style=\"background-color: rgb(255, 204, 238)\">وتاريخ\nالاستحقاق إن وجد</span></span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">3. </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">يختار العميل من خلال</span><span dir=\"LTR\">:</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp; &nbsp;- </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">مسح رمز </span><span dir=\"LTR\">QR </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">الخاص بحساب العميل، أو</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp; &nbsp;- </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">مشاركة رابط طلب المديونية مع العميل</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">4. </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">يستلم العميل إشعارًا داخل التطبيق يتضمن</span><span dir=\"LTR\">:</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp; &nbsp;- </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">اسم التاجر أو المحل</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp; &nbsp;- </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">قيمة المديونية</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp; &nbsp;- </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">تفاصيل العملية</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp; &nbsp;- </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">تاريخ تسجيل المديونية</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">5. </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">لا يستطيع العميل حذف المديونية أو إخفاءها من\nسجله</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\"><span class=\"highlight\" style=\"background-color: rgb(255, 204, 238)\">6. </span></span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\"><span class=\"highlight\" style=\"background-color: rgb(255, 204, 238)\">يمكن إلغاء المديونية فقط قبل اعتمادها أو وفق\nصلاحيات محددة، أما بعد اعتمادها فلا تُلغى إلا من خلال</span></span><span dir=\"LTR\"><span class=\"highlight\" style=\"background-color: rgb(255, 204, 238)\">:</span></span><span class=\"highlight\" style=\"background-color: rgb(255, 204, 238)\"><br/></span></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp; &nbsp;- </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">سداد المبلغ كاملًا، أو</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\"><span class=\"highlight\" style=\"background-color: rgb(255, 204, 238)\">&nbsp; &nbsp;- </span></span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\"><span class=\"highlight\" style=\"background-color: rgb(255, 204, 238)\">إجراء تصحيح موثق من التاجر أو مسؤول\nالنظام</span></span><span dir=\"LTR\"><span class=\"highlight\" style=\"background-color: rgb(255, 204, 238)\">.</span></span><span class=\"highlight\" style=\"background-color: rgb(255, 204, 238)\"><br/></span></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">7. </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">يختار العميل المديونية ويضغط على **سداد الآن</span><span dir=\"LTR\">**.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">8. </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">بعد نجاح عملية الدفع</span><span dir=\"LTR\">:</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp; &nbsp;- </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">يتم تحويل المبلغ إلى حساب التاجر</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp; &nbsp;- </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">تتغير حالة المديونية إلى **مسددة</span><span dir=\"LTR\">**.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp; &nbsp;- </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">يتلقى الطرفان إشعارًا بتأكيد السداد</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp; &nbsp;- </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">يحتفظ النظام بسجل العملية ولا\nيحذفها</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">## </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">حالات المديونية</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">| </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">الحالة | الوصف </span><span dir=\"LTR\">|</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">|---|---|</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">| </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">مسودة | تم إعداد المديونية ولم يتم إرسالها أو\nاعتمادها بعد </span><span dir=\"LTR\">|</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">| </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">بانتظار قبول العميل | تم إرسال الطلب إلى العميل\nولم يتم تأكيده </span><span dir=\"LTR\">|</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">| </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">مستحقة | تم اعتماد المديونية وأصبحت واجبة\nالسداد </span><span dir=\"LTR\">|</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">| </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">متأخرة | تجاوزت تاريخ الاستحقاق دون سداد </span><span dir=\"LTR\">|</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">| </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">مسددة جزئيًا | تم دفع جزء من المبلغ </span><span dir=\"LTR\">|</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">| </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">مسددة | تم دفع كامل المبلغ </span><span dir=\"LTR\">|</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">| </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">مرفوضة | رفض العميل المديونية قبل اعتمادها </span><span dir=\"LTR\">|</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">| </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">متنازع عليها | قام أحد الطرفين بفتح اعتراض أو\nشكوى </span><span dir=\"LTR\">|</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">## </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">معايير القبول</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">- **</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">بفرض** أن التاجر مسجل وموثق، **عندما** يسجل\nمديونية لعميل، **فإن** النظام ينشئ طلب مديونية مرتبطًا بحساب العميل</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">- **</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">بفرض** إرسال المديونية، **عندما** يفتح العميل\nالإشعار، **فإن**ه يرى المبلغ والتفاصيل واسم التاجر بوضوح</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">- **</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">يجب** ألا يتمكن العميل من حذف المديونية المسجلة\nأو تعديل مبلغها</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">- **</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">يجب** أن يظهر للتاجر والعميل سجل واضح لكل عملية\nإنشاء أو تعديل أو سداد</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">- **</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">عند** سداد المبلغ كاملًا، **يجب** تغيير حالة\nالمديونية إلى «مسددة» تلقائيًا</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">- **</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">في حال** فشل الدفع، **تبقى** المديونية بحالتها\nالسابقة مع إظهار سبب فشل العملية إن أمكن</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">- **</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">يجب** إرسال إشعار للطرفين بعد نجاح السداد</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\"><span class=\"highlight\" style=\"background-color: rgb(255, 102, 178)\">- **</span></span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\"><span class=\"highlight\" style=\"background-color: rgb(255, 102, 178)\">لا يجوز** اعتماد البدء في تسجيل مديونية على شخص\nدون موافقة العميل، إذا كانت موافقة العميل مطلوبة حسب سياسة الخدمة في بداية\nإضافته كصديق</span></span><span class=\"highlight\" style=\"background-color: rgb(255, 102, 178)\"><br/></span></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-YE\">عند حذف الصديق من قائمة الأصدقاء لايستطيع تسجيل أي مديونية</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">- **</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">يجب** توفير آلية اعتراض أو نزاع في حال تسجيل\nمديونية بالخطأ</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp;</span><br/></p><span style=\"font-size: 12pt; line-height: 115%; font-family: &quot;Arial&quot;, sans-serif\" dir=\"RTL\" lang=\"AR-SA\"><br style=\"page-break-before: always\"/>\n</span><p style=\"text-align: left; direction: ltr; unicode-bidi: embed; margin-top: 0px; margin-bottom: 0px\" dir=\"LTR\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" dir=\"RTL\" lang=\"AR-SA\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">السداد</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">كعميل</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">استطيع\nسداد كل مدخل على حده</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">او\nاختيار مجموعة من المديونيات المسجله علي من قبل صديق واحد/التاجر<span style=\"\">&nbsp; </span>وتسديدها مره واحدة بمبلغ الإجمالي </span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">الاشعارات</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">كتاجر\nاستطيع عمل اشعار بالتطبيق للعميل على كل مدخل على حده</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">او\nاختيار مجموعة من المديونيات المسجله من قبل صديق واحد/التاجر<span style=\"\">&nbsp; </span>وعمل اشعار مره واحدة بمبلغ الإجمالي </span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp;</span><br/></p><div><br/></div>\n<p dir=\"ltr\"><strong>##+=================================================##</strong></p>\n<h2>خدمة تسجيل وإدارة مديونية الأصدقاء | Friends Debt Registration &amp; Management</h2>\n<h3>1. ملخص القصة | Story Summary</h3>\n<p dir=\"rtl\">خدمة تُمكّن المستخدم المعروف (تاجر أو عميل بنكي) من تسجيل مديونية على صديق مضاف مسبقاً، وإشعاره بها، وسدادها كلياً أو جزئياً، مع سجل غير قابل للحذف وضمان عدم تعديل المديونية بعد الاعتماد إلا عبر مسار موافقة.</p>\n<p dir=\"ltr\">A service that lets a known user (merchant or bank customer) record a debt against a pre-registered friend, notify the debtor, and settle it fully or partially, with an immutable history and no post-acceptance edits except through an approval workflow.</p>\n<h3>2. المستخدم والقيمة | User &amp; Value</h3>\n<p dir=\"rtl\"><strong>بصفتي</strong> تاجراً أو عميلاً بنكياً، <strong>أرغب في</strong> تسجيل مديونية على صديق معروف وتحديد المبلغ والوصف والاستحقاق، <strong>حتى يتمكن</strong> الصديق من رؤية المستحق عليه وسداده إلكترونياً دون حذف أو تعديل غير موثق.</p>\n<p dir=\"ltr\"><strong>As a</strong> merchant or bank customer, <strong>I want</strong> to record a debt against a known friend with amount, description and due date, <strong>so that</strong> the debtor can see the amount due and pay it electronically without undocumented deletion or edits.</p>\n<h3>3. معايير القبول | Acceptance Criteria</h3>\n<ol><li><strong>AR:</strong> إنشاء مسودة مديونية مع بنود (وصف، مبلغ، كمية، عملة، تاريخ استحقاق اختياري) وحفظها قبل الإرسال.<br/><strong>EN:</strong> Create a debt draft with lines (description, amount, quantity, currency, optional due date) and save it before sending.</li><li><strong>AR:</strong> اختيار المدين من قائمة الأصدقاء أو عبر QR/رابط دعوة، ومنع إضافة شخص غير معروف.<br/><strong>EN:</strong> Select the debtor from the friends list or via QR/invite link; reject unknown persons.</li><li><strong>AR:</strong> إشعار المدين داخل التطبيق، وظهور المديونية في سجل الطرفين مع الحالة والمبلغ المتبقي.<br/><strong>EN:</strong> Notify the debtor in-app; show the debt in both parties' ledgers with status and remaining amount.</li><li><strong>AR:</strong> دعم الحالات: مسودة، بانتظار القبول، مستحقة، متأخرة، مسددة جزئياً، مسددة، مرفوضة، متنازع عليها، ملغاة؛ ولا حذف.<br/><strong>EN:</strong> Support states: Draft, Pending Acceptance, Due, Overdue, Partially Paid, Paid, Rejected, Disputed, Cancelled; no deletion.</li><li><strong>AR:</strong> إلغاء المصدر قبل القبول فقط؛ بعد القبول لا يُسمح بالتعديل إلا عبر اقتراح تعديل وموافقة الطرف الآخر.<br/><strong>EN:</strong> The issuer may cancel before acceptance only; after acceptance, changes require a line-edit proposal and counterparty approval.</li><li><strong>AR:</strong> سداد كلي أو جزئي مع تحقق خلفي (Idempotency) يمنع الخصم المزدوج ويحدّث المتبقي والحالة.<br/><strong>EN:</strong> Full or partial payment with backend verification (idempotency) that prevents double deduction and updates the remaining amount and status.</li><li><strong>AR:</strong> سجل أحداث Append-only لكل إنشاء، إرسال، قبول، رفض، دفع، فشل، تنازل، نزاع، وإغلاق.<br/><strong>EN:</strong> Append-only event history for create, send, accept, reject, pay, fail, waive, dispute and close.</li><li><strong>AR:</strong> عزل بيانات المستأجر (Tenant Isolation) وصلاحيات واضحة؛ لا حركة أموال من الوحدة، والبنكي ينفذ الدفع.<br/><strong>EN:</strong> Tenant isolation and clear permissions; the module does not move money itself—the bank executes payment.</li></ol>\n<h3>4. التفاصيل الوظيفية | Functional Details</h3>\n<p dir=\"rtl\">التدفق الأساسي: إنشاء المسودة ← اختيار المدين ← إرسال الإشعار ← قبول/رفض المدين ← إصدار المديونية المستحقة ← سداد جزئي/كلي ← تحديث السجل. يشمل التدفق حالات الفشل وإعادة المحاولة، وإشعارات الطرفين، وسجل تدقيق كامل.</p>\n<p dir=\"ltr\">Primary flow: create draft → select debtor → send notification → debtor accepts/rejects → issue due debt → partial/full payment → update ledger. The flow covers failures, retries, notifications and a complete audit trail.</p>\n<h3>5. التفاصيل التقنية | Technical Notes</h3>\n<p dir=\"rtl\">يتطلب كيانات Debt وDebtLine وDebtEvent وSettlement، وAPIs لإنشاء/إرسال/قبول/رفض/سداد/استعلام، ومفاتيح Idempotency، وربط الإشعارات، وQR/رابط دعوة، وفهارس عزل المستأجر. يُفضّل تطبيق State Machine صريح وعدم الاعتماد على تحديثات مباشرة للحالة.</p>\n<p dir=\"ltr\">Requires Debt, DebtLine, DebtEvent and Settlement entities; APIs for create/send/accept/reject/pay/query; idempotency keys; notification integration; QR/invite links; tenant-scoped indexes. Prefer an explicit state machine over ad-hoc status updates.</p>\n<h3>6. خارج النطاق | Out of Scope</h3>\n<p dir=\"rtl\">تسجيل الدخول المستقل لفاتورتي، دفتر التسويات المالي، منصة النزاعات الكاملة، استيراد جهات الاتصال، وحركة الأموال الفعلية.</p>\n<p dir=\"ltr\">Standalone Fatoorati login, the financial settlement ledger, the full disputes platform, contact import, and actual money movement.</p>\n<h3>7. التبعيات والروابط | Dependencies &amp; Links</h3>\n<p dir=\"rtl\">مرتبط بالقصة 133 (تنفيذ الخدمة)، 126 (قبول/رفض وتعديل البنود)، 130 (الدفع الجزئي)، 131 (المشتركون)، 134 (السجل). الأب: Epic 120216000004657001.</p>\n<p dir=\"ltr\">Related to Story 133 (service implementation), 126 (acceptance &amp; line edits), 130 (partial payment), 131 (subscribers) and 134 (history). Parent Epic: 120216000004657001.</p>\n<h3>8. الجاهزية والاكتمال | Definition of Ready &amp; Done</h3>\n<p dir=\"rtl\">جاهز عندما: القصة والـAC معتمدة، نموذج البيانات والـState Machine واضحان، مزود الإشعارات والدفع محددان، وملكية المنتج والاختبار معروفة.</p>\n<p dir=\"ltr\">Ready when: story and AC are approved, data model and state machine are clear, notification/payment providers are identified, and product/test ownership is assigned.</p>\n<h3>9. التقدير والأولوية | Estimation &amp; Priority</h3>\n<p dir=\"rtl\">التقدير الحالي 6 نقاط. المرجع: قصص الإدارة/التكامل المكتملة (14 و43) بحجم 6. الأولوية الحالية None؛ التوصية High لأنها المكوّن التجاري الأساسي.</p>\n<p dir=\"ltr\">Current estimate is 6 points. Analogs: completed management/integration stories 14 and 43 at 6 points. Current priority is None; recommended High because this is the core business capability.</p>",
+          "leadTime": "-1",
+          "sharedItemCount": 0,
+          "addedVia": 0,
+          "hasCheckList": false,
+          "UDF_CHKBOX2": "",
+          "duration": "9d",
+          "UDF_CHKBOX1": "",
+          "diffDays": "9d 1h 31m",
+          "statusName": "To do",
+          "totalWorkhours": "0",
+          "isDocsAdded": false,
+          "UDF_FORMULASTR1": "10/2026",
+          "UDF_RADIO1": "120216000000851695",
+          "UDF_DATE1": "-1",
+          "baseItemType": 2,
+          "UDF_EMAIL1": "",
+          "depth": "0",
+          "createdBy": "120216000000010017",
+          "UDF_MULTIUSERPKL1": [
+            "120216000000359035"
+          ],
+          "UDF_ROLLUP10": "9d",
+          "tagCount": 0,
+          "voteCount": 0,
+          "completedBy": "",
+          "plannedHours": "0"
+        }
+      ],
+      "zsuserIdvsZUID": {
+        "120216000000535227": "830852660",
+        "120216000000293163": "808305920",
+        "120216000000010017": "768061022",
+        "120216000000359035": "814269634"
+      },
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_GetItemDetails",
+    "isError": false,
+    "data": {
+      "userDisplayName": {
+        "120216000000535227": "Abdullah Al-Ansi",
+        "120216000000359035": "Mohammed  Alaqari"
+      },
+      "items": [
+        {
+          "priorityName": "High",
+          "statusType": 0,
+          "endDate": "-1",
+          "releaseCount": 0,
+          "isNotesAdded": false,
+          "itemNo": "123",
+          "ownerId": [
+            "120216000000535227"
+          ],
+          "points": 0,
+          "itemBlockId": "",
+          "UDF_CHAR8": "",
+          "estimationPoints": 0,
+          "itemName": "S2 — هوية وتسجيل دخول مستقلان لفاتورتي | Standalone Fatoorati Identity & Login",
+          "UDF_CHAR7": "",
+          "isOverDue": false,
+          "projectInfo": {
+            "no": "37",
+            "name": "Invoicing MService",
+            "id": "120216000000593007"
+          },
+          "UDF_CHAR6": "",
+          "startAfter": "-1",
+          "createdTime": "2026-10-28T18:49:07.715Z",
+          "isIntegrated": "0",
+          "sharedType": -1,
+          "rootItem": "",
+          "UDF_CHAR5": "Nidhal",
+          "UDF_CHAR4": "Standalone Fatoorati Identity & Login",
+          "UDF_CHAR3": "هوية وتسجيل دخول مستقلان لفاتورتي",
+          "workhourType": 1,
+          "projPriorityId": "120216000000593039",
+          "UDF_ROLLUP8": "1",
+          "UDF_ROLLUP9": "0",
+          "isParent": false,
+          "cycleTime": "-1",
+          "UDF_TEXT1": "تم إدخال المهمة بالزوهو ",
+          "userGroupCount": 0,
+          "UDF_ROLLUP3": "-",
+          "UDF_ROLLUP4": "0",
+          "UDF_ROLLUP5": "0",
+          "completedDate": "-1",
+          "UDF_ROLLUP6": "-",
+          "UDF_ROLLUP7": "1",
+          "commentCount": 0,
+          "itemId": "120216000004657003",
+          "sequence": "2",
+          "sprintId": "120216000000593009",
+          "UDF_FORMULADBL1": "",
+          "epicId": "120216000004657001",
+          "statusId": "120216000000003629",
+          "sprintInfo": {
+            "owner": "120216000000010017",
+            "no": "0",
+            "name": "Backlog",
+            "id": "120216000000593009",
+            "type": 5
+          },
+          "parentItem": "",
+          "projItemTypeId": "120216000000593045",
+          "itemTypeName": "Story",
+          "userIdVsWorkhours": {
+            "120216000000535227": "0"
+          },
+          "startDate": "-1",
+          "description": "<p><strong>الاسم العربي:</strong> هوية وتسجيل دخول مستقلان لفاتورتي</p>\n<p><strong>English Name:</strong> Standalone Fatoorati Identity &amp; Login</p>\n<p><strong>Business Requester:</strong> Nidhal</p>\n<p><strong>Epic:</strong> منصة فاتورتي متعددة المستأجرين والتسويات المستقلة</p>\n<p><strong>ملاحظة:</strong> الحقول المخصصة (Arabic Short Name / English Short Name / Business Requester) غير قابلة للكتابة عبر MCP الحالي؛ القيم مذكورة أعلاه داخل الوصف لحين استكمالها من واجهة Zoho.</p>\n<hr/>\n<p><strong>كـ</strong> مستخدم، <strong>أريد</strong> التسجيل والدخول إلى فاتورتي عبر واجهة وهوية خاصتين بها، <strong>حتى</strong> أصل إلى حسابي وفواتيري دون الحاجة إلى بنكي.</p>\n<p><strong>معايير القبول:</strong></p>\n<ol><li>صفحة دخول مستقلة (بريد/جوال + كلمة مرور، OTP، MFA اختياري)، نسيت كلمة المرور، تسجيل/قبول دعوة.</li><li>فاتورتي تُصدر Session/Token خاصاً بها؛ لا إعادة توجيه إلزامية إلى بنكي؛ تكامل SSO مع بنكي اختياري (Federation).</li><li>اختيار المستأجر بعد الدخول عند تعدد العضويات؛ توجيه حسب الدور.</li><li>دورة حياة الحساب: دعوة، تفعيل، تعليق، إلغاء، قفل بعد محاولات فاشلة، سياسة كلمات المرور، Audit.</li><li>ربط/ترحيل مستخدمي بنكي الحاليين دون حسابات مكررة؛ جدول Identity Mapping.</li><li>APIs موثقة: <code>/auth/login</code>، <code>/auth/refresh</code>، <code>/auth/logout</code>، <code>/auth/forgot-password</code>، <code>/auth/otp</code>، <code>/auth/me</code> مع OpenAPI.</li><li>الأمان: TLS، Cookies/Token آمنة، Rate Limiting، قفل Brute Force، CSRF، إبطال الجلسات.</li><li>واجهة: Login، Register، OTP، Reset، Tenant Picker، رسائل أخطاء واضحة، عربي/إنجليزي.</li><li>اختبار استقلالية: الدخول يعمل وبنيي متوقف أو غير متاح.</li></ol>\n<p><strong>مرتبط بـ:</strong> <code>120216000002384835</code> (Central Identity — Done)؛ هذه القصة تضيف هوية مملوكة لفاتورتي مع Federation اختياري.</p>\n<p dir=\"ltr\"><strong>##+=================================================##</strong></p>\n<h2>هوية وتسجيل دخول مستقلان لفاتورتي | Standalone Fatoorati Identity &amp; Login</h2>\n<h3>1. ملخص القصة | Story Summary</h3>\n<p dir=\"rtl\">هوية رقمية مستقلة لمنصة فاتورتي تسمح بالمصادقة وإدارة الجلسات والحسابات دون إلزام المستخدم بالمرور عبر بنكي، مع تكامل اختياري (Federation/SSO) مع بنكي.</p>\n<p dir=\"ltr\">A standalone digital identity for Fatoorati that provides authentication, session and account management without forcing users through Banky, with optional federation/SSO with Banky.</p>\n<h3>2. المستخدم والقيمة | User &amp; Value</h3>\n<p dir=\"rtl\"><strong>بصفتي</strong> مستخدم فاتورتي، <strong>أرغب في</strong> التسجيل والدخول عبر هوية فاتورتي، <strong>حتى أصل</strong> إلى حسابي وفواتيري دون الاعتماد الإلزامي على بنكي.</p>\n<p dir=\"ltr\"><strong>As a</strong> Fatoorati user, <strong>I want</strong> to register and sign in with a Fatoorati identity, <strong>so that</strong> I can access my account and invoices without a mandatory Banky dependency.</p>\n<h3>3. معايير القبول | Acceptance Criteria</h3>\n<ol><li><strong>AR:</strong> تسجيل ودخول محلي عبر البريد/الجوال وكلمة المرور، مع OTP وMFA اختياري.<br/><strong>EN:</strong> Local registration and login with email/mobile and password, plus OTP and optional MFA.</li><li><strong>AR:</strong> نسيت كلمة المرور، إعادة التعيين، وقبول الدعوات وتفعيل الحساب.<br/><strong>EN:</strong> Forgot-password, reset, invitation acceptance and account activation.</li><li><strong>AR:</strong> إصدار Session/Token خاص بفاتورتي؛ لا إعادة توجيه إلزامية إلى بنكي، وSSO مع بنكي اختياري.<br/><strong>EN:</strong> Issue a Fatoorati-specific session/token; no mandatory Banky redirect; optional Banky SSO.</li><li><strong>AR:</strong> اختيار المستأجر بعد الدخول عند تعدد العضويات، وتوجيه المستخدم حسب الدور.<br/><strong>EN:</strong> Tenant selection after login for multi-tenant membership, with role-based routing.</li><li><strong>AR:</strong> دورة حياة الحساب: دعوة، تفعيل، تعليق، إلغاء، قفل بعد المحاولات الفاشلة، سياسة كلمات المرور، وAudit.<br/><strong>EN:</strong> Account lifecycle: invite, activate, suspend, deactivate, lock after failures, password policy and audit.</li><li><strong>AR:</strong> ربط/ترحيل مستخدمي بنكي الحاليين دون تكرار الحسابات، مع Identity Mapping.<br/><strong>EN:</strong> Link/migrate existing Banky users without duplicate accounts, with identity mapping.</li><li><strong>AR:</strong> APIs موثقة: /auth/login, /auth/refresh, /auth/logout, /auth/forgot-password, /auth/otp, /auth/me مع OpenAPI.<br/><strong>EN:</strong> Documented APIs: /auth/login, /auth/refresh, /auth/logout, /auth/forgot-password, /auth/otp and /auth/me with OpenAPI.</li><li><strong>AR:</strong> أمان: TLS، Cookies/Token آمنة، Rate Limiting، قفل Brute Force، CSRF، وإبطال الجلسات.<br/><strong>EN:</strong> Security: TLS, secure cookies/tokens, rate limiting, brute-force lockout, CSRF and session revocation.</li></ol>\n<h3>4. التفاصيل الوظيفية | Functional Details</h3>\n<p dir=\"rtl\">واجهات: Login، Register، OTP، Reset، Tenant Picker، ورسائل أخطاء واضحة. بعد المصادقة يُصدر Token ويُحدد المستأجر والدور قبل تحميل بيانات الفواتير.</p>\n<p dir=\"ltr\">Screens: Login, Register, OTP, Reset, Tenant Picker and clear error messages. After authentication, issue a token and resolve tenant/role before loading invoice data.</p>\n<h3>5. التفاصيل التقنية | Technical Notes</h3>\n<p dir=\"rtl\">يفضل OAuth2/OIDC مع JWT قصير العمر وRefresh Token، وتخزين آمن للأسرار، وRate Limiting، وسجلات Audit. يحتاج Identity Mapping بين Banky User وFatoorati User وTenant Membership.</p>\n<p dir=\"ltr\">Prefer OAuth2/OIDC with short-lived JWT and refresh tokens, secure secret storage, rate limiting and audit logs. Requires identity mapping between Banky user, Fatoorati user and tenant membership.</p>\n<h3>6. خارج النطاق | Out of Scope</h3>\n<p dir=\"rtl\">إعادة التوجيه الإلزامية إلى بنكي، ودفتر التسويات، وإدارة النزاعات، واستيراد جهات الاتصال.</p>\n<p dir=\"ltr\">Mandatory Banky redirect, settlement ledger, dispute management and contact import.</p>\n<h3>7. التبعيات والروابط | Dependencies &amp; Links</h3>\n<p dir=\"rtl\">مرتبط بالقصة 124 (ترحيل المستأجر)، 125 (دفتر التسويات)، 127 (النزاعات). الأب: Epic 120216000004657001.</p>\n<p dir=\"ltr\">Related to Story 124 (tenant migration), 125 (settlement ledger) and 127 (disputes). Parent Epic: 120216000004657001.</p>\n<h3>8. الجاهزية والاكتمال | Definition of Ready &amp; Done</h3>\n<p dir=\"rtl\">جاهز عندما: سياسة الهوية والـSSO معتمدة، مزود البريد/OTP محدد، نموذج Tenant Membership واضح، ومتطلبات الأمان معتمدة.</p>\n<p dir=\"ltr\">Ready when: identity and SSO policy are approved, email/OTP provider is selected, tenant-membership model is clear, and security requirements are approved.</p>\n<h3>9. التقدير والأولوية | Estimation &amp; Priority</h3>\n<p dir=\"rtl\">التقدير الحالي 0. المرجع: القصة المكتملة 43 (تكامل الهوية المركزية) 6 نقاط، والقصة 14 (إدارة Parties) 6 نقاط. التوصية 8 نقاط لأنها هوية كاملة وليست تكاملاً فقط. الأولوية High.</p>\n<p dir=\"ltr\">Current estimate is 0. Analogs: completed Story 43 (central identity integration) at 6 and Story 14 (party management) at 6. Recommended 8 because this is a full identity service, not only integration. Priority High.</p>",
+          "leadTime": "-1",
+          "sharedItemCount": 0,
+          "addedVia": 2,
+          "hasCheckList": false,
+          "UDF_CHKBOX2": "",
+          "duration": "-1",
+          "UDF_CHKBOX1": "",
+          "diffDays": "",
+          "statusName": "To do",
+          "totalWorkhours": "0",
+          "isDocsAdded": false,
+          "UDF_FORMULASTR1": "",
+          "UDF_RADIO1": "120216000000851697",
+          "UDF_DATE1": "-1",
+          "baseItemType": 2,
+          "UDF_EMAIL1": "",
+          "depth": "0",
+          "createdBy": "120216000000359035",
+          "UDF_MULTIUSERPKL1": [
+            "120216000000359035"
+          ],
+          "UDF_ROLLUP10": "0",
+          "tagCount": 0,
+          "voteCount": 0,
+          "completedBy": "",
+          "plannedHours": "0"
+        }
+      ],
+      "zsuserIdvsZUID": {
+        "120216000000535227": "830852660",
+        "120216000000359035": "814269634"
+      },
+      "status": "success"
+    }
+  }
+]

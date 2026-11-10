@@ -1,0 +1,258 @@
+[
+  {
+    "ok": true,
+    "tool": "ZohoSprints_GetProjectDetails",
+    "isError": false,
+    "data": {
+      "projects": [
+        {
+          "endDate": "-1",
+          "groupId": "120216000000015269",
+          "fieldPerm_EndDate": true,
+          "isForceTimerEnabled": false,
+          "lastAccessedTime": "2026-10-28T19:57:26.811Z",
+          "UDF_USERPKL4": "120216000000293163",
+          "UDF_USERPKL5": "120216000000535277",
+          "UDF_USERPKL2": "120216000000010017",
+          "isOverDue": false,
+          "UDF_USERPKL3": "120216000000535277",
+          "UDF_USERPKL1": "120216000000359035",
+          "estimationType": 0,
+          "defaultTabURL": "",
+          "createdTime": "2026-04-20T17:05:08.193Z",
+          "kanbanBoardId": "",
+          "hasDelPermission": true,
+          "hasAddPerm_Meeting": true,
+          "fieldPerm_StartDate": true,
+          "archivedOn": "",
+          "addedVia_enum": "WEB",
+          "commentCount": 0,
+          "sequence": "31",
+          "backlogId": "120216000004162608",
+          "profileId": "120216000000002015",
+          "hasAddPerm_Sprint": true,
+          "wipType": 0,
+          "projectId": "120216000004162606",
+          "fieldPerm_Group": true,
+          "startDate": "-1",
+          "UDF_MULTIPKL1": "120216000003935247,120216000003935251",
+          "status": 1,
+          "hasAddPerm_User": true,
+          "isTimerAutoStop": false,
+          "projType": 1,
+          "tagIds": [],
+          "description": "",
+          "estimationType_enum": "FIBONACCI",
+          "addedVia": 0,
+          "hasAddPerm_Release": true,
+          "hasViewPerm_User": true,
+          "diffDays": "",
+          "okrCount": 0,
+          "fieldPerm_Owner": true,
+          "defaultTabId": "-1",
+          "favouriteType_enum": "FAVOURITE",
+          "stageId": "120216000000021003",
+          "owner": "120216000000535227",
+          "isNtfnMuted": false,
+          "projName": "Sports Activities As A service",
+          "projNo": "52",
+          "defaultTab": "backlog",
+          "projType_enum": "SCRUM",
+          "favouriteType": 1,
+          "hasAddPerm_Epic": true,
+          "hasEditPermission": true,
+          "status_enum": "ACTIVE",
+          "UDF_MULTIUSERPKL2": [
+            "120216000000535177"
+          ],
+          "createdBy": "120216000000010017",
+          "UDF_MULTIUSERPKL1": [
+            "120216000000535227"
+          ],
+          "UDF_PKL1": "120216000002469403",
+          "UDF_MULTIUSERPKL3": [
+            "120216000000535227"
+          ],
+          "tagCount": 0,
+          "isBudgetEnabled": false,
+          "currencyCode": "YER"
+        }
+      ],
+      "userDisplayName": {
+        "120216000000535227": "Abdullah Al-Ansi",
+        "120216000000010017": "Abdullah Al-Measar"
+      },
+      "estimationPointArr": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "5",
+        "8",
+        "13",
+        "21",
+        "34",
+        "55",
+        "89",
+        "144",
+        "233",
+        "377",
+        "610",
+        "987",
+        "1597",
+        "2584",
+        "4181",
+        "6765",
+        "10946"
+      ],
+      "moduleIdvsLayoutId": {
+        "120216000004162606": {
+          "120216000000002055": "120216000000032001",
+          "120216000000002043": "120216000000223001",
+          "120216000000002031": "120216000000420523",
+          "120216000000002041": "120216000000002103",
+          "120216000000002029": "120216000001873031",
+          "120216000003621003": "120216000003621037",
+          "120216000000002039": "120216000000178001",
+          "120216000000002027": "120216000000268075",
+          "120216000000002037": "120216000002794967",
+          "120216000003312001": "120216000003312029",
+          "120216000003933040": "120216000003933050"
+        }
+      },
+      "zsuserIdvsZUID": {
+        "120216000000535227": "830852660",
+        "120216000000010017": "768061022"
+      },
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_GetProjectDetails",
+    "isError": false,
+    "data": {
+      "projects": [
+        {
+          "endDate": "2024-12-31T20:59:59.000Z",
+          "groupId": "120216000000015269",
+          "fieldPerm_EndDate": true,
+          "isForceTimerEnabled": false,
+          "lastAccessedTime": "2026-10-28T19:40:43.242Z",
+          "UDF_USERPKL4": "120216000000535177",
+          "UDF_USERPKL5": "120216000000015559",
+          "UDF_USERPKL2": "120216000000175003",
+          "isOverDue": true,
+          "UDF_USERPKL3": "120216000000015559",
+          "UDF_USERPKL1": "120216000000359035",
+          "estimationType": 0,
+          "defaultTabURL": "",
+          "createdTime": "2024-02-20T00:38:02.823Z",
+          "kanbanBoardId": "",
+          "hasDelPermission": true,
+          "hasAddPerm_Meeting": true,
+          "fieldPerm_StartDate": true,
+          "archivedOn": "",
+          "addedVia_enum": "WEB",
+          "commentCount": 0,
+          "sequence": "18",
+          "backlogId": "120216000000593009",
+          "profileId": "120216000000002015",
+          "hasAddPerm_Sprint": true,
+          "wipType": 0,
+          "projectId": "120216000000593007",
+          "fieldPerm_Group": true,
+          "startDate": "2024-02-29T21:00:00.000Z",
+          "UDF_MULTIPKL1": "120216000003935249,120216000003935359,120216000003935251",
+          "status": 1,
+          "hasAddPerm_User": true,
+          "isTimerAutoStop": false,
+          "projType": 1,
+          "tagIds": [],
+          "description": "",
+          "estimationType_enum": "FIBONACCI",
+          "addedVia": 0,
+          "hasAddPerm_Release": true,
+          "hasViewPerm_User": true,
+          "diffDays": "476d",
+          "okrCount": 0,
+          "fieldPerm_Owner": true,
+          "defaultTabId": "-1",
+          "favouriteType_enum": "FAVOURITE",
+          "stageId": "120216000000021003",
+          "owner": "120216000000535227",
+          "isNtfnMuted": false,
+          "projName": "Invoicing MService",
+          "projNo": "37",
+          "defaultTab": "backlog",
+          "projType_enum": "SCRUM",
+          "favouriteType": 1,
+          "hasAddPerm_Epic": true,
+          "hasEditPermission": true,
+          "status_enum": "ACTIVE",
+          "UDF_MULTIUSERPKL2": [
+            "120216000000293163"
+          ],
+          "createdBy": "120216000000010017",
+          "UDF_MULTIUSERPKL1": [
+            "120216000000535227"
+          ],
+          "UDF_PKL1": "120216000002469403",
+          "UDF_MULTIUSERPKL3": [
+            "120216000000535227"
+          ],
+          "tagCount": 0,
+          "isBudgetEnabled": false,
+          "currencyCode": "USD"
+        }
+      ],
+      "userDisplayName": {
+        "120216000000535227": "Abdullah Al-Ansi",
+        "120216000000010017": "Abdullah Al-Measar"
+      },
+      "estimationPointArr": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "5",
+        "8",
+        "13",
+        "21",
+        "34",
+        "55",
+        "89",
+        "144",
+        "233",
+        "377",
+        "610",
+        "987",
+        "1597",
+        "2584",
+        "4181",
+        "6765",
+        "10946"
+      ],
+      "moduleIdvsLayoutId": {
+        "120216000000593007": {
+          "120216000000002055": "120216000000032001",
+          "120216000000002031": "120216000000420523",
+          "120216000000002041": "120216000000002103",
+          "120216000000002029": "120216000001873031",
+          "120216000003621003": "120216000003621037",
+          "120216000000002039": "120216000000178001",
+          "120216000000002027": "120216000000268075",
+          "120216000003926001": "120216000003926011",
+          "120216000000002037": "120216000002794967",
+          "120216000003312001": "120216000003312029",
+          "120216000003933040": "120216000003933050"
+        }
+      },
+      "zsuserIdvsZUID": {
+        "120216000000535227": "830852660",
+        "120216000000010017": "768061022"
+      },
+      "status": "success"
+    }
+  }
+]

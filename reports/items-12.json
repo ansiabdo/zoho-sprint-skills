@@ -1,0 +1,79 @@
+{
+ "next": false,
+ "userDisplayName": {
+  "120216000000016001": "Kamal AlOqabi",
+  "120216000000010017": "Abdullah Al-Measar",
+  "120216000000175003": "Eissa Musleh"
+ },
+ "items": [
+  {
+   "endDate": "2024-06-30T20:00:00.000Z",
+   "isNotesAdded": false,
+   "itemNo": "1",
+   "ownerId": [
+    "120216000000010017",
+    "120216000000016001",
+    "120216000000175003"
+   ],
+   "leftPosition": 1,
+   "points": 6,
+   "itemBlockId": "",
+   "itemName": "Analysis",
+   "isOverDue": true,
+   "startAfter": "-1",
+   "createdTime": "2024-07-15T21:31:13.740Z",
+   "sharedType": -1,
+   "rightPosition": 2,
+   "rootItem": "",
+   "projPriorityId": "120216000000593033",
+   "immediateParentId": "",
+   "isParent": false,
+   "cycleTime": "0",
+   "level": 1,
+   "blockedByObj": {},
+   "directChilds": [],
+   "completedDate": "2024-09-03T22:09:24.684Z",
+   "commentCount": 0,
+   "itemId": "120216000000799115",
+   "sequence": "1",
+   "sprintId": "120216000000799111",
+   "statusId": "120216000000003637",
+   "epicId": "",
+   "sprintInfo": {
+    "owner": "120216000000010017",
+    "no": "1",
+    "name": "SP0: JUN24 ",
+    "id": "120216000000799111",
+    "type": 3
+   },
+   "parentItem": "",
+   "projItemTypeId": "120216000000593045",
+   "itemTypeName": "Story",
+   "startDate": "2024-06-01T13:00:00.000Z",
+   "statusColor": "#259e92",
+   "hasSubHierarchy": false,
+   "leadTime": "967080000",
+   "sharedItemCount": 0,
+   "addedVia": 0,
+   "duration": "22d",
+   "diffDays": "47d 2h 9m",
+   "statusName": "Done",
+   "actualStartDate": "2024-09-03T22:09:24.684Z",
+   "isDocsAdded": false,
+   "immediateRootId": "",
+   "blockedOn": "",
+   "blockedReason": "",
+   "depth": "0",
+   "createdBy": "120216000000010017",
+   "itemTypeBaseType": 2,
+   "isOrphanItem": false,
+   "completedBy": "120216000000010017"
+  }
+ ],
+ "zsuserIdvsZUID": {
+  "120216000000016001": "768947703",
+  "120216000000010017": "768061022",
+  "120216000000175003": "793914823"
+ },
+ "status": "success"
+}

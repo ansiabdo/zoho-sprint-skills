@@ -1,0 +1,46 @@
+{
+ "userDisplayName": {
+  "120216000000175003": "Eissa Musleh"
+ },
+ "epics": [
+  {
+   "hasDeletePermission": true,
+   "endDate": "-1",
+   "epicType": 0,
+   "hasAssocItemPermission": true,
+   "description": "",
+   "fieldPerm_EndDate": true,
+   "isNotesAdded": false,
+   "duration": "-1",
+   "fieldPerm_Color": true,
+   "epicNo": "1",
+   "isOverDue": false,
+   "diffDays": 0,
+   "okrCount": 0,
+   "startAfter": "-1",
+   "fieldPerm_Owner": true,
+   "epicStatus": 0,
+   "createdTime": "2025-04-08T16:54:52.542Z",
+   "owner": "120216000000175003",
+   "fieldPerm_StartDate": true,
+   "epicName": "Invoice management",
+   "commentCount": 0,
+   "hasEditPermission": true,
+   "sequence": 1,
+   "epicId": "120216000002409263",
+   "createdBy": "120216000000175003",
+   "completedOn": "-1",
+   "tagCount": 0,
+   "colorCode": "#4fc0e8",
+   "hasViewPermission": true,
+   "hasAddItemPermission": true,
+   "UDF_BOOLEAN1": "",
+   "startDate": "-1",
+   "UDF_MULTIPKL1": ""
+  }
+ ],
+ "zsuserIdvsZUID": {
+  "120216000000175003": "793914823"
+ },
+ "status": "success"
+}

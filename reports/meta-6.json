@@ -1,0 +1,63 @@
+{
+ "next": false,
+ "projPriorities": [
+  {
+   "projPriorityId": "120216000000593033",
+   "priorityName": "None",
+   "sequence": "0",
+   "isDefault": true,
+   "priorityDescription": "Items that aren't prioritized.",
+   "colorCode": "#878f97",
+   "priorityId": "120216000000003813"
+  },
+  {
+   "projPriorityId": "120216000000593035",
+   "priorityName": "Low",
+   "sequence": "1",
+   "isDefault": true,
+   "priorityDescription": "Items that have low priority.",
+   "colorCode": "#019335",
+   "priorityId": "120216000000003815"
+  },
+  {
+   "projPriorityId": "120216000000593037",
+   "priorityName": "Medium",
+   "sequence": "2",
+   "isDefault": true,
+   "priorityDescription": "Items that are relatively less important are prioritized as medium.",
+   "colorCode": "#f17f23",
+   "priorityId": "120216000000003817"
+  },
+  {
+   "projPriorityId": "120216000000593039",
+   "priorityName": "High",
+   "sequence": "3",
+   "isDefault": true,
+   "priorityDescription": "Items that are prioritized as high.",
+   "colorCode": "#fa335c",
+   "priorityId": "120216000000003819"
+  },
+  {
+   "projPriorityId": "120216000004146251",
+   "priorityName": "To Be Deleted",
+   "sequence": "4",
+   "isDefault": false,
+   "priorityDescription": "To Be Deleted",
+   "colorCode": "#812c3f",
+   "priorityId": "120216000004148070"
+  },
+  {
+   "projPriorityId": "120216000004181471",
+   "priorityName": "Ready to Sprint",
+   "sequence": "5",
+   "isDefault": false,
+   "priorityDescription": "",
+   "colorCode": "#4fc0e8",
+   "priorityId": "120216000003638419"
+  }
+ ],
+ "userDisplayName": {},
+ "maxPrioCount": -1,
+ "zsuserIdvsZUID": {},
+ "status": "success"
+}

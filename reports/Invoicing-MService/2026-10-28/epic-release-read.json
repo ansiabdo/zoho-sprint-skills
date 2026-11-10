@@ -1,0 +1,5 @@
+[
+  {"tool":"ZohoSprints_GetEpicDetails","args":{"headers":{"x-za-ui-version":"v2","X-convert-response":"true"},"path_variables":{"teamId":"767679505","projectId":"120216000000593007","epicId":"120216000004657001"},"query_params":{"action":"details"}}},
+  {"tool":"ZohoSprints_GetEpics","args":{"headers":{"x-za-ui-version":"v2","X-convert-response":"true"},"path_variables":{"teamId":"767679505","projectId":"120216000000593007"},"query_params":{"action":"data","index":1,"range":100}}},
+  {"tool":"ZohoSprints_GetReleases","args":{"headers":{"x-za-ui-version":"v2","X-convert-response":"true"},"path_variables":{"teamId":"767679505","projectId":"120216000000593007"},"query_params":{"action":"data","index":1,"range":25}}}
+]

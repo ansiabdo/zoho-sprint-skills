@@ -1,0 +1,12 @@
+[
+  {
+    "ok": true,
+    "tool": "ZohoSprints_CreateRelease",
+    "isError": true,
+    "data": {
+      "code": 7500,
+      "message": "Internal server error while processing this request",
+      "status": "failed"
+    }
+  }
+]

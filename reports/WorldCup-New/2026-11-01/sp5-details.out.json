@@ -1,0 +1,843 @@
+[
+  {
+    "ok": true,
+    "tool": "ZohoSprints_GetItemDetails",
+    "isError": false,
+    "data": {
+      "data": {
+        "userDisplayName": {
+          "120216000000535227": "Abdullah Al-Ansi",
+          "120216000000359035": "Mohammed  Alaqari"
+        },
+        "items": [
+          {
+            "priorityName": "High",
+            "statusType": 2,
+            "endDate": "2026-10-29T20:00:00.000Z",
+            "releaseCount": 1,
+            "isNotesAdded": false,
+            "itemNo": "116",
+            "ownerId": [
+              "120216000000535227"
+            ],
+            "points": 4,
+            "itemBlockId": "",
+            "UDF_CHAR8": "",
+            "estimationPoints": 5,
+            "itemName": "Competition and Season Catalog",
+            "UDF_CHAR7": "إدارة الأفراد",
+            "isOverDue": true,
+            "projectInfo": {
+              "no": "52",
+              "name": "Sports Activities As A service",
+              "id": "120216000004162606"
+            },
+            "UDF_CHAR6": "",
+            "startAfter": "-1",
+            "createdTime": "2026-10-05T19:15:45.441Z",
+            "isIntegrated": "0",
+            "sharedType": -1,
+            "rootItem": "",
+            "UDF_CHAR5": "محمد الاخفش وعبدالله المعصار",
+            "UDF_CHAR4": "Competition Season Catalog",
+            "UDF_CHAR3": "كتالوج المسابقات والمواسم",
+            "workhourType": 1,
+            "projPriorityId": "120216000004162627",
+            "UDF_ROLLUP8": "3",
+            "UDF_ROLLUP9": "0",
+            "isParent": true,
+            "cycleTime": "-1",
+            "UDF_TEXT1": "",
+            "userGroupCount": 0,
+            "UDF_ROLLUP3": "01/10/2026 04:00 PM",
+            "UDF_ROLLUP4": "5",
+            "UDF_ROLLUP5": "3",
+            "completedDate": "-1",
+            "UDF_ROLLUP6": "29/10/2026 11:00 PM",
+            "UDF_ROLLUP7": "0",
+            "commentCount": 0,
+            "itemId": "120216000004558543",
+            "sequence": "1",
+            "sprintId": "120216000004192758",
+            "UDF_FORMULADBL1": "",
+            "epicId": "120216000004557316",
+            "statusId": "120216000000003631",
+            "sprintInfo": {
+              "owner": "120216000000359035",
+              "no": "2",
+              "name": "SP5 Oct 26 Multi Competition ",
+              "id": "120216000004192758",
+              "type": 2
+            },
+            "parentItem": "",
+            "projItemTypeId": "120216000004162630",
+            "itemTypeName": "Story",
+            "userIdVsWorkhours": {
+              "120216000000535227": "0"
+            },
+            "startDate": "2026-10-01T13:00:00.000Z",
+            "description": "As a platform administrator, I want to manage a persistent competition and season catalog, so that leagues and cups can be configured without redeploying the platform.\n\n**Acceptance Criteria**\n1  When a valid competition and season are added, persist their relationship, provider identifiers and Arabic and English names without hardcoded identifiers.\n2  Reject a second record with the same Provider and ExternalSeasonId. Reject invalid dates and references to nonexistent competitions.\n3  When a competition is outside the provider account's coverage, retain it as Draft with a clear reason and do not publish it to users.\n4  When a season is enabled or disabled, audit before-and-after values, actor and timestamp, and update the configuration version without restarting the service.\n\nRequired Changes  Add Competition and CompetitionSeason entities, repositories, DTOs and permissions. Convert appsettings into repeatable initial seeding that does not overwrite administrative settings.\n\nDependencies  None; this story establishes the foundation for the other stories.\n\n--- [ZOHO-ACTUAL-DELIVERY v1 | SNA-116-2026-10-28-01] ---\nملحق مراجعة التنفيذ (لا يغيّر الحالة أو معايير القبول): مراجعة BMAD 10.1 والكود تشير إلى أن التنفيذ الفعلي يستخدم آلية catalog قائمة على League/config typed options، بينما هذه القصة تطلب Competition وCompetitionSeason entities ومزود identifiers. لذلك التنفيذ مختلف/جزئي مقارنة بعقد القصة، ولم يُتحقق تشغيليًا في هذه الجولة. الأدلة: BMAD 10.1؛ commits 1030f85e و71df6def و289d044c؛ SportMonksOptions. لا يدّعي هذا الملحق اكتمال القصة.\n--- [/ZOHO-ACTUAL-DELIVERY | SNA-116-2026-10-28-01] ---",
+            "leadTime": "-1",
+            "sharedItemCount": 0,
+            "addedVia": 3,
+            "hasCheckList": false,
+            "UDF_CHKBOX2": "",
+            "duration": "21d",
+            "UDF_CHKBOX1": "",
+            "diffDays": "5h 15m",
+            "statusName": "In progress",
+            "totalWorkhours": "0",
+            "isDocsAdded": false,
+            "UDF_FORMULASTR1": "10/2026",
+            "UDF_RADIO1": "120216000000851697",
+            "UDF_DATE1": "-1",
+            "baseItemType": 2,
+            "UDF_EMAIL1": "",
+            "depth": "0",
+            "createdBy": "120216000000359035",
+            "UDF_MULTIUSERPKL1": [
+              "120216000000359035"
+            ],
+            "UDF_ROLLUP10": "21h",
+            "tagCount": 0,
+            "voteCount": 0,
+            "completedBy": "",
+            "plannedHours": "0"
+          }
+        ],
+        "zsuserIdvsZUID": {
+          "120216000000535227": "830852660",
+          "120216000000359035": "814269634"
+        },
+        "status": "success"
+      },
+      "headers": {
+        "content-length": "4068",
+        "content-type": "application/json;charset=UTF-8"
+      },
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_GetItemDetails",
+    "isError": false,
+    "data": {
+      "data": {
+        "userDisplayName": {
+          "120216000000535227": "Abdullah Al-Ansi",
+          "120216000000359035": "Mohammed  Alaqari"
+        },
+        "items": [
+          {
+            "priorityName": "High",
+            "statusType": 2,
+            "endDate": "2026-10-29T20:00:00.000Z",
+            "releaseCount": 1,
+            "isNotesAdded": false,
+            "itemNo": "117",
+            "ownerId": [
+              "120216000000535227"
+            ],
+            "points": 4,
+            "itemBlockId": "",
+            "UDF_CHAR8": "",
+            "estimationPoints": 5,
+            "itemName": "Historical Data Migration and Scope Replacement",
+            "UDF_CHAR7": "إدارة الأفراد",
+            "isOverDue": true,
+            "projectInfo": {
+              "no": "52",
+              "name": "Sports Activities As A service",
+              "id": "120216000004162606"
+            },
+            "UDF_CHAR6": "",
+            "startAfter": "-1",
+            "createdTime": "2026-10-05T19:15:45.447Z",
+            "isIntegrated": "0",
+            "sharedType": -1,
+            "rootItem": "",
+            "UDF_CHAR5": "محمد الاخفش وعبدالله المعصار",
+            "UDF_CHAR4": "Historical Data Migration",
+            "UDF_CHAR3": "ترحيل البيانات التاريخية واستبدال النطاق",
+            "workhourType": 1,
+            "projPriorityId": "120216000004162627",
+            "UDF_ROLLUP8": "2",
+            "UDF_ROLLUP9": "0",
+            "isParent": true,
+            "cycleTime": "-1",
+            "UDF_TEXT1": "",
+            "userGroupCount": 0,
+            "UDF_ROLLUP3": "01/10/2026 04:00 PM",
+            "UDF_ROLLUP4": "5",
+            "UDF_ROLLUP5": "2",
+            "completedDate": "-1",
+            "UDF_ROLLUP6": "29/10/2026 11:00 PM",
+            "UDF_ROLLUP7": "0",
+            "commentCount": 0,
+            "itemId": "120216000004558544",
+            "sequence": "2",
+            "sprintId": "120216000004192758",
+            "UDF_FORMULADBL1": "",
+            "epicId": "120216000004557316",
+            "statusId": "120216000000003631",
+            "sprintInfo": {
+              "owner": "120216000000359035",
+              "no": "2",
+              "name": "SP5 Oct 26 Multi Competition ",
+              "id": "120216000004192758",
+              "type": 2
+            },
+            "parentItem": "",
+            "projItemTypeId": "120216000004162630",
+            "itemTypeName": "Story",
+            "userIdVsWorkhours": {
+              "120216000000535227": "0"
+            },
+            "startDate": "2026-10-01T13:00:00.000Z",
+            "description": "As a platform operator, I want to migrate existing fixtures to verified seasons while preserving predictions and points, so that multi-season operation does not lose or misclassify historical data.\n\n**Acceptance Criteria**\n1  Before enabling the expansion, match fixture IDs from seasons 26618 and 26998 against documented evidence. Do not default every row to LeagueId 732 or one SeasonId.\n2  After backfill, every active fixture has a verified season. Quarantine unclassified rows and produce a remediation report; do not publish unclassified records.\n3  Prediction, outcome, point-ledger and reward counts and relationships remain identical before and after migration. Migration performs no deletion or recalculation.\n4  After Redis is flushed, visibility remains database- and tenant-setting based. A rollback test restores the previous scope without deleting new seasons.\n\nRequired Changes  Use a staged nullable migration, followed by backfill, constraints and indexes. Replace ActiveSeasonFixtureScope with CompetitionSeasonScope and remove cached fixture IDs as the authoritative visibility source.\n\nDependencies  BE01; complete before releasing new-season functionality.",
+            "leadTime": "-1",
+            "sharedItemCount": 0,
+            "addedVia": 3,
+            "hasCheckList": false,
+            "UDF_CHKBOX2": "",
+            "duration": "21d",
+            "UDF_CHKBOX1": "",
+            "diffDays": "5h 15m",
+            "statusName": "In progress",
+            "totalWorkhours": "0",
+            "isDocsAdded": false,
+            "UDF_FORMULASTR1": "10/2026",
+            "UDF_RADIO1": "",
+            "UDF_DATE1": "-1",
+            "baseItemType": 2,
+            "UDF_EMAIL1": "",
+            "depth": "0",
+            "createdBy": "120216000000359035",
+            "UDF_MULTIUSERPKL1": [
+              "120216000000359035"
+            ],
+            "UDF_ROLLUP10": "14h",
+            "tagCount": 0,
+            "voteCount": 0,
+            "completedBy": "",
+            "plannedHours": "0"
+          }
+        ],
+        "zsuserIdvsZUID": {
+          "120216000000535227": "830852660",
+          "120216000000359035": "814269634"
+        },
+        "status": "success"
+      },
+      "headers": {
+        "content-length": "3427",
+        "content-type": "application/json;charset=UTF-8"
+      },
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_GetItemDetails",
+    "isError": false,
+    "data": {
+      "data": {
+        "userDisplayName": {
+          "120216000000535227": "Abdullah Al-Ansi",
+          "120216000000359035": "Mohammed  Alaqari"
+        },
+        "items": [
+          {
+            "priorityName": "High",
+            "statusType": 2,
+            "endDate": "2026-10-29T20:00:00.000Z",
+            "releaseCount": 1,
+            "isNotesAdded": false,
+            "itemNo": "118",
+            "ownerId": [
+              "120216000000535227"
+            ],
+            "points": 4,
+            "itemBlockId": "",
+            "UDF_CHAR8": "",
+            "estimationPoints": 5,
+            "itemName": "Multi Season Data Synchronization",
+            "UDF_CHAR7": "إدارة الأفراد",
+            "isOverDue": true,
+            "projectInfo": {
+              "no": "52",
+              "name": "Sports Activities As A service",
+              "id": "120216000004162606"
+            },
+            "UDF_CHAR6": "",
+            "startAfter": "-1",
+            "createdTime": "2026-10-05T19:15:45.450Z",
+            "isIntegrated": "0",
+            "sharedType": -1,
+            "rootItem": "",
+            "UDF_CHAR5": "محمد الاخفش وعبدالله المعصار",
+            "UDF_CHAR4": "Multi Season Sync",
+            "UDF_CHAR3": "مزامنة بيانات المواسم المتعددة",
+            "workhourType": 1,
+            "projPriorityId": "120216000004162627",
+            "UDF_ROLLUP8": "1",
+            "UDF_ROLLUP9": "0",
+            "isParent": false,
+            "cycleTime": "-1",
+            "UDF_TEXT1": "",
+            "userGroupCount": 0,
+            "UDF_ROLLUP3": "01/10/2026 04:00 PM",
+            "UDF_ROLLUP4": "5",
+            "UDF_ROLLUP5": "0",
+            "completedDate": "-1",
+            "UDF_ROLLUP6": "29/10/2026 11:00 PM",
+            "UDF_ROLLUP7": "1",
+            "commentCount": 0,
+            "itemId": "120216000004558545",
+            "sequence": "3",
+            "sprintId": "120216000004192758",
+            "UDF_FORMULADBL1": "",
+            "epicId": "120216000004557316",
+            "statusId": "120216000000003631",
+            "sprintInfo": {
+              "owner": "120216000000359035",
+              "no": "2",
+              "name": "SP5 Oct 26 Multi Competition ",
+              "id": "120216000004192758",
+              "type": 2
+            },
+            "parentItem": "",
+            "projItemTypeId": "120216000004162630",
+            "itemTypeName": "Story",
+            "userIdVsWorkhours": {
+              "120216000000535227": "0"
+            },
+            "startDate": "2026-10-01T13:00:00.000Z",
+            "description": "As a platform operator, I want shared synchronization to process each enabled season independently, so that all competitions remain current without duplicated tenant-level provider calls.\n\n**Acceptance Criteria**\n1  With three enabled seasons, GetFixtures, GetTeams, GetStages, GetTournamentGroups and GetStandings use the correct season identifier for each call.\n2  If one season fails, retain its last successful data, record the failure and continue other seasons. Do not delete data because of a failure or incomplete response.\n3  On job retry or concurrent instances, locking prevents overlapping logical work and upserts remain idempotent. Logs include SeasonId, Provider and CorrelationId.\n4  When a season ends and is archived, stop recurring synchronization but retain its data. LiveScores remain shared; FixtureDetail is retrieved by external fixture identifier.\n\nRequired Changes  Update SportMonksOptions, IMatchDataProvider, SportMonksMatchDataProvider, MatchDataSyncJob and FixtureDetailSyncJob. Resolve livescore fixture IDs against the catalog before updating them.\n\nDependencies  BE01 and BE02.",
+            "leadTime": "-1",
+            "sharedItemCount": 0,
+            "addedVia": 3,
+            "hasCheckList": false,
+            "UDF_CHKBOX2": "",
+            "duration": "21d",
+            "UDF_CHKBOX1": "",
+            "diffDays": "5h 15m",
+            "statusName": "In progress",
+            "totalWorkhours": "0",
+            "isDocsAdded": false,
+            "UDF_FORMULASTR1": "10/2026",
+            "UDF_RADIO1": "",
+            "UDF_DATE1": "-1",
+            "baseItemType": 2,
+            "UDF_EMAIL1": "",
+            "depth": "0",
+            "createdBy": "120216000000359035",
+            "UDF_MULTIUSERPKL1": [
+              "120216000000359035"
+            ],
+            "UDF_ROLLUP10": "21d",
+            "tagCount": 0,
+            "voteCount": 0,
+            "completedBy": "",
+            "plannedHours": "0"
+          }
+        ],
+        "zsuserIdvsZUID": {
+          "120216000000535227": "830852660",
+          "120216000000359035": "814269634"
+        },
+        "status": "success"
+      },
+      "headers": {
+        "content-length": "3319",
+        "content-type": "application/json;charset=UTF-8"
+      },
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_GetItemDetails",
+    "isError": false,
+    "data": {
+      "data": {
+        "userDisplayName": {
+          "120216000000535227": "Abdullah Al-Ansi",
+          "120216000000359035": "Mohammed  Alaqari"
+        },
+        "items": [
+          {
+            "priorityName": "High",
+            "statusType": 2,
+            "endDate": "2026-10-29T20:00:00.000Z",
+            "releaseCount": 1,
+            "isNotesAdded": false,
+            "itemNo": "119",
+            "ownerId": [
+              "120216000000535227"
+            ],
+            "points": 4,
+            "itemBlockId": "",
+            "UDF_CHAR8": "",
+            "estimationPoints": 5,
+            "itemName": "Shared Provider Budget and Sync Health",
+            "UDF_CHAR7": "إدارة الأفراد",
+            "isOverDue": true,
+            "projectInfo": {
+              "no": "52",
+              "name": "Sports Activities As A service",
+              "id": "120216000004162606"
+            },
+            "UDF_CHAR6": "",
+            "startAfter": "-1",
+            "createdTime": "2026-10-05T19:15:45.453Z",
+            "isIntegrated": "0",
+            "sharedType": -1,
+            "rootItem": "",
+            "UDF_CHAR5": "محمد الاخفش وعبدالله المعصار",
+            "UDF_CHAR4": "Provider Budget & Sync Health",
+            "UDF_CHAR3": "ميزانية مزود البيانات المشتركة وصحة المزامنة",
+            "workhourType": 1,
+            "projPriorityId": "120216000004162627",
+            "UDF_ROLLUP8": "3",
+            "UDF_ROLLUP9": "0",
+            "isParent": true,
+            "cycleTime": "-1",
+            "UDF_TEXT1": "",
+            "userGroupCount": 0,
+            "UDF_ROLLUP3": "01/10/2026 04:00 PM",
+            "UDF_ROLLUP4": "5",
+            "UDF_ROLLUP5": "3",
+            "completedDate": "-1",
+            "UDF_ROLLUP6": "29/10/2026 11:00 PM",
+            "UDF_ROLLUP7": "0",
+            "commentCount": 0,
+            "itemId": "120216000004558546",
+            "sequence": "4",
+            "sprintId": "120216000004192758",
+            "UDF_FORMULADBL1": "",
+            "epicId": "120216000004557316",
+            "statusId": "120216000000003631",
+            "sprintInfo": {
+              "owner": "120216000000359035",
+              "no": "2",
+              "name": "SP5 Oct 26 Multi Competition ",
+              "id": "120216000004192758",
+              "type": 2
+            },
+            "parentItem": "",
+            "projItemTypeId": "120216000004162630",
+            "itemTypeName": "Story",
+            "userIdVsWorkhours": {
+              "120216000000535227": "0"
+            },
+            "startDate": "2026-10-01T13:00:00.000Z",
+            "description": "As a platform operator, I want all seasons to share the provider account budget and expose sync health, so that concurrent tournaments do not exhaust provider limits or hide stale data.\n\n**Acceptance Criteria**\n1  When two seasons request the same requested_entity under one account, reserve capacity from one shared quota; each season must not receive an independent copy of the full limit.\n2  On HTTP 429, honor retry or reset metadata and defer nonessential work with backoff. Prevent rapid retries and manual refresh bypassing the budget.\n3  During concurrent live matches across competitions, avoid season starvation, prioritize live and final-result updates, and expose reasons for deferred standings and catalog work.\n4  Health responses show last successful sync, remaining quota, reset, stale and deferred status per bucket and season. Alert after 90 seconds of live-fixture staleness, identifying any deferral reason.\n\nRequired Changes  Update SportMonksRateLimitBudgetService, distributed reservations and Redis keys. Configure a documented account-level ceiling and expose a lower operational limit when needed.\n\nDependencies  BE03; verify the provider account quota scope in the test environment.",
+            "leadTime": "-1",
+            "sharedItemCount": 0,
+            "addedVia": 3,
+            "hasCheckList": false,
+            "UDF_CHKBOX2": "",
+            "duration": "21d",
+            "UDF_CHKBOX1": "",
+            "diffDays": "5h 15m",
+            "statusName": "In progress",
+            "totalWorkhours": "0",
+            "isDocsAdded": false,
+            "UDF_FORMULASTR1": "10/2026",
+            "UDF_RADIO1": "",
+            "UDF_DATE1": "-1",
+            "baseItemType": 2,
+            "UDF_EMAIL1": "",
+            "depth": "0",
+            "createdBy": "120216000000359035",
+            "UDF_MULTIUSERPKL1": [
+              "120216000000359035"
+            ],
+            "UDF_ROLLUP10": "21h",
+            "tagCount": 0,
+            "voteCount": 0,
+            "completedBy": "",
+            "plannedHours": "0"
+          }
+        ],
+        "zsuserIdvsZUID": {
+          "120216000000535227": "830852660",
+          "120216000000359035": "814269634"
+        },
+        "status": "success"
+      },
+      "headers": {
+        "content-length": "3459",
+        "content-type": "application/json;charset=UTF-8"
+      },
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_GetItemDetails",
+    "isError": false,
+    "data": {
+      "data": {
+        "userDisplayName": {
+          "120216000000535227": "Abdullah Al-Ansi",
+          "120216000000359035": "Mohammed  Alaqari"
+        },
+        "items": [
+          {
+            "priorityName": "High",
+            "statusType": 0,
+            "endDate": "2026-10-29T20:00:00.000Z",
+            "releaseCount": 1,
+            "isNotesAdded": false,
+            "itemNo": "120",
+            "ownerId": [
+              "120216000000535227"
+            ],
+            "points": 5,
+            "itemBlockId": "",
+            "UDF_CHAR8": "",
+            "estimationPoints": 8,
+            "itemName": "Tenant Competition Entitlements",
+            "UDF_CHAR7": "إدارة الأفراد",
+            "isOverDue": true,
+            "projectInfo": {
+              "no": "52",
+              "name": "Sports Activities As A service",
+              "id": "120216000004162606"
+            },
+            "UDF_CHAR6": "",
+            "startAfter": "-1",
+            "createdTime": "2026-10-05T19:15:45.456Z",
+            "isIntegrated": "0",
+            "sharedType": -1,
+            "rootItem": "",
+            "UDF_CHAR5": "محمد الاخفش وعبدالله المعصار",
+            "UDF_CHAR4": "Tenant Competition Entitlements",
+            "UDF_CHAR3": "استحقاقات المسابقات للمستأجرين",
+            "workhourType": 1,
+            "projPriorityId": "120216000004162627",
+            "UDF_ROLLUP8": "1",
+            "UDF_ROLLUP9": "0",
+            "isParent": false,
+            "cycleTime": "-1",
+            "UDF_TEXT1": "",
+            "userGroupCount": 0,
+            "UDF_ROLLUP3": "01/10/2026 04:00 PM",
+            "UDF_ROLLUP4": "8",
+            "UDF_ROLLUP5": "0",
+            "completedDate": "-1",
+            "UDF_ROLLUP6": "29/10/2026 11:00 PM",
+            "UDF_ROLLUP7": "1",
+            "commentCount": 0,
+            "itemId": "120216000004558547",
+            "sequence": "5",
+            "sprintId": "120216000004192758",
+            "UDF_FORMULADBL1": "",
+            "epicId": "120216000004557316",
+            "statusId": "120216000000003629",
+            "sprintInfo": {
+              "owner": "120216000000359035",
+              "no": "2",
+              "name": "SP5 Oct 26 Multi Competition ",
+              "id": "120216000004192758",
+              "type": 2
+            },
+            "parentItem": "",
+            "projItemTypeId": "120216000004162630",
+            "itemTypeName": "Story",
+            "userIdVsWorkhours": {
+              "120216000000535227": "0"
+            },
+            "startDate": "2026-10-01T13:00:00.000Z",
+            "description": "<div>As a Super Admin, I want to assign competition access and defaults to each tenant, so that users only participate in competitions their tenant is entitled to offer.\n<br/></div><div><br/></div><div>Acceptance Criteria:<br/></div><div><br/></div><div>\n1  When saving tenant settings, validate WorldCup.TenantLeagues.Manage and plan coverage for every competition. Tenant Admins cannot expand their own subscription.\n<br/></div><div>2  Selected with an empty list exposes no competitions; AllEntitled exposes authorized competitions only. Migrated tenants retain their previous scope and are not automatically assigned Starter access.<br/></div><div>\n3  On plan change or competition disablement, reject invalid defaults, invalidate caches and review new jobs. Keep historical results and predictions stored.<br/></div><div>\n4  Concurrent setting changes use concurrencyStamp to prevent overwriting newer changes. Bootstrap returns a new configuration version after saving.\n\nRequired Changes  Add EntitlementResolver and CompetitionAccessPolicy. Use ABP Settings or a consistent typed table, with a transition plan for EnabledLeagueIds and SubscribedPlan.\n\nDependencies  BE01; approve selection modes and subscription rules.<br/></div>\n<hr/><div dir=\"rtl\">--- [ZOHO-ACTUAL-DELIVERY v1 | SNA-120-2026-10-28-01] ---<br/>ملحق مراجعة التنفيذ (لا يغيّر الحالة أو معايير القبول): مراجعة BMAD 10.3 وTenantLeagueService تشير إلى أن الاختيار الفارغ قد يُعامل كـ default-all في التنفيذ/الوثائق، بينما هذه القصة تشترط أن Selected بقائمة فارغة لا تعرض أي مسابقة وأن AllEntitled وحدها تعرض المسابقات المصرح بها. التعارض يحتاج قرار منتج ولا يُعد السلوك الحالي مطابقًا. لم يُتحقق تشغيليًا في هذه الجولة. الأدلة: BMAD 10.3؛ commits a81f9e40 و50565d34؛ TenantLeagueService.cs وTenantLeagueSettingsAppService.<br/>--- [/ZOHO-ACTUAL-DELIVERY | SNA-120-2026-10-28-01] ---</div>",
+            "leadTime": "-1",
+            "sharedItemCount": 0,
+            "addedVia": 3,
+            "hasCheckList": false,
+            "UDF_CHKBOX2": "",
+            "duration": "21d",
+            "UDF_CHKBOX1": "",
+            "diffDays": "5h 15m",
+            "statusName": "To do",
+            "totalWorkhours": "0",
+            "isDocsAdded": false,
+            "UDF_FORMULASTR1": "10/2026",
+            "UDF_RADIO1": "120216000000851697",
+            "UDF_DATE1": "-1",
+            "baseItemType": 2,
+            "UDF_EMAIL1": "",
+            "depth": "0",
+            "createdBy": "120216000000359035",
+            "UDF_MULTIUSERPKL1": [
+              "120216000000359035"
+            ],
+            "UDF_ROLLUP10": "21d",
+            "tagCount": 0,
+            "voteCount": 0,
+            "completedBy": "",
+            "plannedHours": "0"
+          }
+        ],
+        "zsuserIdvsZUID": {
+          "120216000000535227": "830852660",
+          "120216000000359035": "814269634"
+        },
+        "status": "success"
+      },
+      "headers": {
+        "content-length": "4362",
+        "content-type": "application/json;charset=UTF-8"
+      },
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_GetItemDetails",
+    "isError": false,
+    "data": {
+      "data": {
+        "userDisplayName": {
+          "120216000000535227": "Abdullah Al-Ansi",
+          "120216000000535177": "Ali Alshami",
+          "120216000000359035": "Mohammed  Alaqari"
+        },
+        "items": [
+          {
+            "priorityName": "High",
+            "statusType": 2,
+            "endDate": "2026-10-29T20:00:00.000Z",
+            "releaseCount": 1,
+            "isNotesAdded": false,
+            "itemNo": "121",
+            "ownerId": [
+              "120216000000535177",
+              "120216000000535227"
+            ],
+            "points": 4,
+            "itemBlockId": "",
+            "UDF_CHAR8": "",
+            "estimationPoints": 5,
+            "itemName": "Competition Aware Reads and Prediction Validation",
+            "UDF_CHAR7": "إدارة الأفراد",
+            "isOverDue": true,
+            "projectInfo": {
+              "no": "52",
+              "name": "Sports Activities As A service",
+              "id": "120216000004162606"
+            },
+            "UDF_CHAR6": "",
+            "startAfter": "-1",
+            "createdTime": "2026-10-05T19:15:45.459Z",
+            "isIntegrated": "0",
+            "sharedType": -1,
+            "rootItem": "",
+            "UDF_CHAR5": "محمد الاخفش وعبدالله المعصار",
+            "UDF_CHAR4": "Competition Aware Reads",
+            "UDF_CHAR3": "قراءات واعية بالمسابقات والتحقق من التوقعات",
+            "workhourType": 1,
+            "projPriorityId": "120216000004162627",
+            "UDF_ROLLUP8": "1",
+            "UDF_ROLLUP9": "0",
+            "isParent": false,
+            "cycleTime": "-1",
+            "UDF_TEXT1": "",
+            "userGroupCount": 0,
+            "UDF_ROLLUP3": "01/10/2026 04:00 PM",
+            "UDF_ROLLUP4": "5",
+            "UDF_ROLLUP5": "0",
+            "completedDate": "-1",
+            "UDF_ROLLUP6": "29/10/2026 11:00 PM",
+            "UDF_ROLLUP7": "1",
+            "commentCount": 0,
+            "itemId": "120216000004558548",
+            "sequence": "6",
+            "sprintId": "120216000004192758",
+            "UDF_FORMULADBL1": "",
+            "epicId": "120216000004557316",
+            "statusId": "120216000000003631",
+            "sprintInfo": {
+              "owner": "120216000000359035",
+              "no": "2",
+              "name": "SP5 Oct 26 Multi Competition ",
+              "id": "120216000004192758",
+              "type": 2
+            },
+            "parentItem": "",
+            "projItemTypeId": "120216000004162630",
+            "itemTypeName": "Story",
+            "userIdVsWorkhours": {
+              "120216000000535227": "0",
+              "120216000000535177": "0"
+            },
+            "startDate": "2026-10-01T13:00:00.000Z",
+            "description": "<div>As a tenant user, I want every match and prediction endpoint to respect my competition and season scope, so that navigation and participation remain consistent and authorized.\n<br/></div><div>Acceptance Criteria:<br/></div><div>1  With a seasonId filter, fixtures, detail, community stats, my predictions and admin predictions use the same competition, season and tenant scope.\n<br/></div><div>2  Direct or shared requests for an unauthorized fixture return the same not-found response. Hiding its card in the interface is insufficient.<br/></div><div>\n3  On Submit or Update, derive the season from the fixture and reject predictions at T-10 minutes, for TBD fixtures or for seasons not open for predictions, even if the interface is stale.\n<br/></div><div>4  With all request filters omitted, return authorized results only, using pagination and deterministic ordering.<br/></div><div><br/></div><div> DTOs carry full context and conflicting scope parameters are rejected.\n<br/></div><div>\nRequired Changes  Update FixtureAppService and its extensions, AdminFixtureAppService, PredictionAppService, AdminPredictionAppService, DTOs and bootstrap. Preserve the existing prediction request body.<br/></div><div><br/></div><div>\n\nDependencies  BE02 and BE05.<br/></div>",
+            "leadTime": "-1",
+            "sharedItemCount": 0,
+            "addedVia": 3,
+            "hasCheckList": false,
+            "UDF_CHKBOX2": "",
+            "duration": "21d",
+            "UDF_CHKBOX1": "",
+            "diffDays": "5h 15m",
+            "statusName": "In progress",
+            "totalWorkhours": "0",
+            "isDocsAdded": false,
+            "UDF_FORMULASTR1": "10/2026",
+            "UDF_RADIO1": "120216000000851695",
+            "UDF_DATE1": "-1",
+            "baseItemType": 2,
+            "UDF_EMAIL1": "",
+            "depth": "0",
+            "createdBy": "120216000000359035",
+            "UDF_MULTIUSERPKL1": [
+              "120216000000359035"
+            ],
+            "UDF_ROLLUP10": "21d",
+            "tagCount": 0,
+            "voteCount": 0,
+            "completedBy": "",
+            "plannedHours": "0"
+          }
+        ],
+        "zsuserIdvsZUID": {
+          "120216000000535227": "830852660",
+          "120216000000535177": "845559676",
+          "120216000000359035": "814269634"
+        },
+        "status": "success"
+      },
+      "headers": {
+        "content-length": "3667",
+        "content-type": "application/json;charset=UTF-8"
+      },
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_GetItemDetails",
+    "isError": false,
+    "data": {
+      "data": {
+        "userDisplayName": {
+          "120216000000535227": "Abdullah Al-Ansi",
+          "120216000000535177": "Ali Alshami",
+          "120216000000359035": "Mohammed  Alaqari"
+        },
+        "items": [
+          {
+            "priorityName": "High",
+            "statusType": 0,
+            "endDate": "2026-10-29T20:00:00.000Z",
+            "releaseCount": 1,
+            "isNotesAdded": false,
+            "itemNo": "122",
+            "ownerId": [
+              "120216000000535177",
+              "120216000000535227"
+            ],
+            "points": 4,
+            "itemBlockId": "",
+            "UDF_CHAR8": "",
+            "estimationPoints": 5,
+            "itemName": "Season Scoring Streaks and Leaderboards",
+            "UDF_CHAR7": "إدارة الأفراد",
+            "isOverDue": true,
+            "projectInfo": {
+              "no": "52",
+              "name": "Sports Activities As A service",
+              "id": "120216000004162606"
+            },
+            "UDF_CHAR6": "",
+            "startAfter": "-1",
+            "createdTime": "2026-10-05T19:15:45.461Z",
+            "isIntegrated": "0",
+            "sharedType": -1,
+            "rootItem": "",
+            "UDF_CHAR5": "محمد الاخفش",
+            "UDF_CHAR4": "Season Scoring & Leaderboards",
+            "UDF_CHAR3": "سلاسل التسجيل عبر المواسم ولوحات المتصدرين",
+            "workhourType": 1,
+            "projPriorityId": "120216000004162627",
+            "UDF_ROLLUP8": "1",
+            "UDF_ROLLUP9": "0",
+            "isParent": false,
+            "cycleTime": "-1",
+            "UDF_TEXT1": "",
+            "userGroupCount": 0,
+            "UDF_ROLLUP3": "01/10/2026 04:00 PM",
+            "UDF_ROLLUP4": "5",
+            "UDF_ROLLUP5": "0",
+            "completedDate": "-1",
+            "UDF_ROLLUP6": "29/10/2026 11:00 PM",
+            "UDF_ROLLUP7": "1",
+            "commentCount": 0,
+            "itemId": "120216000004558549",
+            "sequence": "7",
+            "sprintId": "120216000004192758",
+            "UDF_FORMULADBL1": "",
+            "epicId": "120216000004557316",
+            "statusId": "120216000000003629",
+            "sprintInfo": {
+              "owner": "120216000000359035",
+              "no": "2",
+              "name": "SP5 Oct 26 Multi Competition ",
+              "id": "120216000004192758",
+              "type": 2
+            },
+            "parentItem": "",
+            "projItemTypeId": "120216000004162630",
+            "itemTypeName": "Story",
+            "userIdVsWorkhours": {
+              "120216000000535227": "0",
+              "120216000000535177": "0"
+            },
+            "startDate": "2026-10-01T13:00:00.000Z",
+            "description": "As a player, I want independent season rankings and deterministic scoring, so that predictions across concurrent competitions do not mix streaks or produce duplicate points.\n\n**Acceptance Criteria**\n1  Season rankings use outcomes from that season's fixtures. Overall aggregates only available seasons in the published scope; friends rankings apply the same scope and dense-rank semantics.\n2  A correct Premier League prediction followed by an incorrect La Liga prediction does not affect the Premier League streak under the proposed new-season policy. Equal kickoff times are ordered by a stable fixture identifier.\n3  Finalization, retry and recompute create no duplicate outcomes or awards. Late results deterministically recalculate the same season's sequence without moving points between seasons.\n4  WinnerOnly penalty fixtures retain existing CURRENT, PENALTIES, ExactPenalty and CorrectPenalty rules. Enabling a competition does not retroactively change points or reward balances.\n\nRequired Changes  Update the scoring resolver, streak state, EfCorePredictionOutcomeRepository, leaderboards, friends rankings and reporting. Keep leaderboard aggregates separate from any redeemable reward balance.\n\nDependencies  BE02 and BE06; approve season-specific streaks and historical point preservation.",
+            "leadTime": "-1",
+            "sharedItemCount": 0,
+            "addedVia": 3,
+            "hasCheckList": false,
+            "UDF_CHKBOX2": "120216000000850745,120216000000850747,120216000000850749,120216000000850751",
+            "duration": "21d",
+            "UDF_CHKBOX1": "120216000000420553",
+            "diffDays": "5h 15m",
+            "statusName": "To do",
+            "totalWorkhours": "0",
+            "isDocsAdded": false,
+            "UDF_FORMULASTR1": "10/2026",
+            "UDF_RADIO1": "120216000000851695",
+            "UDF_DATE1": "-1",
+            "baseItemType": 2,
+            "UDF_EMAIL1": "",
+            "depth": "0",
+            "createdBy": "120216000000359035",
+            "UDF_MULTIUSERPKL1": [
+              "120216000000359035"
+            ],
+            "UDF_ROLLUP10": "21d",
+            "tagCount": 0,
+            "voteCount": 0,
+            "completedBy": "",
+            "plannedHours": "0"
+          }
+        ],
+        "zsuserIdvsZUID": {
+          "120216000000535227": "830852660",
+          "120216000000535177": "845559676",
+          "120216000000359035": "814269634"
+        },
+        "status": "success"
+      },
+      "headers": {
+        "content-length": "3736",
+        "content-type": "application/json;charset=UTF-8"
+      },
+      "status": "success"
+    }
+  }
+]

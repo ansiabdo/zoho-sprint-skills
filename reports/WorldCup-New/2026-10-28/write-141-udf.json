@@ -1,0 +1,13 @@
+[
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606", "sprintId": "120216000004192758", "itemId": "120216000004650013" },
+      "query_params": {
+        "UDF_CHAR3": "واجهة قائمة المباريات — فلترة الدوري وإضافة LeagueId",
+        "UDF_CHAR4": "Fixture List API - League Filter"
+      }
+    }
+  }
+]

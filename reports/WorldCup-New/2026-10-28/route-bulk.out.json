@@ -1,0 +1,202 @@
+[
+  {
+    "ok": true,
+    "tool": "ZohoSprints_UpdateItem",
+    "isError": false,
+    "data": {
+      "status": "success"
+    }
+  },
+  {
+    "ok": false,
+    "tool": "ZohoSprints_UpdateItem",
+    "error": "{\"code\":-32001,\"message\":\"mcp-remote: terminated\"}",
+    "isError": null,
+    "data": null
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_UpdateItem",
+    "isError": false,
+    "data": {
+      "followers": [],
+      "ownerIds": [
+        "120216000000535227"
+      ],
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_UpdateItem",
+    "isError": false,
+    "data": {
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_UpdateItem",
+    "isError": false,
+    "data": {
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_UpdateItem",
+    "isError": false,
+    "data": {
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_UpdateItem",
+    "isError": false,
+    "data": {
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_UpdateItem",
+    "isError": false,
+    "data": {
+      "followers": [],
+      "ownerIds": [
+        "120216000000535227",
+        "120216000000535177"
+      ],
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_UpdateItem",
+    "isError": false,
+    "data": {
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_UpdateItem",
+    "isError": false,
+    "data": {
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_UpdateItem",
+    "isError": false,
+    "data": {
+      "followers": [],
+      "ownerIds": [
+        "120216000000535227"
+      ],
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_UpdateItem",
+    "isError": false,
+    "data": {
+      "followers": [],
+      "ownerIds": [
+        "120216000000535227"
+      ],
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_UpdateItem",
+    "isError": false,
+    "data": {
+      "followers": [],
+      "ownerIds": [
+        "120216000000535227"
+      ],
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_UpdateItem",
+    "isError": false,
+    "data": {
+      "followers": [],
+      "ownerIds": [
+        "120216000000535227",
+        "120216000000535177"
+      ],
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_UpdateItem",
+    "isError": false,
+    "data": {
+      "followers": [],
+      "ownerIds": [
+        "120216000000535227",
+        "120216000000535177"
+      ],
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_UpdateItem",
+    "isError": false,
+    "data": {
+      "followers": [],
+      "ownerIds": [
+        "120216000000535227",
+        "120216000000535177"
+      ],
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_UpdateItem",
+    "isError": false,
+    "data": {
+      "followers": [],
+      "ownerIds": [
+        "120216000000535227",
+        "120216000000535177"
+      ],
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_UpdateItem",
+    "isError": false,
+    "data": {
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_UpdateItem",
+    "isError": false,
+    "data": {
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_UpdateItem",
+    "isError": false,
+    "data": {
+      "status": "success"
+    }
+  }
+]

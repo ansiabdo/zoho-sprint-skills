@@ -1,0 +1,3 @@
+Suggested project path: .agents/skills/zoho-sprints/SKILL.md
+Copy the canonical skill from skills/zoho-sprints/SKILL.md.
+MCP connection is configured separately in the host.

@@ -1,0 +1,1325 @@
+
+===== ZohoSprints_UpdateItem
+{
+ "type": "object",
+ "properties": {
+  "headers": {
+   "properties": {
+    "X-convert-response": {
+     "default": "true",
+     "description": "Converts the response into a readable format. Pass true as the value.",
+     "type": "string"
+    },
+    "x-za-ui-version": {
+     "default": "v2",
+     "description": "Returns the response in the Sprints 2.0 format. Pass v2 as the value.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "x-za-ui-version",
+    "X-convert-response"
+   ],
+   "type": "object"
+  },
+  "path_variables": {
+   "properties": {
+    "itemId": {
+     "description": "ID of the work item.",
+     "type": "string"
+    },
+    "projectId": {
+     "description": "ID of the project.",
+     "type": "string"
+    },
+    "sprintId": {
+     "description": "ID of the sprint.",
+     "type": "string"
+    },
+    "teamId": {
+     "description": "ID of the workspace.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "teamId",
+    "projectId",
+    "sprintId",
+    "itemId"
+   ],
+   "type": "object"
+  },
+  "query_params": {
+   "properties": {
+    "delusers": {
+     "description": "IDs of the users to remove from the work item.",
+     "format": "date-time",
+     "type": "string"
+    },
+    "description": {
+     "description": "Description of the work item.",
+     "type": "string"
+    },
+    "duration": {
+     "description": "Duration of the work item.",
+     "type": "string"
+    },
+    "enddate": {
+     "description": "End date of the work item.",
+     "format": "date-time",
+     "type": "string"
+    },
+    "epicid": {
+     "description": "ID of the epic to associate the work item with. Pass the ID as a numeric string.",
+     "type": "string"
+    },
+    "name": {
+     "description": "Name of the work item.",
+     "type": "string"
+    },
+    "newusers": {
+     "description": "IDs of the users to assign to the work item.",
+     "type": "string"
+    },
+    "point": {
+     "description": "Estimation points to assign to the work item.",
+     "type": "integer"
+    },
+    "projitemtypeid": {
+     "description": "ID of the item type to apply. Pass the ID as a numeric string.",
+     "type": "string"
+    },
+    "projpriorityid": {
+     "description": "ID of the priority to apply. Pass the ID as a numeric string.",
+     "type": "string"
+    },
+    "startdate": {
+     "description": "Start date of the work item.",
+     "format": "date-time",
+     "type": "string"
+    },
+    "statusid": {
+     "description": "ID of the status to move the work item to. Pass the ID as a numeric string.",
+     "type": "string"
+    }
+   },
+   "required": [],
+   "type": "object"
+  }
+ },
+ "required": [
+  "path_variables",
+  "headers"
+ ]
+}
+===== ZohoSprints_CreateItem
+{
+ "type": "object",
+ "properties": {
+  "headers": {
+   "properties": {
+    "X-convert-response": {
+     "default": "true",
+     "description": "Converts the response into a readable format. Pass true as the value.",
+     "type": "string"
+    },
+    "x-za-ui-version": {
+     "default": "v2",
+     "description": "Returns the response in the Sprints 2.0 format. Pass v2 as the value.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "x-za-ui-version",
+    "X-convert-response"
+   ],
+   "type": "object"
+  },
+  "path_variables": {
+   "properties": {
+    "projectId": {
+     "description": "ID of the project.",
+     "type": "string"
+    },
+    "sprintId": {
+     "description": "ID of the sprint.",
+     "type": "string"
+    },
+    "teamId": {
+     "description": "ID of the workspace.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "teamId",
+    "projectId",
+    "sprintId"
+   ],
+   "type": "object"
+  },
+  "query_params": {
+   "properties": {
+    "description": {
+     "description": "Description of the work item.",
+     "type": "string"
+    },
+    "duration": {
+     "description": "Duration of the work item.",
+     "type": "string"
+    },
+    "enddate": {
+     "description": "End date of the work item.",
+     "format": "date-time",
+     "type": "string"
+    },
+    "epicid": {
+     "description": "ID of the epic to associate the work item with. Pass the ID as a numeric string.",
+     "type": "string"
+    },
+    "name": {
+     "description": "Name of the work item.",
+     "type": "string"
+    },
+    "point": {
+     "description": "Estimation points to assign to the work item.",
+     "type": "integer"
+    },
+    "projitemtypeid": {
+     "description": "ID of the item type to apply. Pass the ID as a numeric string.",
+     "type": "string"
+    },
+    "projpriorityid": {
+     "description": "ID of the priority to apply. Pass the ID as a numeric string.",
+     "type": "string"
+    },
+    "startdate": {
+     "description": "Start date of the work item.",
+     "format": "date-time",
+     "type": "string"
+    },
+    "users": {
+     "description": "IDs of the users to assign to the work item.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "name",
+    "projitemtypeid",
+    "projpriorityid"
+   ],
+   "type": "object"
+  }
+ },
+ "required": [
+  "query_params",
+  "path_variables",
+  "headers"
+ ]
+}
+===== ZohoSprints_CreateSubItem
+{
+ "type": "object",
+ "properties": {
+  "headers": {
+   "properties": {
+    "X-convert-response": {
+     "default": "true",
+     "description": "Converts the response into a readable format. Pass true as the value.",
+     "type": "string"
+    },
+    "x-za-ui-version": {
+     "default": "v2",
+     "description": "Returns the response in the Sprints 2.0 format. Pass v2 as the value.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "x-za-ui-version",
+    "X-convert-response"
+   ],
+   "type": "object"
+  },
+  "path_variables": {
+   "properties": {
+    "itemId": {
+     "description": "ID of the work item.",
+     "type": "string"
+    },
+    "projectId": {
+     "description": "ID of the project.",
+     "type": "string"
+    },
+    "sprintId": {
+     "description": "ID of the sprint.",
+     "type": "string"
+    },
+    "teamId": {
+     "description": "ID of the workspace.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "teamId",
+    "projectId",
+    "sprintId",
+    "itemId"
+   ],
+   "type": "object"
+  },
+  "query_params": {
+   "properties": {
+    "description": {
+     "description": "Description of the work item.",
+     "type": "string"
+    },
+    "duration": {
+     "description": "Duration of the work item.",
+     "type": "string"
+    },
+    "enddate": {
+     "description": "End date of the work item.",
+     "format": "date-time",
+     "type": "string"
+    },
+    "epicid": {
+     "description": "ID of the epic to associate the work item with. Pass the ID as a numeric string.",
+     "type": "string"
+    },
+    "name": {
+     "description": "Name of the work item.",
+     "type": "string"
+    },
+    "point": {
+     "description": "Estimation points to assign to the work item.",
+     "type": "integer"
+    },
+    "projitemtypeid": {
+     "description": "ID of the item type to apply. Pass the ID as a numeric string.",
+     "type": "string"
+    },
+    "projpriorityid": {
+     "description": "ID of the priority to apply. Pass the ID as a numeric string.",
+     "type": "string"
+    },
+    "startdate": {
+     "description": "Start date of the work item.",
+     "format": "date-time",
+     "type": "string"
+    },
+    "users": {
+     "description": "IDs of the users to assign to the work item.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "name",
+    "projitemtypeid",
+    "projpriorityid"
+   ],
+   "type": "object"
+  }
+ },
+ "required": [
+  "query_params",
+  "path_variables",
+  "headers"
+ ]
+}
+===== ZohoSprints_GetItemDetails
+{
+ "type": "object",
+ "properties": {
+  "headers": {
+   "properties": {
+    "X-convert-response": {
+     "default": "true",
+     "description": "Converts the response into a readable format. Pass true as the value.",
+     "type": "string"
+    },
+    "x-za-ui-version": {
+     "default": "v2",
+     "description": "Returns the response in the Sprints 2.0 format. Pass v2 as the value.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "x-za-ui-version",
+    "X-convert-response"
+   ],
+   "type": "object"
+  },
+  "path_variables": {
+   "properties": {
+    "itemId": {
+     "description": "ID of the work item.",
+     "type": "string"
+    },
+    "projectId": {
+     "description": "ID of the project.",
+     "type": "string"
+    },
+    "sprintId": {
+     "description": "ID of the sprint.",
+     "type": "string"
+    },
+    "teamId": {
+     "description": "ID of the workspace.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "teamId",
+    "projectId",
+    "sprintId",
+    "itemId"
+   ],
+   "type": "object"
+  },
+  "query_params": {
+   "properties": {
+    "action": {
+     "default": "details",
+     "description": "Parameter used to distinguish API actions. Pass details to fetch the work item details.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "action"
+   ],
+   "type": "object"
+  }
+ },
+ "required": [
+  "query_params",
+  "path_variables",
+  "headers"
+ ]
+}
+===== ZohoSprints_GetItems
+{
+ "type": "object",
+ "properties": {
+  "headers": {
+   "properties": {
+    "X-convert-response": {
+     "default": "true",
+     "description": "Converts the response into a readable format. Pass true as the value.",
+     "type": "string"
+    },
+    "x-za-ui-version": {
+     "default": "v2",
+     "description": "Returns the response in the Sprints 2.0 format. Pass v2 as the value.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "x-za-ui-version",
+    "X-convert-response"
+   ],
+   "type": "object"
+  },
+  "path_variables": {
+   "properties": {
+    "projectId": {
+     "description": "ID of the project.",
+     "type": "string"
+    },
+    "sprintId": {
+     "description": "ID of the sprint.",
+     "type": "string"
+    },
+    "teamId": {
+     "description": "ID of the workspace.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "teamId",
+    "projectId",
+    "sprintId"
+   ],
+   "type": "object"
+  },
+  "query_params": {
+   "properties": {
+    "action": {
+     "default": "data",
+     "description": "Parameter used to distinguish API actions. Pass data to fetch the work items in the sprint.",
+     "type": "string"
+    },
+    "filter": {
+     "description": "Filters the work items returned. Pass the filter criteria as a JSON string.",
+     "type": "string"
+    },
+    "index": {
+     "description": "Index from which value the listing has to start. The minimum value is 1.",
+     "minimum": 1,
+     "type": "integer"
+    },
+    "range": {
+     "description": "Number of records to return. The maximum value is 250.",
+     "maximum": 250,
+     "type": "integer"
+    },
+    "searchby": {
+     "description": "Field to search on. Pass either the item ID or the item name.",
+     "type": "string"
+    },
+    "searchvalue": {
+     "description": "Value to search for in the field named by searchby.",
+     "type": "string"
+    },
+    "subitem": {
+     "description": "Pass true to include subitems in the response.",
+     "type": "boolean"
+    }
+   },
+   "required": [
+    "action",
+    "index",
+    "range"
+   ],
+   "type": "object"
+  }
+ },
+ "required": [
+  "query_params",
+  "path_variables",
+  "headers"
+ ]
+}
+===== ZohoSprints_getCustomLayouts
+{
+ "type": "object",
+ "properties": {
+  "headers": {
+   "properties": {
+    "X-convert-response": {
+     "default": "true",
+     "description": "Converts the response into a readable format. Pass true as the value.",
+     "type": "string"
+    },
+    "x-za-ui-version": {
+     "default": "v2",
+     "description": "Returns the response in the Sprints 2.0 format. Pass v2 as the value.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "x-za-ui-version",
+    "X-convert-response"
+   ],
+   "type": "object"
+  },
+  "path_variables": {
+   "properties": {
+    "moduleId": {
+     "description": "ID of the module.",
+     "type": "string"
+    },
+    "teamId": {
+     "description": "ID of the workspace.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "teamId",
+    "moduleId"
+   ],
+   "type": "object"
+  },
+  "query_params": {
+   "properties": {
+    "action": {
+     "default": "data",
+     "description": "Parameter used to distinguish API actions. Use action value as 'data' to fetch the layouts.",
+     "type": "string"
+    },
+    "index": {
+     "description": "Index from which value the listing has to start. Minimum value for this parameter is 1.",
+     "minimum": 1,
+     "type": "integer"
+    },
+    "range": {
+     "description": "No. of records that have to be listed. Maximum value for this parameter is 25.",
+     "maximum": 25,
+     "type": "integer"
+    }
+   },
+   "required": [
+    "action",
+    "index",
+    "range"
+   ],
+   "type": "object"
+  }
+ },
+ "required": [
+  "query_params",
+  "path_variables",
+  "headers"
+ ]
+}
+===== ZohoSprints_GetProjectDetails
+{
+ "type": "object",
+ "properties": {
+  "headers": {
+   "properties": {
+    "X-convert-response": {
+     "default": "true",
+     "description": "Converts the response into a readable format. Pass true as the value.",
+     "type": "string"
+    },
+    "x-za-ui-version": {
+     "default": "v2",
+     "description": "Returns the response in the Sprints 2.0 format. Pass v2 as the value.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "x-za-ui-version",
+    "X-convert-response"
+   ],
+   "type": "object"
+  },
+  "path_variables": {
+   "properties": {
+    "projectId": {
+     "description": "ID of the project.",
+     "type": "string"
+    },
+    "teamId": {
+     "description": "ID of the workspace.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "teamId",
+    "projectId"
+   ],
+   "type": "object"
+  },
+  "query_params": {
+   "properties": {
+    "action": {
+     "description": "Distinguishes between the API actions available on this endpoint.\nPass details to fetch the full project record.\nPass getbacklog to fetch only the backlog ID of the project.\n",
+     "enum": [
+      "details",
+      "getbacklog"
+     ],
+     "type": "string"
+    }
+   },
+   "required": [
+    "action"
+   ],
+   "type": "object"
+  }
+ },
+ "required": [
+  "query_params",
+  "path_variables",
+  "headers"
+ ]
+}
+===== ZohoSprints_GetWorkspaceUsers
+{
+ "type": "object",
+ "properties": {
+  "headers": {
+   "properties": {
+    "X-convert-response": {
+     "default": "true",
+     "description": "Converts the response into a readable format. Pass true as the value.",
+     "type": "string"
+    },
+    "x-za-ui-version": {
+     "default": "v2",
+     "description": "Returns the response in the Sprints 2.0 format. Pass v2 as the value.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "x-za-ui-version",
+    "X-convert-response"
+   ],
+   "type": "object"
+  },
+  "path_variables": {
+   "properties": {
+    "teamId": {
+     "description": "ID of the workspace.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "teamId"
+   ],
+   "type": "object"
+  },
+  "query_params": {
+   "properties": {
+    "action": {
+     "default": "data",
+     "description": "Parameter used to distinguish API actions. Use action value as 'data' to fetch the list of all the users in a workspace.",
+     "type": "string"
+    },
+    "index": {
+     "description": "Index from which value the listing has to start. Minimum value for this parameter is 1.",
+     "minimum": 1,
+     "type": "integer"
+    },
+    "range": {
+     "description": "No. of records that have to be listed. Maximum value for this parameter is 250.",
+     "maximum": 250,
+     "type": "integer"
+    },
+    "type": {
+     "description": "Mention user type. 1 - Workspace Users, 2 - Client Users, 3 - Vendor Users.",
+     "enum": [
+      1,
+      2,
+      3
+     ],
+     "type": "integer"
+    }
+   },
+   "required": [
+    "action",
+    "index",
+    "range"
+   ],
+   "type": "object"
+  }
+ },
+ "required": [
+  "query_params",
+  "path_variables",
+  "headers"
+ ]
+}
+===== ZohoSprints_LinkItems
+{
+ "type": "object",
+ "properties": {
+  "headers": {
+   "properties": {
+    "X-convert-response": {
+     "default": "true",
+     "description": "Converts the response into a readable format. Pass true as the value.",
+     "type": "string"
+    },
+    "x-za-ui-version": {
+     "default": "v2",
+     "description": "Returns the response in the Sprints 2.0 format. Pass v2 as the value.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "x-za-ui-version",
+    "X-convert-response"
+   ],
+   "type": "object"
+  },
+  "path_variables": {
+   "properties": {
+    "itemId": {
+     "description": "ID of the work item.",
+     "type": "string"
+    },
+    "projectId": {
+     "description": "ID of the project.",
+     "type": "string"
+    },
+    "sprintId": {
+     "description": "ID of the sprint.",
+     "type": "string"
+    },
+    "teamId": {
+     "description": "ID of the workspace.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "teamId",
+    "projectId",
+    "sprintId",
+    "itemId"
+   ],
+   "type": "object"
+  },
+  "query_params": {
+   "properties": {
+    "action": {
+     "default": "linkitems",
+     "description": "Parameter used to distinguish API actions. Pass data to fetch the work items linked to this item.Pass linkitems to link work items.",
+     "type": "string"
+    },
+    "linkitemobj": {
+     "description": "Details of the items to link, passed as a JSON object.",
+     "type": "string"
+    },
+    "linktoprojectid": {
+     "description": "ID of the project containing the items to link. Pass the ID as a numeric string.",
+     "type": "string"
+    },
+    "linktosprintid": {
+     "description": "ID of the sprint containing the items to link. Pass the ID as a numeric string.",
+     "type": "string"
+    },
+    "linktypeid": {
+     "description": "ID of the link type to apply. Pass the ID as a numeric string.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "action",
+    "linktosprintid",
+    "linktoprojectid",
+    "linktypeid"
+   ],
+   "type": "object"
+  }
+ },
+ "required": [
+  "query_params",
+  "path_variables",
+  "headers"
+ ]
+}
+===== ZohoSprints_GetLinkedItems
+{
+ "type": "object",
+ "properties": {
+  "headers": {
+   "properties": {
+    "X-convert-response": {
+     "default": "true",
+     "description": "Converts the response into a readable format. Pass true as the value.",
+     "type": "string"
+    },
+    "x-za-ui-version": {
+     "default": "v2",
+     "description": "Returns the response in the Sprints 2.0 format. Pass v2 as the value.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "x-za-ui-version",
+    "X-convert-response"
+   ],
+   "type": "object"
+  },
+  "path_variables": {
+   "properties": {
+    "itemId": {
+     "description": "ID of the work item.",
+     "type": "string"
+    },
+    "projectId": {
+     "description": "ID of the project.",
+     "type": "string"
+    },
+    "sprintId": {
+     "description": "ID of the sprint.",
+     "type": "string"
+    },
+    "teamId": {
+     "description": "ID of the workspace.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "teamId",
+    "projectId",
+    "sprintId",
+    "itemId"
+   ],
+   "type": "object"
+  },
+  "query_params": {
+   "properties": {
+    "action": {
+     "default": "data",
+     "description": "Parameter used to distinguish API actions. Pass data to fetch the work items linked to this item.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "action"
+   ],
+   "type": "object"
+  }
+ },
+ "required": [
+  "query_params",
+  "path_variables",
+  "headers"
+ ]
+}
+===== ZohoSprints_AddItemComment
+{
+ "type": "object",
+ "properties": {
+  "headers": {
+   "properties": {
+    "X-convert-response": {
+     "default": "true",
+     "description": "Converts the response into a readable format. Pass true as the value.",
+     "type": "string"
+    },
+    "x-za-ui-version": {
+     "default": "v2",
+     "description": "Returns the response in the Sprints 2.0 format. Pass v2 as the value.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "x-za-ui-version",
+    "X-convert-response"
+   ],
+   "type": "object"
+  },
+  "path_variables": {
+   "properties": {
+    "itemId": {
+     "description": "ID of the work item.",
+     "type": "string"
+    },
+    "moduleId": {
+     "description": "ID of the module the comment belongs to.",
+     "type": "string"
+    },
+    "projectId": {
+     "description": "ID of the project.",
+     "type": "string"
+    },
+    "teamId": {
+     "description": "ID of the workspace.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "teamId",
+    "projectId",
+    "moduleId",
+    "itemId"
+   ],
+   "type": "object"
+  },
+  "query_params": {
+   "properties": {
+    "action": {
+     "default": "addnotes",
+     "description": "Parameter used to distinguish API actions. Pass 'addnotes' to add a comment to the work item.",
+     "type": "string"
+    },
+    "name": {
+     "description": "Text of the comment to add.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "action",
+    "name"
+   ],
+   "type": "object"
+  }
+ },
+ "required": [
+  "query_params",
+  "path_variables",
+  "headers"
+ ]
+}
+===== ZohoSprints_GetItemComments
+{
+ "type": "object",
+ "properties": {
+  "headers": {
+   "properties": {
+    "X-convert-response": {
+     "default": "true",
+     "description": "Converts the response into a readable format. Pass true as the value.",
+     "type": "string"
+    },
+    "x-za-ui-version": {
+     "default": "v2",
+     "description": "Returns the response in the Sprints 2.0 format. Pass v2 as the value.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "x-za-ui-version",
+    "X-convert-response"
+   ],
+   "type": "object"
+  },
+  "path_variables": {
+   "properties": {
+    "itemId": {
+     "description": "ID of the work item.",
+     "type": "string"
+    },
+    "moduleId": {
+     "description": "ID of the module the comment belongs to.",
+     "type": "string"
+    },
+    "projectId": {
+     "description": "ID of the project.",
+     "type": "string"
+    },
+    "teamId": {
+     "description": "ID of the workspace.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "teamId",
+    "projectId",
+    "moduleId",
+    "itemId"
+   ],
+   "type": "object"
+  },
+  "query_params": {
+   "properties": {
+    "action": {
+     "default": "data",
+     "description": "Parameter used to distinguish API actions. Pass data to fetch the comments on the work item.",
+     "type": "string"
+    },
+    "index": {
+     "description": "Index from which value the listing has to start. The minimum value is 1.",
+     "minimum": 1,
+     "type": "integer"
+    },
+    "range": {
+     "description": "Number of records to return. The maximum value is 250.",
+     "maximum": 250,
+     "type": "integer"
+    }
+   },
+   "required": [
+    "action",
+    "index",
+    "range"
+   ],
+   "type": "object"
+  }
+ },
+ "required": [
+  "query_params",
+  "path_variables",
+  "headers"
+ ]
+}
+===== ZohoSprints_GetItemActivity
+{
+ "type": "object",
+ "properties": {
+  "headers": {
+   "properties": {
+    "X-convert-response": {
+     "default": "true",
+     "description": "Converts the response into a readable format. Pass true as the value.",
+     "type": "string"
+    },
+    "x-za-ui-version": {
+     "default": "v2",
+     "description": "Returns the response in the Sprints 2.0 format. Pass v2 as the value.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "x-za-ui-version",
+    "X-convert-response"
+   ],
+   "type": "object"
+  },
+  "path_variables": {
+   "properties": {
+    "itemId": {
+     "description": "ID of the work item.",
+     "type": "string"
+    },
+    "projectId": {
+     "description": "ID of the project.",
+     "type": "string"
+    },
+    "sprintId": {
+     "description": "ID of the sprint.",
+     "type": "string"
+    },
+    "teamId": {
+     "description": "ID of the workspace.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "teamId",
+    "projectId",
+    "sprintId",
+    "itemId"
+   ],
+   "type": "object"
+  },
+  "query_params": {
+   "properties": {
+    "index": {
+     "description": "Index from which value the listing has to start. The minimum value is 1.",
+     "minimum": 1,
+     "type": "integer"
+    },
+    "range": {
+     "description": "Number of records to return. The maximum value is 250.",
+     "maximum": 250,
+     "type": "integer"
+    }
+   },
+   "required": [
+    "index",
+    "range"
+   ],
+   "type": "object"
+  }
+ },
+ "required": [
+  "query_params",
+  "path_variables",
+  "headers"
+ ]
+}
+===== ZohoSprints_CreateSprint
+{
+ "type": "object",
+ "properties": {
+  "headers": {
+   "properties": {
+    "X-convert-response": {
+     "default": "true",
+     "description": "Converts the response into a readable format. Pass true as the value.",
+     "type": "string"
+    },
+    "x-za-ui-version": {
+     "default": "v2",
+     "description": "Returns the response in the Sprints 2.0 format. Pass v2 as the value.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "x-za-ui-version",
+    "X-convert-response"
+   ],
+   "type": "object"
+  },
+  "path_variables": {
+   "properties": {
+    "projectId": {
+     "description": "ID of the project.",
+     "type": "string"
+    },
+    "teamId": {
+     "description": "ID of the workspace.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "teamId",
+    "projectId"
+   ],
+   "type": "object"
+  },
+  "query_params": {
+   "properties": {
+    "description": {
+     "description": "A short description of the sprint.",
+     "type": "string"
+    },
+    "duration": {
+     "description": "Duration of the sprint. Cannot exceed 8 weeks when strict scrum is enabled, or 30 weeks when strict scrum is disabled.",
+     "type": "string"
+    },
+    "enddate": {
+     "description": "Date on which the sprint ends.",
+     "format": "date-time",
+     "type": "string"
+    },
+    "name": {
+     "description": "Name of the sprint.",
+     "type": "string"
+    },
+    "scrummaster": {
+     "description": "ID of the user to assign as scrum master. Pass the ID as a numeric string.",
+     "type": "string"
+    },
+    "startdate": {
+     "description": "Date on which the sprint starts.",
+     "format": "date-time",
+     "type": "string"
+    },
+    "users": {
+     "description": "IDs of the users to assign to the sprint.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "name"
+   ],
+   "type": "object"
+  }
+ },
+ "required": [
+  "query_params",
+  "path_variables",
+  "headers"
+ ]
+}
+===== ZohoSprints_GetSprints
+{
+ "type": "object",
+ "properties": {
+  "headers": {
+   "properties": {
+    "X-convert-response": {
+     "default": "true",
+     "description": "Converts the response into a readable format. Pass true as the value.",
+     "type": "string"
+    },
+    "x-za-ui-version": {
+     "default": "v2",
+     "description": "Returns the response in the Sprints 2.0 format. Pass v2 as the value.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "x-za-ui-version",
+    "X-convert-response"
+   ],
+   "type": "object"
+  },
+  "path_variables": {
+   "properties": {
+    "projectId": {
+     "description": "ID of the project.",
+     "type": "string"
+    },
+    "teamId": {
+     "description": "ID of the workspace.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "teamId",
+    "projectId"
+   ],
+   "type": "object"
+  },
+  "query_params": {
+   "properties": {
+    "action": {
+     "default": "data",
+     "description": "Parameter used to distinguish API actions. Use action value as 'data' to fetch the list of all the sprints that are associated with a specific project.",
+     "type": "string"
+    },
+    "index": {
+     "description": "Index from which value the listing has to start. Minimum value for this parameter is 1.",
+     "minimum": 1,
+     "type": "integer"
+    },
+    "range": {
+     "description": "No. of records that have to be listed. Maximum value for this parameter is 250.",
+     "maximum": 250,
+     "type": "integer"
+    },
+    "searchvalue": {
+     "description": "Filters the list to sprints whose name matches the search term.",
+     "type": "string"
+    },
+    "type": {
+     "default": "[1, 2, 3, 4]",
+     "description": "This JSONArray param is sent to fetch sprint based on sprint types. \n\n '1' - Upcoming sprint \n\n '2' - Active sprint \n\n '3' - Completed sprint \n\n '4' - Canceled sprint",
+     "type": "string"
+    }
+   },
+   "required": [
+    "action",
+    "index",
+    "range",
+    "type"
+   ],
+   "type": "object"
+  }
+ },
+ "required": [
+  "query_params",
+  "path_variables",
+  "headers"
+ ]
+}
+===== ZohoSprints_GetSprintDetails
+{
+ "type": "object",
+ "properties": {
+  "headers": {
+   "properties": {
+    "X-convert-response": {
+     "default": "true",
+     "description": "Converts the response into a readable format. Pass true as the value.",
+     "type": "string"
+    },
+    "x-za-ui-version": {
+     "default": "v2",
+     "description": "Returns the response in the Sprints 2.0 format. Pass v2 as the value.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "x-za-ui-version",
+    "X-convert-response"
+   ],
+   "type": "object"
+  },
+  "path_variables": {
+   "properties": {
+    "projectId": {
+     "description": "ID of the project.",
+     "type": "string"
+    },
+    "sprintId": {
+     "description": "ID of the sprint.",
+     "type": "string"
+    },
+    "teamId": {
+     "description": "ID of the workspace.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "teamId",
+    "projectId",
+    "sprintId"
+   ],
+   "type": "object"
+  },
+  "query_params": {
+   "properties": {
+    "action": {
+     "default": "details",
+     "description": "Parameter used to distinguish API actions. Use action value as 'details' to fetch the details of a specific sprint.",
+     "type": "string"
+    }
+   },
+   "required": [
+    "action"
+   ],
+   "type": "object"
+  }
+ },
+ "required": [
+  "query_params",
+  "path_variables",
+  "headers"
+ ]
+}

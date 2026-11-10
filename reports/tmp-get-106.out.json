@@ -1,0 +1,116 @@
+[
+  {
+    "ok": true,
+    "tool": "ZohoSprints_GetItemDetails",
+    "isError": false,
+    "data": {
+      "userDisplayName": {
+        "120216000000535227": "Abdullah Al-Ansi",
+        "120216000000535177": "Ali Alshami",
+        "120216000000010017": "Abdullah Al-Measar"
+      },
+      "items": [
+        {
+          "priorityName": "None",
+          "statusType": 1,
+          "endDate": "2026-07-27T20:00:00.000Z",
+          "releaseCount": 1,
+          "isNotesAdded": false,
+          "itemNo": "106",
+          "ownerId": [
+            "120216000000535177",
+            "120216000000535227"
+          ],
+          "points": 0,
+          "itemBlockId": "",
+          "UDF_CHAR8": "",
+          "estimationPoints": 0,
+          "itemName": "Feedback on live",
+          "UDF_CHAR7": "شهاب",
+          "isOverDue": false,
+          "projectInfo": {
+            "no": "52",
+            "name": "Sports Activities As A service",
+            "id": "120216000004162606"
+          },
+          "UDF_CHAR6": "",
+          "startAfter": "-1",
+          "createdTime": "2026-07-26T22:36:03.265Z",
+          "isIntegrated": "0",
+          "sharedType": -1,
+          "rootItem": "",
+          "UDF_CHAR5": "شهاب",
+          "UDF_CHAR4": "",
+          "UDF_CHAR3": "",
+          "workhourType": 1,
+          "projPriorityId": "120216000004162624",
+          "UDF_ROLLUP8": "3",
+          "UDF_ROLLUP9": "0",
+          "isParent": true,
+          "cycleTime": "0",
+          "UDF_TEXT1": "تم إدخال المهمة بالزوهو ",
+          "userGroupCount": 0,
+          "UDF_ROLLUP3": "01/07/2026 04:00 PM",
+          "UDF_ROLLUP4": "0",
+          "UDF_ROLLUP5": "3",
+          "completedDate": "2026-07-26T22:36:03.265Z",
+          "UDF_ROLLUP6": "27/07/2026 11:00 PM",
+          "UDF_ROLLUP7": "0",
+          "commentCount": 0,
+          "itemId": "120216000004371080",
+          "sequence": "1",
+          "sprintId": "120216000004324026",
+          "UDF_FORMULADBL1": 0,
+          "epicId": "120216000004208118",
+          "statusId": "120216000000003637",
+          "sprintInfo": {
+            "owner": "120216000000359035",
+            "no": "5",
+            "name": "SP3 Jul 26  Multi-League Catalog & Tenant League Assignment",
+            "id": "120216000004324026",
+            "type": 3
+          },
+          "parentItem": "",
+          "projItemTypeId": "120216000004162630",
+          "itemTypeName": "Story",
+          "userIdVsWorkhours": {
+            "120216000000535227": "0",
+            "120216000000535177": "0"
+          },
+          "startDate": "2026-07-01T13:00:00.000Z",
+          "description": "",
+          "leadTime": "0",
+          "sharedItemCount": 0,
+          "addedVia": 0,
+          "hasCheckList": false,
+          "UDF_CHKBOX2": "",
+          "duration": "19d",
+          "UDF_CHKBOX1": "120216000000420553",
+          "diffDays": "21h 23m",
+          "statusName": "Done",
+          "totalWorkhours": "0",
+          "isDocsAdded": false,
+          "UDF_FORMULASTR1": "7/2026",
+          "UDF_RADIO1": "",
+          "UDF_DATE1": "-1",
+          "baseItemType": 2,
+          "UDF_EMAIL1": "",
+          "depth": "0",
+          "createdBy": "120216000000010017",
+          "UDF_MULTIUSERPKL1": [],
+          "UDF_ROLLUP10": "21h",
+          "tagCount": 0,
+          "voteCount": 0,
+          "completedBy": "120216000000010017",
+          "plannedHours": "0"
+        }
+      ],
+      "zsuserIdvsZUID": {
+        "120216000000535227": "830852660",
+        "120216000000535177": "845559676",
+        "120216000000010017": "768061022"
+      },
+      "status": "success"
+    }
+  }
+]

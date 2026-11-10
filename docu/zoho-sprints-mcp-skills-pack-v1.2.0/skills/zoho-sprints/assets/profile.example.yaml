@@ -1,0 +1,8 @@
+# Copy to a private local profile; verify IDs through Zoho before use.
+# No OAuth credentials belong here.
+role: null                 # admin | developer
+workspace_id: null         # exact Zoho workspace ID
+current_user_id: null      # exact Zoho user ID, required for Developer scope
+timezone: null             # verified workspace/project timezone, e.g. Asia/Aden
+default_project_id: null
+language: ar

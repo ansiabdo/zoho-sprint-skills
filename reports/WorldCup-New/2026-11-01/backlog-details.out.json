@@ -1,0 +1,252 @@
+[
+  {
+    "ok": true,
+    "tool": "ZohoSprints_GetItemDetails",
+    "isError": false,
+    "data": {
+      "data": {
+        "userDisplayName": {
+          "120216000000902039": "devopsotherapps",
+          "120216000000535227": "Abdullah Al-Ansi",
+          "120216000000809729": "devopsindividuals",
+          "120216000000359035": "Mohammed  Alaqari"
+        },
+        "items": [
+          {
+            "priorityName": "Medium",
+            "statusType": 0,
+            "endDate": "2026-06-01T20:00:00.000Z",
+            "releaseCount": 1,
+            "isNotesAdded": false,
+            "itemNo": "53",
+            "ownerId": [
+              "120216000000535227",
+              "120216000000809729",
+              "120216000000902039"
+            ],
+            "points": 6,
+            "itemBlockId": "",
+            "UDF_CHAR8": "",
+            "estimationPoints": 13,
+            "itemName": "As a player, I want a separate installable wc-app Angular PWA shell, So that the player experience is independent from the admin Angular workspace.",
+            "UDF_CHAR7": "ادارة الافراد",
+            "isOverDue": true,
+            "projectInfo": {
+              "no": "52",
+              "name": "Sports Activities As A service",
+              "id": "120216000004162606"
+            },
+            "UDF_CHAR6": "",
+            "startAfter": "-1",
+            "createdTime": "2026-06-01T21:51:53.499Z",
+            "isIntegrated": "0",
+            "sharedType": -1,
+            "rootItem": "",
+            "UDF_CHAR5": "عبدالله العنسي",
+            "UDF_CHAR4": "wc-app Angular",
+            "UDF_CHAR3": "تجهيز  تطبيق  ويب  احتياطي لكأس العالم",
+            "workhourType": 1,
+            "projPriorityId": "120216000004162626",
+            "UDF_ROLLUP8": "1",
+            "UDF_ROLLUP9": "0",
+            "isParent": false,
+            "cycleTime": "-1",
+            "UDF_TEXT1": "تم إدخال المهمة بالزوهو ",
+            "userGroupCount": 0,
+            "UDF_ROLLUP3": "01/06/2026 04:00 PM",
+            "UDF_ROLLUP4": "13",
+            "UDF_ROLLUP5": "0",
+            "completedDate": "-1",
+            "UDF_ROLLUP6": "01/06/2026 11:00 PM",
+            "UDF_ROLLUP7": "1",
+            "commentCount": 0,
+            "itemId": "120216000004260019",
+            "sequence": "1",
+            "sprintId": "120216000004162608",
+            "UDF_FORMULADBL1": "",
+            "epicId": "120216000004557316",
+            "statusId": "120216000000003629",
+            "sprintInfo": {
+              "owner": "120216000000010017",
+              "no": "0",
+              "name": "Backlog",
+              "id": "120216000004162608",
+              "type": 5
+            },
+            "parentItem": "",
+            "projItemTypeId": "120216000004162630",
+            "itemTypeName": "Story",
+            "userIdVsWorkhours": {
+              "120216000000902039": "0",
+              "120216000000535227": "0",
+              "120216000000809729": "0"
+            },
+            "startDate": "2026-06-01T13:00:00.000Z",
+            "description": "# wc-app Angular PWA shell\n\n## المتطلب (مؤلف من عنوان القصة وأدلة المستودع)\nبناء الهيكل الأساسي لتطبيق ويب احتياطي لكأس العالم باستخدام Angular وPWA، ليكون واجهة ويب مستقلة عن تطبيق الجوال، مع دعم التشغيل متعدد البيئات والتهيئة وقت التشغيل.\n\n## معايير قبول مقترحة (لم تكن مسجلة سابقًا)\n1. يبنى التطبيق وينتج حزمة قابلة للنشر مع تهيئة بيئة التشغيل دون إعادة بناء.\n2. يعمل التوجيه والهيكل العام (app shell) وتظهر الصفحات الأساسية دون أخطاء حاجزة.\n3. تكامل المصادقة/الجلسة وroute guard يحمي المسارات غير العامة.\n4. دعم PWA (manifest/service worker) والتثبيت، مع سلوك تحديث واضح.\n5. دعم العربية/الإنجليزية وRTL واستجابة الشاشات الصغيرة (360px).\n6. ينجح build/lint والاختبارات ذات الصلة.\n\n--- [ZOHO-ACTUAL-DELIVERY v1 | SNA-053-2026-10-28-01] ---\nالتسليم الفعلي المرصود: مشروع Angular مهيأ مع multi-environment/runtime config في b9831d66 وa653e56d، وهيكل PWA وميزاتها الأساسية (app shell، SignalR، RTL/اللغة، update service) في a6a3d0c8، وبنية المصادقة/الجلسة/route guard في 86551da7. القصة ما زالت To do في Zoho، ولم تكن لها معايير قبول أو تحقق مسجل؛ لم تُشغّل اختبارات أو build في هذه الجولة. لا يغيّر هذا الملحق حالة القصة.\n--- [/ZOHO-ACTUAL-DELIVERY | SNA-053-2026-10-28-01] ---",
+            "leadTime": "-1",
+            "sharedItemCount": 0,
+            "addedVia": 0,
+            "hasCheckList": false,
+            "UDF_CHKBOX2": "120216000000850745,120216000000850747,120216000000850749,120216000000850751",
+            "duration": "7h",
+            "UDF_CHKBOX1": "120216000000420553,120216000000420563",
+            "diffDays": "108d 5h 15m",
+            "statusName": "To do",
+            "totalWorkhours": "0",
+            "isDocsAdded": false,
+            "UDF_FORMULASTR1": "6/2026",
+            "UDF_RADIO1": "120216000000851699",
+            "UDF_DATE1": "-1",
+            "baseItemType": 2,
+            "UDF_EMAIL1": "",
+            "depth": "0",
+            "createdBy": "120216000000535227",
+            "UDF_MULTIUSERPKL1": [
+              "120216000000359035"
+            ],
+            "UDF_ROLLUP10": "7h",
+            "tagCount": 0,
+            "voteCount": 0,
+            "completedBy": "",
+            "plannedHours": "0"
+          }
+        ],
+        "zsuserIdvsZUID": {
+          "120216000000902039": "10087804654",
+          "120216000000535227": "830852660",
+          "120216000000809729": "10085230424",
+          "120216000000359035": "814269634"
+        },
+        "status": "success"
+      },
+      "headers": {
+        "content-length": "4511",
+        "content-type": "application/json;charset=UTF-8"
+      },
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_GetItemDetails",
+    "isError": false,
+    "data": {
+      "data": {
+        "userDisplayName": {
+          "120216000000535227": "Abdullah Al-Ansi",
+          "120216000000535177": "Ali Alshami",
+          "120216000000359035": "Mohammed  Alaqari"
+        },
+        "items": [
+          {
+            "priorityName": "High",
+            "statusType": 0,
+            "endDate": "2026-11-15T20:59:59.000Z",
+            "releaseCount": 1,
+            "isNotesAdded": false,
+            "itemNo": "130",
+            "ownerId": [
+              "120216000000535177",
+              "120216000000535227"
+            ],
+            "points": 5,
+            "itemBlockId": "",
+            "UDF_CHAR8": "",
+            "estimationPoints": 8,
+            "itemName": "Player Competition and Season Navigation",
+            "UDF_CHAR7": "إدارة الأفراد",
+            "isOverDue": false,
+            "projectInfo": {
+              "no": "52",
+              "name": "Sports Activities As A service",
+              "id": "120216000004162606"
+            },
+            "UDF_CHAR6": "",
+            "startAfter": "-1",
+            "createdTime": "2026-10-05T19:15:45.483Z",
+            "isIntegrated": "0",
+            "sharedType": -1,
+            "rootItem": "",
+            "UDF_CHAR5": "محمد الاخفش",
+            "UDF_CHAR4": "Player Competition Navigation",
+            "UDF_CHAR3": "تنقل اللاعب بين المسابقات والمواسم",
+            "workhourType": 1,
+            "projPriorityId": "120216000004162627",
+            "UDF_ROLLUP8": "1",
+            "UDF_ROLLUP9": "0",
+            "isParent": false,
+            "cycleTime": "-1",
+            "UDF_TEXT1": "",
+            "userGroupCount": 0,
+            "UDF_ROLLUP3": "-",
+            "UDF_ROLLUP4": "0",
+            "UDF_ROLLUP5": "0",
+            "completedDate": "-1",
+            "UDF_ROLLUP6": "-",
+            "UDF_ROLLUP7": "1",
+            "commentCount": 0,
+            "itemId": "120216000004558557",
+            "sequence": "16",
+            "sprintId": "120216000004162608",
+            "UDF_FORMULADBL1": "",
+            "epicId": "120216000004557316",
+            "statusId": "120216000000003629",
+            "sprintInfo": {
+              "owner": "120216000000010017",
+              "no": "0",
+              "name": "Backlog",
+              "id": "120216000004162608",
+              "type": 5
+            },
+            "parentItem": "",
+            "projItemTypeId": "120216000004162630",
+            "itemTypeName": "Story",
+            "userIdVsWorkhours": {
+              "120216000000535227": "0",
+              "120216000000535177": "0"
+            },
+            "startDate": "2026-10-31T21:00:00.000Z",
+            "description": "As an end user, I want to select a competition and season with a clear default, so that I can follow the matches that interest me across several tournaments.\n\n**Acceptance Criteria**\n1  Bootstrap displays authorized competitions and seasons only, in the configured order. A single competition must not create a redundant All option.\n2  Select the user's last valid context, then the tenant default. All is an explicit option and does not conflict with first-league defaults.\n3  Changing competition updates fixtures and related details and cancels older requests. Store context in the URL without credentials.\n4  On access changes or when no competitions are available, use a valid fallback context or a clear empty state rather than displaying unauthorized cached data.\n\nRequired Changes  Update wc-app competition and season selectors, route-query state and bootstrap models. Provide horizontally scrollable mobile tabs with keyboard support and RTL/LTR layouts.\n\nDependencies  BE05 and BE06.\n\n--- [ZOHO-ACTUAL-DELIVERY v1 | SNA-130-2026-10-28-01] ---\nملحق مراجعة التنفيذ (لا يغيّر الحالة أو معايير القبول): مراجعة BMAD 10.6 تشير إلى سياق افتراضي/All في تنفيذ PWA، بينما القصة تشترط آخر سياق صالح ثم default المستأجر، مع All كخيار صريح لا يتعارض مع افتراضي الدوري الأول. التنفيذ الحالي مختلف/غير محسوم، ولم يُتحقق تشغيليًا في هذه الجولة. الأدلة: BMAD 10.6؛ sprint-status.yaml وepics.md.\n--- [/ZOHO-ACTUAL-DELIVERY | SNA-130-2026-10-28-01] ---",
+            "leadTime": "-1",
+            "sharedItemCount": 0,
+            "addedVia": 3,
+            "hasCheckList": false,
+            "UDF_CHKBOX2": "",
+            "duration": "13d 2h 59m",
+            "UDF_CHKBOX1": "",
+            "diffDays": "10d 3h 44m",
+            "statusName": "To do",
+            "totalWorkhours": "0",
+            "isDocsAdded": false,
+            "UDF_FORMULASTR1": "11/2026",
+            "UDF_RADIO1": "120216000000851695",
+            "UDF_DATE1": "-1",
+            "baseItemType": 2,
+            "UDF_EMAIL1": "",
+            "depth": "0",
+            "createdBy": "120216000000359035",
+            "UDF_MULTIUSERPKL1": [
+              "120216000000359035"
+            ],
+            "UDF_ROLLUP10": "0",
+            "tagCount": 0,
+            "voteCount": 0,
+            "completedBy": "",
+            "plannedHours": "0"
+          }
+        ],
+        "zsuserIdvsZUID": {
+          "120216000000535227": "830852660",
+          "120216000000535177": "845559676",
+          "120216000000359035": "814269634"
+        },
+        "status": "success"
+      },
+      "headers": {
+        "content-length": "3944",
+        "content-type": "application/json;charset=UTF-8"
+      },
+      "status": "success"
+    }
+  }
+]

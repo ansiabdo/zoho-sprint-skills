@@ -1,0 +1,111 @@
+{
+ "userDisplayName": {
+  "120216000000535227": "Abdullah Al-Ansi",
+  "120216000000175003": "Eissa Musleh",
+  "120216000000809689": "devopssme"
+ },
+ "items": [
+  {
+   "priorityName": "None",
+   "statusType": 1,
+   "endDate": "2024-08-31T20:00:00.000Z",
+   "releaseCount": 1,
+   "isNotesAdded": false,
+   "itemNo": "11",
+   "ownerId": [
+    "120216000000535227",
+    "120216000000809689"
+   ],
+   "points": 6,
+   "itemBlockId": "",
+   "UDF_CHAR8": "SMEs",
+   "estimationPoints": 13,
+   "itemName": "Provider portal-As a provider user, I want to log into the system and perform granted functions like uploading invoices, updating uploaded files, and exporting paid invoices, so that I can manage and process invoices efficiently.",
+   "UDF_CHAR7": "Alriadi",
+   "isOverDue": true,
+   "projectInfo": {
+    "no": "37",
+    "name": "Invoicing MService",
+    "id": "120216000000593007"
+   },
+   "UDF_CHAR6": "",
+   "startAfter": "-1",
+   "createdTime": "2024-07-21T21:57:08.053Z",
+   "isIntegrated": "0",
+   "sharedType": -1,
+   "rootItem": "",
+   "UDF_CHAR5": "Alriadi",
+   "UDF_CHAR4": "Provider portal",
+   "UDF_CHAR3": "",
+   "workhourType": 0,
+   "projPriorityId": "120216000000593033",
+   "UDF_ROLLUP8": "5",
+   "UDF_ROLLUP9": "0",
+   "isParent": true,
+   "cycleTime": "553260000",
+   "UDF_TEXT1": "",
+   "userGroupCount": 0,
+   "UDF_ROLLUP3": "01/08/2024 04:00 PM",
+   "UDF_ROLLUP4": "13",
+   "UDF_ROLLUP5": "5",
+   "completedDate": "2024-09-01T19:10:25.091Z",
+   "UDF_ROLLUP6": "31/08/2024 11:00 PM",
+   "UDF_ROLLUP7": "0",
+   "commentCount": 0,
+   "itemId": "120216000000810659",
+   "sequence": "1",
+   "sprintId": "120216000000831619",
+   "UDF_FORMULADBL1": "",
+   "epicId": "",
+   "statusId": "120216000000003637",
+   "sprintInfo": {
+    "owner": "120216000000175003",
+    "no": "3",
+    "name": "Sprint 2: Aug-24-Merchant portal",
+    "id": "120216000000831619",
+    "type": 3
+   },
+   "parentItem": "",
+   "projItemTypeId": "120216000000593045",
+   "itemTypeName": "Story",
+   "userIdVsWorkhours": {
+    "120216000000535227": "0",
+    "120216000000809689": "0"
+   },
+   "startDate": "2024-08-01T13:00:00.000Z",
+   "description": "<div><b>User Story:</b><br></div><p style=\"margin-bottom: 8pt; line-height: 107%; margin-top: 0px\"><br></p><div><b>As a Provider&nbsp;</b>user,<br></div><div><b>I want</b> to log into the system and perform granted functions like\nuploading invoices, updating uploaded files, and exporting paid invoices,<br></div><div><b>so that</b> I can manage and process invoices efficiently.<br></div><div><br></div><div><b>Acceptance Criteria:</b><br></div><p><br></p><ol style=\"margin-top: 0in\"><li style=\"margin-bottom: 8pt; line-height: 107%\"><b>User Authentication</b>:<br></li><ul style=\"margin-top: 0in\"><li style=\"margin-bottom: 8pt; line-height: 107%\">Users must be able to log in using a\n      secure authentication mechanism (username/password, two-factor\n      authentication).<br></li><li style=\"margin-bottom: 8pt; line-height: 107%\">Display appropriate error messages\n      for failed login attempts (e.g., incorrect credentials, account locked).<br></li></ul><li style=\"margin-bottom: 8pt; line-height: 107%\"><b>Role-Based Access Control</b>:<br></li><ul style=\"margin-top: 0in\"><li style=\"margin-bottom: 8pt; line-height: 107%\">Users should have access to\n      functions based on their roles and permissions.<br></li><li style=\"margin-bottom: 8pt; line-height: 107%\">Define roles such as Admin, Manager,\n      and Regular User, with corresponding access rights.<br></li></ul><li style=\"margin-bottom: 8pt; line-height: 107%\"><b>Invoice Upload Functionality</b>:<br></li><ul style=\"margin-top: 0in\"><li style=\"margin-bottom: 8pt; line-height: 107%\">Users with the appropriate\n      permissions should be able to upload invoice files (PDF, Excel, CSV).<br></li><li style=\"margin-bottom: 8pt; line-height: 107%\">Validate the uploaded file format\n      and content before processing.<br></li><li style=\"margin-bottom: 8pt; line-height: 107%\">Provide a confirmation message upon\n      successful upload and an error message for failed attempts.<br></li></ul><li style=\"margin-bottom: 8pt; line-height: 107%\"><b>Update Uploaded File</b>:<br></li><ul style=\"margin-top: 0in\"><li style=\"margin-bottom: 8pt; line-height: 107%\">Allow users to view a list of their\n      uploaded invoices.<br></li><li style=\"margin-bottom: 8pt; line-height: 107%\">Provide an option to update or\n      replace an existing uploaded invoice.<br></li><li style=\"margin-bottom: 8pt; line-height: 107%\">Ensure changes are logged and\n      tracked for audit purposes.<br></li></ul><li style=\"margin-bottom: 8pt; line-height: 107%\"><b>Export Paid Invoices</b>:<br></li><ul style=\"margin-top: 0in\"><li style=\"margin-bottom: 8pt; line-height: 107%\">Users should be able to filter and\n      export a list of paid invoices.<br></li><li style=\"margin-bottom: 8pt; line-height: 107%\">Support export formats such as PDF,\n      Excel, and CSV.<br></li><li style=\"margin-bottom: 8pt; line-height: 107%\">Ensure the export process is secure\n      and that data integrity is maintained.<br></li></ul></ol><p style=\"margin-bottom: 8pt; line-height: 107%; margin-top: 0px\"><br></p><div><br></div><p><br></p><div><br></div>",
+   "leadTime": "807180000",
+   "sharedItemCount": 0,
+   "addedVia": 0,
+   "hasCheckList": false,
+   "UDF_CHKBOX2": "",
+   "duration": "22d",
+   "UDF_CHKBOX1": "120216000000420553",
+   "diffDays": "1d 10m",
+   "statusName": "Done",
+   "totalWorkhours": "0",
+   "isDocsAdded": false,
+   "UDF_FORMULASTR1": "8/2024",
+   "UDF_RADIO1": "",
+   "UDF_DATE1": "-1",
+   "baseItemType": 2,
+   "UDF_EMAIL1": "",
+   "depth": "0",
+   "createdBy": "120216000000175003",
+   "UDF_MULTIUSERPKL1": [
+    "120216000000175003"
+   ],
+   "UDF_ROLLUP10": "6d 8h",
+   "tagCount": 0,
+   "voteCount": 0,
+   "completedBy": "120216000000175003",
+   "plannedHours": "0"
+  }
+ ],
+ "zsuserIdvsZUID": {
+  "120216000000535227": "830852660",
+  "120216000000175003": "793914823",
+  "120216000000809689": "10085229706"
+ },
+ "status": "success"
+}

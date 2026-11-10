@@ -1,0 +1,9 @@
+# Workflow: Add a new User Story
+
+Use [the policy contract](../references/policy-contract.md), [read coverage](../checks/read-coverage.md), and [write verification](../checks/write-verification.md).
+
+1. Resolve the exact workspace/project, current instant and verified project/sprint timezone. List **all relevant** active sprints, page fully, and read details for candidates. Require Zoho Active status and inclusive `start <= now <= end`; do not treat date overlap alone as Active.
+2. Search accessible relevant current and recent User Stories across candidate sprints and other meaningful project scope. Compare the user's outcome, description, acceptance criteria and module/entity/API. Record pages and blind spots. For a likely match outside the Developer's display scope, report only that an out-of-scope overlap needs owner/Admin review; disclose no identifying details.
+3. If an assigned existing Story covers the work, prefer a child Task/Bug when appropriate. If a likely duplicate exists, pause creation and offer [self-assignment](self-assignment.md) when permitted, preserving display restrictions until assignment is verified. If several eligible sprints remain, use the user's exact target or ask after the search; never pick silently.
+4. A new Story should describe an independently testable user/business outcome, not just a file change or implementation step. Resolve the project's actual Story type, priority and required fields from current metadata. Discover the live create-item tool; do not invent `CreateStory`.
+5. Call the authorized create operation in the selected eligible sprint. Read back ID, title, type, sprint and assignee. If no eligible sprint or complete duplicate search is available, leave the Story proposed/pending instead of putting it in backlog or another sprint.

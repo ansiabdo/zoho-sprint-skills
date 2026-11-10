@@ -1,0 +1,12 @@
+{
+  "name": "Zoho Sprints MCP Skills Pack",
+  "version": "1.2.0",
+  "canonical_skill": "skills/zoho-sprints/SKILL.md",
+  "file_count": 19,
+  "mcp_credentials_included": false,
+  "tested": [
+    "Codex project install path",
+    "installer behavior in a temporary directory",
+    "read-only Zoho MCP connection on 2026-10-27"
+  ]
+}

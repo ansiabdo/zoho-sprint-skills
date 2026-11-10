@@ -1,0 +1,17 @@
+[
+  {
+    "tool": "ZohoSprints_CreateSprint",
+    "args": {
+      "headers": { "X-convert-response": "true", "x-za-ui-version": "v2" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000000593007" },
+      "query_params": {
+        "name": "Sprint10: Oct-2026 — Fatoorati Multi-Tenant",
+        "description": "Sprint مخصص لتحليل وبناء قصص منصة فاتورتي متعددة المستأجرين والتسويات المستقلة. للاستعراض والمراجعة قبل التنفيذ.",
+        "startdate": "2026-10-27T21:00:00+0000",
+        "enddate": "2026-11-09T20:59:59+0000",
+        "duration": "14d",
+        "scrummaster": "120216000000359035"
+      }
+    }
+  }
+]

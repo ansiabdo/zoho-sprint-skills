@@ -1,0 +1,24 @@
+# Copy to a local file and fill values after verifying them from Zoho/MCP.
+# Do not commit secrets or personal tokens.
+role: developer # allowed: admin | developer
+workspace_id: ""
+current_user_id: ""
+timezone: "" # e.g. Asia/Aden; confirm the workspace/project setting
+default_project_id: ""
+language: ar # ar | en
+developer_visibility:
+  stories_assigned_to_me_only: true
+  active_sprint_items_assigned_to_me_only: true
+  child_items_only_under_my_assigned_stories: true
+developer_creation:
+  allow_child_task_or_bug_under_my_assigned_story: true
+  allow_new_story_only_in_active_sprint: true
+  require_current_time_within_sprint_dates: true
+  require_duplicate_check: true
+  pause_on_likely_duplicate: true
+admin_creation:
+  allow_project_sprint_item_management_if_tool_and_permission_exist: true
+safety:
+  verify_after_mutation: true
+  never_guess_ids: true
+  never_claim_success_without_tool_result: true

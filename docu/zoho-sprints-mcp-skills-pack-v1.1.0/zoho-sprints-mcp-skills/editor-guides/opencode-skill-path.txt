@@ -1,0 +1,3 @@
+Suggested project path: .opencode/skill/zoho-sprints/SKILL.md
+Verify the exact skill-directory convention for your installed OpenCode version.
+MCP connection is configured separately in the host.

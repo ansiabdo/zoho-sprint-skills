@@ -1,0 +1,18 @@
+[
+  {
+    "tool": "ZohoSprints_getItemStatus",
+    "args": {
+      "headers": { "x-convert-response": true },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000000593007" },
+      "query_params": { "action": "data", "index": 1, "range": 100 }
+    }
+  },
+  {
+    "tool": "ZohoSprints_GetItems",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000000593007", "sprintId": "120216000004656294" },
+      "query_params": { "action": "data", "index": 1, "range": 250, "subitem": true }
+    }
+  }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "ok": true,
+    "method": "tools/call",
+    "params": "ZohoSprints_GetItemDetails",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"userDisplayName\":{\"120216000000535227\":\"Abdullah Al-Ansi\",\"120216000000359035\":\"Mohammed  Alaqari\"},\"items\":[{\"priorityName\":\"High\",\"statusType\":0,\"endDate\":\"2026-11-15T17:59:59.000Z\",\"releaseCount\":0,\"isNotesAdded\":false,\"itemNo\":\"132\",\"ownerId\":[\"120216000000359035\",\"120216000000535227\"],\"points\":1,\"itemBlockId\":\"\",\"UDF_CHAR8\":\"\",\"estimationPoints\":1,\"itemName\":\"نموذج أطراف الفاتورة: المزود والمصدر والمشترك | Invoice Provider, Issuer & Subscriber\",\"UDF_CHAR7\":\"\",\"isOverDue\":false,\"projectInfo\":{\"no\":\"37\",\"name\":\"Invoicing MService\",\"id\":\"120216000000593007\"},\"UDF_CHAR6\":\"\",\"startAfter\":\"-1\",\"createdTime\":\"2026-10-28T19:14:53.656Z\",\"isIntegrated\":\"0\",\"sharedType\":-1,\"rootItem\":\"\",\"UDF_CHAR5\":\"Nidhal\",\"UDF_CHAR4\":\"Invoice Provider, Issuer & Subscriber\",\"UDF_CHAR3\":\"نموذج أطراف الفاتورة\",\"workhourType\":1,\"projPriorityId\":\"120216000000593039\",\"UDF_ROLLUP8\":\"1\",\"UDF_ROLLUP9\":\"0\",\"isParent\":false,\"cycleTime\":\"-1\",\"UDF_TEXT1\":\"تم إدخال المهمة بالزوهو \",\"userGroupCount\":0,\"UDF_ROLLUP3\":\"31/10/2026 09:00 PM\",\"UDF_ROLLUP4\":\"1\",\"UDF_ROLLUP5\":\"0\",\"completedDate\":\"-1\",\"UDF_ROLLUP6\":\"15/11/2026 08:59 PM\",\"UDF_ROLLUP7\":\"1\",\"commentCount\":0,\"itemId\":\"120216000004657094\",\"sequence\":\"10\",\"sprintId\":\"120216000004656294\",\"UDF_FORMULADBL1\":\"\",\"epicId\":\"120216000004657001\",\"statusId\":\"120216000000003629\",\"sprintInfo\":{\"owner\":\"120216000000359035\",\"no\":\"12\",\"name\":\"Sprint10: Nov-2026 \\u2014 Banky Lite & Friend Debt\",\"id\":\"120216000004656294\",\"type\":1},\"parentItem\":\"\",\"projItemTypeId\":\"120216000000593045\",\"itemTypeName\":\"Story\",\"userIdVsWorkhours\":{\"120216000000535227\":\"0\",\"120216000000359035\":\"0\"},\"startDate\":\"2026-10-31T18:00:00.000Z\",\"description\":\"Business Requester: Nidhal\\nEpic: بنكي لايت: الفواتير والأصدقاء والمديونية\\n\\nكـ مطور، أريد إضافة provider_id وissuer_id وsubscriber_id إلى الفاتورة، حتى يكون لكل فاتورة مزود ومصدر ومشترك واضحون.\\n\\nمعايير القبول:\\n1. حقول provider_id وissuer_id وsubscriber_id في نموذج الفاتورة وDTO وAPI.\\n2. بنكي هو provider في Phase 1؛ المصدر تاجر/شخص؛ المشترك دافع/عميل.\\n3. ترحيل/backfill للفواتير الحالية دون فقدان بيانات.\\n4. فهارس وقواعد تكامل وtenant scoping.\\n5. التحقق من أن المشترك يتبع نفس المزود/المصدر.\\n6. تحديث الاستعلامات والتقارير والحقول المرجعية.\\n7. اختبارات عزل وعدم تسريب بين المستأجرين.\\nخارج النطاق: تسجيل الدخول، دفتر التسويات.\",\"leadTime\":\"-1\",\"sharedItemCount\":0,\"addedVia\":2,\"hasCheckList\":false,\"UDF_CHKBOX2\":\"\",\"duration\":\"10d 6h 59m\",\"UDF_CHKBOX1\":\"\",\"diffDays\":\"11d 5h 41m\",\"statusName\":\"To do\",\"totalWorkhours\":\"0\",\"isDocsAdded\":false,\"UDF_FORMULASTR1\":\"10/2026\",\"UDF_RADIO1\":\"\",\"UDF_DATE1\":\"-1\",\"baseItemType\":2,\"UDF_EMAIL1\":\"\",\"depth\":\"0\",\"createdBy\":\"120216000000359035\",\"UDF_MULTIUSERPKL1\":[],\"UDF_ROLLUP10\":\"10d 6h 59m\",\"tagCount\":0,\"voteCount\":0,\"completedBy\":\"\",\"plannedHours\":\"0\"}],\"zsuserIdvsZUID\":{\"120216000000535227\":\"830852660\",\"120216000000359035\":\"814269634\"},\"status\":\"success\"}"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "status": "success",
+        "data": {
+          "userDisplayName": {
+            "120216000000535227": "Abdullah Al-Ansi",
+            "120216000000359035": "Mohammed  Alaqari"
+          },
+          "items": [
+            {
+              "priorityName": "High",
+              "statusType": 0,
+              "endDate": "2026-11-15T17:59:59.000Z",
+              "releaseCount": 0,
+              "isNotesAdded": false,
+              "itemNo": "132",
+              "ownerId": [
+                "120216000000359035",
+                "120216000000535227"
+              ],
+              "points": 1,
+              "itemBlockId": "",
+              "UDF_CHAR8": "",
+              "estimationPoints": 1,
+              "itemName": "نموذج أطراف الفاتورة: المزود والمصدر والمشترك | Invoice Provider, Issuer & Subscriber",
+              "UDF_CHAR7": "",
+              "isOverDue": false,
+              "projectInfo": {
+                "no": "37",
+                "name": "Invoicing MService",
+                "id": "120216000000593007"
+              },
+              "UDF_CHAR6": "",
+              "startAfter": "-1",
+              "createdTime": "2026-10-28T19:14:53.656Z",
+              "isIntegrated": "0",
+              "sharedType": -1,
+              "rootItem": "",
+              "UDF_CHAR5": "Nidhal",
+              "UDF_CHAR4": "Invoice Provider, Issuer & Subscriber",
+              "UDF_CHAR3": "نموذج أطراف الفاتورة",
+              "workhourType": 1,
+              "projPriorityId": "120216000000593039",
+              "UDF_ROLLUP8": "1",
+              "UDF_ROLLUP9": "0",
+              "isParent": false,
+              "cycleTime": "-1",
+              "UDF_TEXT1": "تم إدخال المهمة بالزوهو ",
+              "userGroupCount": 0,
+              "UDF_ROLLUP3": "31/10/2026 09:00 PM",
+              "UDF_ROLLUP4": "1",
+              "UDF_ROLLUP5": "0",
+              "completedDate": "-1",
+              "UDF_ROLLUP6": "15/11/2026 08:59 PM",
+              "UDF_ROLLUP7": "1",
+              "commentCount": 0,
+              "itemId": "120216000004657094",
+              "sequence": "10",
+              "sprintId": "120216000004656294",
+              "UDF_FORMULADBL1": "",
+              "epicId": "120216000004657001",
+              "statusId": "120216000000003629",
+              "sprintInfo": {
+                "owner": "120216000000359035",
+                "no": "12",
+                "name": "Sprint10: Nov-2026 — Banky Lite & Friend Debt",
+                "id": "120216000004656294",
+                "type": 1
+              },
+              "parentItem": "",
+              "projItemTypeId": "120216000000593045",
+              "itemTypeName": "Story",
+              "userIdVsWorkhours": {
+                "120216000000535227": "0",
+                "120216000000359035": "0"
+              },
+              "startDate": "2026-10-31T18:00:00.000Z",
+              "description": "Business Requester: Nidhal\nEpic: بنكي لايت: الفواتير والأصدقاء والمديونية\n\nكـ مطور، أريد إضافة provider_id وissuer_id وsubscriber_id إلى الفاتورة، حتى يكون لكل فاتورة مزود ومصدر ومشترك واضحون.\n\nمعايير القبول:\n1. حقول provider_id وissuer_id وsubscriber_id في نموذج الفاتورة وDTO وAPI.\n2. بنكي هو provider في Phase 1؛ المصدر تاجر/شخص؛ المشترك دافع/عميل.\n3. ترحيل/backfill للفواتير الحالية دون فقدان بيانات.\n4. فهارس وقواعد تكامل وtenant scoping.\n5. التحقق من أن المشترك يتبع نفس المزود/المصدر.\n6. تحديث الاستعلامات والتقارير والحقول المرجعية.\n7. اختبارات عزل وعدم تسريب بين المستأجرين.\nخارج النطاق: تسجيل الدخول، دفتر التسويات.",
+              "leadTime": "-1",
+              "sharedItemCount": 0,
+              "addedVia": 2,
+              "hasCheckList": false,
+              "UDF_CHKBOX2": "",
+              "duration": "10d 6h 59m",
+              "UDF_CHKBOX1": "",
+              "diffDays": "11d 5h 41m",
+              "statusName": "To do",
+              "totalWorkhours": "0",
+              "isDocsAdded": false,
+              "UDF_FORMULASTR1": "10/2026",
+              "UDF_RADIO1": "",
+              "UDF_DATE1": "-1",
+              "baseItemType": 2,
+              "UDF_EMAIL1": "",
+              "depth": "0",
+              "createdBy": "120216000000359035",
+              "UDF_MULTIUSERPKL1": [],
+              "UDF_ROLLUP10": "10d 6h 59m",
+              "tagCount": 0,
+              "voteCount": 0,
+              "completedBy": "",
+              "plannedHours": "0"
+            }
+          ],
+          "zsuserIdvsZUID": {
+            "120216000000535227": "830852660",
+            "120216000000359035": "814269634"
+          },
+          "status": "success"
+        }
+      }
+    }
+  }
+]

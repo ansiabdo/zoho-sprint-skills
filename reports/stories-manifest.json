@@ -1,0 +1,74 @@
+[
+  {
+    "key": "S1",
+    "name": "S1 — تأهيل المستأجرين وعزل البيانات | Tenant Onboarding & Isolation",
+    "ar": "تأهيل المستأجرين وعزل البيانات",
+    "en": "Tenant Onboarding & Isolation",
+    "priority": "120216000000593039",
+    "length": 1881
+  },
+  {
+    "key": "S2",
+    "name": "S2 — هوية وتسجيل دخول مستقلان لفاتورتي | Standalone Fatoorati Identity & Login",
+    "ar": "هوية وتسجيل دخول مستقلان لفاتورتي",
+    "en": "Standalone Fatoorati Identity & Login",
+    "priority": "120216000000593039",
+    "length": 1791
+  },
+  {
+    "key": "S3",
+    "name": "S3 — ترحيل مستأجر بنكي واستمرارية الخدمة | Banky Tenant Migration & Continuity",
+    "ar": "ترحيل مستأجر بنكي واستمرارية الخدمة",
+    "en": "Banky Tenant Migration & Continuity",
+    "priority": "120216000000593037",
+    "length": 1471
+  },
+  {
+    "key": "S4",
+    "name": "S4 — دفتر التسويات المالية لمالك المستأجر | Tenant Owner Settlement Ledger",
+    "ar": "دفتر التسويات المالية لمالك المستأجر",
+    "en": "Tenant Owner Settlement Ledger",
+    "priority": "120216000000593039",
+    "length": 1619
+  },
+  {
+    "key": "S5",
+    "name": "S5 — الدفع الجزئي للفاتورة | Partial Invoice Payment",
+    "ar": "الدفع الجزئي للفاتورة",
+    "en": "Partial Invoice Payment",
+    "priority": "120216000000593039",
+    "length": 1740
+  },
+  {
+    "key": "S6",
+    "name": "S6 — قبول ورفض المدفوعات وتعديلات الفواتير | Payment & Invoice Change Approval",
+    "ar": "قبول ورفض المدفوعات وتعديلات الفواتير",
+    "en": "Payment & Invoice Change Approval",
+    "priority": "120216000000593037",
+    "length": 1670
+  },
+  {
+    "key": "S7",
+    "name": "S7 — إدارة النزاعات على الفواتير | Invoice Disputes Management",
+    "ar": "إدارة النزاعات على الفواتير",
+    "en": "Invoice Disputes Management",
+    "priority": "120216000000593037",
+    "length": 1755
+  },
+  {
+    "key": "S8",
+    "name": "S8 — استيراد الأصدقاء وجهات الاتصال والأدوار المزدوجة | Friends & Contacts Import with Dual Roles",
+    "ar": "استيراد الأصدقاء وجهات الاتصال والأدوار المزدوجة",
+    "en": "Friends & Contacts Import with Dual Roles",
+    "priority": "120216000000593037",
+    "length": 1850
+  },
+  {
+    "key": "S9",
+    "name": "S9 — تكامل مزودي الخدمات الخارجيين عبر API | External Service Provider API Integration",
+    "ar": "تكامل مزودي الخدمات الخارجيين عبر API",
+    "en": "External Service Provider API Integration",
+    "priority": "120216000000593037",
+    "length": 1696
+  }
+]

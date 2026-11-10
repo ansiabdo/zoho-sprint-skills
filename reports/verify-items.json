@@ -1,0 +1,166 @@
+[
+  {
+    "tool": "ZohoSprints_GetItemDetails",
+    "args": {
+      "headers": {
+        "X-convert-response": "true",
+        "x-za-ui-version": "v2"
+      },
+      "path_variables": {
+        "teamId": "767679505",
+        "projectId": "120216000000593007",
+        "sprintId": "120216000004656294",
+        "itemId": "120216000004655029"
+      },
+      "query_params": {
+        "action": "details"
+      }
+    }
+  },
+  {
+    "tool": "ZohoSprints_GetItemDetails",
+    "args": {
+      "headers": {
+        "X-convert-response": "true",
+        "x-za-ui-version": "v2"
+      },
+      "path_variables": {
+        "teamId": "767679505",
+        "projectId": "120216000000593007",
+        "sprintId": "120216000004656294",
+        "itemId": "120216000004657094"
+      },
+      "query_params": {
+        "action": "details"
+      }
+    }
+  },
+  {
+    "tool": "ZohoSprints_GetItemDetails",
+    "args": {
+      "headers": {
+        "X-convert-response": "true",
+        "x-za-ui-version": "v2"
+      },
+      "path_variables": {
+        "teamId": "767679505",
+        "projectId": "120216000000593007",
+        "sprintId": "120216000004656294",
+        "itemId": "120216000004655033"
+      },
+      "query_params": {
+        "action": "details"
+      }
+    }
+  },
+  {
+    "tool": "ZohoSprints_GetItemDetails",
+    "args": {
+      "headers": {
+        "X-convert-response": "true",
+        "x-za-ui-version": "v2"
+      },
+      "path_variables": {
+        "teamId": "767679505",
+        "projectId": "120216000000593007",
+        "sprintId": "120216000004656294",
+        "itemId": "120216000004656304"
+      },
+      "query_params": {
+        "action": "details"
+      }
+    }
+  },
+  {
+    "tool": "ZohoSprints_GetItemDetails",
+    "args": {
+      "headers": {
+        "X-convert-response": "true",
+        "x-za-ui-version": "v2"
+      },
+      "path_variables": {
+        "teamId": "767679505",
+        "projectId": "120216000000593007",
+        "sprintId": "120216000004656294",
+        "itemId": "120216000004656360"
+      },
+      "query_params": {
+        "action": "details"
+      }
+    }
+  },
+  {
+    "tool": "ZohoSprints_GetItemDetails",
+    "args": {
+      "headers": {
+        "X-convert-response": "true",
+        "x-za-ui-version": "v2"
+      },
+      "path_variables": {
+        "teamId": "767679505",
+        "projectId": "120216000000593007",
+        "sprintId": "120216000004656294",
+        "itemId": "120216000004657007"
+      },
+      "query_params": {
+        "action": "details"
+      }
+    }
+  },
+  {
+    "tool": "ZohoSprints_GetItemDetails",
+    "args": {
+      "headers": {
+        "X-convert-response": "true",
+        "x-za-ui-version": "v2"
+      },
+      "path_variables": {
+        "teamId": "767679505",
+        "projectId": "120216000000593007",
+        "sprintId": "120216000004656294",
+        "itemId": "120216000004656300"
+      },
+      "query_params": {
+        "action": "details"
+      }
+    }
+  },
+  {
+    "tool": "ZohoSprints_GetItemDetails",
+    "args": {
+      "headers": {
+        "X-convert-response": "true",
+        "x-za-ui-version": "v2"
+      },
+      "path_variables": {
+        "teamId": "767679505",
+        "projectId": "120216000000593007",
+        "sprintId": "120216000004656294",
+        "itemId": "120216000004655091"
+      },
+      "query_params": {
+        "action": "details"
+      }
+    }
+  },
+  {
+    "tool": "ZohoSprints_GetItems",
+    "args": {
+      "headers": {
+        "X-convert-response": "true",
+        "x-za-ui-version": "v2"
+      },
+      "path_variables": {
+        "teamId": "767679505",
+        "projectId": "120216000000593007",
+        "sprintId": "120216000000593009"
+      },
+      "query_params": {
+        "action": "data",
+        "index": 1,
+        "range": 250,
+        "subitem": true
+      }
+    }
+  }
+]

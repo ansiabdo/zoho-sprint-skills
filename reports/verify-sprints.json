@@ -1,0 +1,26 @@
+[
+  {
+    "tool": "ZohoSprints_GetSprints",
+    "args": {
+      "headers": { "X-convert-response": "true", "x-za-ui-version": "v2" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000000593007" },
+      "query_params": { "action": "data", "index": 1, "range": 10, "type": "[2]" }
+    }
+  },
+  {
+    "tool": "ZohoSprints_GetSprints",
+    "args": {
+      "headers": { "X-convert-response": "true", "x-za-ui-version": "v2" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000000593007" },
+      "query_params": { "action": "data", "index": 1, "range": 10, "type": "[1]" }
+    }
+  },
+  {
+    "tool": "ZohoSprints_GetSprints",
+    "args": {
+      "headers": { "X-convert-response": "true", "x-za-ui-version": "v2" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000000593007" },
+      "query_params": { "action": "data", "index": 1, "range": 1, "type": "[3]" }
+    }
+  }
+]

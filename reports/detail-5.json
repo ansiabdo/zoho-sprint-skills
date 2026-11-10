@@ -1,0 +1,107 @@
+{
+ "userDisplayName": {
+  "120216000000535227": "Abdullah Al-Ansi",
+  "120216000000175003": "Eissa Musleh"
+ },
+ "items": [
+  {
+   "priorityName": "None",
+   "statusType": 1,
+   "endDate": "2025-04-17T20:00:00.000Z",
+   "releaseCount": 1,
+   "isNotesAdded": false,
+   "itemNo": "43",
+   "ownerId": [
+    "120216000000535227"
+   ],
+   "points": 6,
+   "itemBlockId": "",
+   "UDF_CHAR8": "",
+   "estimationPoints": 13,
+   "itemName": "Integrate with central identity-As a system administrator,\r\nI want to integrate the application with a central identity provider,\r\nSo that users can log in using a unified, secure, and centralized authentication system.",
+   "UDF_CHAR7": "Amr",
+   "isOverDue": true,
+   "projectInfo": {
+    "no": "37",
+    "name": "Invoicing MService",
+    "id": "120216000000593007"
+   },
+   "UDF_CHAR6": "",
+   "startAfter": "-1",
+   "createdTime": "2025-04-07T20:35:08.362Z",
+   "isIntegrated": "0",
+   "sharedType": -1,
+   "rootItem": "",
+   "UDF_CHAR5": "",
+   "UDF_CHAR4": "Integrate with central identity",
+   "UDF_CHAR3": "الربط مع نظام الهوية الموحد",
+   "workhourType": 0,
+   "projPriorityId": "120216000000593033",
+   "UDF_ROLLUP8": "9",
+   "UDF_ROLLUP9": "0",
+   "isParent": true,
+   "cycleTime": "111840000",
+   "UDF_TEXT1": "",
+   "userGroupCount": 0,
+   "UDF_ROLLUP3": "06/04/2025 04:00 PM",
+   "UDF_ROLLUP4": "13",
+   "UDF_ROLLUP5": "9",
+   "completedDate": "2025-04-18T23:47:36.340Z",
+   "UDF_ROLLUP6": "18/04/2025 11:00 PM",
+   "UDF_ROLLUP7": "0",
+   "commentCount": 0,
+   "itemId": "120216000002384835",
+   "sequence": "4",
+   "sprintId": "120216000002384793",
+   "UDF_FORMULADBL1": 11,
+   "epicId": "120216000002409263",
+   "statusId": "120216000000003637",
+   "sprintInfo": {
+    "owner": "120216000000175003",
+    "no": "5",
+    "name": "Sprint4: APR-2025 First integration ",
+    "id": "120216000002384793",
+    "type": 3
+   },
+   "parentItem": "",
+   "projItemTypeId": "120216000000593045",
+   "itemTypeName": "Story",
+   "userIdVsWorkhours": {
+    "120216000000535227": "0"
+   },
+   "startDate": "2025-04-06T13:00:00.000Z",
+   "description": "<div><b>User Story:</b><br /></div><div><b>As</b> a system administrator ,<br /></div><div><b>I want</b> to integrate the application with a central identity provider,<br /></div><div><b>So that</b> users can log in using a unified, secure, and centralized authentication system.<br /></div><div><br /></div><div><b>Acceptance Criteria:</b><br /></div><p style=\"margin: 0px 0in 0in 0.5in; text-indent: -0.25in\" class=\"MsoListParagraph\"><span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;, serif\"><span class=\"size\" style=\"font-size: 12pt; margin: 0px 0in 0in 0.5in; text-indent: -0.25in\"><span style=\"\">1.<span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;\"><span class=\"size\" style=\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><b>Authentication Flow:</b><br /></span></span></p><p style=\"margin-left: 0.75in; text-indent: -0.25in; margin-top: 0px; margin-bottom: 0px\"><span class=\"font\" style=\"font-family: Symbol\"><span class=\"size\" style=\"font-size: 10pt\"><span style=\"\">·<span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;\"><span class=\"size\" style=\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span></span></span>Users must be redirected to\nthe central identity provider for login.<br /></p><p style=\"margin-left: 0.75in; text-indent: -0.25in; margin-top: 0px; margin-bottom: 0px\"><span class=\"font\" style=\"font-family: Symbol\"><span class=\"size\" style=\"font-size: 10pt\"><span style=\"\">·<span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;\"><span class=\"size\" style=\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span></span></span>Upon successful\nauthentication, the user is redirected back with a valid token/session.<br /></p><p style=\"margin: 0px 0in 0in 0.5in; text-indent: -0.25in\" class=\"MsoListParagraph\"><span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;, serif\"><span class=\"size\" style=\"font-size: 12pt; margin: 0px 0in 0in 0.5in; text-indent: -0.25in\"><span style=\"\">2.<span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;\"><span class=\"size\" style=\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><b>SSO Support:</b><br /></span></span></p><p style=\"margin-left: 0.75in; text-indent: -0.25in; margin-top: 0px; margin-bottom: 0px\"><span class=\"font\" style=\"font-family: Symbol\"><span class=\"size\" style=\"font-size: 10pt\"><span style=\"\">·<span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;\"><span class=\"size\" style=\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span></span></span>Users should be able to log\nin once and access all integrated systems without re-authenticating.<br /></p><p style=\"margin: 0px 0in 0in 0.5in; text-indent: -0.25in\" class=\"MsoListParagraph\"><span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;, serif\"><span class=\"size\" style=\"font-size: 12pt; margin: 0px 0in 0in 0.5in; text-indent: -0.25in\"><span style=\"\">3.<span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;\"><span class=\"size\" style=\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><b>Token Validation:</b><br /></span></span></p><p style=\"margin-left: 0.75in; text-indent: -0.25in; margin-top: 0px; margin-bottom: 0px\"><span class=\"font\" style=\"font-family: Symbol\"><span class=\"size\" style=\"font-size: 10pt\"><span style=\"\">·<span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;\"><span class=\"size\" style=\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span></span></span>The application must\nvalidate identity tokens (e.g., JWT, SAML, OAuth2) from the central provider.<br /></p><p style=\"margin: 0px 0in 0in 0.5in; text-indent: -0.25in\" class=\"MsoListParagraph\"><span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;, serif\"><span class=\"size\" style=\"font-size: 12pt; margin: 0px 0in 0in 0.5in; text-indent: -0.25in\"><span style=\"\">4.<span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;\"><span class=\"size\" style=\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><b>Role and Permission Mapping:</b><br /></span></span></p><p style=\"margin-left: 0.75in; text-indent: -0.25in; margin-top: 0px; margin-bottom: 0px\"><span class=\"font\" style=\"font-family: Symbol\"><span class=\"size\" style=\"font-size: 10pt\"><span style=\"\">·<span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;\"><span class=\"size\" style=\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span></span></span>Roles or groups from the\nidentity provider should be mapped correctly to in-app permissions.<br /></p><p style=\"margin: 0px 0in 0in 0.5in; text-indent: -0.25in\" class=\"MsoListParagraph\"><span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;, serif\"><span class=\"size\" style=\"font-size: 12pt; margin: 0px 0in 0in 0.5in; text-indent: -0.25in\"><span style=\"\">5.<span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;\"><span class=\"size\" style=\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><b>Security Compliance:</b><br /></span></span></p><p style=\"margin-left: 0.75in; text-indent: -0.25in; margin-top: 0px; margin-bottom: 0px\"><span class=\"font\" style=\"font-family: Symbol\"><span class=\"size\" style=\"font-size: 10pt\"><span style=\"\">·<span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;\"><span class=\"size\" style=\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span></span></span>Token expiration, refresh\nmechanisms, and secure storage must comply with industry standards.<br /></p><div><br /></div>",
+   "leadTime": "213120000",
+   "sharedItemCount": 0,
+   "addedVia": 0,
+   "hasCheckList": false,
+   "UDF_CHKBOX2": "",
+   "duration": "10d",
+   "UDF_CHKBOX1": "120216000000420557,120216000000420559,120216000000420563",
+   "diffDays": "3h 47m",
+   "statusName": "Done",
+   "totalWorkhours": "0",
+   "isDocsAdded": false,
+   "UDF_FORMULASTR1": "4/2025",
+   "UDF_RADIO1": "120216000000851697",
+   "UDF_DATE1": "-1",
+   "baseItemType": 2,
+   "UDF_EMAIL1": "",
+   "depth": "0",
+   "createdBy": "120216000000175003",
+   "UDF_MULTIUSERPKL1": [
+    "120216000000175003"
+   ],
+   "UDF_ROLLUP10": "2d 15h",
+   "tagCount": 0,
+   "voteCount": 0,
+   "completedBy": "120216000000535227",
+   "plannedHours": "0"
+  }
+ ],
+ "zsuserIdvsZUID": {
+  "120216000000535227": "830852660",
+  "120216000000175003": "793914823"
+ },
+ "status": "success"
+}

@@ -1,0 +1,1375 @@
+[
+  {
+    "ok": true,
+    "tool": "ZohoSprints_GetItemDetails",
+    "isError": false,
+    "data": {
+      "userDisplayName": {
+        "120216000000535227": "Abdullah Al-Ansi",
+        "120216000000359035": "Mohammed  Alaqari"
+      },
+      "items": [
+        {
+          "priorityName": "High",
+          "statusType": 2,
+          "endDate": "2026-10-29T20:00:00.000Z",
+          "releaseCount": 0,
+          "isNotesAdded": false,
+          "itemNo": "116",
+          "ownerId": [
+            "120216000000535227"
+          ],
+          "points": 4,
+          "itemBlockId": "",
+          "UDF_CHAR8": "",
+          "estimationPoints": 5,
+          "itemName": "Competition and Season Catalog",
+          "UDF_CHAR7": "",
+          "isOverDue": false,
+          "projectInfo": {
+            "no": "52",
+            "name": "Sports Activities As A service",
+            "id": "120216000004162606"
+          },
+          "UDF_CHAR6": "",
+          "startAfter": "-1",
+          "createdTime": "2026-10-05T19:15:45.441Z",
+          "isIntegrated": "0",
+          "sharedType": -1,
+          "rootItem": "",
+          "UDF_CHAR5": "محمد الاخفش  وعبدالله المعصار",
+          "UDF_CHAR4": "Competition and Season Catalog",
+          "UDF_CHAR3": "Competition and Season Catalog",
+          "workhourType": 1,
+          "projPriorityId": "120216000004162627",
+          "UDF_ROLLUP8": "3",
+          "UDF_ROLLUP9": "0",
+          "isParent": true,
+          "cycleTime": "-1",
+          "UDF_TEXT1": "",
+          "userGroupCount": 0,
+          "UDF_ROLLUP3": "01/10/2026 04:00 PM",
+          "UDF_ROLLUP4": "5",
+          "UDF_ROLLUP5": "3",
+          "completedDate": "-1",
+          "UDF_ROLLUP6": "29/10/2026 11:00 PM",
+          "UDF_ROLLUP7": "0",
+          "commentCount": 0,
+          "itemId": "120216000004558543",
+          "sequence": "1",
+          "sprintId": "120216000004192758",
+          "UDF_FORMULADBL1": "",
+          "epicId": "120216000004557316",
+          "statusId": "120216000000003631",
+          "sprintInfo": {
+            "owner": "120216000000359035",
+            "no": "2",
+            "name": "SP5 Oct 26 Multi Competition ",
+            "id": "120216000004192758",
+            "type": 2
+          },
+          "parentItem": "",
+          "projItemTypeId": "120216000004162630",
+          "itemTypeName": "Story",
+          "userIdVsWorkhours": {
+            "120216000000535227": "0"
+          },
+          "startDate": "2026-10-01T13:00:00.000Z",
+          "description": "As a platform administrator, I want to manage a persistent competition and season catalog, so that leagues and cups can be configured without redeploying the platform.\n\n**Acceptance Criteria**\n1  When a valid competition and season are added, persist their relationship, provider identifiers and Arabic and English names without hardcoded identifiers.\n2  Reject a second record with the same Provider and ExternalSeasonId. Reject invalid dates and references to nonexistent competitions.\n3  When a competition is outside the provider account's coverage, retain it as Draft with a clear reason and do not publish it to users.\n4  When a season is enabled or disabled, audit before-and-after values, actor and timestamp, and update the configuration version without restarting the service.\n\nRequired Changes  Add Competition and CompetitionSeason entities, repositories, DTOs and permissions. Convert appsettings into repeatable initial seeding that does not overwrite administrative settings.\n\nDependencies  None; this story establishes the foundation for the other stories.",
+          "leadTime": "-1",
+          "sharedItemCount": 0,
+          "addedVia": 3,
+          "hasCheckList": false,
+          "UDF_CHKBOX2": "",
+          "duration": "21d",
+          "UDF_CHKBOX1": "",
+          "diffDays": "1d 49m",
+          "statusName": "In progress",
+          "totalWorkhours": "0",
+          "isDocsAdded": false,
+          "UDF_FORMULASTR1": "10/2026",
+          "UDF_RADIO1": "",
+          "UDF_DATE1": "-1",
+          "baseItemType": 2,
+          "UDF_EMAIL1": "",
+          "depth": "0",
+          "createdBy": "120216000000359035",
+          "UDF_MULTIUSERPKL1": [],
+          "UDF_ROLLUP10": "21h",
+          "tagCount": 0,
+          "voteCount": 0,
+          "completedBy": "",
+          "plannedHours": "0"
+        }
+      ],
+      "zsuserIdvsZUID": {
+        "120216000000535227": "830852660",
+        "120216000000359035": "814269634"
+      },
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_GetLinkedItems",
+    "isError": true,
+    "data": {
+      "code": 7500,
+      "message": "Internal server error while processing this request",
+      "status": "failed"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_GetItemComments",
+    "isError": false,
+    "data": {
+      "next": false,
+      "notesJObj": {},
+      "notes_prop": {
+        "pinnedTime": 18,
+        "notes": 1,
+        "updatedBy": 4,
+        "isPinned": 16,
+        "sourceItemId": 21,
+        "parentCommentId": 7,
+        "noteId": 0,
+        "childSeq": 9,
+        "updatedOn": 5,
+        "pinnedBy": 17,
+        "createdOn": 3,
+        "addedVia": 14,
+        "shareType": 19,
+        "sourceItemLink": 20,
+        "hasAttach": 6,
+        "totalReply": 12,
+        "parentSeq": 8,
+        "totalReaction": 11,
+        "oEmbedData": 13,
+        "createdBy": 2,
+        "commentType": 15,
+        "reactions": 10
+      },
+      "hasData": false,
+      "notesIds": [],
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_GetItemActivity",
+    "isError": false,
+    "data": {
+      "next": false,
+      "userDisplayName": {
+        "120216000000535227": "Abdullah Al-Ansi",
+        "120216000000359035": "Mohammed  Alaqari"
+      },
+      "audits": [
+        {
+          "auditId": "120216000004649502",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000535227",
+          "display": "Not Done Tasks updated from 1 to 0",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-26T19:50:09.286Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Not Done Tasks",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "1"
+              },
+              "100": "to",
+              "102": {
+                "title": "0"
+              }
+            },
+            "action": "Not Done Tasks updated"
+          }
+        },
+        {
+          "auditId": "120216000004649498",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000535227",
+          "display": "Done Tasks updated from 2 to 3",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-26T19:50:09.286Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Done Tasks",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "2"
+              },
+              "100": "to",
+              "102": {
+                "title": "3"
+              }
+            },
+            "action": "Done Tasks updated"
+          }
+        },
+        {
+          "auditId": "120216000004649486",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000535227",
+          "display": "Not Done Tasks updated from 2 to 1",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-26T19:50:00.178Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Not Done Tasks",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "2"
+              },
+              "100": "to",
+              "102": {
+                "title": "1"
+              }
+            },
+            "action": "Not Done Tasks updated"
+          }
+        },
+        {
+          "auditId": "120216000004649482",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000535227",
+          "display": "Done Tasks updated from 1 to 2",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-26T19:50:00.178Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Done Tasks",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "1"
+              },
+              "100": "to",
+              "102": {
+                "title": "2"
+              }
+            },
+            "action": "Done Tasks updated"
+          }
+        },
+        {
+          "auditId": "120216000004649214",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000535227",
+          "display": "Subitems Duration updated from 14h to 21h",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-25T17:00:02.573Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Subitems Duration",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "14h"
+              },
+              "100": "to",
+              "102": {
+                "title": "21h"
+              }
+            },
+            "action": "Subitems Duration updated"
+          }
+        },
+        {
+          "auditId": "120216000004649210",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000535227",
+          "display": "Not Done Tasks updated from 1 to 2",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-25T17:00:02.573Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Not Done Tasks",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "1"
+              },
+              "100": "to",
+              "102": {
+                "title": "2"
+              }
+            },
+            "action": "Not Done Tasks updated"
+          }
+        },
+        {
+          "auditId": "120216000004649201",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000535227",
+          "display": "Subitems Count updated from 2 to 3",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-25T17:00:02.572Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Subitems Count",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "2"
+              },
+              "100": "to",
+              "102": {
+                "title": "3"
+              }
+            },
+            "action": "Subitems Count updated"
+          }
+        },
+        {
+          "auditId": "120216000004650015",
+          "activity": 8,
+          "extusername": "",
+          "actionby": "120216000000535227",
+          "display": "Subitem Added Fixture List API — League Filter + LeagueId on DTOs",
+          "action": 1,
+          "addedvia": 0,
+          "actiontime": "2026-10-25T17:00:02.268Z",
+          "entity": 3,
+          "displayprop": {
+            "display": "{2}",
+            "values": {
+              "2": {
+                "title": "Fixture List API — League Filter + LeagueId on DTOs",
+                "url": "#P52/itemdetails/I141"
+              }
+            },
+            "action": "Subitem Added"
+          }
+        },
+        {
+          "auditId": "120216000004580021",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000535227",
+          "display": "Subitems Duration updated from 7h to 14h",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-20T17:14:14.769Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Subitems Duration",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "7h"
+              },
+              "100": "to",
+              "102": {
+                "title": "14h"
+              }
+            },
+            "action": "Subitems Duration updated"
+          }
+        },
+        {
+          "auditId": "120216000004580018",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000535227",
+          "display": "Not Done Tasks updated from 0 to 1",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-20T17:14:14.769Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Not Done Tasks",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "0"
+              },
+              "100": "to",
+              "102": {
+                "title": "1"
+              }
+            },
+            "action": "Not Done Tasks updated"
+          }
+        },
+        {
+          "auditId": "120216000004580011",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000535227",
+          "display": "Subitems Count updated from 1 to 2",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-20T17:14:14.768Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Subitems Count",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "1"
+              },
+              "100": "to",
+              "102": {
+                "title": "2"
+              }
+            },
+            "action": "Subitems Count updated"
+          }
+        },
+        {
+          "auditId": "120216000004581008",
+          "activity": 8,
+          "extusername": "",
+          "actionby": "120216000000535227",
+          "display": "Subitem Added Create a new database migration for all 3 already loaded season World Cup + Gulf Cup of Nations + La Liga",
+          "action": 1,
+          "addedvia": 0,
+          "actiontime": "2026-10-20T17:14:14.524Z",
+          "entity": 3,
+          "displayprop": {
+            "display": "{2}",
+            "values": {
+              "2": {
+                "title": "Create a new database migration for all 3 already loaded season World Cup + Gulf Cup of Nations + La Liga",
+                "url": "#P52/itemdetails/I137"
+              }
+            },
+            "action": "Subitem Added"
+          }
+        },
+        {
+          "auditId": "120216000004580004",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000535227",
+          "display": "Not Done Tasks updated from 1 to 0",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-20T17:11:16.259Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Not Done Tasks",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "1"
+              },
+              "100": "to",
+              "102": {
+                "title": "0"
+              }
+            },
+            "action": "Not Done Tasks updated"
+          }
+        },
+        {
+          "auditId": "120216000004580002",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000535227",
+          "display": "Done Tasks updated from 0 to 1",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-20T17:11:16.259Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Done Tasks",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "0"
+              },
+              "100": "to",
+              "102": {
+                "title": "1"
+              }
+            },
+            "action": "Done Tasks updated"
+          }
+        },
+        {
+          "auditId": "120216000004573355",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000535227",
+          "display": "Max End Date updated from 19/10/2026 11:00 PM to 29/10/2026 11:00 PM",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-19T15:31:13.729Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Max End Date",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "19/10/2026 11:00 PM"
+              },
+              "100": "to",
+              "102": {
+                "title": "29/10/2026 11:00 PM"
+              }
+            },
+            "action": "Max End Date updated"
+          }
+        },
+        {
+          "auditId": "120216000004576010",
+          "activity": 10,
+          "extusername": "",
+          "actionby": "120216000000535227",
+          "display": "Updated duration from 11d to 21d",
+          "action": 2,
+          "addedvia": 0,
+          "actiontime": "2026-10-19T15:31:13.595Z",
+          "entity": 3,
+          "displayprop": {
+            "display": "{0} {1} {100} {101}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "11d"
+              },
+              "100": "to",
+              "101": {
+                "title": "21d"
+              }
+            },
+            "action": "Updated duration"
+          }
+        },
+        {
+          "auditId": "120216000004576009",
+          "activity": 18,
+          "extusername": "",
+          "actionby": "120216000000535227",
+          "display": "Updated end date from 2026-10-15T20:00:00.000Z to 2026-10-29T20:00:00.000Z",
+          "action": 2,
+          "addedvia": 0,
+          "actiontime": "2026-10-19T15:31:13.595Z",
+          "entity": 3,
+          "displayprop": {
+            "display": "{0} {3} {100} {103}",
+            "values": {
+              "0": "from",
+              "3": "2026-10-15T20:00:00.000Z",
+              "100": "to",
+              "103": "2026-10-29T20:00:00.000Z"
+            },
+            "action": "Updated end date"
+          }
+        },
+        {
+          "auditId": "120216000004576006",
+          "activity": 5,
+          "extusername": "",
+          "actionby": "120216000000535227",
+          "display": "Updated the status from To do to In progress",
+          "action": 3,
+          "addedvia": "",
+          "actiontime": "2026-10-19T15:31:07.777Z",
+          "entity": 3,
+          "displayprop": {
+            "display": "{0} {1} {100} {101}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "To do"
+              },
+              "100": "to",
+              "101": {
+                "title": "In progress"
+              }
+            },
+            "action": "Updated the status"
+          }
+        },
+        {
+          "auditId": "120216000004573334",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000535227",
+          "display": "Max End Date updated from 15/10/2026 11:00 PM to 19/10/2026 11:00 PM",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-19T15:31:05.327Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Max End Date",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "15/10/2026 11:00 PM"
+              },
+              "100": "to",
+              "102": {
+                "title": "19/10/2026 11:00 PM"
+              }
+            },
+            "action": "Max End Date updated"
+          }
+        },
+        {
+          "auditId": "120216000004573338",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000535227",
+          "display": "Subitems Duration updated from 11d to 7h",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-19T15:31:05.327Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Subitems Duration",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "11d"
+              },
+              "100": "to",
+              "102": {
+                "title": "7h"
+              }
+            },
+            "action": "Subitems Duration updated"
+          }
+        },
+        {
+          "auditId": "120216000004576003",
+          "activity": 8,
+          "extusername": "",
+          "actionby": "120216000000535227",
+          "display": "Subitem Added Adding new Leg La new season 27965 temporary",
+          "action": 1,
+          "addedvia": 0,
+          "actiontime": "2026-10-19T15:30:55.968Z",
+          "entity": 3,
+          "displayprop": {
+            "display": "{2}",
+            "values": {
+              "2": {
+                "title": "Adding new Leg La new season 27965 temporary",
+                "url": "#P52/itemdetails/I135"
+              }
+            },
+            "action": "Subitem Added"
+          }
+        },
+        {
+          "auditId": "120216000004563187",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000359035",
+          "display": "Subitems Count updated from 1 to 1",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-06T18:52:20.632Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Subitems Count",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "1"
+              },
+              "100": "to",
+              "102": {
+                "title": "1"
+              }
+            },
+            "action": "Subitems Count updated"
+          }
+        },
+        {
+          "auditId": "120216000004563188",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000359035",
+          "display": "Done Tasks updated from 0 to 0",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-06T18:52:20.632Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Done Tasks",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "0"
+              },
+              "100": "to",
+              "102": {
+                "title": "0"
+              }
+            },
+            "action": "Done Tasks updated"
+          }
+        },
+        {
+          "auditId": "120216000004563189",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000359035",
+          "display": "Not Done Tasks updated from 1 to 1",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-06T18:52:20.632Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Not Done Tasks",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "1"
+              },
+              "100": "to",
+              "102": {
+                "title": "1"
+              }
+            },
+            "action": "Not Done Tasks updated"
+          }
+        },
+        {
+          "auditId": "120216000004564177",
+          "activity": 13,
+          "extusername": "",
+          "actionby": "120216000000359035",
+          "display": "Item Moved from Backlog to SP5 Oct 26 Multi Competition",
+          "action": 3,
+          "addedvia": "",
+          "actiontime": "2026-10-06T18:52:20.552Z",
+          "entity": 3,
+          "displayprop": {
+            "display": "{0} {2} {100} {102}",
+            "values": {
+              "0": "from",
+              "2": {
+                "title": "Backlog"
+              },
+              "100": "to",
+              "102": {
+                "title": "SP5 Oct 26 Multi Competition ",
+                "url": "#P52/sprintdetails/SP2"
+              }
+            },
+            "action": "Item Moved"
+          }
+        },
+        {
+          "auditId": "120216000004563181",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000359035",
+          "display": "Min Start Date updated from - to 01/10/2026 04:00 PM",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-06T18:52:16.490Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Min Start Date",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "-"
+              },
+              "100": "to",
+              "102": {
+                "title": "01/10/2026 04:00 PM"
+              }
+            },
+            "action": "Min Start Date updated"
+          }
+        },
+        {
+          "auditId": "120216000004563182",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000359035",
+          "display": "Max End Date updated from - to 15/10/2026 11:00 PM",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-06T18:52:16.490Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Max End Date",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "-"
+              },
+              "100": "to",
+              "102": {
+                "title": "15/10/2026 11:00 PM"
+              }
+            },
+            "action": "Max End Date updated"
+          }
+        },
+        {
+          "auditId": "120216000004563183",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000359035",
+          "display": "Subitems Duration updated from 0 to 11d",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-06T18:52:16.490Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Subitems Duration",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "0"
+              },
+              "100": "to",
+              "102": {
+                "title": "11d"
+              }
+            },
+            "action": "Subitems Duration updated"
+          }
+        },
+        {
+          "auditId": "120216000004564172",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000359035",
+          "display": "Month/Year updated from -- to 10/2026",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-06T18:52:16.418Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Month/Year",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "--"
+              },
+              "100": "to",
+              "102": {
+                "title": "10/2026"
+              }
+            },
+            "action": "Month/Year updated"
+          }
+        },
+        {
+          "auditId": "120216000004564171",
+          "activity": 10,
+          "extusername": "",
+          "actionby": "120216000000359035",
+          "display": "Updated duration from -- to 11d",
+          "action": 2,
+          "addedvia": 0,
+          "actiontime": "2026-10-06T18:52:16.352Z",
+          "entity": 3,
+          "displayprop": {
+            "display": "{0} {1} {100} {101}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "--"
+              },
+              "100": "to",
+              "101": {
+                "title": "11d"
+              }
+            },
+            "action": "Updated duration"
+          }
+        },
+        {
+          "auditId": "120216000004564170",
+          "activity": 18,
+          "extusername": "",
+          "actionby": "120216000000359035",
+          "display": "Updated end date to 2026-10-15T20:00:00.000Z",
+          "action": 2,
+          "addedvia": 0,
+          "actiontime": "2026-10-06T18:52:16.352Z",
+          "entity": 3,
+          "displayprop": {
+            "display": "{100} {103}",
+            "values": {
+              "100": "to",
+              "103": "2026-10-15T20:00:00.000Z"
+            },
+            "action": "Updated end date"
+          }
+        },
+        {
+          "auditId": "120216000004564169",
+          "activity": 17,
+          "extusername": "",
+          "actionby": "120216000000359035",
+          "display": "Updated start date to 2026-10-01T13:00:00.000Z",
+          "action": 2,
+          "addedvia": 0,
+          "actiontime": "2026-10-06T18:52:16.352Z",
+          "entity": 3,
+          "displayprop": {
+            "display": "{100} {103}",
+            "values": {
+              "100": "to",
+              "103": "2026-10-01T13:00:00.000Z"
+            },
+            "action": "Updated start date"
+          }
+        },
+        {
+          "auditId": "120216000004561402",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000359035",
+          "display": "Total Est points updated from 0 to 5",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-05T19:20:01.642Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Total Est points",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "0"
+              },
+              "100": "to",
+              "102": {
+                "title": "5"
+              }
+            },
+            "action": "Total Est points updated"
+          }
+        },
+        {
+          "auditId": "120216000004557336",
+          "activity": 6,
+          "extusername": "",
+          "actionby": "120216000000359035",
+          "display": "Updated the estimation Point from Unestimated to 5",
+          "action": 2,
+          "addedvia": 0,
+          "actiontime": "2026-10-05T19:20:01.519Z",
+          "entity": 3,
+          "displayprop": {
+            "display": "{0} {1} {100} {101}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "Unestimated"
+              },
+              "100": "to",
+              "101": {
+                "title": "5"
+              }
+            },
+            "action": "Updated the estimation Point"
+          }
+        },
+        {
+          "auditId": "120216000004557329",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000359035",
+          "display": "Business team (Requester)  updated from -- to محمد الاخفش  وعبدالله المعصار",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-05T19:19:41.197Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Business team (Requester) ",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "--"
+              },
+              "100": "to",
+              "102": {
+                "title": "محمد الاخفش  وعبدالله المعصار"
+              }
+            },
+            "action": "Business team (Requester)  updated"
+          }
+        },
+        {
+          "auditId": "120216000004557330",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000359035",
+          "display": "Story English Name updated from -- to Competition and Season Catalog",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-05T19:19:41.197Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Story English Name",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "--"
+              },
+              "100": "to",
+              "102": {
+                "title": "Competition and Season Catalog"
+              }
+            },
+            "action": "Story English Name updated"
+          }
+        },
+        {
+          "auditId": "120216000004557331",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000359035",
+          "display": "Story Arabic Name updated from -- to Competition and Season Catalog",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-05T19:19:41.197Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Story Arabic Name",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "--"
+              },
+              "100": "to",
+              "102": {
+                "title": "Competition and Season Catalog"
+              }
+            },
+            "action": "Story Arabic Name updated"
+          }
+        },
+        {
+          "auditId": "120216000004557328",
+          "activity": 2,
+          "extusername": "",
+          "actionby": "120216000000359035",
+          "display": "Updated the owner from Unassigned to Abdullah Al-Ansi",
+          "action": 2,
+          "addedvia": 0,
+          "actiontime": "2026-10-05T19:19:41.196Z",
+          "entity": 3,
+          "displayprop": {
+            "display": "{0} {1} {100} {101}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "Unassigned"
+              },
+              "100": "to",
+              "101": {
+                "title": "Abdullah Al-Ansi"
+              }
+            },
+            "action": "Updated the owner"
+          }
+        },
+        {
+          "auditId": "120216000004557326",
+          "activity": 64,
+          "extusername": "",
+          "actionby": "120216000000359035",
+          "display": "Updated the epic from None to Multi Competition ",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-05T19:19:41.186Z",
+          "entity": 3,
+          "displayprop": {
+            "display": "{0} {1} {100} {101}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "None"
+              },
+              "100": "to",
+              "101": {
+                "title": "Multi Competition"
+              }
+            },
+            "action": "Updated the epic"
+          }
+        },
+        {
+          "auditId": "120216000004558621",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000359035",
+          "display": "Max End Date updated from - to -",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-05T19:15:45.649Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Max End Date",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "-"
+              },
+              "100": "to",
+              "102": {
+                "title": "-"
+              }
+            },
+            "action": "Max End Date updated"
+          }
+        },
+        {
+          "auditId": "120216000004558620",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000359035",
+          "display": "Min Start Date updated from - to -",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-05T19:15:45.649Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Min Start Date",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "-"
+              },
+              "100": "to",
+              "102": {
+                "title": "-"
+              }
+            },
+            "action": "Min Start Date updated"
+          }
+        },
+        {
+          "auditId": "120216000004558619",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000359035",
+          "display": "Subitems Count updated from 0 to 1",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-05T19:15:45.649Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Subitems Count",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "0"
+              },
+              "100": "to",
+              "102": {
+                "title": "1"
+              }
+            },
+            "action": "Subitems Count updated"
+          }
+        },
+        {
+          "auditId": "120216000004558618",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000359035",
+          "display": "Total Est points updated from 0 to 0",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-05T19:15:45.649Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Total Est points",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "0"
+              },
+              "100": "to",
+              "102": {
+                "title": "0"
+              }
+            },
+            "action": "Total Est points updated"
+          }
+        },
+        {
+          "auditId": "120216000004558622",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000359035",
+          "display": "Done Tasks updated from 0 to 0",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-05T19:15:45.649Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Done Tasks",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "0"
+              },
+              "100": "to",
+              "102": {
+                "title": "0"
+              }
+            },
+            "action": "Done Tasks updated"
+          }
+        },
+        {
+          "auditId": "120216000004558623",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000359035",
+          "display": "Not Done Tasks updated from 0 to 1",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-05T19:15:45.649Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Not Done Tasks",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "0"
+              },
+              "100": "to",
+              "102": {
+                "title": "1"
+              }
+            },
+            "action": "Not Done Tasks updated"
+          }
+        },
+        {
+          "auditId": "120216000004558624",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000359035",
+          "display": "Subitems Duration updated from 0 to 0",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-05T19:15:45.649Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "Subitems Duration",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "0"
+              },
+              "100": "to",
+              "102": {
+                "title": "0"
+              }
+            },
+            "action": "Subitems Duration updated"
+          }
+        },
+        {
+          "auditId": "120216000004558625",
+          "activity": 89,
+          "extusername": "",
+          "actionby": "120216000000359035",
+          "display": "No of Attachments updated from 0 to 0",
+          "action": 2,
+          "addedvia": "",
+          "actiontime": "2026-10-05T19:15:45.649Z",
+          "entity": 3,
+          "displayprop": {
+            "fieldname": "No of Attachments",
+            "display": "{0} {1} {100} {102}",
+            "values": {
+              "0": "from",
+              "1": {
+                "title": "0"
+              },
+              "100": "to",
+              "102": {
+                "title": "0"
+              }
+            },
+            "action": "No of Attachments updated"
+          }
+        },
+        {
+          "auditId": "120216000004558561",
+          "activity": 0,
+          "extusername": "",
+          "actionby": "120216000000359035",
+          "display": "Created the item Competition and Season Catalog",
+          "action": 1,
+          "addedvia": 3,
+          "actiontime": "2026-10-05T19:15:45.447Z",
+          "entity": 3,
+          "displayprop": {
+            "display": "{1}",
+            "values": {
+              "1": {
+                "title": "Competition and Season Catalog"
+              }
+            },
+            "action": "Created the item"
+          }
+        }
+      ],
+      "status": "success"
+    }
+  }
+]

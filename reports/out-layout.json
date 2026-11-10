@@ -1,0 +1,68 @@
+[
+  {
+    "ok": true,
+    "method": "tools/call",
+    "params": "ZohoSprints_getCustomLayouts",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"next\":false,\"customlayouts\":[{\"hasEditPermission\":true,\"sequence\":3,\"isDefault\":false,\"hasDeletePermission\":true,\"createdBy\":\"120216000000010017\",\"description\":\"\",\"createdTime\":\"2026-05-20T19:26:58.945Z\",\"colorCode\":\"#4a7297\",\"canAssociateProj\":true,\"customlayoutId\":\"120216000004245039\",\"layoutName\":\"test st lay with short\"},{\"hasEditPermission\":true,\"sequence\":2,\"isDefault\":false,\"hasDeletePermission\":true,\"createdBy\":\"120216000000010017\",\"description\":\"Add Arabic Short Name, English Short Name, Analysis\",\"createdTime\":\"2023-09-04T19:38:31.175Z\",\"colorCode\":\"#0cad9a\",\"canAssociateProj\":true,\"customlayoutId\":\"120216000000420523\",\"layoutName\":\"Standard Layout with Short Names\"},{\"hasEditPermission\":false,\"sequence\":1,\"isDefault\":true,\"hasDeletePermission\":false,\"createdBy\":\"120216000000002007\",\"description\":\"Contains default fields.\",\"createdTime\":\"2021-12-21T09:46:42.204Z\",\"colorCode\":\"#259e92\",\"canAssociateProj\":true,\"customlayoutId\":\"120216000000002099\",\"layoutName\":\"Standard Layout\"}],\"userDisplayName\":{\"120216000000002007\":\"ZohoSprints\",\"120216000000010017\":\"Abdullah Al-Measar\"},\"status\":\"success\"}"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "data": {
+          "next": false,
+          "customlayouts": [
+            {
+              "hasEditPermission": true,
+              "sequence": 3,
+              "isDefault": false,
+              "hasDeletePermission": true,
+              "createdBy": "120216000000010017",
+              "description": "",
+              "createdTime": "2026-05-20T19:26:58.945Z",
+              "colorCode": "#4a7297",
+              "canAssociateProj": true,
+              "customlayoutId": "120216000004245039",
+              "layoutName": "test st lay with short"
+            },
+            {
+              "hasEditPermission": true,
+              "sequence": 2,
+              "isDefault": false,
+              "hasDeletePermission": true,
+              "createdBy": "120216000000010017",
+              "description": "Add Arabic Short Name, English Short Name, Analysis",
+              "createdTime": "2023-09-04T19:38:31.175Z",
+              "colorCode": "#0cad9a",
+              "canAssociateProj": true,
+              "customlayoutId": "120216000000420523",
+              "layoutName": "Standard Layout with Short Names"
+            },
+            {
+              "hasEditPermission": false,
+              "sequence": 1,
+              "isDefault": true,
+              "hasDeletePermission": false,
+              "createdBy": "120216000000002007",
+              "description": "Contains default fields.",
+              "createdTime": "2021-12-21T09:46:42.204Z",
+              "colorCode": "#259e92",
+              "canAssociateProj": true,
+              "customlayoutId": "120216000000002099",
+              "layoutName": "Standard Layout"
+            }
+          ],
+          "userDisplayName": {
+            "120216000000002007": "ZohoSprints",
+            "120216000000010017": "Abdullah Al-Measar"
+          },
+          "status": "success"
+        },
+        "status": "success"
+      }
+    }
+  }
+]

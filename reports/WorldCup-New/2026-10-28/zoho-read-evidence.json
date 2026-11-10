@@ -1,0 +1,1932 @@
+{
+  "capturedAt": "2026-10-28T16:21:46Z",
+  "workspaceId": "767679505",
+  "projectId": "120216000004162606",
+  "projectName": "Sports Activities As A service",
+  "role": "admin",
+  "roleSource": "user confirmation",
+  "identity": {
+    "currentUserId": null,
+    "note": "No explicit authenticated-user endpoint was returned; portal owner and Git author are not proof of MCP actor."
+  },
+  "coverage": [
+    {
+      "scope": "SP4 Sep 26 Update project to works with new API Key and SeasonId ",
+      "sprintId": "120216000004512167",
+      "index": 1,
+      "range": 250,
+      "subitem": true,
+      "next": false,
+      "count": 5
+    },
+    {
+      "scope": "SP3 Jul 26  Multi-League Catalog & Tenant League Assignment",
+      "sprintId": "120216000004324026",
+      "index": 1,
+      "range": 250,
+      "subitem": true,
+      "next": false,
+      "count": 4
+    },
+    {
+      "scope": "SP2 Jun 26 BAS Integration ,External Notification Provider Configuration & Manag",
+      "sprintId": "120216000004271001",
+      "index": 1,
+      "range": 250,
+      "subitem": true,
+      "next": false,
+      "count": 49
+    },
+    {
+      "scope": "SP1 May 26 Match Synchronization ,predictions  ,prediction leaderboard  ,and MVP",
+      "sprintId": "120216000004208120",
+      "index": 1,
+      "range": 250,
+      "subitem": true,
+      "next": false,
+      "count": 36
+    },
+    {
+      "scope": "SP5 Oct 26 Multi Competition ",
+      "sprintId": "120216000004192758",
+      "index": 1,
+      "range": 250,
+      "subitem": true,
+      "next": false,
+      "count": 15
+    },
+    {
+      "scope": "SP0: Apr 26 last World Cup 2026 Predictions Prototype (Flutter Package)",
+      "sprintId": "120216000004184188",
+      "index": 1,
+      "range": 250,
+      "subitem": true,
+      "next": false,
+      "count": 5
+    },
+    {
+      "scope": "Backlog",
+      "sprintId": "120216000004162608",
+      "index": 1,
+      "range": 250,
+      "subitem": true,
+      "next": false,
+      "count": 12
+    }
+  ],
+  "sprints": [
+    {
+      "id": "120216000004512167",
+      "name": "SP4 Sep 26 Update project to works with new API Key and SeasonId ",
+      "type": 3,
+      "start": "2026-09-19T21:00:00.000Z",
+      "end": "2026-09-30T20:59:59.999Z"
+    },
+    {
+      "id": "120216000004324026",
+      "name": "SP3 Jul 26  Multi-League Catalog & Tenant League Assignment",
+      "type": 3,
+      "start": "2026-06-30T21:00:00.000Z",
+      "end": "2026-07-31T20:59:59.999Z"
+    },
+    {
+      "id": "120216000004271001",
+      "name": "SP2 Jun 26 BAS Integration ,External Notification Provider Configuration & Manag",
+      "type": 3,
+      "start": "2026-05-31T21:00:00.000Z",
+      "end": "2026-06-30T20:59:59.999Z"
+    },
+    {
+      "id": "120216000004208120",
+      "name": "SP1 May 26 Match Synchronization ,predictions  ,prediction leaderboard  ,and MVP",
+      "type": 3,
+      "start": "2026-05-03T21:00:00.000Z",
+      "end": "2026-05-31T20:59:59.999Z"
+    },
+    {
+      "id": "120216000004192758",
+      "name": "SP5 Oct 26 Multi Competition ",
+      "type": 2,
+      "start": "2026-09-30T21:00:00.000Z",
+      "end": "2026-10-31T20:59:59.999Z"
+    },
+    {
+      "id": "120216000004184188",
+      "name": "SP0: Apr 26 last World Cup 2026 Predictions Prototype (Flutter Package)",
+      "type": 3,
+      "start": "2026-04-18T21:00:00.000Z",
+      "end": "2026-04-30T20:59:59.999Z"
+    }
+  ],
+  "items": [
+    {
+      "id": "120216000004512151",
+      "no": "111",
+      "title": "Add Multi-Leages support",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004512167",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535177",
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004512157",
+      "no": "112",
+      "title": "Filtering and hiding old data of world cup ",
+      "type": "Task",
+      "parent": "120216000004512151",
+      "sprintId": "120216000004512167",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004512182",
+      "no": "113",
+      "title": "خليجي27",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004512167",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004512215",
+      "no": "114",
+      "title": "Update project to works with new API Key and SeasonId",
+      "type": "Task",
+      "parent": "120216000004512182",
+      "sprintId": "120216000004512167",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004512224",
+      "no": "115",
+      "title": "Hide WorldCup Predictions and Leaderboards",
+      "type": "Task",
+      "parent": "120216000004512182",
+      "sprintId": "120216000004512167",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004371080",
+      "no": "106",
+      "title": "Feedback on live",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004324026",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535177",
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004370143",
+      "no": "107",
+      "title": "feat: implement PredictionAppService with logic for submitting and updating user predictions",
+      "type": "Task",
+      "parent": "120216000004371080",
+      "sprintId": "120216000004324026",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004370149",
+      "no": "108",
+      "title": "docs: initialize project planning and implementation documentation for WorldCup-New features and workflows",
+      "type": "Task",
+      "parent": "120216000004371080",
+      "sprintId": "120216000004324026",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004370155",
+      "no": "109",
+      "title": "Adding Names on All With Plenty and add PENALTY_SHOOTOUT",
+      "type": "Task",
+      "parent": "120216000004371080",
+      "sprintId": "120216000004324026",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004271564",
+      "no": "58",
+      "title": "As a Administrator,I want to configure and manage external notification providers through the Admin Portal, so that the platform can securely deliver tournament notifications, match reminders, live match events, ...",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227",
+        "120216000000809729",
+        "120216000000902039"
+      ]
+    },
+    {
+      "id": "120216000004279201",
+      "no": "61",
+      "title": "Working on Bas notifications api",
+      "type": "Task",
+      "parent": "120216000004271564",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004279211",
+      "no": "63",
+      "title": "Fixing bugs on DBMigration",
+      "type": "Task",
+      "parent": "120216000004271564",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004279216",
+      "no": "64",
+      "title": "disable outcome check when sharing prediction",
+      "type": "Task",
+      "parent": "120216000004271564",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004283056",
+      "no": "70",
+      "title": "Fix invalid_bas_baseurl",
+      "type": "Task",
+      "parent": "120216000004271564",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004299735",
+      "no": "91",
+      "title": "Try Splitting Friends processing from Auth part to Background Job",
+      "type": "Task",
+      "parent": "120216000004271564",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004279222",
+      "no": "66",
+      "title": "As a Mobile User accessing the World Cup Prediction Platform from BAS Super App,I want to seamlessly access the World Cup Prediction module without creating a separate account, so that I can immediately participate in predictions using ....",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535177",
+        "120216000000535227",
+        "120216000000809729",
+        "120216000000902039"
+      ]
+    },
+    {
+      "id": "120216000004279178",
+      "no": "59",
+      "title": "Adding Bas-SDK to project",
+      "type": "Task",
+      "parent": "120216000004279222",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004279195",
+      "no": "60",
+      "title": "Integrating Bas Authintacation to project and will use the same banky authinticate  api ",
+      "type": "Task",
+      "parent": "120216000004279222",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004279206",
+      "no": "62",
+      "title": "Update PWA to fetch bas auth-code like mini-app",
+      "type": "Task",
+      "parent": "120216000004279222",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004283041",
+      "no": "69",
+      "title": "integrate with bas sdk and fix error 403",
+      "type": "Task",
+      "parent": "120216000004279222",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004308398",
+      "no": "102",
+      "title": "Fix BackgroundJobs And rerun the logic",
+      "type": "Task",
+      "parent": "120216000004279222",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004286155",
+      "no": "67",
+      "title": "As a Banky Lite or BAS user,I want to view detailed information about a selected match, including team statistics, team information, and live match events, so that I can make more informed predictions, follow match progress in real ...",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535177",
+        "120216000000535227",
+        "120216000000809729",
+        "120216000000902039"
+      ]
+    },
+    {
+      "id": "120216000004283376",
+      "no": "71",
+      "title": "Refactor fixture sync details",
+      "type": "Task",
+      "parent": "120216000004286155",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004283382",
+      "no": "72",
+      "title": "Adding Periods to fixture details",
+      "type": "Task",
+      "parent": "120216000004286155",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004283388",
+      "no": "73",
+      "title": "Fixing sportmonks entity rate-limit-budgeting",
+      "type": "Task",
+      "parent": "120216000004286155",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004283394",
+      "no": "74",
+      "title": "fix live-status-and-detail-refresh-defect-remediation",
+      "type": "Task",
+      "parent": "120216000004286155",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004283400",
+      "no": "75",
+      "title": "final-scoring-and-dense-leaderboard-remediation",
+      "type": "Task",
+      "parent": "120216000004286155",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004283405",
+      "no": "76",
+      "title": "Add New Button for force update fixture data and details if we face an error or conflict",
+      "type": "Task",
+      "parent": "120216000004286155",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004286187",
+      "no": "68",
+      "title": " User Feedback Improvements : As a World Cup User,I want the prediction platform experience to be more accurate, transparent, and user-friendly, so that I can easily browse matches, understand the scoring system,  ...",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535177",
+        "120216000000535227",
+        "120216000000809729",
+        "120216000000902039"
+      ]
+    },
+    {
+      "id": "120216000004299750",
+      "no": "93",
+      "title": "Change groups Locale to english ",
+      "type": "Task",
+      "parent": "120216000004286187",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004299745",
+      "no": "92",
+      "title": "Fixing Stucking bugs ",
+      "type": "Task",
+      "parent": "120216000004286187",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004265011",
+      "no": "57",
+      "title": "Adding provider predications details to wc-app Enduser App",
+      "type": "Task",
+      "parent": "120216000004286187",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004265007",
+      "no": "56",
+      "title": "Add Multi-Language support to wc-app Enduser Application",
+      "type": "Task",
+      "parent": "120216000004286187",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004283415",
+      "no": "77",
+      "title": "Refactor Syncing algorthim to work with InProgress Fixtuers or Matches ea",
+      "type": "Task",
+      "parent": "120216000004286187",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004288218",
+      "no": "78",
+      "title": "Allow enduser to change its surename and this surename will be displayed first on enduser frontend instead of masked name",
+      "type": "Task",
+      "parent": "120216000004286187",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004288224",
+      "no": "79",
+      "title": "Add new api to return Info Richtext as instructions tenant-based to be displyed to endusers ",
+      "type": "Task",
+      "parent": "120216000004286187",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004288229",
+      "no": "80",
+      "title": "Relate group to Fixture and return group name with fixtuers list",
+      "type": "Task",
+      "parent": "120216000004286187",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004288234",
+      "no": "81",
+      "title": "Handle friends that will be retrived from banky GetUserInfo and add Leaderboard for friends",
+      "type": "Task",
+      "parent": "120216000004286187",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004288239",
+      "no": "82",
+      "title": "Admin Report for leaderboard depends on @leaderboard_report.sql",
+      "type": "Task",
+      "parent": "120216000004286187",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004314001",
+      "no": "94",
+      "title": "اضافه فلتر للجدول والمباريات",
+      "type": "Task",
+      "parent": "120216000004286187",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535177"
+      ]
+    },
+    {
+      "id": "120216000004315001",
+      "no": "95",
+      "title": "اضافه المجموعات",
+      "type": "Task",
+      "parent": "120216000004286187",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535177"
+      ]
+    },
+    {
+      "id": "120216000004314006",
+      "no": "96",
+      "title": "حل مشكله عكس الاعلام",
+      "type": "Task",
+      "parent": "120216000004286187",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535177"
+      ]
+    },
+    {
+      "id": "120216000004314011",
+      "no": "97",
+      "title": "اضافه امكانيه تعديل التوقع من شاشه التوقعات",
+      "type": "Task",
+      "parent": "120216000004286187",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535177"
+      ]
+    },
+    {
+      "id": "120216000004314016",
+      "no": "98",
+      "title": "عرض آليه احتساب النقاط والجوائز",
+      "type": "Task",
+      "parent": "120216000004286187",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535177"
+      ]
+    },
+    {
+      "id": "120216000004295023",
+      "no": "83",
+      "title": "As a World Cup Platform User,I want to manage and update my displayed name (Short Name), so that I can control how my name appears in predictions, leaderboards, rankings, and shared content ",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535177",
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004293047",
+      "no": "86",
+      "title": "Fix Display name on Friends Leaderboard",
+      "type": "Task",
+      "parent": "120216000004295023",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004314021",
+      "no": "99",
+      "title": "اضافه امكانيه تعديل الاسم .",
+      "type": "Task",
+      "parent": "120216000004295023",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535177"
+      ]
+    },
+    {
+      "id": "120216000004308404",
+      "no": "103",
+      "title": "Refactore Syncying engine to handle locked fixtures ",
+      "type": "Task",
+      "parent": "120216000004295023",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004308410",
+      "no": "104",
+      "title": "Stopping Draw predications in Stages with  type_id=224",
+      "type": "Task",
+      "parent": "120216000004295023",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004295027",
+      "no": "84",
+      "title": "As a World Cup Platform User, I want to add and manage friends from Banky Lite and BAS, so that I can compare predictions, rankings, and competition results with my friends.",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535177",
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004315006",
+      "no": "100",
+      "title": "اضافه امكانيه اضافه الاصدقاء من بنكي وبس حسب الحاجه .",
+      "type": "Task",
+      "parent": "120216000004295027",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535177"
+      ]
+    },
+    {
+      "id": "120216000004295065",
+      "no": "85",
+      "title": "As a World Cup Platform User,I want to browse tournament groups and participating teams in a dedicated tab, so that I can easily follow team standings and understand the competition structure.",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535177",
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004293074",
+      "no": "87",
+      "title": "Refactor Syncing Background to include Standing When Fixtuer finished",
+      "type": "Task",
+      "parent": "120216000004295065",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004293079",
+      "no": "88",
+      "title": "Update SportMonks standings provider mapping",
+      "type": "Task",
+      "parent": "120216000004295065",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004293085",
+      "no": "89",
+      "title": "Add safe end-user standings API",
+      "type": "Task",
+      "parent": "120216000004295065",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004293097",
+      "no": "90",
+      "title": "always tournamentGroup return null on fixture list and detail",
+      "type": "Task",
+      "parent": "120216000004295065",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004314026",
+      "no": "101",
+      "title": "عرض المجموعات والترتيب والنقاط والفوز والخساره والتعادل لكل الفرق",
+      "type": "Task",
+      "parent": "120216000004295065",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535177"
+      ]
+    },
+    {
+      "id": "120216000004308415",
+      "no": "105",
+      "title": "As a player who predicted a knockout fixture,I want penalty-decided matches to use the approved penalty scoring tiers,so that my prediction is scored fairly when the winner is decided after penalties.",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004271001",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004184112",
+      "no": "10",
+      "title": "As a Registered Mobile User, I want to submit predictions for available World Cup matches, so that I can participate in prediction competitions and receive points based on prediction accuracy",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535177",
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004220049",
+      "no": "16",
+      "title": "Start with creating Product prief and Create a PRD",
+      "type": "Task",
+      "parent": "120216000004184112",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004220059",
+      "no": "17",
+      "title": "Create a project context md file",
+      "type": "Task",
+      "parent": "120216000004184112",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004220068",
+      "no": "18",
+      "title": "Create Architecture Decision Document",
+      "type": "Task",
+      "parent": "120216000004184112",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004233001",
+      "no": "29",
+      "title": "Refactore Appsettings from test env",
+      "type": "Task",
+      "parent": "120216000004184112",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004235135",
+      "no": "33",
+      "title": "User Redemption Status & History",
+      "type": "Task",
+      "parent": "120216000004184112",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004253011",
+      "no": "38",
+      "title": "Add Required APIs by Flutter package for shared predication and leaderboard list",
+      "type": "Task",
+      "parent": "120216000004184112",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004257001",
+      "no": "47",
+      "title": "Adding Import Provider predication data for  Fulltime Result Probability and Both Teams To Score Probability ",
+      "type": "Task",
+      "parent": "120216000004184112",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004257010",
+      "no": "48",
+      "title": "Fix dispaly name on predication admin",
+      "type": "Task",
+      "parent": "120216000004184112",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004184117",
+      "no": "9",
+      "title": "As a Mobile User, I want to browse World Cup matches and view which matches are available for prediction, so that I can easily participate in predictions before matches start",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535177",
+        "120216000000535227",
+        "120216000000809729",
+        "120216000000902039"
+      ]
+    },
+    {
+      "id": "120216000004206194",
+      "no": "12",
+      "title": "As a Administrator , I want to manage shared system settings and tenant-specific configurations within the Sports Activities platform built on the ABP Framework, including integrations with BAS and Banky Lite services , So that each tenant can ....",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227",
+        "120216000000809729",
+        "120216000000902039"
+      ]
+    },
+    {
+      "id": "120216000004220882",
+      "no": "20",
+      "title": "Add Tenant management and permissions",
+      "type": "Task",
+      "parent": "120216000004206194",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004223302",
+      "no": "21",
+      "title": "Working on Creating Entities schema",
+      "type": "Task",
+      "parent": "120216000004206194",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004223763",
+      "no": "23",
+      "title": "Working with Prediction-entity-schema",
+      "type": "Task",
+      "parent": "120216000004206194",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004223768",
+      "no": "24",
+      "title": "Working with configuration-schema-admin",
+      "type": "Task",
+      "parent": "120216000004206194",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004223773",
+      "no": "25",
+      "title": "Working with fixture-scoring background job",
+      "type": "Task",
+      "parent": "120216000004206194",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004223788",
+      "no": "28",
+      "title": "Working woth reward-tier-schema-admin-configuration",
+      "type": "Task",
+      "parent": "120216000004206194",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004246027",
+      "no": "37",
+      "title": "Fixing permission conflict with TenantAdmin",
+      "type": "Task",
+      "parent": "120216000004206194",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004265001",
+      "no": "55",
+      "title": "Fix Shared predication permission",
+      "type": "Task",
+      "parent": "120216000004206194",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004206207",
+      "no": "13",
+      "title": "As an Administrator, I want to send real-time notifications related to matches, goals, match results, and tournament activities, so that users stay engaged and instantly informed about important ...",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227",
+        "120216000000809729",
+        "120216000000902039"
+      ]
+    },
+    {
+      "id": "120216000004223783",
+      "no": "27",
+      "title": "Working with push-notification prediction-result , match-reminder and fixture-unlock",
+      "type": "Task",
+      "parent": "120216000004206207",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004223778",
+      "no": "26",
+      "title": "Working with integration with banky Notification API",
+      "type": "Task",
+      "parent": "120216000004206207",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004257016",
+      "no": "49",
+      "title": "Refactor SendPushNotificationAsync to be api request based and add configuration to appsettings",
+      "type": "Task",
+      "parent": "120216000004206207",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004237197",
+      "no": "35",
+      "title": "As a Product Manager ,  I want to prepare the infrastructure and deployment environment for the Sports Activities platform, including CI/CD pipelines, architecture setup, server preparation, and Docker Compose container orchestration, So that ...",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004235130",
+      "no": "32",
+      "title": "Fix pipeline to resolve cros origin ",
+      "type": "Task",
+      "parent": "120216000004237197",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004220877",
+      "no": "19",
+      "title": "Prepare Infrastructure Setup",
+      "type": "Task",
+      "parent": "120216000004237197",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004235041",
+      "no": "31",
+      "title": "Refactore docker-compose and jenkins files to work smothly with pipeline",
+      "type": "Task",
+      "parent": "120216000004237197",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004235036",
+      "no": "30",
+      "title": "Create Jenkins pipeline for API and Web",
+      "type": "Task",
+      "parent": "120216000004237197",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004242037",
+      "no": "36",
+      "title": "Refactor code and nginx config to allow requests to API provider with https",
+      "type": "Task",
+      "parent": "120216000004237197",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004254022",
+      "no": "39",
+      "title": "As a Banky Lite user, I want to open the World Cup prediction package directly from Banky Lite and be automatically registered and logged into the prediction platform using my existing Banky Lite account information, so that I ...",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535177",
+        "120216000000535227",
+        "120216000000809729",
+        "120216000000902039"
+      ]
+    },
+    {
+      "id": "120216000004223307",
+      "no": "22",
+      "title": "OIDC authentication-user-auto-registration",
+      "type": "Task",
+      "parent": "120216000004254022",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004254091",
+      "no": "40",
+      "title": "As a Platform Administrator, I want the system to automatically synchronize World Cup 2026 matches from SportMonks and continuously update match data and statuses, so that prediction data remains accurate and up to date across all tenants ...",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227",
+        "120216000000809729",
+        "120216000000902039"
+      ]
+    },
+    {
+      "id": "120216000004257022",
+      "no": "50",
+      "title": "Adding Updating prediactions from provider",
+      "type": "Task",
+      "parent": "120216000004254091",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004254125",
+      "no": "43",
+      "title": "As an Administrator, I want to manually update and override synchronized match data from the Admin Portal, so that I can correct scheduling or match information when external API updates fail or contain inaccurate data.",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227",
+        "120216000000809729",
+        "120216000000902039"
+      ]
+    },
+    {
+      "id": "120216000004254259",
+      "no": "45",
+      "title": "As a User, I want to view the prediction leaderboard and rankings, so that I can track my position, compare my performance with other users, and increase engagement within the World Cup prediction platform.",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535177",
+        "120216000000535227",
+        "120216000000809729",
+        "120216000000902039"
+      ]
+    },
+    {
+      "id": "120216000004254284",
+      "no": "46",
+      "title": "As a User, I want to share a specific match, my prediction, or my leaderboard ranking, so that I can invite other users, increase engagement, and allow others to directly open the shared content inside ....",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004208120",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535177",
+        "120216000000535227",
+        "120216000000809729",
+        "120216000000902039"
+      ]
+    },
+    {
+      "id": "120216000004558543",
+      "no": "116",
+      "title": "Competition and Season Catalog",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004192758",
+      "statusId": "120216000000003631",
+      "status": "In progress",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004576001",
+      "no": "135",
+      "title": "Adding new Leg La new season 27965 temporary",
+      "type": "Task",
+      "parent": "120216000004558543",
+      "sprintId": "120216000004192758",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004581006",
+      "no": "137",
+      "title": "Create a new database migration for all 3 already loaded season World Cup + Gulf Cup of Nations + La Liga",
+      "type": "Task",
+      "parent": "120216000004558543",
+      "sprintId": "120216000004192758",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004650013",
+      "no": "141",
+      "title": "Fixture List API — League Filter + LeagueId on DTOs",
+      "type": "Task",
+      "parent": "120216000004558543",
+      "sprintId": "120216000004192758",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004558544",
+      "no": "117",
+      "title": "Historical Data Migration and Scope Replacement",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004192758",
+      "statusId": "120216000000003631",
+      "status": "In progress",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004576013",
+      "no": "136",
+      "title": "Stopped old data return on API",
+      "type": "Task",
+      "parent": "120216000004558544",
+      "sprintId": "120216000004192758",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004650023",
+      "no": "142",
+      "title": "Add admin interface to manage tenant leagues ",
+      "type": "Task",
+      "parent": "120216000004558544",
+      "sprintId": "120216000004192758",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004558545",
+      "no": "118",
+      "title": "Multi Season Data Synchronization",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004192758",
+      "statusId": "120216000000003631",
+      "status": "In progress",
+      "assignees": [
+        "120216000000535177",
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004558546",
+      "no": "119",
+      "title": "Shared Provider Budget and Sync Health",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004192758",
+      "statusId": "120216000000003629",
+      "status": "To do",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004581011",
+      "no": "138",
+      "title": "Multi-season sync loop iterates all active seasons, stamping each season's LeagueId onto fixtures, stages, and groups, while deferring cache eviction and ReplaceActiveExternalIdsAsync until the union of all active season fixtures is accumulated.",
+      "type": "Task",
+      "parent": "120216000004558546",
+      "sprintId": "120216000004192758",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004581017",
+      "no": "139",
+      "title": "Per-season RateLimitPerEntityPerHour ceiling is passed to ISportMonksRateLimitBudgetService.ReserveAsync(request, budgetCeiling) via TryFetchProviderListAsync.",
+      "type": "Task",
+      "parent": "120216000004558546",
+      "sprintId": "120216000004192758",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004581022",
+      "no": "140",
+      "title": "SportMonksOptions.GetActiveSeasons() returns IReadOnlyList<SportMonksSeasonConfig> filtered to active, non-empty season ID, and positive league ID entries. Existing GetActiveSeason() remains intact for fallback single-season needs.",
+      "type": "Task",
+      "parent": "120216000004558546",
+      "sprintId": "120216000004192758",
+      "statusId": "120216000000003631",
+      "status": "In progress",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004558547",
+      "no": "120",
+      "title": "Tenant Competition Entitlements",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004192758",
+      "statusId": "120216000000003629",
+      "status": "To do",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004558548",
+      "no": "121",
+      "title": "Competition Aware Reads and Prediction Validation",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004192758",
+      "statusId": "120216000000003629",
+      "status": "To do",
+      "assignees": [
+        "120216000000535177",
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004558549",
+      "no": "122",
+      "title": "Season Scoring Streaks and Leaderboards",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004192758",
+      "statusId": "120216000000003629",
+      "status": "To do",
+      "assignees": [
+        "120216000000535177",
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004184190",
+      "no": "3",
+      "title": "As a Product Owner / Innovation Lead , I want to build a prototype Flutter package for World Cup 2026 predictions (similar to 360 experience) , So that I can validate the concept, user experience, ...",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004184188",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535177"
+      ]
+    },
+    {
+      "id": "120216000004184196",
+      "no": "5",
+      "title": "As developers,We want to initialize the project using the ABP framework,So that we can establish a scalable, modular, and maintainable architecture that accelerates development and ensures best practices.",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004184188",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004186527",
+      "no": "6",
+      "title": "Intiate project using ABP Personal tool",
+      "type": "Task",
+      "parent": "120216000004184196",
+      "sprintId": "120216000004184188",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004204066",
+      "no": "14",
+      "title": "Copying old empty project with Busseinse Lice to use all features needed",
+      "type": "Task",
+      "parent": "120216000004184196",
+      "sprintId": "120216000004184188",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004204072",
+      "no": "15",
+      "title": "Working on Configuring project and prepare it to start work on",
+      "type": "Task",
+      "parent": "120216000004184196",
+      "sprintId": "120216000004184188",
+      "statusId": "120216000000003637",
+      "status": "Done",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004260019",
+      "no": "53",
+      "title": "As a player, I want a separate installable wc-app Angular PWA shell, So that the player experience is independent from the admin Angular workspace.",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004162608",
+      "statusId": "120216000000003629",
+      "status": "To do",
+      "assignees": [
+        "120216000000535227",
+        "120216000000809729",
+        "120216000000902039"
+      ]
+    },
+    {
+      "id": "120216000004558550",
+      "no": "123",
+      "title": "League Cup and Stage Formats",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004162608",
+      "statusId": "120216000000003629",
+      "status": "To do",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004558551",
+      "no": "124",
+      "title": "Season Context Notifications and Sharing",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004162608",
+      "statusId": "120216000000003629",
+      "status": "To do",
+      "assignees": [
+        "120216000000535177",
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004558552",
+      "no": "125",
+      "title": "Competition Reports Cache and Realtime Consistency",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004162608",
+      "statusId": "120216000000003629",
+      "status": "To do",
+      "assignees": [
+        "120216000000535227"
+      ]
+    },
+    {
+      "id": "120216000004558553",
+      "no": "126",
+      "title": "Admin Competition and Season Management",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004162608",
+      "statusId": "120216000000003629",
+      "status": "To do",
+      "assignees": [
+        "120216000000002005"
+      ]
+    },
+    {
+      "id": "120216000004558554",
+      "no": "127",
+      "title": "Admin Tenant Competition Assignment",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004162608",
+      "statusId": "120216000000003629",
+      "status": "To do",
+      "assignees": [
+        "120216000000002005"
+      ]
+    },
+    {
+      "id": "120216000004558555",
+      "no": "128",
+      "title": "Admin Match Operations and Reports",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004162608",
+      "statusId": "120216000000003629",
+      "status": "To do",
+      "assignees": [
+        "120216000000002005"
+      ]
+    },
+    {
+      "id": "120216000004558556",
+      "no": "129",
+      "title": "Admin Multi Season Sync Monitoring",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004162608",
+      "statusId": "120216000000003629",
+      "status": "To do",
+      "assignees": [
+        "120216000000002005"
+      ]
+    },
+    {
+      "id": "120216000004558557",
+      "no": "130",
+      "title": "Player Competition and Season Navigation",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004162608",
+      "statusId": "120216000000003629",
+      "status": "To do",
+      "assignees": [
+        "120216000000002005"
+      ]
+    },
+    {
+      "id": "120216000004558558",
+      "no": "131",
+      "title": "Player Fixtures Prediction and Standings",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004162608",
+      "statusId": "120216000000003629",
+      "status": "To do",
+      "assignees": [
+        "120216000000359035"
+      ]
+    },
+    {
+      "id": "120216000004558559",
+      "no": "132",
+      "title": "Player Predictions Season and Friends Rankings",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004162608",
+      "statusId": "120216000000003629",
+      "status": "To do",
+      "assignees": [
+        "120216000000002005"
+      ]
+    },
+    {
+      "id": "120216000004558560",
+      "no": "133",
+      "title": "Player Links Localization and PWA Cache Safety",
+      "type": "Story",
+      "parent": "",
+      "sprintId": "120216000004162608",
+      "statusId": "120216000000003629",
+      "status": "To do",
+      "assignees": [
+        "120216000000002005"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "120216000004558543",
+      "no": "116",
+      "title": "Competition and Season Catalog",
+      "description": "As a platform administrator, I want to manage a persistent competition and season catalog, so that leagues and cups can be configured without redeploying the platform.\n\n**Acceptance Criteria**\n1  When a valid competition and season are added, persist their relationship, provider identifiers and Arabic and English names without hardcoded identifiers.\n2  Reject a second record with the same Provider and ExternalSeasonId. Reject invalid dates and references to nonexistent competitions.\n3  When a competition is outside the provider account's coverage, retain it as Draft with a clear reason and do not publish it to users.\n4  When a season is enabled or disabled, audit before-and-after values, actor and timestamp, and update the configuration version without restarting the service.\n\nRequired Changes  Add Competition and CompetitionSeason entities, repositories, DTOs and permissions. Convert appsettings into repeatable initial seeding that does not overwrite administrative settings.\n\nDependencies  None; this story establishes the foundation for the other stories.",
+      "status": "In progress",
+      "parent": "",
+      "sprintId": "120216000004192758"
+    },
+    {
+      "id": "120216000004650013",
+      "no": "141",
+      "title": "Fixture List API — League Filter + LeagueId on DTOs",
+      "description": "",
+      "status": "Done",
+      "parent": "120216000004558543",
+      "sprintId": "120216000004192758"
+    },
+    {
+      "id": "120216000004558544",
+      "no": "117",
+      "title": "Historical Data Migration and Scope Replacement",
+      "description": "As a platform operator, I want to migrate existing fixtures to verified seasons while preserving predictions and points, so that multi-season operation does not lose or misclassify historical data.\n\n**Acceptance Criteria**\n1  Before enabling the expansion, match fixture IDs from seasons 26618 and 26998 against documented evidence. Do not default every row to LeagueId 732 or one SeasonId.\n2  After backfill, every active fixture has a verified season. Quarantine unclassified rows and produce a remediation report; do not publish unclassified records.\n3  Prediction, outcome, point-ledger and reward counts and relationships remain identical before and after migration. Migration performs no deletion or recalculation.\n4  After Redis is flushed, visibility remains database- and tenant-setting based. A rollback test restores the previous scope without deleting new seasons.\n\nRequired Changes  Use a staged nullable migration, followed by backfill, constraints and indexes. Replace ActiveSeasonFixtureScope with CompetitionSeasonScope and remove cached fixture IDs as the authoritative visibility source.\n\nDependencies  BE01; complete before releasing new-season functionality.",
+      "status": "In progress",
+      "parent": "",
+      "sprintId": "120216000004192758"
+    },
+    {
+      "id": "120216000004650023",
+      "no": "142",
+      "title": "Add admin interface to manage tenant leagues ",
+      "description": "",
+      "status": "Done",
+      "parent": "120216000004558544",
+      "sprintId": "120216000004192758"
+    },
+    {
+      "id": "120216000004558545",
+      "no": "118",
+      "title": "Multi Season Data Synchronization",
+      "description": "As a platform operator, I want shared synchronization to process each enabled season independently, so that all competitions remain current without duplicated tenant-level provider calls.\n\n**Acceptance Criteria**\n1  With three enabled seasons, GetFixtures, GetTeams, GetStages, GetTournamentGroups and GetStandings use the correct season identifier for each call.\n2  If one season fails, retain its last successful data, record the failure and continue other seasons. Do not delete data because of a failure or incomplete response.\n3  On job retry or concurrent instances, locking prevents overlapping logical work and upserts remain idempotent. Logs include SeasonId, Provider and CorrelationId.\n4  When a season ends and is archived, stop recurring synchronization but retain its data. LiveScores remain shared; FixtureDetail is retrieved by external fixture identifier.\n\nRequired Changes  Update SportMonksOptions, IMatchDataProvider, SportMonksMatchDataProvider, MatchDataSyncJob and FixtureDetailSyncJob. Resolve livescore fixture IDs against the catalog before updating them.\n\nDependencies  BE01 and BE02.",
+      "status": "In progress",
+      "parent": "",
+      "sprintId": "120216000004192758"
+    },
+    {
+      "id": "120216000004558546",
+      "no": "119",
+      "title": "Shared Provider Budget and Sync Health",
+      "description": "As a platform operator, I want all seasons to share the provider account budget and expose sync health, so that concurrent tournaments do not exhaust provider limits or hide stale data.\n\n**Acceptance Criteria**\n1  When two seasons request the same requested_entity under one account, reserve capacity from one shared quota; each season must not receive an independent copy of the full limit.\n2  On HTTP 429, honor retry or reset metadata and defer nonessential work with backoff. Prevent rapid retries and manual refresh bypassing the budget.\n3  During concurrent live matches across competitions, avoid season starvation, prioritize live and final-result updates, and expose reasons for deferred standings and catalog work.\n4  Health responses show last successful sync, remaining quota, reset, stale and deferred status per bucket and season. Alert after 90 seconds of live-fixture staleness, identifying any deferral reason.\n\nRequired Changes  Update SportMonksRateLimitBudgetService, distributed reservations and Redis keys. Configure a documented account-level ceiling and expose a lower operational limit when needed.\n\nDependencies  BE03; verify the provider account quota scope in the test environment.",
+      "status": "To do",
+      "parent": "",
+      "sprintId": "120216000004192758"
+    },
+    {
+      "id": "120216000004581011",
+      "no": "138",
+      "title": "Multi-season sync loop iterates all active seasons, stamping each season's LeagueId onto fixtures, stages, and groups, while deferring cache eviction and ReplaceActiveExternalIdsAsync until the union of all active season fixtures is accumulated.",
+      "description": "",
+      "status": "Done",
+      "parent": "120216000004558546",
+      "sprintId": "120216000004192758"
+    },
+    {
+      "id": "120216000004581017",
+      "no": "139",
+      "title": "Per-season RateLimitPerEntityPerHour ceiling is passed to ISportMonksRateLimitBudgetService.ReserveAsync(request, budgetCeiling) via TryFetchProviderListAsync.",
+      "description": "",
+      "status": "Done",
+      "parent": "120216000004558546",
+      "sprintId": "120216000004192758"
+    },
+    {
+      "id": "120216000004581022",
+      "no": "140",
+      "title": "SportMonksOptions.GetActiveSeasons() returns IReadOnlyList<SportMonksSeasonConfig> filtered to active, non-empty season ID, and positive league ID entries. Existing GetActiveSeason() remains intact for fallback single-season needs.",
+      "description": "",
+      "status": "In progress",
+      "parent": "120216000004558546",
+      "sprintId": "120216000004192758"
+    },
+    {
+      "id": "120216000004558547",
+      "no": "120",
+      "title": "Tenant Competition Entitlements",
+      "description": "<div>As a Super Admin, I want to assign competition access and defaults to each tenant, so that users only participate in competitions their tenant is entitled to offer.\n<br/></div><div><br/></div><div>Acceptance Criteria:<br/></div><div><br/></div><div>\n1  When saving tenant settings, validate WorldCup.TenantLeagues.Manage and plan coverage for every competition. Tenant Admins cannot expand their own subscription.\n<br/></div><div>2  Selected with an empty list exposes no competitions; AllEntitled exposes authorized competitions only. Migrated tenants retain their previous scope and are not automatically assigned Starter access.<br/></div><div>\n3  On plan change or competition disablement, reject invalid defaults, invalidate caches and review new jobs. Keep historical results and predictions stored.<br/></div><div>\n4  Concurrent setting changes use concurrencyStamp to prevent overwriting newer changes. Bootstrap returns a new configuration version after saving.\n\nRequired Changes  Add EntitlementResolver and CompetitionAccessPolicy. Use ABP Settings or a consistent typed table, with a transition plan for EnabledLeagueIds and SubscribedPlan.\n\nDependencies  BE01; approve selection modes and subscription rules.<br/></div>",
+      "status": "To do",
+      "parent": "",
+      "sprintId": "120216000004192758"
+    },
+    {
+      "id": "120216000004558548",
+      "no": "121",
+      "title": "Competition Aware Reads and Prediction Validation",
+      "description": "<div>As a tenant user, I want every match and prediction endpoint to respect my competition and season scope, so that navigation and participation remain consistent and authorized.\n<br/></div><div>Acceptance Criteria:<br/></div><div>1  With a seasonId filter, fixtures, detail, community stats, my predictions and admin predictions use the same competition, season and tenant scope.\n<br/></div><div>2  Direct or shared requests for an unauthorized fixture return the same not-found response. Hiding its card in the interface is insufficient.<br/></div><div>\n3  On Submit or Update, derive the season from the fixture and reject predictions at T-10 minutes, for TBD fixtures or for seasons not open for predictions, even if the interface is stale.\n<br/></div><div>4  With all request filters omitted, return authorized results only, using pagination and deterministic ordering.<br/></div><div><br/></div><div> DTOs carry full context and conflicting scope parameters are rejected.\n<br/></div><div>\nRequired Changes  Update FixtureAppService and its extensions, AdminFixtureAppService, PredictionAppService, AdminPredictionAppService, DTOs and bootstrap. Preserve the existing prediction request body.<br/></div><div><br/></div><div>\n\nDependencies  BE02 and BE05.<br/></div>",
+      "status": "To do",
+      "parent": "",
+      "sprintId": "120216000004192758"
+    },
+    {
+      "id": "120216000004558549",
+      "no": "122",
+      "title": "Season Scoring Streaks and Leaderboards",
+      "description": "As a player, I want independent season rankings and deterministic scoring, so that predictions across concurrent competitions do not mix streaks or produce duplicate points.\n\n**Acceptance Criteria**\n1  Season rankings use outcomes from that season's fixtures. Overall aggregates only available seasons in the published scope; friends rankings apply the same scope and dense-rank semantics.\n2  A correct Premier League prediction followed by an incorrect La Liga prediction does not affect the Premier League streak under the proposed new-season policy. Equal kickoff times are ordered by a stable fixture identifier.\n3  Finalization, retry and recompute create no duplicate outcomes or awards. Late results deterministically recalculate the same season's sequence without moving points between seasons.\n4  WinnerOnly penalty fixtures retain existing CURRENT, PENALTIES, ExactPenalty and CorrectPenalty rules. Enabling a competition does not retroactively change points or reward balances.\n\nRequired Changes  Update the scoring resolver, streak state, EfCorePredictionOutcomeRepository, leaderboards, friends rankings and reporting. Keep leaderboard aggregates separate from any redeemable reward balance.\n\nDependencies  BE02 and BE06; approve season-specific streaks and historical point preservation.",
+      "status": "To do",
+      "parent": "",
+      "sprintId": "120216000004192758"
+    },
+    {
+      "id": "120216000004558554",
+      "no": "127",
+      "title": "Admin Tenant Competition Assignment",
+      "description": "As a Super Admin, I want a tenant competition assignment screen with defaults and clear selection modes, so that I can control each tenant offering safely and predictably.\n\n**Acceptance Criteria**\n1  Show the approved plan, available competitions, AllEntitled or Selected mode, competition order and a valid default season.\n2  On plan change, identify competitions losing access and affected prediction counts, and warn that history will be preserved before saving.\n3  An empty Selected mode clearly previews that users will see no competitions. Do not silently convert it into all leagues.\n4  After success, reload server-approved values and the configuration version. On conflict, request a reload. Tenant Viewers can read but cannot save.\n\nRequired Changes  Add a Tenant Competition Assignment tab and reuse ABP permission checks, with a before-and-after summary and confirmation in the administrative workflow.\n\nDependencies  BE05 and AD01.",
+      "status": "To do",
+      "parent": "",
+      "sprintId": "120216000004162608"
+    },
+    {
+      "id": "120216000004558557",
+      "no": "130",
+      "title": "Player Competition and Season Navigation",
+      "description": "As an end user, I want to select a competition and season with a clear default, so that I can follow the matches that interest me across several tournaments.\n\n**Acceptance Criteria**\n1  Bootstrap displays authorized competitions and seasons only, in the configured order. A single competition must not create a redundant All option.\n2  Select the user's last valid context, then the tenant default. All is an explicit option and does not conflict with first-league defaults.\n3  Changing competition updates fixtures and related details and cancels older requests. Store context in the URL without credentials.\n4  On access changes or when no competitions are available, use a valid fallback context or a clear empty state rather than displaying unauthorized cached data.\n\nRequired Changes  Update wc-app competition and season selectors, route-query state and bootstrap models. Provide horizontally scrollable mobile tabs with keyboard support and RTL/LTR layouts.\n\nDependencies  BE05 and BE06.",
+      "status": "To do",
+      "parent": "",
+      "sprintId": "120216000004162608"
+    }
+  ]
+}

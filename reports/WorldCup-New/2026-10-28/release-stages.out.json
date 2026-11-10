@@ -1,0 +1,49 @@
+[
+  {
+    "ok": true,
+    "tool": "ZohoSprints_GetReleaseStages",
+    "isError": false,
+    "data": {
+      "releasestatuses": [
+        {
+          "projId": "120216000004162606",
+          "statusId": "120216000000003801",
+          "color": "#edf8f3",
+          "statusType": 0,
+          "releasestatusId": "120216000000003801",
+          "statusName": "Planning",
+          "position": 1,
+          "isStart": true,
+          "isEnd": false
+        },
+        {
+          "projId": "120216000004162606",
+          "statusId": "120216000000593001",
+          "color": "#fdf1f1",
+          "statusType": 2,
+          "releasestatusId": "120216000000593001",
+          "statusName": "Ongoing",
+          "position": 2,
+          "isStart": false,
+          "isEnd": false
+        },
+        {
+          "projId": "120216000004162606",
+          "statusId": "120216000000003805",
+          "color": "#ecf6ff",
+          "statusType": 1,
+          "releasestatusId": "120216000000003805",
+          "statusName": "Released",
+          "position": 3,
+          "isStart": false,
+          "isEnd": true
+        }
+      ],
+      "userDisplayName": {},
+      "hasNext": false,
+      "nextIndex": 26,
+      "zsuserIdvsZUID": {},
+      "status": "success"
+    }
+  }
+]

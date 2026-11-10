@@ -1,0 +1,111 @@
+{
+ "userDisplayName": {
+  "120216000000535227": "Abdullah Al-Ansi",
+  "120216000000175003": "Eissa Musleh",
+  "120216000000809689": "devopssme"
+ },
+ "items": [
+  {
+   "priorityName": "None",
+   "statusType": 1,
+   "endDate": "2025-07-31T20:00:00.000Z",
+   "releaseCount": 1,
+   "isNotesAdded": false,
+   "itemNo": "14",
+   "ownerId": [
+    "120216000000535227",
+    "120216000000809689"
+   ],
+   "points": 6,
+   "itemBlockId": "",
+   "UDF_CHAR8": "SMEs",
+   "estimationPoints": 13,
+   "itemName": "Manage Parties- As a system administrator, I want to be able to manage parties (add, update, delete and so on) like add party, party type, set access role, or suspend. so that I can manage permission and access control effectively. ",
+   "UDF_CHAR7": "Alriadi",
+   "isOverDue": true,
+   "projectInfo": {
+    "no": "37",
+    "name": "Invoicing MService",
+    "id": "120216000000593007"
+   },
+   "UDF_CHAR6": "",
+   "startAfter": "-1",
+   "createdTime": "2024-07-22T15:51:06.657Z",
+   "isIntegrated": "0",
+   "sharedType": -1,
+   "rootItem": "",
+   "UDF_CHAR5": "Alriadi",
+   "UDF_CHAR4": "Manage parties",
+   "UDF_CHAR3": "ادارة الاطراف ذات العلاقة",
+   "workhourType": 0,
+   "projPriorityId": "120216000000593033",
+   "UDF_ROLLUP8": "6",
+   "UDF_ROLLUP9": "0",
+   "isParent": true,
+   "cycleTime": "1917240000",
+   "UDF_TEXT1": "",
+   "userGroupCount": 0,
+   "UDF_ROLLUP3": "20/07/2025 04:00 PM",
+   "UDF_ROLLUP4": "13",
+   "UDF_ROLLUP5": "6",
+   "completedDate": "2025-11-04T14:56:35.863Z",
+   "UDF_ROLLUP6": "31/07/2025 11:00 PM",
+   "UDF_ROLLUP7": "0",
+   "commentCount": 0,
+   "itemId": "120216000000814001",
+   "sequence": "1",
+   "sprintId": "120216000002936631",
+   "UDF_FORMULADBL1": 470,
+   "epicId": "120216000002409263",
+   "statusId": "120216000000003637",
+   "sprintInfo": {
+    "owner": "120216000000175003",
+    "no": "11",
+    "name": "Sprint9: Jul-2025 Publish-Last",
+    "id": "120216000002936631",
+    "type": 3
+   },
+   "parentItem": "",
+   "projItemTypeId": "120216000000593045",
+   "itemTypeName": "Story",
+   "userIdVsWorkhours": {
+    "120216000000535227": "0",
+    "120216000000809689": "0"
+   },
+   "startDate": "2025-07-20T13:00:00.000Z",
+   "description": "<div><b><span class=\"size\" style=\"font-size: 18.6667px\">User Story:</span></b><br></div><h3><a name=\"_Toc172501237\" target=\"_blank\" rel=\"noopener noreferrer\"><b><span class=\"font\" style=\"font-family: &quot;Calibri Light&quot;, sans-serif\"><span class=\"size\" style=\"font-size: 16px\">As a</span></span></b><span class=\"size\" style=\"font-size: 16px\"> system\nadministrator,</span><span class=\"size\" style=\"font-size: 16px\"><br></span><span class=\"size\" style=\"font-size: 16px\"> </span><span class=\"font\" style=\"font-family: &quot;Calibri Light&quot;, sans-serif\"><b><span class=\"size\" style=\"font-size: 16px\">I want </span></b><span style=\"font-weight: normal\"><span class=\"size\" style=\"font-size: 16px\">to</span></span></span><span style=\"font-weight: normal\"><span class=\"size\" style=\"font-size: 16px\"> be able to manage\nparties (add, update, delete and so on) like add party, party type, set access\nrole, or suspend.</span></span><span class=\"size\" style=\"font-size: 16px\"><br></span><span class=\"size\" style=\"font-size: 16px\"> </span><b><span class=\"font\" style=\"font-family: &quot;Calibri Light&quot;, sans-serif\"><span class=\"size\" style=\"font-size: 16px\">so that</span></span></b><span style=\"font-weight: normal\"><span class=\"size\" style=\"font-size: 16px\"> I can manage permission\nand access control effectively.</span></span></a></h3><div><br></div><div><b>Acceptance Criteria:</b><br></div><p style=\"margin-left: 0.5in; text-indent: -0.25in; margin-top: 0px\"><span style=\"\">1.<span style=\"font: 7pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b>Admin portal:</b><br></p><ol><ul><li style=\"\">The system supports\n      the creation and management of parties.<br></li><li style=\"\">The system allows\n      viewing a list of all existing parties’ and party types.<br></li></ul></ol><p style=\"margin-left: 0.5in; text-indent: -0.25in; margin-top: 0px\"><span style=\"\">2.<span style=\"font: 7pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b>Party Types:</b><br></p><ol><ul><li style=\"\"><span style=\"\">&nbsp;</span>Provider<br></li><li style=\"\">User<br></li><li style=\"\">Merchant<br></li><li style=\"\">Agent<br></li></ul></ol><p style=\"margin-left: 0.5in; text-indent: -0.25in; margin-top: 0px\"><span style=\"\">3.<span style=\"font: 7pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b>Access control:</b><br></p><ol><ul><li style=\"\">The system\n      administrator can set specific roles for each party.<br></li><li style=\"\">The admin may be able to\n      suspend/unsuspend party.<br></li></ul></ol><div><br></div>",
+   "leadTime": "8463900000",
+   "sharedItemCount": 0,
+   "addedVia": 0,
+   "hasCheckList": false,
+   "UDF_CHKBOX2": "120216000000850749",
+   "duration": "10d",
+   "UDF_CHKBOX1": "120216000000420553,120216000000420563",
+   "diffDays": "67d 2h 56m",
+   "statusName": "Done",
+   "totalWorkhours": "0",
+   "isDocsAdded": false,
+   "UDF_FORMULASTR1": "7/2025",
+   "UDF_RADIO1": "120216000000851697",
+   "UDF_DATE1": "-1",
+   "baseItemType": 2,
+   "UDF_EMAIL1": "",
+   "depth": "0",
+   "createdBy": "120216000000175003",
+   "UDF_MULTIUSERPKL1": [
+    "120216000000175003"
+   ],
+   "UDF_ROLLUP10": "1d 18h",
+   "tagCount": 0,
+   "voteCount": 0,
+   "completedBy": "120216000000175003",
+   "plannedHours": "0"
+  }
+ ],
+ "zsuserIdvsZUID": {
+  "120216000000535227": "830852660",
+  "120216000000175003": "793914823",
+  "120216000000809689": "10085229706"
+ },
+ "status": "success"
+}

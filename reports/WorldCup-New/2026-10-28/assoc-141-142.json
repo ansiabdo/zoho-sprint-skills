@@ -1,0 +1,10 @@
+[
+  {
+    "tool": "ZohoSprints_AssociateItemsWithRelease",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606", "releaseId": "120216000004656366" },
+      "query_params": { "sprintid": "120216000004192758", "rootitemidarr": ["120216000004650013", "120216000004650023"] }
+    }
+  }
+]

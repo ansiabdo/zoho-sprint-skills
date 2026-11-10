@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "roles": ["admin", "developer"],
+  "duplicate_outcomes": ["exact", "likely", "related", "none_in_scope", "unknown_coverage"],
+  "action_states": ["proposed", "awaiting_approval", "requested", "confirmed", "verified", "pending_verification", "failed", "skipped_duplicate"],
+  "audit_files": ["audit-state.json", "change-ledger.jsonl", "pending-actions.json"],
+  "profile_path": ".zoho-sprints/profile.yaml",
+  "audit_root": ".zoho-sprints",
+  "new_developer_story_requires": ["active_status", "inclusive_date_window", "verified_timezone", "duplicate_check", "eligible_target_sprint"],
+  "child_item_requires": ["verified_story_parent", "exact_current_user_assignee_id", "duplicate_check", "actual_type_and_priority_ids"]
+}

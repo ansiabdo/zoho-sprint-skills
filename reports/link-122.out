@@ -1,0 +1,22 @@
+[
+  {
+    "ok": true,
+    "method": "tools/call",
+    "params": "ZohoSprints_UpdateItem",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"status\":\"success\"}"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "data": {
+          "status": "success"
+        },
+        "status": "success"
+      }
+    }
+  }
+]

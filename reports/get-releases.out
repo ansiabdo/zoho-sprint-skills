@@ -1,0 +1,52 @@
+[
+  {
+    "ok": true,
+    "method": "tools/call",
+    "params": "ZohoSprints_GetReleases",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"next\":false,\"userDisplayName\":{\"120216000000175003\":\"Eissa Musleh\",\"120216000000359035\":\"Mohammed  Alaqari\"},\"zsuserIdvsZUID\":{\"120216000000175003\":\"793914823\",\"120216000000359035\":\"814269634\"},\"status\":\"success\",\"releases\":[{\"goal\":\"<div>publish a first draft for invoice system<\\/div>\",\"color\":\"#878f97\",\"releaseDate\":\"2025-07-30T21:00:00.000Z\",\"releaseName\":\"1.0\",\"releasedBy\":\"120216000000359035\",\"addedVia\":0,\"userId\":[\"120216000000175003\"],\"releasedOn\":\"2026-03-29T15:54:47.567Z\",\"sequence\":1,\"statusId\":\"120216000000003805\",\"releaseId\":\"120216000002911635\",\"createdBy\":\"120216000000175003\",\"tagCount\":0,\"startDate\":\"2025-06-30T21:00:00.000Z\",\"releaseNo\":\"1\"}]}"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "status": "success",
+        "data": {
+          "next": false,
+          "userDisplayName": {
+            "120216000000175003": "Eissa Musleh",
+            "120216000000359035": "Mohammed  Alaqari"
+          },
+          "zsuserIdvsZUID": {
+            "120216000000175003": "793914823",
+            "120216000000359035": "814269634"
+          },
+          "status": "success",
+          "releases": [
+            {
+              "goal": "<div>publish a first draft for invoice system</div>",
+              "color": "#878f97",
+              "releaseDate": "2025-07-30T21:00:00.000Z",
+              "releaseName": "1.0",
+              "releasedBy": "120216000000359035",
+              "addedVia": 0,
+              "userId": [
+                "120216000000175003"
+              ],
+              "releasedOn": "2026-03-29T15:54:47.567Z",
+              "sequence": 1,
+              "statusId": "120216000000003805",
+              "releaseId": "120216000002911635",
+              "createdBy": "120216000000175003",
+              "tagCount": 0,
+              "startDate": "2025-06-30T21:00:00.000Z",
+              "releaseNo": "1"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

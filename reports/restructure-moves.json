@@ -1,0 +1,86 @@
+[
+  {
+    "label": "S2-old-identity",
+    "tool": "ZohoSprints_MoveItem",
+    "args": {
+      "headers": {
+        "X-convert-response": "true",
+        "x-za-ui-version": "v2"
+      },
+      "path_variables": {
+        "teamId": "767679505",
+        "projectId": "120216000000593007",
+        "sprintId": "120216000004656294"
+      },
+      "query_params": {
+        "action": "moveitem",
+        "itemidarr": "120216000004657003",
+        "tosprintid": "120216000000593009",
+        "toprojectid": "120216000000593007"
+      }
+    }
+  },
+  {
+    "label": "S3-old-migration",
+    "tool": "ZohoSprints_MoveItem",
+    "args": {
+      "headers": {
+        "X-convert-response": "true",
+        "x-za-ui-version": "v2"
+      },
+      "path_variables": {
+        "teamId": "767679505",
+        "projectId": "120216000000593007",
+        "sprintId": "120216000004656294"
+      },
+      "query_params": {
+        "action": "moveitem",
+        "itemidarr": "120216000004656296",
+        "tosprintid": "120216000000593009",
+        "toprojectid": "120216000000593007"
+      }
+    }
+  },
+  {
+    "label": "S4-old-ledger",
+    "tool": "ZohoSprints_MoveItem",
+    "args": {
+      "headers": {
+        "X-convert-response": "true",
+        "x-za-ui-version": "v2"
+      },
+      "path_variables": {
+        "teamId": "767679505",
+        "projectId": "120216000000593007",
+        "sprintId": "120216000004656294"
+      },
+      "query_params": {
+        "action": "moveitem",
+        "itemidarr": "120216000004655019",
+        "tosprintid": "120216000000593009",
+        "toprojectid": "120216000000593007"
+      }
+    }
+  },
+  {
+    "label": "S7-old-disputes",
+    "tool": "ZohoSprints_MoveItem",
+    "args": {
+      "headers": {
+        "X-convert-response": "true",
+        "x-za-ui-version": "v2"
+      },
+      "path_variables": {
+        "teamId": "767679505",
+        "projectId": "120216000000593007",
+        "sprintId": "120216000004656294"
+      },
+      "query_params": {
+        "action": "moveitem",
+        "itemidarr": "120216000004655023",
+        "tosprintid": "120216000000593009",
+        "toprojectid": "120216000000593007"
+      }
+    }
+  }
+]

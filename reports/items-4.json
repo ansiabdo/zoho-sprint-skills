@@ -1,0 +1,75 @@
+{
+ "next": false,
+ "userDisplayName": {
+  "120216000000535227": "Abdullah Al-Ansi",
+  "120216000000175003": "Eissa Musleh"
+ },
+ "items": [
+  {
+   "endDate": "2025-06-30T20:00:00.000Z",
+   "isNotesAdded": false,
+   "itemNo": "88",
+   "ownerId": [
+    "120216000000535227"
+   ],
+   "leftPosition": 1,
+   "points": 5,
+   "itemBlockId": "",
+   "itemName": "Complete Add ExtraFields Entity and add Relation with Category - As a system admin, i want to have extra fields on invoices system, so that will enhance the system and the user can have full details of invoice",
+   "isOverDue": true,
+   "startAfter": "-1",
+   "createdTime": "2025-05-20T21:38:19.525Z",
+   "sharedType": -1,
+   "rightPosition": 8,
+   "rootItem": "",
+   "projPriorityId": "120216000000593033",
+   "immediateParentId": "",
+   "isParent": true,
+   "cycleTime": "744480000",
+   "level": 1,
+   "blockedByObj": {},
+   "directChilds": [],
+   "completedDate": "2025-07-06T15:18:09.381Z",
+   "commentCount": 0,
+   "itemId": "120216000002571905",
+   "sequence": "2",
+   "sprintId": "120216000002805255",
+   "statusId": "120216000000003637",
+   "epicId": "120216000002409263",
+   "sprintInfo": {
+    "owner": "120216000000010017",
+    "no": "9",
+    "name": "Sprint8: Jun-2025 Invoice dynamic fields",
+    "id": "120216000002805255",
+    "type": 3
+   },
+   "parentItem": "",
+   "projItemTypeId": "120216000000593045",
+   "itemTypeName": "Story",
+   "startDate": "2025-06-01T13:00:00.000Z",
+   "statusColor": "#259e92",
+   "hasSubHierarchy": false,
+   "leadTime": "870000000",
+   "sharedItemCount": 0,
+   "addedVia": 0,
+   "duration": "22d",
+   "diffDays": "3d 3h 18m",
+   "statusName": "Done",
+   "actualStartDate": "2025-05-25T18:30:19.708Z",
+   "isDocsAdded": false,
+   "immediateRootId": "",
+   "blockedOn": "",
+   "blockedReason": "",
+   "depth": "0",
+   "createdBy": "120216000000175003",
+   "itemTypeBaseType": 2,
+   "isOrphanItem": false,
+   "completedBy": "120216000000175003"
+  }
+ ],
+ "zsuserIdvsZUID": {
+  "120216000000535227": "830852660",
+  "120216000000175003": "793914823"
+ },
+ "status": "success"
+}

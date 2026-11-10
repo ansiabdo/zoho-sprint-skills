@@ -1,0 +1,4 @@
+[
+{"tool":"ZohoSprints_GetItemDetails","args":{"headers":{"x-za-ui-version":"v2","X-convert-response":"true"},"path_variables":{"teamId":"767679505","projectId":"120216000004162606","sprintId":"120216000004192758","itemId":"120216000004650013"},"query_params":{"action":"details"}}},
+{"tool":"ZohoSprints_GetItemDetails","args":{"headers":{"x-za-ui-version":"v2","X-convert-response":"true"},"path_variables":{"teamId":"767679505","projectId":"120216000004162606","sprintId":"120216000004192758","itemId":"120216000004650023"},"query_params":{"action":"details"}}}
+]

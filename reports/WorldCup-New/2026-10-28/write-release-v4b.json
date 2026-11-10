@@ -1,0 +1,17 @@
+[
+  {
+    "tool": "ZohoSprints_CreateRelease",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606" },
+      "body": {
+        "name": "v4 Multi Competition",
+        "goal": "Multi Competition delivery: competition/season catalog, tenant entitlements, multi-season sync, admin and player experiences (SNA-116..SNA-133).",
+        "startdate": "2026-10-01T00:00:00+0300",
+        "enddate": "2026-12-31T23:59:59+0300",
+        "ownerIds": ["120216000000359035"],
+        "statusId": "120216000000003801"
+      }
+    }
+  }
+]

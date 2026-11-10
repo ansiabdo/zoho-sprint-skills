@@ -1,0 +1,13 @@
+[
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606", "sprintId": "120216000004324026", "itemId": "120216000004371080" },
+      "query_params": {
+        "UDF_CHAR3": "ملاحظات على النسخة المباشرة",
+        "UDF_CHAR4": "Feedback on Live"
+      }
+    }
+  }
+]

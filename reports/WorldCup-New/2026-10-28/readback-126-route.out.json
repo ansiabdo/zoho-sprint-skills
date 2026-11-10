@@ -1,0 +1,114 @@
+[
+  {
+    "ok": true,
+    "tool": "ZohoSprints_GetItemDetails",
+    "isError": false,
+    "data": {
+      "userDisplayName": {
+        "120216000000535227": "Abdullah Al-Ansi",
+        "120216000000359035": "Mohammed  Alaqari"
+      },
+      "items": [
+        {
+          "priorityName": "High",
+          "statusType": 0,
+          "endDate": "2026-11-15T20:59:59.000Z",
+          "releaseCount": 1,
+          "isNotesAdded": false,
+          "itemNo": "126",
+          "ownerId": [
+            "120216000000535227"
+          ],
+          "points": 5,
+          "itemBlockId": "",
+          "UDF_CHAR8": "",
+          "estimationPoints": 8,
+          "itemName": "Admin Competition and Season Management",
+          "UDF_CHAR7": "إدارة الأفراد",
+          "isOverDue": false,
+          "projectInfo": {
+            "no": "52",
+            "name": "Sports Activities As A service",
+            "id": "120216000004162606"
+          },
+          "UDF_CHAR6": "",
+          "startAfter": "-1",
+          "createdTime": "2026-10-05T19:15:45.472Z",
+          "isIntegrated": "0",
+          "sharedType": -1,
+          "rootItem": "",
+          "UDF_CHAR5": "محمد الاخفش",
+          "UDF_CHAR4": "Admin Competition Management",
+          "UDF_CHAR3": "إدارة المسابقات والمواسم للمشرف",
+          "workhourType": 1,
+          "projPriorityId": "120216000004162627",
+          "UDF_ROLLUP8": "1",
+          "UDF_ROLLUP9": "0",
+          "isParent": false,
+          "cycleTime": "-1",
+          "UDF_TEXT1": "",
+          "userGroupCount": 0,
+          "UDF_ROLLUP3": "-",
+          "UDF_ROLLUP4": "0",
+          "UDF_ROLLUP5": "0",
+          "completedDate": "-1",
+          "UDF_ROLLUP6": "-",
+          "UDF_ROLLUP7": "1",
+          "commentCount": 0,
+          "itemId": "120216000004558553",
+          "sequence": "12",
+          "sprintId": "120216000004162608",
+          "UDF_FORMULADBL1": "",
+          "epicId": "120216000004557316",
+          "statusId": "120216000000003629",
+          "sprintInfo": {
+            "owner": "120216000000010017",
+            "no": "0",
+            "name": "Backlog",
+            "id": "120216000004162608",
+            "type": 5
+          },
+          "parentItem": "",
+          "projItemTypeId": "120216000004162630",
+          "itemTypeName": "Story",
+          "userIdVsWorkhours": {
+            "120216000000535227": "0"
+          },
+          "startDate": "2026-10-31T21:00:00.000Z",
+          "description": "As a Super Admin, I want competition and season management screens, so that I can configure leagues and cups and control their lifecycle without editing deployment files.\n\n**Acceptance Criteria**\n1  The Catalog screen shows competition, format, seasons, provider coverage and Draft, Published or Archived status, with search and filters.\n2  Season creation and editing expose names, dates and external identifiers. Validate required fields and display server errors without losing entered values.\n3  Changing SyncEnabled targets the season identifier, not LeagueId alone. Update the interface only after server success; restore the previous value on failure.\n4  Users without Super Admin privileges cannot access catalog mutation controls, and the API rejects direct attempts to bypass the interface.\n\nRequired Changes  Add Angular Admin routes, catalog lists, a season editor, generated proxies, localization and permission guards. Never expose provider keys.\n\nDependencies  BE01 and BE03.",
+          "leadTime": "-1",
+          "sharedItemCount": 0,
+          "addedVia": 3,
+          "hasCheckList": false,
+          "UDF_CHKBOX2": "",
+          "duration": "13d 2h 59m",
+          "UDF_CHKBOX1": "",
+          "diffDays": "12d 1h 54m",
+          "statusName": "To do",
+          "totalWorkhours": "0",
+          "isDocsAdded": false,
+          "UDF_FORMULASTR1": "11/2026",
+          "UDF_RADIO1": "120216000000851697",
+          "UDF_DATE1": "-1",
+          "baseItemType": 2,
+          "UDF_EMAIL1": "",
+          "depth": "0",
+          "createdBy": "120216000000359035",
+          "UDF_MULTIUSERPKL1": [
+            "120216000000359035"
+          ],
+          "UDF_ROLLUP10": "0",
+          "tagCount": 0,
+          "voteCount": 0,
+          "completedBy": "",
+          "plannedHours": "0"
+        }
+      ],
+      "zsuserIdvsZUID": {
+        "120216000000535227": "830852660",
+        "120216000000359035": "814269634"
+      },
+      "status": "success"
+    }
+  }
+]

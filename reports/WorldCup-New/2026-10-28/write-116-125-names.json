@@ -1,0 +1,82 @@
+[
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606", "sprintId": "120216000004192758", "itemId": "120216000004558543" },
+      "query_params": { "UDF_CHAR3": "كتالوج المسابقات والمواسم", "UDF_CHAR4": "Competition Season Catalog", "UDF_CHAR5": "محمد الاخفش وعبدالله المعصار", "UDF_CHAR7": "إدارة الأفراد" }
+    }
+  },
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606", "sprintId": "120216000004192758", "itemId": "120216000004558544" },
+      "query_params": { "UDF_CHAR3": "ترحيل البيانات التاريخية واستبدال النطاق", "UDF_CHAR4": "Historical Data Migration", "UDF_CHAR5": "محمد الاخفش وعبدالله المعصار", "UDF_CHAR7": "إدارة الأفراد" }
+    }
+  },
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606", "sprintId": "120216000004192758", "itemId": "120216000004558545" },
+      "query_params": { "UDF_CHAR3": "مزامنة بيانات المواسم المتعددة", "UDF_CHAR4": "Multi Season Sync", "UDF_CHAR5": "محمد الاخفش وعبدالله المعصار", "UDF_CHAR7": "إدارة الأفراد" }
+    }
+  },
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606", "sprintId": "120216000004192758", "itemId": "120216000004558546" },
+      "query_params": { "UDF_CHAR3": "ميزانية مزود البيانات المشتركة وصحة المزامنة", "UDF_CHAR4": "Provider Budget & Sync Health", "UDF_CHAR5": "محمد الاخفش وعبدالله المعصار", "UDF_CHAR7": "إدارة الأفراد" }
+    }
+  },
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606", "sprintId": "120216000004192758", "itemId": "120216000004558547" },
+      "query_params": { "UDF_CHAR3": "استحقاقات المسابقات للمستأجرين", "UDF_CHAR4": "Tenant Competition Entitlements", "UDF_CHAR5": "محمد الاخفش وعبدالله المعصار", "UDF_CHAR7": "إدارة الأفراد" }
+    }
+  },
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606", "sprintId": "120216000004192758", "itemId": "120216000004558548" },
+      "query_params": { "UDF_CHAR3": "قراءات واعية بالمسابقات والتحقق من التوقعات", "UDF_CHAR4": "Competition Aware Reads", "UDF_CHAR5": "محمد الاخفش وعبدالله المعصار", "UDF_CHAR7": "إدارة الأفراد" }
+    }
+  },
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606", "sprintId": "120216000004192758", "itemId": "120216000004558549" },
+      "query_params": { "UDF_CHAR3": "سلاسل التسجيل عبر المواسم ولوحات المتصدرين", "UDF_CHAR4": "Season Scoring & Leaderboards", "UDF_CHAR5": "محمد الاخفش", "UDF_CHAR7": "إدارة الأفراد" }
+    }
+  },
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606", "sprintId": "120216000004192758", "itemId": "120216000004558550" },
+      "query_params": { "UDF_CHAR3": "تنسيقات كأس الدوري والمراحل", "UDF_CHAR4": "League Cup & Stage Formats", "UDF_CHAR5": "محمد الاخفش", "UDF_CHAR7": "إدارة الأفراد" }
+    }
+  },
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606", "sprintId": "120216000004192758", "itemId": "120216000004558551" },
+      "query_params": { "UDF_CHAR3": "إشعارات سياق الموسم والمشاركة", "UDF_CHAR4": "Season Context Notifications", "UDF_CHAR5": "محمد الاخفش", "UDF_CHAR7": "إدارة الأفراد", "startdate": "2026-10-01T13:00:00.000Z", "enddate": "2026-10-31T20:00:00.000Z", "duration": "22d" }
+    }
+  },
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606", "sprintId": "120216000004192758", "itemId": "120216000004558552" },
+      "query_params": { "UDF_CHAR3": "ذاكرة تقارير المسابقات واتساق البيانات الفورية", "UDF_CHAR4": "Competition Reports Cache", "UDF_CHAR5": "محمد الاخفش", "UDF_CHAR7": "إدارة الأفراد", "startdate": "2026-10-01T13:00:00.000Z", "enddate": "2026-10-31T20:00:00.000Z", "duration": "22d" }
+    }
+  }
+]

@@ -1,0 +1,8 @@
+# Copy to .zoho-sprints/config.yaml in the audited repository.
+# Keep this file free of credentials.
+repository_id: null
+workspace_id: null
+project_mappings: []       # [{local_path: '.', zoho_project_id: '...'}]
+timezone: null
+mode: dry-run              # default for Git/BMAD reconciliation
+state_dir: .zoho-sprints

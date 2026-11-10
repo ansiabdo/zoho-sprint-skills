@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "ZohoSprints_GetItemDetails",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606", "sprintId": "120216000004192758", "itemId": "120216000004558543" },
+      "query_params": { "action": "details" }
+    }
+  },
+  {
+    "tool": "ZohoSprints_GetLinkedItems",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606", "sprintId": "120216000004192758", "itemId": "120216000004558543" },
+      "query_params": { "action": "data" }
+    }
+  },
+  {
+    "tool": "ZohoSprints_GetItemComments",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606", "moduleId": "120216000000002031", "itemId": "120216000004558543" },
+      "query_params": { "action": "data", "index": 1, "range": 250 }
+    }
+  },
+  {
+    "tool": "ZohoSprints_GetItemActivity",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606", "sprintId": "120216000004192758", "itemId": "120216000004558543" },
+      "query_params": { "index": 1, "range": 250 }
+    }
+  }
+]

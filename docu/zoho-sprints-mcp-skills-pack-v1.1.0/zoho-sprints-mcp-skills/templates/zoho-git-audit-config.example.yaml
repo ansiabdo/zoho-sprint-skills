@@ -1,0 +1,57 @@
+schema_version: 1
+
+# Use only non-secret project mappings. Never put OAuth tokens, passwords, or API keys here.
+timezone: "Asia/Aden"
+default_mode: "dry_run"
+require_approval_before_writes: true
+
+git:
+  include_commits: true
+  include_staged_changes: true
+  include_unstaged_changes: true
+  include_untracked_files: true
+  exclude_patterns:
+    - ".env"
+    - ".env.*"
+    - "**/*.pem"
+    - "**/*.key"
+    - "**/secrets/**"
+    - "**/node_modules/**"
+    - "**/bin/**"
+    - "**/obj/**"
+    - "**/dist/**"
+    - "**/build/**"
+    - "**/*.min.js"
+    - "**/*.map"
+  store_full_diff_in_ledger: false
+
+state:
+  directory: ".zoho-sprints"
+  state_file: "audit-state.json"
+  ledger_file: "change-ledger.jsonl"
+  pending_file: "pending-actions.json"
+  reports_directory: "reports"
+  advance_checkpoint_with_unresolved_changes: false
+
+zoho:
+  workspace_id: ""
+  project_mappings: []
+  # Optional: configure only after verifying IDs from Zoho MCP responses.
+  # projects:
+  #   - repository_id: "your-repo-id"
+  #     zoho_project_id: "verified-project-id"
+
+policy:
+  sprint_start_end_are_inclusive: true
+  require_story_assignment_for_child_items: true
+  search_duplicates_before_create: true
+  verify_created_items: true
+  never_retry_ambiguous_create_without_lookup: true
+  allow_new_story_only_in_date_eligible_sprint: true
+  create_story_for_each_commit: false
+  create_task_for_each_file: false
+
+bmad:
+  enabled: false
+  artifact_roots: []
+  import_mode: "propose_then_approve"

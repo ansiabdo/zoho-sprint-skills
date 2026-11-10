@@ -1,0 +1,15 @@
+[
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606", "sprintId": "120216000004162608", "itemId": "120216000004558553" },
+      "query_params": {
+        "newusers": "[\"120216000000535227\"]",
+        "delusers": "[\"120216000000359035\"]",
+        "UDF_MULTIUSERPKL1": "[\"120216000000359035\"]",
+        "UDF_RADIO1": "120216000000851697"
+      }
+    }
+  }
+]

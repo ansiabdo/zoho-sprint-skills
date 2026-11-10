@@ -1,0 +1,25 @@
+[
+  {
+    "ok": true,
+    "method": "tools/call",
+    "params": "ZohoSprints_CreateItem",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"addedItemId\":\"120216000004655033\",\"statusId\":\"120216000000003629\",\"itemNo\":\"I131\",\"status\":\"success\"}"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "status": "success",
+        "data": {
+          "addedItemId": "120216000004655033",
+          "statusId": "120216000000003629",
+          "itemNo": "I131",
+          "status": "success"
+        }
+      }
+    }
+  }
+]

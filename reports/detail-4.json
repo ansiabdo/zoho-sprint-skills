@@ -1,0 +1,111 @@
+{
+ "userDisplayName": {
+  "120216000000535227": "Abdullah Al-Ansi",
+  "120216000000175003": "Eissa Musleh",
+  "120216000000002003": "Osamah Gharad"
+ },
+ "items": [
+  {
+   "priorityName": "None",
+   "statusType": 1,
+   "endDate": "2025-04-30T20:00:00.000Z",
+   "releaseCount": 1,
+   "isNotesAdded": false,
+   "itemNo": "67",
+   "ownerId": [
+    "120216000000002003",
+    "120216000000535227"
+   ],
+   "points": 5,
+   "itemBlockId": "",
+   "UDF_CHAR8": "",
+   "estimationPoints": 8,
+   "itemName": "Implement the new structure model-As a system architect-developer , I want to implement a new data structure model that includes tenant information, So that the system can support multi-tenancy and properly segregate data by organization or client.",
+   "UDF_CHAR7": "Abdullah",
+   "isOverDue": true,
+   "projectInfo": {
+    "no": "37",
+    "name": "Invoicing MService",
+    "id": "120216000000593007"
+   },
+   "UDF_CHAR6": "",
+   "startAfter": "-1",
+   "createdTime": "2025-04-20T21:11:26.342Z",
+   "isIntegrated": "0",
+   "sharedType": -1,
+   "rootItem": "",
+   "UDF_CHAR5": "",
+   "UDF_CHAR4": "Implement the new structure model",
+   "UDF_CHAR3": "Implement the new structure model",
+   "workhourType": 0,
+   "projPriorityId": "120216000000593033",
+   "UDF_ROLLUP8": "3",
+   "UDF_ROLLUP9": "0",
+   "isParent": true,
+   "cycleTime": "557100000",
+   "UDF_TEXT1": "",
+   "userGroupCount": 0,
+   "UDF_ROLLUP3": "19/04/2025 04:00 PM",
+   "UDF_ROLLUP4": "8",
+   "UDF_ROLLUP5": "3",
+   "completedDate": "2025-05-20T21:31:18.845Z",
+   "UDF_ROLLUP6": "30/04/2025 11:00 PM",
+   "UDF_ROLLUP7": "0",
+   "commentCount": 0,
+   "itemId": "120216000002457353",
+   "sequence": "3",
+   "sprintId": "120216000002462746",
+   "UDF_FORMULADBL1": 30,
+   "epicId": "120216000002409263",
+   "statusId": "120216000000003637",
+   "sprintInfo": {
+    "owner": "120216000000175003",
+    "no": "6",
+    "name": "Sprint5: APR-2025 Last integration ",
+    "id": "120216000002462746",
+    "type": 3
+   },
+   "parentItem": "",
+   "projItemTypeId": "120216000000593045",
+   "itemTypeName": "Story",
+   "userIdVsWorkhours": {
+    "120216000000535227": "0",
+    "120216000000002003": "0"
+   },
+   "startDate": "2025-04-20T13:00:00.000Z",
+   "description": "",
+   "leadTime": "613200000",
+   "sharedItemCount": 0,
+   "addedVia": 0,
+   "hasCheckList": false,
+   "UDF_CHKBOX2": "",
+   "duration": "9d",
+   "UDF_CHKBOX1": "120216000000420553,120216000000420559,120216000000420557",
+   "diffDays": "14d 1h 31m",
+   "statusName": "Done",
+   "totalWorkhours": "0",
+   "isDocsAdded": false,
+   "UDF_FORMULASTR1": "4/2025",
+   "UDF_RADIO1": "120216000000851697",
+   "UDF_DATE1": "-1",
+   "baseItemType": 2,
+   "UDF_EMAIL1": "",
+   "depth": "0",
+   "createdBy": "120216000000535227",
+   "UDF_MULTIUSERPKL1": [
+    "120216000000175003"
+   ],
+   "UDF_ROLLUP10": "21h",
+   "tagCount": 0,
+   "voteCount": 0,
+   "completedBy": "120216000000175003",
+   "plannedHours": "0"
+  }
+ ],
+ "zsuserIdvsZUID": {
+  "120216000000535227": "830852660",
+  "120216000000175003": "793914823",
+  "120216000000002003": "767679078"
+ },
+ "status": "success"
+}

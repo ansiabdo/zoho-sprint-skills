@@ -1,0 +1,10 @@
+[
+  {
+    "tool": "ZohoSprints_MoveItem",
+    "args": {
+      "headers": { "X-convert-response": "true", "x-za-ui-version": "v2" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000000593007", "sprintId": "120216000004656294" },
+      "query_params": { "action": "moveitem", "itemidarr": "[\"120216000004657003\"]", "tosprintid": "120216000000593009", "toprojectid": "120216000000593007" }
+    }
+  }
+]

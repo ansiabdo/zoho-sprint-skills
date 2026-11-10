@@ -1,0 +1,252 @@
+[
+  {
+    "no": "122",
+    "id": "120216000004656142",
+    "sprintId": "120216000000593009",
+    "name": "[ Shared ] خدمة تسجيل وإدارة مديونية الاصدقاء",
+    "points": 6,
+    "statusId": "120216000000003629",
+    "ownerId": [
+      "120216000000293163",
+      "120216000000535227"
+    ],
+    "priorityId": "120216000000593033",
+    "epicId": "120216000004657001",
+    "radio": "120216000000851695",
+    "udf3": "خدمة تسجيل وإدارة مديونية الأصدقاء",
+    "udf4": "Friends Debt Registration & Management",
+    "udf5": "Nidhal",
+    "descLength": 24678,
+    "hasSeparator": true
+  },
+  {
+    "no": "123",
+    "id": "120216000004657003",
+    "sprintId": "120216000000593009",
+    "name": "S2 — هوية وتسجيل دخول مستقلان لفاتورتي | Standalone Fatoorati Identity & Login",
+    "points": 0,
+    "statusId": "120216000000003629",
+    "ownerId": [
+      "120216000000535227"
+    ],
+    "priorityId": "120216000000593039",
+    "epicId": "120216000004657001",
+    "radio": "120216000000851697",
+    "udf3": "هوية وتسجيل دخول مستقلان لفاتورتي",
+    "udf4": "Standalone Fatoorati Identity & Login",
+    "udf5": "Nidhal",
+    "descLength": 7008,
+    "hasSeparator": true
+  },
+  {
+    "no": "124",
+    "id": "120216000004656296",
+    "sprintId": "120216000000593009",
+    "name": "S3 — ترحيل مستأجر بنكي واستمرارية الخدمة | Banky Tenant Migration & Continuity",
+    "points": 0,
+    "statusId": "120216000000003629",
+    "ownerId": [
+      "120216000000535227"
+    ],
+    "priorityId": "120216000000593037",
+    "epicId": "120216000004657001",
+    "radio": "",
+    "udf3": "ترحيل مستأجر بنكي واستمرارية الخدمة",
+    "udf4": "Banky Tenant Migration & Continuity",
+    "udf5": "Nidhal",
+    "descLength": 6380,
+    "hasSeparator": true
+  },
+  {
+    "no": "125",
+    "id": "120216000004655019",
+    "sprintId": "120216000000593009",
+    "name": "S4 — دفتر التسويات المالية لمالك المستأجر | Tenant Owner Settlement Ledger",
+    "points": 0,
+    "statusId": "120216000000003629",
+    "ownerId": [
+      "120216000000535227"
+    ],
+    "priorityId": "120216000000593039",
+    "epicId": "120216000004657001",
+    "radio": "120216000000851697",
+    "udf3": "دفتر التسويات المالية لمالك المستأجر",
+    "udf4": "Tenant Owner Settlement Ledger",
+    "udf5": "Nidhal",
+    "descLength": 6940,
+    "hasSeparator": true
+  },
+  {
+    "no": "127",
+    "id": "120216000004655023",
+    "sprintId": "120216000000593009",
+    "name": "S7 — إدارة النزاعات على الفواتير | Invoice Disputes Management",
+    "points": 0,
+    "statusId": "120216000000003629",
+    "ownerId": [
+      "120216000000535227"
+    ],
+    "priorityId": "120216000000593037",
+    "epicId": "120216000004657001",
+    "radio": "120216000000851697",
+    "udf3": "إدارة النزاعات على الفواتير",
+    "udf4": "Invoice Disputes Management",
+    "udf5": "Nidhal",
+    "descLength": 6879,
+    "hasSeparator": true
+  },
+  {
+    "no": "126",
+    "id": "120216000004656300",
+    "sprintId": "120216000004656294",
+    "name": "قبول ورفض المديونية وتعديل البنود | Debt Acceptance & Line Edit Approval",
+    "points": 1,
+    "statusId": "120216000000003629",
+    "ownerId": [
+      "120216000000293163",
+      "120216000000535227"
+    ],
+    "priorityId": "120216000000593039",
+    "epicId": "120216000004657001",
+    "radio": "120216000000851695",
+    "udf3": "قبول ورفض المديونية وتعديل البنود",
+    "udf4": "Debt Acceptance & Line Edit Approval",
+    "udf5": "Nidhal",
+    "descLength": 4986,
+    "hasSeparator": true
+  },
+  {
+    "no": "128",
+    "id": "120216000004656304",
+    "sprintId": "120216000004656294",
+    "name": "تكامل API بنكي لايت | Banky Lite API Integration",
+    "points": 1,
+    "statusId": "120216000000003629",
+    "ownerId": [
+      "120216000000535227"
+    ],
+    "priorityId": "120216000000593039",
+    "epicId": "120216000004657001",
+    "radio": "",
+    "udf3": "تكامل API بنكي لايت",
+    "udf4": "Banky Lite API Integration",
+    "udf5": "Nidhal",
+    "descLength": 4862,
+    "hasSeparator": true
+  },
+  {
+    "no": "129",
+    "id": "120216000004655029",
+    "sprintId": "120216000004656294",
+    "name": "تهيئة بنكي كمزود ومستأجر | Banky Provider & Tenant Setup",
+    "points": 1,
+    "statusId": "120216000000003629",
+    "ownerId": [
+      "120216000000535227"
+    ],
+    "priorityId": "120216000000593039",
+    "epicId": "120216000004657001",
+    "radio": "",
+    "udf3": "تهيئة بنكي كمزود ومستأجر",
+    "udf4": "Banky Provider & Tenant Setup",
+    "udf5": "Nidhal",
+    "descLength": 4310,
+    "hasSeparator": true
+  },
+  {
+    "no": "130",
+    "id": "120216000004657007",
+    "sprintId": "120216000004656294",
+    "name": "الدفع الجزئي والتحقق الخلفي | Partial Payment & Backend Verification",
+    "points": 1,
+    "statusId": "120216000000003629",
+    "ownerId": [
+      "120216000000535227"
+    ],
+    "priorityId": "120216000000593039",
+    "epicId": "120216000004657001",
+    "radio": "",
+    "udf3": "الدفع الجزئي والتحقق الخلفي",
+    "udf4": "Partial Payment & Backend Verification",
+    "udf5": "Nidhal",
+    "descLength": 4820,
+    "hasSeparator": true
+  },
+  {
+    "no": "131",
+    "id": "120216000004655033",
+    "sprintId": "120216000004656294",
+    "name": "المشتركون وتسجيل الأصدقاء | Subscribers & Friend Registration",
+    "points": 1,
+    "statusId": "120216000000003629",
+    "ownerId": [
+      "120216000000293163"
+    ],
+    "priorityId": "120216000000593039",
+    "epicId": "120216000004657001",
+    "radio": "120216000000851695",
+    "udf3": "المشتركون وتسجيل الأصدقاء",
+    "udf4": "Subscribers & Friend Registration",
+    "udf5": "Nidhal",
+    "descLength": 990,
+    "hasSeparator": false
+  },
+  {
+    "no": "132",
+    "id": "120216000004657094",
+    "sprintId": "120216000004656294",
+    "name": "نموذج أطراف الفاتورة: المزود والمصدر والمشترك | Invoice Provider, Issuer & Subscriber",
+    "points": 1,
+    "statusId": "120216000000003629",
+    "ownerId": [
+      "120216000000535227"
+    ],
+    "priorityId": "120216000000593039",
+    "epicId": "120216000004657001",
+    "radio": "120216000000851697",
+    "udf3": "نموذج أطراف الفاتورة",
+    "udf4": "Invoice Provider, Issuer & Subscriber",
+    "udf5": "Nidhal",
+    "descLength": 4660,
+    "hasSeparator": true
+  },
+  {
+    "no": "133",
+    "id": "120216000004656360",
+    "sprintId": "120216000004656294",
+    "name": "تنفيذ خدمة مديونية الأصدقاء | Friend Debt Service",
+    "points": 1,
+    "statusId": "120216000000003629",
+    "ownerId": [
+      "120216000000535227"
+    ],
+    "priorityId": "120216000000593039",
+    "epicId": "120216000004657001",
+    "radio": "",
+    "udf3": "تنفيذ خدمة مديونية الأصدقاء",
+    "udf4": "Friend Debt Service",
+    "udf5": "Nidhal",
+    "descLength": 4873,
+    "hasSeparator": true
+  },
+  {
+    "no": "134",
+    "id": "120216000004655091",
+    "sprintId": "120216000004656294",
+    "name": "سجل المديونية ومصادر التسوية | Debt History & Settlement Sources",
+    "points": 1,
+    "statusId": "120216000000003629",
+    "ownerId": [
+      "120216000000293163",
+      "120216000000535227"
+    ],
+    "priorityId": "120216000000593037",
+    "epicId": "120216000004657001",
+    "radio": "120216000000851695",
+    "udf3": "سجل المديونية ومصادر التسوية",
+    "udf4": "Debt History & Settlement Sources",
+    "udf5": "Nidhal",
+    "descLength": 4814,
+    "hasSeparator": true
+  }
+]

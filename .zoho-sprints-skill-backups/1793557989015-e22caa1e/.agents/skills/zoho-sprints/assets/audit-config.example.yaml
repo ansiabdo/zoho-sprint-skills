@@ -1,0 +1,7 @@
+# Copy to .zoho-sprints/config.yaml in the audited Git repository.
+repository_id: null
+workspace_id: null
+project_mappings: []       # local path and exact Zoho project ID
+timezone: null
+mode: dry-run
+state_dir: .zoho-sprints

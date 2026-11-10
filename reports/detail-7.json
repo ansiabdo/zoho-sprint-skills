@@ -1,0 +1,113 @@
+{
+ "userDisplayName": {
+  "120216000000535227": "Abdullah Al-Ansi",
+  "120216000000016001": "Kamal AlOqabi",
+  "120216000000010017": "Abdullah Al-Measar",
+  "120216000000175003": "Eissa Musleh"
+ },
+ "items": [
+  {
+   "priorityName": "None",
+   "statusType": 1,
+   "endDate": "2024-07-31T20:00:00.000Z",
+   "releaseCount": 1,
+   "isNotesAdded": false,
+   "itemNo": "2",
+   "ownerId": [
+    "120216000000016001",
+    "120216000000535227"
+   ],
+   "points": 8,
+   "itemBlockId": "",
+   "UDF_CHAR8": "SMEs",
+   "estimationPoints": 34,
+   "itemName": "UBP Provider core -As a development team leader,\r\nI want to build infrastructure modules for the Invoice Management System as microservices,\r\nso that I can provide these services to any third party.",
+   "UDF_CHAR7": "Alriadi",
+   "isOverDue": true,
+   "projectInfo": {
+    "no": "37",
+    "name": "Invoicing MService",
+    "id": "120216000000593007"
+   },
+   "UDF_CHAR6": "",
+   "startAfter": "-1",
+   "createdTime": "2024-07-15T21:35:46.430Z",
+   "isIntegrated": "0",
+   "sharedType": -1,
+   "rootItem": "",
+   "UDF_CHAR5": "Alriadi",
+   "UDF_CHAR4": "Provider admin portal",
+   "UDF_CHAR3": "لوحة تحكم لمزودي الخدمة(اصحاب المحطة)",
+   "workhourType": 0,
+   "projPriorityId": "120216000000593033",
+   "UDF_ROLLUP8": "16",
+   "UDF_ROLLUP9": "0",
+   "isParent": true,
+   "cycleTime": "178560000",
+   "UDF_TEXT1": "",
+   "userGroupCount": 0,
+   "UDF_ROLLUP3": "01/07/2024 04:00 PM",
+   "UDF_ROLLUP4": "34",
+   "UDF_ROLLUP5": "16",
+   "completedDate": "2024-07-31T21:06:58.440Z",
+   "UDF_ROLLUP6": "01/08/2024 11:00 PM",
+   "UDF_ROLLUP7": "0",
+   "commentCount": 0,
+   "itemId": "120216000000799135",
+   "sequence": "1",
+   "sprintId": "120216000000799131",
+   "UDF_FORMULADBL1": "",
+   "epicId": "",
+   "statusId": "120216000000003637",
+   "sprintInfo": {
+    "owner": "120216000000175003",
+    "no": "2",
+    "name": "SP1: JUL24 Build UBP prov MicroService",
+    "id": "120216000000799131",
+    "type": 3
+   },
+   "parentItem": "",
+   "projItemTypeId": "120216000000593045",
+   "itemTypeName": "Story",
+   "userIdVsWorkhours": {
+    "120216000000016001": "0",
+    "120216000000535227": "0"
+   },
+   "startDate": "2024-07-01T13:00:00.000Z",
+   "description": "<div><b>User Story:</b><br></div><div><b>As a</b> development team leader,<br></div><div><b>I want</b> to build infrastructure modules for the Invoice Management System as microservices,<br></div><div><b>so that</b> I can provide these services to any third party.<br></div><div><br></div><div><b>Acceptance Criteria:</b><br></div><p style=\"text-indent: -0.25in; margin-top: 0px\" class=\"MsoListParagraph\">&nbsp; &nbsp; &nbsp;&nbsp;<span style=\"\">1.<span style=\"font: 7pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b>Modular Architecture</b>:<br></p><p style=\"margin-left: 0.75in; text-indent: -0.25in; margin-top: 0px; margin-bottom: 0px\"><span style=\"font-size: 10pt; font-family: Symbol\"><span style=\"\">·<span style=\"font: 7pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>Develop the Invoice\nManagement System using a microservices architecture, where can be used by\nthird parties.<br></p><p style=\"text-indent: -0.25in; margin-top: 0px\" class=\"MsoListParagraph\">&nbsp; &nbsp; &nbsp;&nbsp;<span style=\"\">2.<span style=\"font: 7pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b>Service Development</b>:<br></p><p style=\"margin-left: 0.75in; text-indent: -0.25in; margin-top: 0px; margin-bottom: 0px\"><span style=\"font-size: 10pt; font-family: Symbol\"><span style=\"\">·<span style=\"font: 7pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>Implement core\ninfrastructure modules, including authentication, authorization, invoice\nprocessing, payment integration, and notification services.<br></p><p style=\"margin-left: 0.75in; text-indent: -0.25in; margin-top: 0px; margin-bottom: 0px\"><span style=\"font-size: 10pt; font-family: Symbol\"><span style=\"\">·<span style=\"font: 7pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>Ensure each service can\noperate independently and scale as needed.<br></p><p style=\"text-indent: -0.25in; margin-top: 0px\" class=\"MsoListParagraph\">&nbsp; &nbsp; &nbsp;&nbsp;<span style=\"\">3.<span style=\"font: 7pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b>Deployment and Management</b>:<br></p><p style=\"margin-left: 0.75in; text-indent: -0.25in; margin-top: 0px; margin-bottom: 0px\"><span style=\"font-size: 10pt; font-family: Symbol\"><span style=\"\">·<span style=\"font: 7pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>Use containerization (e.g.,\nDocker) and orchestration tools (e.g., Kubernetes) to deploy and manage\nmicroservices.<br></p><p style=\"margin-left: 0.75in; text-indent: -0.25in; margin-top: 0px; margin-bottom: 0px\"><span style=\"font-size: 10pt; font-family: Symbol\"><span style=\"\">·<span style=\"font: 7pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span>Implement CI/CD pipelines\nfor automated testing, deployment, and updates.<br></p><div><br></div>",
+   "leadTime": "358260000",
+   "sharedItemCount": 0,
+   "addedVia": 0,
+   "hasCheckList": false,
+   "UDF_CHKBOX2": "",
+   "duration": "23d",
+   "UDF_CHKBOX1": "120216000000420553",
+   "diffDays": "1h 6m",
+   "statusName": "Done",
+   "totalWorkhours": "0",
+   "isDocsAdded": false,
+   "UDF_FORMULASTR1": "7/2024",
+   "UDF_RADIO1": "",
+   "UDF_DATE1": "-1",
+   "baseItemType": 2,
+   "UDF_EMAIL1": "",
+   "depth": "0",
+   "createdBy": "120216000000010017",
+   "UDF_MULTIUSERPKL1": [
+    "120216000000175003"
+   ],
+   "UDF_ROLLUP10": "25d 4h",
+   "tagCount": 0,
+   "voteCount": 0,
+   "completedBy": "120216000000175003",
+   "plannedHours": "0"
+  }
+ ],
+ "zsuserIdvsZUID": {
+  "120216000000535227": "830852660",
+  "120216000000016001": "768947703",
+  "120216000000010017": "768061022",
+  "120216000000175003": "793914823"
+ },
+ "status": "success"
+}

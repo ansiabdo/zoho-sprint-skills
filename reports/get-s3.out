@@ -1,0 +1,126 @@
+[
+  {
+    "ok": true,
+    "method": "tools/call",
+    "params": "ZohoSprints_GetItemDetails",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"userDisplayName\":{\"120216000000293163\":\"Mushtaq Alabbasi\",\"120216000000359035\":\"Mohammed  Alaqari\"},\"items\":[{\"priorityName\":\"High\",\"statusType\":0,\"endDate\":\"2026-11-15T17:59:59.000Z\",\"releaseCount\":0,\"isNotesAdded\":false,\"itemNo\":\"131\",\"ownerId\":[\"120216000000293163\"],\"points\":1,\"itemBlockId\":\"\",\"UDF_CHAR8\":\"\",\"estimationPoints\":1,\"itemName\":\"المشتركون وتسجيل الأصدقاء | Subscribers & Friend Registration\",\"UDF_CHAR7\":\"\",\"isOverDue\":false,\"projectInfo\":{\"no\":\"37\",\"name\":\"Invoicing MService\",\"id\":\"120216000000593007\"},\"UDF_CHAR6\":\"\",\"startAfter\":\"-1\",\"createdTime\":\"2026-10-28T18:52:08.338Z\",\"isIntegrated\":\"0\",\"sharedType\":-1,\"rootItem\":\"\",\"UDF_CHAR5\":\"Nidhal\",\"UDF_CHAR4\":\"Subscribers & Friend Registration\",\"UDF_CHAR3\":\"المشتركون وتسجيل الأصدقاء\",\"workhourType\":1,\"projPriorityId\":\"120216000000593039\",\"UDF_ROLLUP8\":\"1\",\"UDF_ROLLUP9\":\"0\",\"isParent\":false,\"cycleTime\":\"-1\",\"UDF_TEXT1\":\"تم إدخال المهمة بالزوهو \",\"userGroupCount\":0,\"UDF_ROLLUP3\":\"-\",\"UDF_ROLLUP4\":\"0\",\"UDF_ROLLUP5\":\"0\",\"completedDate\":\"-1\",\"UDF_ROLLUP6\":\"-\",\"UDF_ROLLUP7\":\"1\",\"commentCount\":0,\"itemId\":\"120216000004655033\",\"sequence\":\"9\",\"sprintId\":\"120216000004656294\",\"UDF_FORMULADBL1\":\"\",\"epicId\":\"120216000004657001\",\"statusId\":\"120216000000003629\",\"sprintInfo\":{\"owner\":\"120216000000359035\",\"no\":\"12\",\"name\":\"Sprint10: Nov-2026 \\u2014 Banky Lite & Friend Debt\",\"id\":\"120216000004656294\",\"type\":1},\"parentItem\":\"\",\"projItemTypeId\":\"120216000000593045\",\"itemTypeName\":\"Story\",\"userIdVsWorkhours\":{\"120216000000293163\":\"0\"},\"startDate\":\"2026-10-31T18:00:00.000Z\",\"description\":\"Business Requester: Nidhal\\nEpic: بنكي لايت: الفواتير والأصدقاء والمديونية\\n\\nكـ تاجر/مصدر، أريد تسجيل الأصدقاء كمشتركين وربطهم بالمستخدم الحالي، حتى أستطيع إصدار فواتير ومديونيات لهم.\\n\\nمعايير القبول:\\n1. جدول/API للمشتركين: user_id, provider_id, issuer_id, status, nickname, contact ref.\\n2. نفس المستخدم يمكن أن يملك أكثر من سجل مشترك حسب المصدر/المزود، دون تكرار المستخدم.\\n3. قيد فريد (user_id, provider_id, issuer_id) ومنع التكرار.\\n4. ربط مشترك موجود بدل إنشاء مستخدم جديد.\\n5. تسجيل صديق عبر قائمة الأصدقاء أو QR/رابط دعوة حسب سياسة بنكي.\\n6. قائمة الأصدقاء تأتي من Banky/API الأصدقاء (mock حتى يتوفر)؛ لا إضافة/موافقة/حذف صديق من هذه الوحدة.\\n7. بحث/قائمة/تفعيل/تعليق؛ عزل حسب المستأجر.\\n8. نفس المستخدم يمكن أن يكون مشتركاً لدى أكثر من مزود/مصدر، ويمكن أن يكون مزوداً/مصدراً في تعامل آخر؛ الهوية واحدة ولا تتكرر.\\n9. لا استيراد جهات اتصال من الجهاز الآن.\\nخارج النطاق: استيراد جهات الاتصال من الجهاز، وواجهة إدارة الأدوار العامة. داخل النطاق: تعدد سجلات المشترك لنفس المستخدم حسب المزود/المصدر.\",\"leadTime\":\"-1\",\"sharedItemCount\":0,\"addedVia\":2,\"hasCheckList\":false,\"UDF_CHKBOX2\":\"\",\"duration\":\"10d 6h 59m\",\"UDF_CHKBOX1\":\"\",\"diffDays\":\"13d 4h 33m\",\"statusName\":\"To do\",\"totalWorkhours\":\"0\",\"isDocsAdded\":false,\"UDF_FORMULASTR1\":\"10/2026\",\"UDF_RADIO1\":\"120216000000851695\",\"UDF_DATE1\":\"-1\",\"baseItemType\":2,\"UDF_EMAIL1\":\"\",\"depth\":\"0\",\"createdBy\":\"120216000000359035\",\"UDF_MULTIUSERPKL1\":[\"120216000000359035\"],\"UDF_ROLLUP10\":\"0\",\"tagCount\":0,\"voteCount\":0,\"completedBy\":\"\",\"plannedHours\":\"0\"}],\"zsuserIdvsZUID\":{\"120216000000293163\":\"808305920\",\"120216000000359035\":\"814269634\"},\"status\":\"success\"}"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "data": {
+          "userDisplayName": {
+            "120216000000293163": "Mushtaq Alabbasi",
+            "120216000000359035": "Mohammed  Alaqari"
+          },
+          "items": [
+            {
+              "priorityName": "High",
+              "statusType": 0,
+              "endDate": "2026-11-15T17:59:59.000Z",
+              "releaseCount": 0,
+              "isNotesAdded": false,
+              "itemNo": "131",
+              "ownerId": [
+                "120216000000293163"
+              ],
+              "points": 1,
+              "itemBlockId": "",
+              "UDF_CHAR8": "",
+              "estimationPoints": 1,
+              "itemName": "المشتركون وتسجيل الأصدقاء | Subscribers & Friend Registration",
+              "UDF_CHAR7": "",
+              "isOverDue": false,
+              "projectInfo": {
+                "no": "37",
+                "name": "Invoicing MService",
+                "id": "120216000000593007"
+              },
+              "UDF_CHAR6": "",
+              "startAfter": "-1",
+              "createdTime": "2026-10-28T18:52:08.338Z",
+              "isIntegrated": "0",
+              "sharedType": -1,
+              "rootItem": "",
+              "UDF_CHAR5": "Nidhal",
+              "UDF_CHAR4": "Subscribers & Friend Registration",
+              "UDF_CHAR3": "المشتركون وتسجيل الأصدقاء",
+              "workhourType": 1,
+              "projPriorityId": "120216000000593039",
+              "UDF_ROLLUP8": "1",
+              "UDF_ROLLUP9": "0",
+              "isParent": false,
+              "cycleTime": "-1",
+              "UDF_TEXT1": "تم إدخال المهمة بالزوهو ",
+              "userGroupCount": 0,
+              "UDF_ROLLUP3": "-",
+              "UDF_ROLLUP4": "0",
+              "UDF_ROLLUP5": "0",
+              "completedDate": "-1",
+              "UDF_ROLLUP6": "-",
+              "UDF_ROLLUP7": "1",
+              "commentCount": 0,
+              "itemId": "120216000004655033",
+              "sequence": "9",
+              "sprintId": "120216000004656294",
+              "UDF_FORMULADBL1": "",
+              "epicId": "120216000004657001",
+              "statusId": "120216000000003629",
+              "sprintInfo": {
+                "owner": "120216000000359035",
+                "no": "12",
+                "name": "Sprint10: Nov-2026 — Banky Lite & Friend Debt",
+                "id": "120216000004656294",
+                "type": 1
+              },
+              "parentItem": "",
+              "projItemTypeId": "120216000000593045",
+              "itemTypeName": "Story",
+              "userIdVsWorkhours": {
+                "120216000000293163": "0"
+              },
+              "startDate": "2026-10-31T18:00:00.000Z",
+              "description": "Business Requester: Nidhal\nEpic: بنكي لايت: الفواتير والأصدقاء والمديونية\n\nكـ تاجر/مصدر، أريد تسجيل الأصدقاء كمشتركين وربطهم بالمستخدم الحالي، حتى أستطيع إصدار فواتير ومديونيات لهم.\n\nمعايير القبول:\n1. جدول/API للمشتركين: user_id, provider_id, issuer_id, status, nickname, contact ref.\n2. نفس المستخدم يمكن أن يملك أكثر من سجل مشترك حسب المصدر/المزود، دون تكرار المستخدم.\n3. قيد فريد (user_id, provider_id, issuer_id) ومنع التكرار.\n4. ربط مشترك موجود بدل إنشاء مستخدم جديد.\n5. تسجيل صديق عبر قائمة الأصدقاء أو QR/رابط دعوة حسب سياسة بنكي.\n6. قائمة الأصدقاء تأتي من Banky/API الأصدقاء (mock حتى يتوفر)؛ لا إضافة/موافقة/حذف صديق من هذه الوحدة.\n7. بحث/قائمة/تفعيل/تعليق؛ عزل حسب المستأجر.\n8. نفس المستخدم يمكن أن يكون مشتركاً لدى أكثر من مزود/مصدر، ويمكن أن يكون مزوداً/مصدراً في تعامل آخر؛ الهوية واحدة ولا تتكرر.\n9. لا استيراد جهات اتصال من الجهاز الآن.\nخارج النطاق: استيراد جهات الاتصال من الجهاز، وواجهة إدارة الأدوار العامة. داخل النطاق: تعدد سجلات المشترك لنفس المستخدم حسب المزود/المصدر.",
+              "leadTime": "-1",
+              "sharedItemCount": 0,
+              "addedVia": 2,
+              "hasCheckList": false,
+              "UDF_CHKBOX2": "",
+              "duration": "10d 6h 59m",
+              "UDF_CHKBOX1": "",
+              "diffDays": "13d 4h 33m",
+              "statusName": "To do",
+              "totalWorkhours": "0",
+              "isDocsAdded": false,
+              "UDF_FORMULASTR1": "10/2026",
+              "UDF_RADIO1": "120216000000851695",
+              "UDF_DATE1": "-1",
+              "baseItemType": 2,
+              "UDF_EMAIL1": "",
+              "depth": "0",
+              "createdBy": "120216000000359035",
+              "UDF_MULTIUSERPKL1": [
+                "120216000000359035"
+              ],
+              "UDF_ROLLUP10": "0",
+              "tagCount": 0,
+              "voteCount": 0,
+              "completedBy": "",
+              "plannedHours": "0"
+            }
+          ],
+          "zsuserIdvsZUID": {
+            "120216000000293163": "808305920",
+            "120216000000359035": "814269634"
+          },
+          "status": "success"
+        },
+        "status": "success"
+      }
+    }
+  }
+]

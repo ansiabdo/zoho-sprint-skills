@@ -1,0 +1,56 @@
+[
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": {
+        "x-za-ui-version": "v2",
+        "X-convert-response": "true"
+      },
+      "path_variables": {
+        "teamId": "767679505",
+        "projectId": "120216000004162606",
+        "sprintId": "120216000004192758",
+        "itemId": "120216000004558543"
+      },
+      "query_params": {
+        "description": "As a platform administrator, I want to manage a persistent competition and season catalog, so that leagues and cups can be configured without redeploying the platform.\n\n**Acceptance Criteria**\n1  When a valid competition and season are added, persist their relationship, provider identifiers and Arabic and English names without hardcoded identifiers.\n2  Reject a second record with the same Provider and ExternalSeasonId. Reject invalid dates and references to nonexistent competitions.\n3  When a competition is outside the provider account's coverage, retain it as Draft with a clear reason and do not publish it to users.\n4  When a season is enabled or disabled, audit before-and-after values, actor and timestamp, and update the configuration version without restarting the service.\n\nRequired Changes  Add Competition and CompetitionSeason entities, repositories, DTOs and permissions. Convert appsettings into repeatable initial seeding that does not overwrite administrative settings.\n\nDependencies  None; this story establishes the foundation for the other stories.\n\n--- [ZOHO-ACTUAL-DELIVERY v1 | SNA-116-2026-10-28-01] ---\nملحق مراجعة التنفيذ (لا يغيّر الحالة أو معايير القبول): مراجعة BMAD 10.1 والكود تشير إلى أن التنفيذ الفعلي يستخدم آلية catalog قائمة على League/config typed options، بينما هذه القصة تطلب Competition وCompetitionSeason entities ومزود identifiers. لذلك التنفيذ مختلف/جزئي مقارنة بعقد القصة، ولم يُتحقق تشغيليًا في هذه الجولة. الأدلة: BMAD 10.1؛ commits 1030f85e و71df6def و289d044c؛ SportMonksOptions. لا يدّعي هذا الملحق اكتمال القصة.\n--- [/ZOHO-ACTUAL-DELIVERY | SNA-116-2026-10-28-01] ---"
+      }
+    }
+  },
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": {
+        "x-za-ui-version": "v2",
+        "X-convert-response": "true"
+      },
+      "path_variables": {
+        "teamId": "767679505",
+        "projectId": "120216000004162606",
+        "sprintId": "120216000004192758",
+        "itemId": "120216000004558547"
+      },
+      "query_params": {
+        "description": "<div>As a Super Admin, I want to assign competition access and defaults to each tenant, so that users only participate in competitions their tenant is entitled to offer.\n<br/></div><div><br/></div><div>Acceptance Criteria:<br/></div><div><br/></div><div>\n1  When saving tenant settings, validate WorldCup.TenantLeagues.Manage and plan coverage for every competition. Tenant Admins cannot expand their own subscription.\n<br/></div><div>2  Selected with an empty list exposes no competitions; AllEntitled exposes authorized competitions only. Migrated tenants retain their previous scope and are not automatically assigned Starter access.<br/></div><div>\n3  On plan change or competition disablement, reject invalid defaults, invalidate caches and review new jobs. Keep historical results and predictions stored.<br/></div><div>\n4  Concurrent setting changes use concurrencyStamp to prevent overwriting newer changes. Bootstrap returns a new configuration version after saving.\n\nRequired Changes  Add EntitlementResolver and CompetitionAccessPolicy. Use ABP Settings or a consistent typed table, with a transition plan for EnabledLeagueIds and SubscribedPlan.\n\nDependencies  BE01; approve selection modes and subscription rules.<br/></div>\n<hr/><div dir=\"rtl\">--- [ZOHO-ACTUAL-DELIVERY v1 | SNA-120-2026-10-28-01] ---<br/>ملحق مراجعة التنفيذ (لا يغيّر الحالة أو معايير القبول): مراجعة BMAD 10.3 وTenantLeagueService تشير إلى أن الاختيار الفارغ قد يُعامل كـ default-all في التنفيذ/الوثائق، بينما هذه القصة تشترط أن Selected بقائمة فارغة لا تعرض أي مسابقة وأن AllEntitled وحدها تعرض المسابقات المصرح بها. التعارض يحتاج قرار منتج ولا يُعد السلوك الحالي مطابقًا. لم يُتحقق تشغيليًا في هذه الجولة. الأدلة: BMAD 10.3؛ commits a81f9e40 و50565d34؛ TenantLeagueService.cs وTenantLeagueSettingsAppService.<br/>--- [/ZOHO-ACTUAL-DELIVERY | SNA-120-2026-10-28-01] ---</div>"
+      }
+    }
+  },
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": {
+        "x-za-ui-version": "v2",
+        "X-convert-response": "true"
+      },
+      "path_variables": {
+        "teamId": "767679505",
+        "projectId": "120216000004162606",
+        "sprintId": "120216000004162608",
+        "itemId": "120216000004558557"
+      },
+      "query_params": {
+        "description": "As an end user, I want to select a competition and season with a clear default, so that I can follow the matches that interest me across several tournaments.\n\n**Acceptance Criteria**\n1  Bootstrap displays authorized competitions and seasons only, in the configured order. A single competition must not create a redundant All option.\n2  Select the user's last valid context, then the tenant default. All is an explicit option and does not conflict with first-league defaults.\n3  Changing competition updates fixtures and related details and cancels older requests. Store context in the URL without credentials.\n4  On access changes or when no competitions are available, use a valid fallback context or a clear empty state rather than displaying unauthorized cached data.\n\nRequired Changes  Update wc-app competition and season selectors, route-query state and bootstrap models. Provide horizontally scrollable mobile tabs with keyboard support and RTL/LTR layouts.\n\nDependencies  BE05 and BE06.\n\n--- [ZOHO-ACTUAL-DELIVERY v1 | SNA-130-2026-10-28-01] ---\nملحق مراجعة التنفيذ (لا يغيّر الحالة أو معايير القبول): مراجعة BMAD 10.6 تشير إلى سياق افتراضي/All في تنفيذ PWA، بينما القصة تشترط آخر سياق صالح ثم default المستأجر، مع All كخيار صريح لا يتعارض مع افتراضي الدوري الأول. التنفيذ الحالي مختلف/غير محسوم، ولم يُتحقق تشغيليًا في هذه الجولة. الأدلة: BMAD 10.6؛ sprint-status.yaml وepics.md.\n--- [/ZOHO-ACTUAL-DELIVERY | SNA-130-2026-10-28-01] ---"
+      }
+    }
+  }
+]

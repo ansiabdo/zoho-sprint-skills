@@ -1,0 +1,65 @@
+[
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": {
+        "X-convert-response": "true",
+        "x-za-ui-version": "v2"
+      },
+      "path_variables": {
+        "teamId": "767679505",
+        "projectId": "120216000000593007",
+        "sprintId": "120216000004656294",
+        "itemId": "120216000004657094"
+      },
+      "query_params": {
+        "name": "نموذج أطراف الفاتورة: المزود والمصدر والمشترك | Invoice Provider, Issuer & Subscriber",
+        "description": "Business Requester: Nidhal\nEpic: بنكي لايت: الفواتير والأصدقاء والمديونية\n\nكـ مطور، أريد إضافة provider_id وissuer_id وsubscriber_id إلى الفاتورة، حتى يكون لكل فاتورة مزود ومصدر ومشترك واضحون.\n\nمعايير القبول:\n1. حقول provider_id وissuer_id وsubscriber_id في نموذج الفاتورة وDTO وAPI.\n2. بنكي هو provider في Phase 1؛ المصدر تاجر/شخص؛ المشترك دافع/عميل.\n3. ترحيل/backfill للفواتير الحالية دون فقدان بيانات.\n4. فهارس وقواعد تكامل وtenant scoping.\n5. التحقق من أن المشترك يتبع نفس المزود/المصدر.\n6. تحديث الاستعلامات والتقارير والحقول المرجعية.\n7. اختبارات عزل وعدم تسريب بين المستأجرين.\nخارج النطاق: تسجيل الدخول، دفتر التسويات.",
+        "epicid": "120216000004657001",
+        "projitemtypeid": "120216000000593045",
+        "projpriorityid": "120216000000593039",
+        "newusers": "[\"120216000000359035\"]",
+        "startdate": "2026-10-31T21:00:00+0000",
+        "enddate": "2026-11-15T20:59:59+0000",
+        "point": 1,
+        "statusid": "120216000000003629",
+        "duration": "11d",
+        "UDF_CHAR5": "Nidhal",
+        "UDF_CHAR3": "نموذج أطراف الفاتورة",
+        "UDF_CHAR4": "Invoice Provider, Issuer & Subscriber",
+        "delusers": "[\"120216000000359035\"]"
+      }
+    }
+  },
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": {
+        "X-convert-response": "true",
+        "x-za-ui-version": "v2"
+      },
+      "path_variables": {
+        "teamId": "767679505",
+        "projectId": "120216000000593007",
+        "sprintId": "120216000004656294",
+        "itemId": "120216000004657094"
+      },
+      "query_params": {
+        "name": "نموذج أطراف الفاتورة: المزود والمصدر والمشترك | Invoice Provider, Issuer & Subscriber",
+        "description": "Business Requester: Nidhal\nEpic: بنكي لايت: الفواتير والأصدقاء والمديونية\n\nكـ مطور، أريد إضافة provider_id وissuer_id وsubscriber_id إلى الفاتورة، حتى يكون لكل فاتورة مزود ومصدر ومشترك واضحون.\n\nمعايير القبول:\n1. حقول provider_id وissuer_id وsubscriber_id في نموذج الفاتورة وDTO وAPI.\n2. بنكي هو provider في Phase 1؛ المصدر تاجر/شخص؛ المشترك دافع/عميل.\n3. ترحيل/backfill للفواتير الحالية دون فقدان بيانات.\n4. فهارس وقواعد تكامل وtenant scoping.\n5. التحقق من أن المشترك يتبع نفس المزود/المصدر.\n6. تحديث الاستعلامات والتقارير والحقول المرجعية.\n7. اختبارات عزل وعدم تسريب بين المستأجرين.\nخارج النطاق: تسجيل الدخول، دفتر التسويات.",
+        "epicid": "120216000004657001",
+        "projitemtypeid": "120216000000593045",
+        "projpriorityid": "120216000000593039",
+        "newusers": "[\"120216000000359035\"]",
+        "startdate": "2026-10-31T21:00:00+0000",
+        "enddate": "2026-11-15T20:59:59+0000",
+        "point": 1,
+        "statusid": "120216000000003629",
+        "duration": "11d",
+        "UDF_CHAR5": "Nidhal",
+        "UDF_CHAR3": "نموذج أطراف الفاتورة",
+        "UDF_CHAR4": "Invoice Provider, Issuer & Subscriber"
+      }
+    }
+  }
+]

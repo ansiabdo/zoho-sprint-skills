@@ -1,0 +1,20 @@
+[
+  {
+    "ok": true,
+    "tool": "ZohoSprints_UpdateItem",
+    "isError": true,
+    "data": {
+      "code": 7401.14,
+      "data": {
+        "entityNo": "120216000004371080",
+        "sprintId": "120216000004324026",
+        "projectNo": 52,
+        "module": 3,
+        "itemNo": 106,
+        "projectId": "120216000004162606"
+      },
+      "message": "Doesn't have permission in item.",
+      "status": "failed"
+    }
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606", "sprintId": "120216000004162608", "itemId": "120216000004558553" },
+      "query_params": {
+        "UDF_CHAR3": "إدارة المسابقات والمواسم للمشرف",
+        "UDF_CHAR4": "Admin Competition Management",
+        "UDF_CHAR5": "محمد الاخفش",
+        "UDF_CHAR7": "إدارة الأفراد",
+        "newusers": "[\"120216000000359035\"]",
+        "startdate": "2026-11-01T00:00:00+0300",
+        "enddate": "2026-11-15T23:59:59+0300",
+        "duration": "15d",
+        "point": 5,
+        "epicid": "120216000004557316",
+        "projpriorityid": "120216000004162627",
+        "statusid": "120216000000003629",
+        "projitemtypeid": "120216000004162630"
+      }
+    }
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "ok": true,
+    "tool": "ZohoSprints_GetItemDetails",
+    "isError": false,
+    "data": {
+      "userDisplayName": {
+        "120216000000535227": "Abdullah Al-Ansi"
+      },
+      "items": [
+        {
+          "priorityName": "None",
+          "statusType": 1,
+          "endDate": "2026-10-25T20:00:00.000Z",
+          "releaseCount": 1,
+          "isNotesAdded": false,
+          "itemNo": "141",
+          "ownerId": [
+            "120216000000535227"
+          ],
+          "points": 0,
+          "itemBlockId": "",
+          "UDF_CHAR8": "",
+          "estimationPoints": 0,
+          "itemName": "Fixture List API — League Filter + LeagueId on DTOs",
+          "UDF_CHAR7": "",
+          "isOverDue": true,
+          "projectInfo": {
+            "no": "52",
+            "name": "Sports Activities As A service",
+            "id": "120216000004162606"
+          },
+          "UDF_CHAR6": "",
+          "startAfter": "-1",
+          "createdTime": "2026-10-25T17:00:02.266Z",
+          "isIntegrated": "0",
+          "sharedType": -1,
+          "rootItem": "120216000004558543",
+          "UDF_CHAR5": "",
+          "UDF_CHAR4": "Fixture List API - League Filter",
+          "UDF_CHAR3": "واجهة قائمة المباريات — فلترة الدوري وإضافة LeagueId",
+          "workhourType": 1,
+          "projPriorityId": "120216000004162624",
+          "UDF_ROLLUP8": "0",
+          "UDF_ROLLUP9": "0",
+          "isParent": false,
+          "cycleTime": "35400000",
+          "UDF_TEXT1": "تم إدخال المهمة بالزوهو ",
+          "userGroupCount": 0,
+          "UDF_ROLLUP3": "25/10/2026 04:00 PM",
+          "UDF_ROLLUP4": "0",
+          "UDF_ROLLUP5": "0",
+          "completedDate": "2026-10-26T19:50:09.216Z",
+          "UDF_ROLLUP6": "-",
+          "UDF_ROLLUP7": "0",
+          "commentCount": 0,
+          "itemId": "120216000004650013",
+          "sequence": "1",
+          "sprintId": "120216000004192758",
+          "UDF_FORMULADBL1": 1,
+          "epicId": "120216000004557316",
+          "statusId": "120216000000003637",
+          "sprintInfo": {
+            "owner": "120216000000359035",
+            "no": "2",
+            "name": "SP5 Oct 26 Multi Competition ",
+            "id": "120216000004192758",
+            "type": 2
+          },
+          "parentItem": "120216000004558543",
+          "projItemTypeId": "120216000004162628",
+          "itemTypeName": "Task",
+          "userIdVsWorkhours": {
+            "120216000000535227": "0"
+          },
+          "startDate": "2026-10-25T13:00:00.000Z",
+          "description": "# Fixture List API — League Filter + LeagueId on DTOs\n\nتوثيق تتبع للعمل المسجل، استنادًا إلى BMAD Story 10.5 والتغييرات المحلية. لا يغير هذا التوثيق حالة المهمة أو معايير القصة الرئيسية.\n\n## الحالة الفعلية مقابل معايير القبول\n1. leagueId صالح يقيّد النتائج بالدوري المطلوب ضمن نطاق المستأجر — منفذ في الكود (FixtureAppService/AdminFixtureAppService)، ولم يُعد تشغيله في هذه الجولة: unverified runtime.\n2. حذف leagueId يحافظ على السلوك السابق للنطاق المسموح — منفذ في الكود، unverified runtime.\n3. DTOs تعرض معرف واسم الدوري وتتعامل مع الاسم غير المعروف دون استثناء — منفذ في الكود.\n4. cache الدوري منفصل عن cache الترتيب الإجمالي، ومسار الاستعلام يحترم حد Oracle عبر تقسيم المعرفات عند الحاجة — منفذ في الكود.\n5. لا تُعتبر هذه المهمة تغطية كاملة لمتطلبات season scoring أو entitlement redesign في القصص الأوسع — acknowledged.\n\n## الأدلة\n- BMAD: _bmad-output/implementation-artifacts/10-5-fixture-list-api-league-filter-dto.md\n- Git: 7d251dec, 026d2741\n- Code: FixtureAppService.cs, AdminFixtureAppService.Extended.cs, LeaderboardAppService.cs, GetAdminFixturesInput.cs\n- Tests in source: TenantLeagueFixtureGatingTests, AdminFixtureListDetail2_13Tests, LeaderboardAppServiceTests\n- 2026-10-28: قرئت التغييرات والمصادر؛ لم تُشغّل الاختبارات أو واجهة حية في هذه الجولة.\n\n--- [ZOHO-ACTUAL-DELIVERY v1 | SNA-141-2026-10-28-01] ---\nالحالة: التنفيذ موجود في الكود ضمن نطاق فلتر الدوري، لكن التحقق التشغيلي (اختبارات/واجهة) غير مُعاد في هذه الجولة. لا يغيّر هذا الملحق حالة المهمة أو معايير القبول، ولا يدّعي تغطية كاملة للقصص الأوسع.\n--- [/ZOHO-ACTUAL-DELIVERY | SNA-141-2026-10-28-01] ---",
+          "leadTime": "35400000",
+          "sharedItemCount": 0,
+          "addedVia": 0,
+          "hasCheckList": false,
+          "UDF_CHKBOX2": "",
+          "duration": "7h",
+          "UDF_CHKBOX1": "",
+          "diffDays": "1d 50m",
+          "statusName": "Done",
+          "totalWorkhours": "0",
+          "isDocsAdded": false,
+          "UDF_FORMULASTR1": "10/2026",
+          "UDF_RADIO1": "",
+          "UDF_DATE1": "-1",
+          "baseItemType": 0,
+          "UDF_EMAIL1": "",
+          "depth": "1",
+          "createdBy": "120216000000535227",
+          "UDF_MULTIUSERPKL1": [],
+          "UDF_ROLLUP10": "0",
+          "tagCount": 0,
+          "voteCount": 0,
+          "completedBy": "120216000000535227",
+          "plannedHours": "0"
+        }
+      ],
+      "zsuserIdvsZUID": {
+        "120216000000535227": "830852660"
+      },
+      "status": "success"
+    }
+  },
+  {
+    "ok": true,
+    "tool": "ZohoSprints_GetItemDetails",
+    "isError": false,
+    "data": {
+      "userDisplayName": {
+        "120216000000535227": "Abdullah Al-Ansi"
+      },
+      "items": [
+        {
+          "priorityName": "None",
+          "statusType": 1,
+          "endDate": "2026-10-26T20:00:00.000Z",
+          "releaseCount": 1,
+          "isNotesAdded": false,
+          "itemNo": "142",
+          "ownerId": [
+            "120216000000535227"
+          ],
+          "points": 0,
+          "itemBlockId": "",
+          "UDF_CHAR8": "",
+          "estimationPoints": 0,
+          "itemName": "Add admin interface to manage tenant leagues ",
+          "UDF_CHAR7": "",
+          "isOverDue": false,
+          "projectInfo": {
+            "no": "52",
+            "name": "Sports Activities As A service",
+            "id": "120216000004162606"
+          },
+          "UDF_CHAR6": "",
+          "startAfter": "-1",
+          "createdTime": "2026-10-25T17:53:24.155Z",
+          "isIntegrated": "0",
+          "sharedType": -1,
+          "rootItem": "120216000004558544",
+          "UDF_CHAR5": "",
+          "UDF_CHAR4": "Admin Tenant League Management",
+          "UDF_CHAR3": "واجهة إدارة دوريات المستأجرين",
+          "workhourType": 1,
+          "projPriorityId": "120216000004162624",
+          "UDF_ROLLUP8": "0",
+          "UDF_ROLLUP9": "0",
+          "isParent": false,
+          "cycleTime": "0",
+          "UDF_TEXT1": "تم إدخال المهمة بالزوهو ",
+          "userGroupCount": 0,
+          "UDF_ROLLUP3": "26/10/2026 04:00 PM",
+          "UDF_ROLLUP4": "0",
+          "UDF_ROLLUP5": "0",
+          "completedDate": "2026-10-26T19:49:39.595Z",
+          "UDF_ROLLUP6": "-",
+          "UDF_ROLLUP7": "0",
+          "commentCount": 0,
+          "itemId": "120216000004650023",
+          "sequence": "2",
+          "sprintId": "120216000004192758",
+          "UDF_FORMULADBL1": 1,
+          "epicId": "120216000004557316",
+          "statusId": "120216000000003637",
+          "sprintInfo": {
+            "owner": "120216000000359035",
+            "no": "2",
+            "name": "SP5 Oct 26 Multi Competition ",
+            "id": "120216000004192758",
+            "type": 2
+          },
+          "parentItem": "120216000004558544",
+          "projItemTypeId": "120216000004162628",
+          "itemTypeName": "Task",
+          "userIdVsWorkhours": {
+            "120216000000535227": "0"
+          },
+          "startDate": "2026-10-26T13:00:00.000Z",
+          "description": "# Admin interface to manage tenant leagues\n\nتوثيق تتبع للعمل المسجل استنادًا إلى BMAD Story 10.4 وتغييرات واجهة الأدمن. لا يغير هذا التوثيق الأب الحالي أو حالة المهمة.\n\n## الحالة الفعلية مقابل معايير القبول\n1. لا تظهر دوريات خارج خيارات الخطة المعتمدة في نموذج التعيين — منفذ في الكود، unverified runtime.\n2. تحديث الخطة يراجع الاختيارات ويعرض أثر الإزالة قبل الحفظ عند وجود تنبؤات — منفذ في الكود (DowngradeWarningModal)، unverified runtime.\n3. المستخدم غير المخول لا يستطيع تنفيذ الحفظ — منفذ في الكود عبر الصلاحيات، unverified runtime.\n4. توضيح معنى الاختيار الفارغ — **غير محسوم**: BMAD يستخدم القائمة الفارغة بمعنى default-all، بينما SNA-127 تميز Selected الفارغة عن AllEntitled. لم يُغيّر هذا الملحق السلوك.\n\n## الأدلة\n- BMAD: _bmad-output/implementation-artifacts/10-4-admin-league-catalog-tenant-assignment-ui.md\n- Git: 4546b679, 5dd2c6a3\n- App: LeagueCatalogAppService, TenantLeagueSettingsAppService, LeagueCatalog, TenantLeagueAssignment, DowngradeWarningModal\n- 2026-10-28: مراجعة مصادر ووثائق فقط؛ لم تُنفّذ جلسة UI حية أو اختبارات جديدة.\n\n--- [ZOHO-ACTUAL-DELIVERY v1 | SNA-142-2026-10-28-01] ---\nالحالة: واجهة إدارة دوريات المستأجرين منفذة في الكود بدرجة كبيرة، مع تعارض منتج غير محسوم حول دلالة الاختيار الفارغ (default-all مقابل Selected ≠ AllEntitled). لم يُعد تشغيل اختبارات أو جلسة UI في هذه الجولة، ولا يغيّر هذا الملحق حالة المهمة أو معايير القصة الأب SNA-117.\n--- [/ZOHO-ACTUAL-DELIVERY | SNA-142-2026-10-28-01] ---",
+          "leadTime": "32160000",
+          "sharedItemCount": 0,
+          "addedVia": 0,
+          "hasCheckList": false,
+          "UDF_CHKBOX2": "",
+          "duration": "7h",
+          "UDF_CHKBOX1": "",
+          "diffDays": "10m",
+          "statusName": "Done",
+          "totalWorkhours": "0",
+          "isDocsAdded": false,
+          "UDF_FORMULASTR1": "10/2026",
+          "UDF_RADIO1": "",
+          "UDF_DATE1": "-1",
+          "baseItemType": 0,
+          "UDF_EMAIL1": "",
+          "depth": "1",
+          "createdBy": "120216000000535227",
+          "UDF_MULTIUSERPKL1": [],
+          "UDF_ROLLUP10": "0",
+          "tagCount": 0,
+          "voteCount": 0,
+          "completedBy": "120216000000535227",
+          "plannedHours": "0"
+        }
+      ],
+      "zsuserIdvsZUID": {
+        "120216000000535227": "830852660"
+      },
+      "status": "success"
+    }
+  }
+]

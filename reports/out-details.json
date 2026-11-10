@@ -1,0 +1,814 @@
+[
+  {
+    "ok": true,
+    "method": "tools/call",
+    "params": "ZohoSprints_GetItemDetails",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"userDisplayName\":{\"120216000000293163\":\"Mushtaq Alabbasi\",\"120216000000010017\":\"Abdullah Al-Measar\"},\"items\":[{\"priorityName\":\"None\",\"statusType\":0,\"endDate\":\"2026-10-15T20:00:00.000Z\",\"releaseCount\":0,\"isNotesAdded\":false,\"itemNo\":\"122\",\"ownerId\":[\"120216000000010017\",\"120216000000293163\"],\"points\":6,\"itemBlockId\":\"\",\"UDF_CHAR8\":\"\",\"estimationPoints\":13,\"itemName\":\"[ Shared ] خدمة تسجيل وإدارة مديونية الاصدقاء\",\"UDF_CHAR7\":\"\",\"isOverDue\":true,\"projectInfo\":{\"no\":\"37\",\"name\":\"Invoicing MService\",\"id\":\"120216000000593007\"},\"UDF_CHAR6\":\"\",\"startAfter\":\"-1\",\"createdTime\":\"2026-10-28T18:11:24.034Z\",\"isIntegrated\":\"0\",\"sharedType\":1,\"rootItem\":\"\",\"UDF_CHAR5\":\"nidhal\",\"UDF_CHAR4\":\"خدمة تسجيل وإدارة المديونية\",\"UDF_CHAR3\":\"خدمة تسجيل وإدارة المديونية\",\"workhourType\":0,\"projPriorityId\":\"120216000000593033\",\"UDF_ROLLUP8\":\"1\",\"UDF_ROLLUP9\":\"0\",\"isParent\":false,\"cycleTime\":\"-1\",\"UDF_TEXT1\":\"تم إدخال المهمة بالزوهو \",\"userGroupCount\":0,\"UDF_ROLLUP3\":\"05/10/2026 04:00 PM\",\"UDF_ROLLUP4\":\"13\",\"UDF_ROLLUP5\":\"0\",\"completedDate\":\"-1\",\"UDF_ROLLUP6\":\"15/10/2026 11:00 PM\",\"UDF_ROLLUP7\":\"1\",\"commentCount\":0,\"itemId\":\"120216000004656142\",\"sequence\":\"1\",\"sprintId\":\"120216000000593009\",\"UDF_FORMULADBL1\":\"\",\"epicId\":\"\",\"statusId\":\"120216000000003629\",\"sprintInfo\":{\"owner\":\"120216000000010017\",\"no\":\"0\",\"name\":\"Backlog\",\"id\":\"120216000000593009\",\"type\":5},\"parentItem\":\"\",\"projItemTypeId\":\"120216000000593045\",\"itemTypeName\":\"Story\",\"userIdVsWorkhours\":{\"120216000000293163\":\"0\",\"120216000000010017\":\"0\"},\"startDate\":\"2026-10-05T13:00:00.000Z\",\"description\":\"<p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">معلومات\\nمسبقة<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">خدمة\\nالاصدقاء جاهزة وهي لاتسمح لاحد اضافة صديق الا بعد مشاركته رقم <\\/span><span dir=\\\"LTR\\\">QR<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">او\\nالموافقة من صفحة الاصدقاء في بنكي<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">&nbsp;<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">وهي\\nمنفذه في خدمة توقعات كاس العالم وخدمة فرقي<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">&nbsp;<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">&nbsp;<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">**<\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">بصفتي** صاحب محل تجاري،&nbsp;&nbsp;<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">**<\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">أرغب في** تسجيل مديونية على عميل معروف (صديق\\nمضاف مسبقا&nbsp; خلال مشاركة رمز<\\/span><span dir=\\\"LTR\\\">QR<\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\"> &nbsp;)&nbsp;الخاص بحسابه في التطبيق\\nالمالي،&nbsp;&nbsp;<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">**<\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">حتى يتمكن** العميل من استلام إشعار بالمبلغ\\nالمستحق عليه وسداده إلكترونيًا، مع ضمان عدم حذف المديونية أو تعديلها دون إتمام\\nالسداد<\\/span><span dir=\\\"LTR\\\">.<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">&nbsp;<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">**<\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">بصفتي** عميل بالبنك،&nbsp;&nbsp;<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">&nbsp;<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">**<\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">أرغب في** تسجيل مديونية على عميل اخر معروف\\n(صديق مضاف مسبقا&nbsp; خلال مشاركة رمز<\\/span><span dir=\\\"LTR\\\">QR<\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\"> &nbsp;)&nbsp;الخاص بحسابه في التطبيق\\nالمالي،&nbsp;&nbsp;<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">**<\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">حتى يتمكن** العميل من استلام إشعار بالمبلغ\\nالمستحق عليه وسداده إلكترونيًا، مع ضمان عدم حذف المديونية أو تعديلها دون إتمام\\nالسداد<\\/span><span dir=\\\"LTR\\\">.<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">&nbsp;<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">&nbsp;<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">&nbsp;<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">&nbsp;<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">&nbsp;<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">### <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">الوصف الوظيفي<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">&nbsp;<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">1. <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">يفتح صاحب المحل خدمة *مديونية الأصدقاء*<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">تسجيل\\nمديونية جديدة<\\/span><span dir=\\\"LTR\\\">**.<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">2. <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">يدخل مبلغ المديونية، والوصف أو سببها، <span class=\\\"highlight\\\" style=\\\"background-color: rgb(255, 204, 238)\\\">و��اريخ\\nالاستحقاق إن وجد<\\/span><\\/span><span dir=\\\"LTR\\\">.<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">3. <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">يختار العميل من خلال<\\/span><span dir=\\\"LTR\\\">:<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">&nbsp; &nbsp;- <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">مسح رمز <\\/span><span dir=\\\"LTR\\\">QR <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">الخاص بحساب العميل، أو<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">&nbsp; &nbsp;- <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">مشاركة رابط طلب المديونية مع العميل<\\/span><span dir=\\\"LTR\\\">.<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">4. <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">يستلم العميل إشعارًا داخل التطبيق يتضمن<\\/span><span dir=\\\"LTR\\\">:<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">&nbsp; &nbsp;- <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">اسم التاجر أو المحل<\\/span><span dir=\\\"LTR\\\">.<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">&nbsp; &nbsp;- <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">قيمة المديونية<\\/span><span dir=\\\"LTR\\\">.<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">&nbsp; &nbsp;- <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">تفاصيل العملية<\\/span><span dir=\\\"LTR\\\">.<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">&nbsp; &nbsp;- <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">تاريخ تسجيل المديونية<\\/span><span dir=\\\"LTR\\\">.<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">5. <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">لا يستطيع العميل حذف المديونية أو إخفاءها من\\nسجله<\\/span><span dir=\\\"LTR\\\">.<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\"><span class=\\\"highlight\\\" style=\\\"background-color: rgb(255, 204, 238)\\\">6. <\\/span><\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\"><span class=\\\"highlight\\\" style=\\\"background-color: rgb(255, 204, 238)\\\">يمكن إلغاء المديونية فقط قبل اعتمادها أو وفق\\nصلاحيات محددة، أما بعد اعتمادها فلا تُلغى إلا من خلال<\\/span><\\/span><span dir=\\\"LTR\\\"><span class=\\\"highlight\\\" style=\\\"background-color: rgb(255, 204, 238)\\\">:<\\/span><\\/span><span class=\\\"highlight\\\" style=\\\"background-color: rgb(255, 204, 238)\\\"><br/><\\/span><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">&nbsp; &nbsp;- <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">سداد المبلغ كاملًا، أو<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\"><span class=\\\"highlight\\\" style=\\\"background-color: rgb(255, 204, 238)\\\">&nbsp; &nbsp;- <\\/span><\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\"><span class=\\\"highlight\\\" style=\\\"background-color: rgb(255, 204, 238)\\\">إجراء تصحيح موثق من التاجر أو مسؤول\\nالنظام<\\/span><\\/span><span dir=\\\"LTR\\\"><span class=\\\"highlight\\\" style=\\\"background-color: rgb(255, 204, 238)\\\">.<\\/span><\\/span><span class=\\\"highlight\\\" style=\\\"background-color: rgb(255, 204, 238)\\\"><br/><\\/span><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">7. <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">يختار العميل المديونية ويضغط على **سداد الآن<\\/span><span dir=\\\"LTR\\\">**.<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">8. <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">بعد نجاح عملية الدفع<\\/span><span dir=\\\"LTR\\\">:<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">&nbsp; &nbsp;- <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">يتم تحويل المبلغ إلى حساب التاجر<\\/span><span dir=\\\"LTR\\\">.<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">&nbsp; &nbsp;- <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">تتغير حالة المديونية إلى **مسددة<\\/span><span dir=\\\"LTR\\\">**.<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">&nbsp; &nbsp;- <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">يتلقى الطرفان إشعارًا بتأكيد السداد<\\/span><span dir=\\\"LTR\\\">.<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">&nbsp; &nbsp;- <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">يحتفظ النظام بسجل العملية ولا\\nيحذفها<\\/span><span dir=\\\"LTR\\\">.<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">&nbsp;<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">## <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">حالات المديونية<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">&nbsp;<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">| <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">الحالة | الوصف <\\/span><span dir=\\\"LTR\\\">|<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">|---|---|<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">| <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">مسودة | تم إعداد المديونية ولم يتم إرسالها أو\\nاعتمادها بعد <\\/span><span dir=\\\"LTR\\\">|<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">| <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">بانتظار قبول العميل | تم إرسال الطلب إلى العميل\\nولم يتم تأكيده <\\/span><span dir=\\\"LTR\\\">|<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">| <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">مستحقة | تم اعتماد المديونية وأصبحت واجبة\\nالسداد <\\/span><span dir=\\\"LTR\\\">|<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">| <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">متأخرة | تجاوزت تاريخ الاستحقاق دون سداد <\\/span><span dir=\\\"LTR\\\">|<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">| <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">مسددة جزئيًا | تم دفع جزء من المبلغ <\\/span><span dir=\\\"LTR\\\">|<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">| <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">مسددة | تم دفع كامل المبلغ <\\/span><span dir=\\\"LTR\\\">|<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">| <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">مرفوضة | رفض العميل المديونية قبل اعتمادها <\\/span><span dir=\\\"LTR\\\">|<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">| <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">متنازع عليها | قام أحد الطرفين بفتح اعتراض أو\\nشكوى <\\/span><span dir=\\\"LTR\\\">|<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">&nbsp;<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">## <\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">معايير القبول<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">&nbsp;<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">- **<\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">بفرض** أن التاجر مسجل وموثق، **عندما** يسجل\\nمديونية لعميل، **فإن** النظام ينشئ طلب مديونية مرتبطًا بحساب العميل<\\/span><span dir=\\\"LTR\\\">.<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">- **<\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">بفرض** إرسال المديونية، **عندما** يفتح العميل\\nالإشعار، **فإن**ه يرى المبلغ والتفاصيل واسم التاجر بوضوح<\\/span><span dir=\\\"LTR\\\">.<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">- **<\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">يجب** ألا يتمكن العميل من حذف المديونية المسجلة\\nأو تعديل مبلغها<\\/span><span dir=\\\"LTR\\\">.<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">- **<\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">يجب** أن يظهر للتاجر والعميل سجل واضح لكل عملية\\nإنشاء أو تعديل أو سداد<\\/span><span dir=\\\"LTR\\\">.<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">- **<\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">عند** سداد المبلغ كاملًا، **يجب** تغيير حالة\\nالمديونية إلى «مسددة» تلقائيًا<\\/span><span dir=\\\"LTR\\\">.<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">- **<\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">في حال** فشل الدفع، **تبقى** المديونية بحالتها\\nالسابقة مع إظهار سبب فشل العملية إن أمكن<\\/span><span dir=\\\"LTR\\\">.<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">- **<\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">يجب** إرسال إشعار للطرفين بعد نجاح السداد<\\/span><span dir=\\\"LTR\\\">.<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\"><span class=\\\"highlight\\\" style=\\\"background-color: rgb(255, 102, 178)\\\">- **<\\/span><\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\"><span class=\\\"highlight\\\" style=\\\"background-color: rgb(255, 102, 178)\\\">لا يجوز** اعتماد البدء في تسجيل مديونية على شخص\\nدون موافقة العميل، إذا كانت موافقة العميل مطلوبة حسب سياسة الخدمة في بداية\\nإضافته كصديق<\\/span><\\/span><span class=\\\"highlight\\\" style=\\\"background-color: rgb(255, 102, 178)\\\"><br/><\\/span><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-YE\\\">عند حذف الصديق من قائمة الأصدقاء لايستطيع تسجيل أي مديونية<\\/span><span dir=\\\"LTR\\\">.<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">- **<\\/span><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">يجب** توفير آلية اعتراض أو نزاع في حال تسجيل\\nمديونية بالخطأ<\\/span><span dir=\\\"LTR\\\">.<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">&nbsp;<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">&nbsp;<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">&nbsp;<\\/span><br/><\\/p><span style=\\\"font-size: 12pt; line-height: 115%; font-family: &quot;Arial&quot;, sans-serif\\\" dir=\\\"RTL\\\" lang=\\\"AR-SA\\\"><br style=\\\"page-break-before: always\\\"/>\\n<\\/span><p style=\\\"text-align: left; direction: ltr; unicode-bidi: embed; margin-top: 0px; margin-bottom: 0px\\\" dir=\\\"LTR\\\"><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" dir=\\\"RTL\\\" lang=\\\"AR-SA\\\">&nbsp;<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">السداد<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">كعميل<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">استطيع\\nسداد كل مدخل على حده<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">او\\nاختيار مجموعة من المديونيات المسجله علي من قبل صديق واحد/التاجر<span style=\\\"\\\">&nbsp; <\\/span>وتسديدها مره واحدة بمبلغ الإجمالي <\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">&nbsp;<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">الاشعارات<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">كتاجر\\nاستطيع عمل اشعار بالتطبيق للعميل على كل مدخل على حده<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">او\\nاختيار مجموعة من المديونيات المسجله من قبل صديق واحد/التاجر<span style=\\\"\\\">&nbsp; <\\/span>وعمل اشعار مره واحدة بمبلغ الإجمالي <\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">&nbsp;<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">&nbsp;<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">&nbsp;<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span style=\\\"font-family: &quot;Arial&quot;, sans-serif\\\" lang=\\\"AR-SA\\\">&nbsp;<\\/span><br/><\\/p><p dir=\\\"RTL\\\" style=\\\"margin-top: 0px; margin-bottom: 0px\\\"><span dir=\\\"LTR\\\">&nbsp;<\\/span><br/><\\/p><div><br/><\\/div>\",\"leadTime\":\"-1\",\"sharedItemCount\":0,\"addedVia\":0,\"hasCheckList\":false,\"UDF_CHKBOX2\":\"\",\"duration\":\"9d\",\"UDF_CHKBOX1\":\"\",\"diffDays\":\"8d 6h 32m\",\"statusName\":\"To do\",\"totalWorkhours\":\"0\",\"isDocsAdded\":false,\"UDF_FORMULASTR1\":\"10/2026\",\"UDF_RADIO1\":\"\",\"UDF_DATE1\":\"-1\",\"baseItemType\":2,\"UDF_EMAIL1\":\"\",\"depth\":\"0\",\"createdBy\":\"120216000000010017\",\"UDF_MULTIUSERPKL1\":[],\"UDF_ROLLUP10\":\"9d\",\"tagCount\":0,\"voteCount\":0,\"completedBy\":\"\",\"plannedHours\":\"0\"}],\"zsuserIdvsZUID\":{\"120216000000293163\":\"808305920\",\"120216000000010017\":\"768061022\"},\"status\":\"success\"}"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "status": "success",
+        "data": {
+          "userDisplayName": {
+            "120216000000293163": "Mushtaq Alabbasi",
+            "120216000000010017": "Abdullah Al-Measar"
+          },
+          "items": [
+            {
+              "priorityName": "None",
+              "statusType": 0,
+              "endDate": "2026-10-15T20:00:00.000Z",
+              "releaseCount": 0,
+              "isNotesAdded": false,
+              "itemNo": "122",
+              "ownerId": [
+                "120216000000010017",
+                "120216000000293163"
+              ],
+              "points": 6,
+              "itemBlockId": "",
+              "UDF_CHAR8": "",
+              "estimationPoints": 13,
+              "itemName": "[ Shared ] خدمة تسجيل وإدارة مديونية الاصدقاء",
+              "UDF_CHAR7": "",
+              "isOverDue": true,
+              "projectInfo": {
+                "no": "37",
+                "name": "Invoicing MService",
+                "id": "120216000000593007"
+              },
+              "UDF_CHAR6": "",
+              "startAfter": "-1",
+              "createdTime": "2026-10-28T18:11:24.034Z",
+              "isIntegrated": "0",
+              "sharedType": 1,
+              "rootItem": "",
+              "UDF_CHAR5": "nidhal",
+              "UDF_CHAR4": "خدمة تسجيل وإدارة المديونية",
+              "UDF_CHAR3": "خدمة تسجيل وإدارة المديونية",
+              "workhourType": 0,
+              "projPriorityId": "120216000000593033",
+              "UDF_ROLLUP8": "1",
+              "UDF_ROLLUP9": "0",
+              "isParent": false,
+              "cycleTime": "-1",
+              "UDF_TEXT1": "تم إدخال المهمة بالزوهو ",
+              "userGroupCount": 0,
+              "UDF_ROLLUP3": "05/10/2026 04:00 PM",
+              "UDF_ROLLUP4": "13",
+              "UDF_ROLLUP5": "0",
+              "completedDate": "-1",
+              "UDF_ROLLUP6": "15/10/2026 11:00 PM",
+              "UDF_ROLLUP7": "1",
+              "commentCount": 0,
+              "itemId": "120216000004656142",
+              "sequence": "1",
+              "sprintId": "120216000000593009",
+              "UDF_FORMULADBL1": "",
+              "epicId": "",
+              "statusId": "120216000000003629",
+              "sprintInfo": {
+                "owner": "120216000000010017",
+                "no": "0",
+                "name": "Backlog",
+                "id": "120216000000593009",
+                "type": 5
+              },
+              "parentItem": "",
+              "projItemTypeId": "120216000000593045",
+              "itemTypeName": "Story",
+              "userIdVsWorkhours": {
+                "120216000000293163": "0",
+                "120216000000010017": "0"
+              },
+              "startDate": "2026-10-05T13:00:00.000Z",
+              "description": "<p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">معلومات\nمسبقة</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">خدمة\nالاصدقاء جاهزة وهي لاتسمح لاحد اضافة صديق الا بعد مشاركته رقم </span><span dir=\"LTR\">QR</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">او\nالموافقة من صفحة الاصدقاء في بنكي</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">وهي\nمنفذه في خدمة توقعات كاس العالم وخدمة فرقي</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">**</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">بصفتي** صاحب محل تجاري،&nbsp;&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">**</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">أرغب في** تسجيل مديونية على عميل معروف (صديق\nمضاف مسبقا&nbsp; خلال مشاركة رمز</span><span dir=\"LTR\">QR</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\"> &nbsp;)&nbsp;الخاص بحسابه في التطبيق\nالمالي،&nbsp;&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">**</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">حتى يتمكن** العميل من استلام إشعار بالمبلغ\nالمستحق عليه وسداده إلكترونيًا، مع ضمان عدم حذف المديونية أو تعديلها دون إتمام\nالسداد</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">**</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">بصفتي** عميل بالبنك،&nbsp;&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">**</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">أرغب في** تسجيل مديونية على عميل اخر معروف\n(صديق مضاف مسبقا&nbsp; خلال مشاركة رمز</span><span dir=\"LTR\">QR</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\"> &nbsp;)&nbsp;الخاص بحسابه في التطبيق\nالمالي،&nbsp;&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">**</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">حتى يتمكن** العميل من استلام إشعار بالمبلغ\nالمستحق عليه وسداده إلكترونيًا، مع ضمان عدم حذف المديونية أو تعديلها دون إتمام\nالسداد</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">### </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">الوصف الوظيفي</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">1. </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">يفتح صاحب المحل خدمة *مديونية الأصدقاء*</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">تسجيل\nمديونية جديدة</span><span dir=\"LTR\">**.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">2. </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">يدخل مبلغ المديونية، والوصف أو سببها، <span class=\"highlight\" style=\"background-color: rgb(255, 204, 238)\">و��اريخ\nالاستحقاق إن وجد</span></span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">3. </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">يختار العميل من خلال</span><span dir=\"LTR\">:</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp; &nbsp;- </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">مسح رمز </span><span dir=\"LTR\">QR </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">الخاص بحساب العميل، أو</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp; &nbsp;- </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">مشاركة رابط طلب المديونية مع العميل</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">4. </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">يستلم العميل إشعارًا داخل التطبيق يتضمن</span><span dir=\"LTR\">:</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp; &nbsp;- </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">اسم التاجر أو المحل</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp; &nbsp;- </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">قيمة المديونية</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp; &nbsp;- </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">تفاصيل العملية</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp; &nbsp;- </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">تاريخ تسجيل المديونية</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">5. </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">لا يستطيع العميل حذف المديونية أو إخفاءها من\nسجله</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\"><span class=\"highlight\" style=\"background-color: rgb(255, 204, 238)\">6. </span></span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\"><span class=\"highlight\" style=\"background-color: rgb(255, 204, 238)\">يمكن إلغاء المديونية فقط قبل اعتمادها أو وفق\nصلاحيات محددة، أما بعد اعتمادها فلا تُلغى إلا من خلال</span></span><span dir=\"LTR\"><span class=\"highlight\" style=\"background-color: rgb(255, 204, 238)\">:</span></span><span class=\"highlight\" style=\"background-color: rgb(255, 204, 238)\"><br/></span></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp; &nbsp;- </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">سداد المبلغ كاملًا، أو</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\"><span class=\"highlight\" style=\"background-color: rgb(255, 204, 238)\">&nbsp; &nbsp;- </span></span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\"><span class=\"highlight\" style=\"background-color: rgb(255, 204, 238)\">إجراء تصحيح موثق من التاجر أو مسؤول\nالنظام</span></span><span dir=\"LTR\"><span class=\"highlight\" style=\"background-color: rgb(255, 204, 238)\">.</span></span><span class=\"highlight\" style=\"background-color: rgb(255, 204, 238)\"><br/></span></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">7. </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">يختار العميل المديونية ويضغط على **سداد الآن</span><span dir=\"LTR\">**.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">8. </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">بعد نجاح عملية الدفع</span><span dir=\"LTR\">:</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp; &nbsp;- </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">يتم تحويل المبلغ إلى حساب التاجر</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp; &nbsp;- </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">تتغير حالة المديونية إلى **مسددة</span><span dir=\"LTR\">**.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp; &nbsp;- </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">يتلقى الطرفان إشعارًا بتأكيد السداد</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp; &nbsp;- </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">يحتفظ النظام بسجل العملية ولا\nيحذفها</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">## </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">حالات المديونية</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">| </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">الحالة | الوصف </span><span dir=\"LTR\">|</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">|---|---|</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">| </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">مسودة | تم إعداد المديونية ولم يتم إرسالها أو\nاعتمادها بعد </span><span dir=\"LTR\">|</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">| </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">بانتظار قبول العميل | تم إرسال الطلب إلى العميل\nولم يتم تأكيده </span><span dir=\"LTR\">|</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">| </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">مستحقة | تم اعتماد المديونية وأصبحت واجبة\nالسداد </span><span dir=\"LTR\">|</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">| </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">متأخرة | تجاوزت تاريخ الاستحقاق دون سداد </span><span dir=\"LTR\">|</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">| </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">مسددة جزئيًا | تم دفع جزء من المبلغ </span><span dir=\"LTR\">|</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">| </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">مسددة | تم دفع كامل المبلغ </span><span dir=\"LTR\">|</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">| </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">مرفوضة | رفض العميل المديونية قبل اعتمادها </span><span dir=\"LTR\">|</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">| </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">متنازع عليها | قام أحد الطرفين بفتح اعتراض أو\nشكوى </span><span dir=\"LTR\">|</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">## </span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">معايير القبول</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">- **</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">بفرض** أن التاجر مسجل وموثق، **عندما** يسجل\nمديونية لعميل، **فإن** النظام ينشئ طلب مديونية مرتبطًا بحساب العميل</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">- **</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">بفرض** إرسال المديونية، **عندما** يفتح العميل\nالإشعار، **فإن**ه يرى المبلغ والتفاصيل واسم التاجر بوضوح</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">- **</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">يجب** ألا يتمكن العميل من حذف المديونية المسجلة\nأو تعديل مبلغها</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">- **</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">يجب** أن يظهر للتاجر والعميل سجل واضح لكل عملية\nإنشاء أو تعديل أو سداد</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">- **</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">عند** سداد المبلغ كاملًا، **يجب** تغيير حالة\nالمديونية إلى «مسددة» تلقائيًا</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">- **</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">في حال** فشل الدفع، **تبقى** المديونية بحالتها\nالسابقة مع إظهار سبب فشل العملية إن أمكن</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">- **</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">يجب** إرسال إشعار للطرفين بعد نجاح السداد</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\"><span class=\"highlight\" style=\"background-color: rgb(255, 102, 178)\">- **</span></span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\"><span class=\"highlight\" style=\"background-color: rgb(255, 102, 178)\">لا يجوز** اعتماد البدء في تسجيل مديونية على شخص\nدون موافقة العميل، إذا كانت موافقة العميل مطلوبة حسب سياسة الخدمة في بداية\nإضافته كصديق</span></span><span class=\"highlight\" style=\"background-color: rgb(255, 102, 178)\"><br/></span></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-YE\">عند حذف الصديق من قائمة الأصدقاء لايستطيع تسجيل أي مديونية</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">- **</span><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">يجب** توفير آلية اعتراض أو نزاع في حال تسجيل\nمديونية بالخطأ</span><span dir=\"LTR\">.</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp;</span><br/></p><span style=\"font-size: 12pt; line-height: 115%; font-family: &quot;Arial&quot;, sans-serif\" dir=\"RTL\" lang=\"AR-SA\"><br style=\"page-break-before: always\"/>\n</span><p style=\"text-align: left; direction: ltr; unicode-bidi: embed; margin-top: 0px; margin-bottom: 0px\" dir=\"LTR\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" dir=\"RTL\" lang=\"AR-SA\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">السداد</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">كعميل</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">استطيع\nسداد كل مدخل على حده</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">او\nاختيار مجموعة من المديونيات المسجله علي من قبل صديق واحد/التاجر<span style=\"\">&nbsp; </span>وتسديدها مره واحدة بمبلغ الإجمالي </span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">الاشعارات</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">كتاجر\nاستطيع عمل اشعار بالتطبيق للعميل على كل مدخل على حده</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">او\nاختيار مجموعة من المديونيات المسجله من قبل صديق واحد/التاجر<span style=\"\">&nbsp; </span>وعمل اشعار مره واحدة بمبلغ الإجمالي </span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span style=\"font-family: &quot;Arial&quot;, sans-serif\" lang=\"AR-SA\">&nbsp;</span><br/></p><p dir=\"RTL\" style=\"margin-top: 0px; margin-bottom: 0px\"><span dir=\"LTR\">&nbsp;</span><br/></p><div><br/></div>",
+              "leadTime": "-1",
+              "sharedItemCount": 0,
+              "addedVia": 0,
+              "hasCheckList": false,
+              "UDF_CHKBOX2": "",
+              "duration": "9d",
+              "UDF_CHKBOX1": "",
+              "diffDays": "8d 6h 32m",
+              "statusName": "To do",
+              "totalWorkhours": "0",
+              "isDocsAdded": false,
+              "UDF_FORMULASTR1": "10/2026",
+              "UDF_RADIO1": "",
+              "UDF_DATE1": "-1",
+              "baseItemType": 2,
+              "UDF_EMAIL1": "",
+              "depth": "0",
+              "createdBy": "120216000000010017",
+              "UDF_MULTIUSERPKL1": [],
+              "UDF_ROLLUP10": "9d",
+              "tagCount": 0,
+              "voteCount": 0,
+              "completedBy": "",
+              "plannedHours": "0"
+            }
+          ],
+          "zsuserIdvsZUID": {
+            "120216000000293163": "808305920",
+            "120216000000010017": "768061022"
+          },
+          "status": "success"
+        }
+      }
+    }
+  },
+  {
+    "ok": true,
+    "method": "tools/call",
+    "params": "ZohoSprints_GetItemComments",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"next\":false,\"notesJObj\":{},\"notes_prop\":{\"pinnedTime\":18,\"notes\":1,\"updatedBy\":4,\"isPinned\":16,\"sourceItemId\":21,\"parentCommentId\":7,\"noteId\":0,\"childSeq\":9,\"updatedOn\":5,\"pinnedBy\":17,\"createdOn\":3,\"addedVia\":14,\"shareType\":19,\"sourceItemLink\":20,\"hasAttach\":6,\"totalReply\":12,\"parentSeq\":8,\"totalReaction\":11,\"oEmbedData\":13,\"createdBy\":2,\"commentType\":15,\"reactions\":10},\"hasData\":false,\"notesIds\":[],\"status\":\"success\"}"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "status": "success",
+        "data": {
+          "next": false,
+          "notesJObj": {},
+          "notes_prop": {
+            "pinnedTime": 18,
+            "notes": 1,
+            "updatedBy": 4,
+            "isPinned": 16,
+            "sourceItemId": 21,
+            "parentCommentId": 7,
+            "noteId": 0,
+            "childSeq": 9,
+            "updatedOn": 5,
+            "pinnedBy": 17,
+            "createdOn": 3,
+            "addedVia": 14,
+            "shareType": 19,
+            "sourceItemLink": 20,
+            "hasAttach": 6,
+            "totalReply": 12,
+            "parentSeq": 8,
+            "totalReaction": 11,
+            "oEmbedData": 13,
+            "createdBy": 2,
+            "commentType": 15,
+            "reactions": 10
+          },
+          "hasData": false,
+          "notesIds": [],
+          "status": "success"
+        }
+      }
+    }
+  },
+  {
+    "ok": true,
+    "method": "tools/call",
+    "params": "ZohoSprints_GetItemDetails",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"userDisplayName\":{\"120216000000535227\":\"Abdullah Al-Ansi\",\"120216000000175003\":\"Eissa Musleh\",\"120216000000809689\":\"devopssme\"},\"items\":[{\"priorityName\":\"None\",\"statusType\":1,\"endDate\":\"2025-07-31T20:00:00.000Z\",\"releaseCount\":1,\"isNotesAdded\":false,\"itemNo\":\"14\",\"ownerId\":[\"120216000000535227\",\"120216000000809689\"],\"points\":6,\"itemBlockId\":\"\",\"UDF_CHAR8\":\"SMEs\",\"estimationPoints\":13,\"itemName\":\"Manage Parties- As a system administrator, I want to be able to manage parties (add, update, delete and so on) like add party, party type, set access role, or suspend. so that I can manage permission and access control effectively. \",\"UDF_CHAR7\":\"Alriadi\",\"isOverDue\":true,\"projectInfo\":{\"no\":\"37\",\"name\":\"Invoicing MService\",\"id\":\"120216000000593007\"},\"UDF_CHAR6\":\"\",\"startAfter\":\"-1\",\"createdTime\":\"2024-07-22T15:51:06.657Z\",\"isIntegrated\":\"0\",\"sharedType\":-1,\"rootItem\":\"\",\"UDF_CHAR5\":\"Alriadi\",\"UDF_CHAR4\":\"Manage parties\",\"UDF_CHAR3\":\"ادارة الاطراف ذات العلاقة\",\"workhourType\":0,\"projPriorityId\":\"120216000000593033\",\"UDF_ROLLUP8\":\"6\",\"UDF_ROLLUP9\":\"0\",\"isParent\":true,\"cycleTime\":\"1917240000\",\"UDF_TEXT1\":\"\",\"userGroupCount\":0,\"UDF_ROLLUP3\":\"20/07/2025 04:00 PM\",\"UDF_ROLLUP4\":\"13\",\"UDF_ROLLUP5\":\"6\",\"completedDate\":\"2025-11-04T14:56:35.863Z\",\"UDF_ROLLUP6\":\"31/07/2025 11:00 PM\",\"UDF_ROLLUP7\":\"0\",\"commentCount\":0,\"itemId\":\"120216000000814001\",\"sequence\":\"1\",\"sprintId\":\"120216000002936631\",\"UDF_FORMULADBL1\":470,\"epicId\":\"120216000002409263\",\"statusId\":\"120216000000003637\",\"sprintInfo\":{\"owner\":\"120216000000175003\",\"no\":\"11\",\"name\":\"Sprint9: Jul-2025 Publish-Last\",\"id\":\"120216000002936631\",\"type\":3},\"parentItem\":\"\",\"projItemTypeId\":\"120216000000593045\",\"itemTypeName\":\"Story\",\"userIdVsWorkhours\":{\"120216000000535227\":\"0\",\"120216000000809689\":\"0\"},\"startDate\":\"2025-07-20T13:00:00.000Z\",\"description\":\"<div><b><span class=\\\"size\\\" style=\\\"font-size: 18.6667px\\\">User Story:<\\/span><\\/b><br><\\/div><h3><a name=\\\"_Toc172501237\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\"><b><span class=\\\"font\\\" style=\\\"font-family: &quot;Calibri Light&quot;, sans-serif\\\"><span class=\\\"size\\\" style=\\\"font-size: 16px\\\">As a<\\/span><\\/span><\\/b><span class=\\\"size\\\" style=\\\"font-size: 16px\\\"> system\\nadministrator,<\\/span><span class=\\\"size\\\" style=\\\"font-size: 16px\\\"><br><\\/span><span class=\\\"size\\\" style=\\\"font-size: 16px\\\"> <\\/span><span class=\\\"font\\\" style=\\\"font-family: &quot;Calibri Light&quot;, sans-serif\\\"><b><span class=\\\"size\\\" style=\\\"font-size: 16px\\\">I want <\\/span><\\/b><span style=\\\"font-weight: normal\\\"><span class=\\\"size\\\" style=\\\"font-size: 16px\\\">to<\\/span><\\/span><\\/span><span style=\\\"font-weight: normal\\\"><span class=\\\"size\\\" style=\\\"font-size: 16px\\\"> be able to manage\\nparties (add, update, delete and so on) like add party, party type, set access\\nrole, or suspend.<\\/span><\\/span><span class=\\\"size\\\" style=\\\"font-size: 16px\\\"><br><\\/span><span class=\\\"size\\\" style=\\\"font-size: 16px\\\"> <\\/span><b><span class=\\\"font\\\" style=\\\"font-family: &quot;Calibri Light&quot;, sans-serif\\\"><span class=\\\"size\\\" style=\\\"font-size: 16px\\\">so that<\\/span><\\/span><\\/b><span style=\\\"font-weight: normal\\\"><span class=\\\"size\\\" style=\\\"font-size: 16px\\\"> I can manage permission\\nand access control effectively.<\\/span><\\/span><\\/a><\\/h3><div><br><\\/div><div><b>Acceptance Criteria:<\\/b><br><\\/div><p style=\\\"margin-left: 0.5in; text-indent: -0.25in; margin-top: 0px\\\"><span style=\\\"\\\">1.<span style=\\\"font: 7pt &quot;Times New Roman&quot;\\\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <\\/span><\\/span><b>Admin portal:<\\/b><br><\\/p><ol><ul><li style=\\\"\\\">The system supports\\n      the creation and management of parties.<br><\\/li><li style=\\\"\\\">The system allows\\n      viewing a list of all existing parties\\u2019 and party types.<br><\\/li><\\/ul><\\/ol><p style=\\\"margin-left: 0.5in; text-indent: -0.25in; margin-top: 0px\\\"><span style=\\\"\\\">2.<span style=\\\"font: 7pt &quot;Times New Roman&quot;\\\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <\\/span><\\/span><b>Party Types:<\\/b><br><\\/p><ol><ul><li style=\\\"\\\"><span style=\\\"\\\">&nbsp;<\\/span>Provider<br><\\/li><li style=\\\"\\\">User<br><\\/li><li style=\\\"\\\">Merchant<br><\\/li><li style=\\\"\\\">Agent<br><\\/li><\\/ul><\\/ol><p style=\\\"margin-left: 0.5in; text-indent: -0.25in; margin-top: 0px\\\"><span style=\\\"\\\">3.<span style=\\\"font: 7pt &quot;Times New Roman&quot;\\\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <\\/span><\\/span><b>Access control:<\\/b><br><\\/p><ol><ul><li style=\\\"\\\">The system\\n      administrator can set specific roles for each party.<br><\\/li><li style=\\\"\\\">The admin may be able to\\n      suspend/unsuspend party.<br><\\/li><\\/ul><\\/ol><div><br><\\/div>\",\"leadTime\":\"8463900000\",\"sharedItemCount\":0,\"addedVia\":0,\"hasCheckList\":false,\"UDF_CHKBOX2\":\"120216000000850749\",\"duration\":\"10d\",\"UDF_CHKBOX1\":\"120216000000420553,120216000000420563\",\"diffDays\":\"67d 2h 56m\",\"statusName\":\"Done\",\"totalWorkhours\":\"0\",\"isDocsAdded\":false,\"UDF_FORMULASTR1\":\"7/2025\",\"UDF_RADIO1\":\"120216000000851697\",\"UDF_DATE1\":\"-1\",\"baseItemType\":2,\"UDF_EMAIL1\":\"\",\"depth\":\"0\",\"createdBy\":\"120216000000175003\",\"UDF_MULTIUSERPKL1\":[\"120216000000175003\"],\"UDF_ROLLUP10\":\"1d 18h\",\"tagCount\":0,\"voteCount\":0,\"completedBy\":\"120216000000175003\",\"plannedHours\":\"0\"}],\"zsuserIdvsZUID\":{\"120216000000535227\":\"830852660\",\"120216000000175003\":\"793914823\",\"120216000000809689\":\"10085229706\"},\"status\":\"success\"}"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "status": "success",
+        "data": {
+          "userDisplayName": {
+            "120216000000535227": "Abdullah Al-Ansi",
+            "120216000000175003": "Eissa Musleh",
+            "120216000000809689": "devopssme"
+          },
+          "items": [
+            {
+              "priorityName": "None",
+              "statusType": 1,
+              "endDate": "2025-07-31T20:00:00.000Z",
+              "releaseCount": 1,
+              "isNotesAdded": false,
+              "itemNo": "14",
+              "ownerId": [
+                "120216000000535227",
+                "120216000000809689"
+              ],
+              "points": 6,
+              "itemBlockId": "",
+              "UDF_CHAR8": "SMEs",
+              "estimationPoints": 13,
+              "itemName": "Manage Parties- As a system administrator, I want to be able to manage parties (add, update, delete and so on) like add party, party type, set access role, or suspend. so that I can manage permission and access control effectively. ",
+              "UDF_CHAR7": "Alriadi",
+              "isOverDue": true,
+              "projectInfo": {
+                "no": "37",
+                "name": "Invoicing MService",
+                "id": "120216000000593007"
+              },
+              "UDF_CHAR6": "",
+              "startAfter": "-1",
+              "createdTime": "2024-07-22T15:51:06.657Z",
+              "isIntegrated": "0",
+              "sharedType": -1,
+              "rootItem": "",
+              "UDF_CHAR5": "Alriadi",
+              "UDF_CHAR4": "Manage parties",
+              "UDF_CHAR3": "ادارة الاطراف ذات العلاقة",
+              "workhourType": 0,
+              "projPriorityId": "120216000000593033",
+              "UDF_ROLLUP8": "6",
+              "UDF_ROLLUP9": "0",
+              "isParent": true,
+              "cycleTime": "1917240000",
+              "UDF_TEXT1": "",
+              "userGroupCount": 0,
+              "UDF_ROLLUP3": "20/07/2025 04:00 PM",
+              "UDF_ROLLUP4": "13",
+              "UDF_ROLLUP5": "6",
+              "completedDate": "2025-11-04T14:56:35.863Z",
+              "UDF_ROLLUP6": "31/07/2025 11:00 PM",
+              "UDF_ROLLUP7": "0",
+              "commentCount": 0,
+              "itemId": "120216000000814001",
+              "sequence": "1",
+              "sprintId": "120216000002936631",
+              "UDF_FORMULADBL1": 470,
+              "epicId": "120216000002409263",
+              "statusId": "120216000000003637",
+              "sprintInfo": {
+                "owner": "120216000000175003",
+                "no": "11",
+                "name": "Sprint9: Jul-2025 Publish-Last",
+                "id": "120216000002936631",
+                "type": 3
+              },
+              "parentItem": "",
+              "projItemTypeId": "120216000000593045",
+              "itemTypeName": "Story",
+              "userIdVsWorkhours": {
+                "120216000000535227": "0",
+                "120216000000809689": "0"
+              },
+              "startDate": "2025-07-20T13:00:00.000Z",
+              "description": "<div><b><span class=\"size\" style=\"font-size: 18.6667px\">User Story:</span></b><br></div><h3><a name=\"_Toc172501237\" target=\"_blank\" rel=\"noopener noreferrer\"><b><span class=\"font\" style=\"font-family: &quot;Calibri Light&quot;, sans-serif\"><span class=\"size\" style=\"font-size: 16px\">As a</span></span></b><span class=\"size\" style=\"font-size: 16px\"> system\nadministrator,</span><span class=\"size\" style=\"font-size: 16px\"><br></span><span class=\"size\" style=\"font-size: 16px\"> </span><span class=\"font\" style=\"font-family: &quot;Calibri Light&quot;, sans-serif\"><b><span class=\"size\" style=\"font-size: 16px\">I want </span></b><span style=\"font-weight: normal\"><span class=\"size\" style=\"font-size: 16px\">to</span></span></span><span style=\"font-weight: normal\"><span class=\"size\" style=\"font-size: 16px\"> be able to manage\nparties (add, update, delete and so on) like add party, party type, set access\nrole, or suspend.</span></span><span class=\"size\" style=\"font-size: 16px\"><br></span><span class=\"size\" style=\"font-size: 16px\"> </span><b><span class=\"font\" style=\"font-family: &quot;Calibri Light&quot;, sans-serif\"><span class=\"size\" style=\"font-size: 16px\">so that</span></span></b><span style=\"font-weight: normal\"><span class=\"size\" style=\"font-size: 16px\"> I can manage permission\nand access control effectively.</span></span></a></h3><div><br></div><div><b>Acceptance Criteria:</b><br></div><p style=\"margin-left: 0.5in; text-indent: -0.25in; margin-top: 0px\"><span style=\"\">1.<span style=\"font: 7pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b>Admin portal:</b><br></p><ol><ul><li style=\"\">The system supports\n      the creation and management of parties.<br></li><li style=\"\">The system allows\n      viewing a list of all existing parties’ and party types.<br></li></ul></ol><p style=\"margin-left: 0.5in; text-indent: -0.25in; margin-top: 0px\"><span style=\"\">2.<span style=\"font: 7pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b>Party Types:</b><br></p><ol><ul><li style=\"\"><span style=\"\">&nbsp;</span>Provider<br></li><li style=\"\">User<br></li><li style=\"\">Merchant<br></li><li style=\"\">Agent<br></li></ul></ol><p style=\"margin-left: 0.5in; text-indent: -0.25in; margin-top: 0px\"><span style=\"\">3.<span style=\"font: 7pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b>Access control:</b><br></p><ol><ul><li style=\"\">The system\n      administrator can set specific roles for each party.<br></li><li style=\"\">The admin may be able to\n      suspend/unsuspend party.<br></li></ul></ol><div><br></div>",
+              "leadTime": "8463900000",
+              "sharedItemCount": 0,
+              "addedVia": 0,
+              "hasCheckList": false,
+              "UDF_CHKBOX2": "120216000000850749",
+              "duration": "10d",
+              "UDF_CHKBOX1": "120216000000420553,120216000000420563",
+              "diffDays": "67d 2h 56m",
+              "statusName": "Done",
+              "totalWorkhours": "0",
+              "isDocsAdded": false,
+              "UDF_FORMULASTR1": "7/2025",
+              "UDF_RADIO1": "120216000000851697",
+              "UDF_DATE1": "-1",
+              "baseItemType": 2,
+              "UDF_EMAIL1": "",
+              "depth": "0",
+              "createdBy": "120216000000175003",
+              "UDF_MULTIUSERPKL1": [
+                "120216000000175003"
+              ],
+              "UDF_ROLLUP10": "1d 18h",
+              "tagCount": 0,
+              "voteCount": 0,
+              "completedBy": "120216000000175003",
+              "plannedHours": "0"
+            }
+          ],
+          "zsuserIdvsZUID": {
+            "120216000000535227": "830852660",
+            "120216000000175003": "793914823",
+            "120216000000809689": "10085229706"
+          },
+          "status": "success"
+        }
+      }
+    }
+  },
+  {
+    "ok": true,
+    "method": "tools/call",
+    "params": "ZohoSprints_GetItemDetails",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"userDisplayName\":{\"120216000000535227\":\"Abdullah Al-Ansi\",\"120216000000175003\":\"Eissa Musleh\",\"120216000000002003\":\"Osamah Gharad\"},\"items\":[{\"priorityName\":\"None\",\"statusType\":1,\"endDate\":\"2025-04-30T20:00:00.000Z\",\"releaseCount\":1,\"isNotesAdded\":false,\"itemNo\":\"67\",\"ownerId\":[\"120216000000002003\",\"120216000000535227\"],\"points\":5,\"itemBlockId\":\"\",\"UDF_CHAR8\":\"\",\"estimationPoints\":8,\"itemName\":\"Implement the new structure model-As a system architect-developer , I want to implement a new data structure model that includes tenant information, So that the system can support multi-tenancy and properly segregate data by organization or client.\",\"UDF_CHAR7\":\"Abdullah\",\"isOverDue\":true,\"projectInfo\":{\"no\":\"37\",\"name\":\"Invoicing MService\",\"id\":\"120216000000593007\"},\"UDF_CHAR6\":\"\",\"startAfter\":\"-1\",\"createdTime\":\"2025-04-20T21:11:26.342Z\",\"isIntegrated\":\"0\",\"sharedType\":-1,\"rootItem\":\"\",\"UDF_CHAR5\":\"\",\"UDF_CHAR4\":\"Implement the new structure model\",\"UDF_CHAR3\":\"Implement the new structure model\",\"workhourType\":0,\"projPriorityId\":\"120216000000593033\",\"UDF_ROLLUP8\":\"3\",\"UDF_ROLLUP9\":\"0\",\"isParent\":true,\"cycleTime\":\"557100000\",\"UDF_TEXT1\":\"\",\"userGroupCount\":0,\"UDF_ROLLUP3\":\"19/04/2025 04:00 PM\",\"UDF_ROLLUP4\":\"8\",\"UDF_ROLLUP5\":\"3\",\"completedDate\":\"2025-05-20T21:31:18.845Z\",\"UDF_ROLLUP6\":\"30/04/2025 11:00 PM\",\"UDF_ROLLUP7\":\"0\",\"commentCount\":0,\"itemId\":\"120216000002457353\",\"sequence\":\"3\",\"sprintId\":\"120216000002462746\",\"UDF_FORMULADBL1\":30,\"epicId\":\"120216000002409263\",\"statusId\":\"120216000000003637\",\"sprintInfo\":{\"owner\":\"120216000000175003\",\"no\":\"6\",\"name\":\"Sprint5: APR-2025 Last integration \",\"id\":\"120216000002462746\",\"type\":3},\"parentItem\":\"\",\"projItemTypeId\":\"120216000000593045\",\"itemTypeName\":\"Story\",\"userIdVsWorkhours\":{\"120216000000535227\":\"0\",\"120216000000002003\":\"0\"},\"startDate\":\"2025-04-20T13:00:00.000Z\",\"description\":\"\",\"leadTime\":\"613200000\",\"sharedItemCount\":0,\"addedVia\":0,\"hasCheckList\":false,\"UDF_CHKBOX2\":\"\",\"duration\":\"9d\",\"UDF_CHKBOX1\":\"120216000000420553,120216000000420559,120216000000420557\",\"diffDays\":\"14d 1h 31m\",\"statusName\":\"Done\",\"totalWorkhours\":\"0\",\"isDocsAdded\":false,\"UDF_FORMULASTR1\":\"4/2025\",\"UDF_RADIO1\":\"120216000000851697\",\"UDF_DATE1\":\"-1\",\"baseItemType\":2,\"UDF_EMAIL1\":\"\",\"depth\":\"0\",\"createdBy\":\"120216000000535227\",\"UDF_MULTIUSERPKL1\":[\"120216000000175003\"],\"UDF_ROLLUP10\":\"21h\",\"tagCount\":0,\"voteCount\":0,\"completedBy\":\"120216000000175003\",\"plannedHours\":\"0\"}],\"zsuserIdvsZUID\":{\"120216000000535227\":\"830852660\",\"120216000000175003\":\"793914823\",\"120216000000002003\":\"767679078\"},\"status\":\"success\"}"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "status": "success",
+        "data": {
+          "userDisplayName": {
+            "120216000000535227": "Abdullah Al-Ansi",
+            "120216000000175003": "Eissa Musleh",
+            "120216000000002003": "Osamah Gharad"
+          },
+          "items": [
+            {
+              "priorityName": "None",
+              "statusType": 1,
+              "endDate": "2025-04-30T20:00:00.000Z",
+              "releaseCount": 1,
+              "isNotesAdded": false,
+              "itemNo": "67",
+              "ownerId": [
+                "120216000000002003",
+                "120216000000535227"
+              ],
+              "points": 5,
+              "itemBlockId": "",
+              "UDF_CHAR8": "",
+              "estimationPoints": 8,
+              "itemName": "Implement the new structure model-As a system architect-developer , I want to implement a new data structure model that includes tenant information, So that the system can support multi-tenancy and properly segregate data by organization or client.",
+              "UDF_CHAR7": "Abdullah",
+              "isOverDue": true,
+              "projectInfo": {
+                "no": "37",
+                "name": "Invoicing MService",
+                "id": "120216000000593007"
+              },
+              "UDF_CHAR6": "",
+              "startAfter": "-1",
+              "createdTime": "2025-04-20T21:11:26.342Z",
+              "isIntegrated": "0",
+              "sharedType": -1,
+              "rootItem": "",
+              "UDF_CHAR5": "",
+              "UDF_CHAR4": "Implement the new structure model",
+              "UDF_CHAR3": "Implement the new structure model",
+              "workhourType": 0,
+              "projPriorityId": "120216000000593033",
+              "UDF_ROLLUP8": "3",
+              "UDF_ROLLUP9": "0",
+              "isParent": true,
+              "cycleTime": "557100000",
+              "UDF_TEXT1": "",
+              "userGroupCount": 0,
+              "UDF_ROLLUP3": "19/04/2025 04:00 PM",
+              "UDF_ROLLUP4": "8",
+              "UDF_ROLLUP5": "3",
+              "completedDate": "2025-05-20T21:31:18.845Z",
+              "UDF_ROLLUP6": "30/04/2025 11:00 PM",
+              "UDF_ROLLUP7": "0",
+              "commentCount": 0,
+              "itemId": "120216000002457353",
+              "sequence": "3",
+              "sprintId": "120216000002462746",
+              "UDF_FORMULADBL1": 30,
+              "epicId": "120216000002409263",
+              "statusId": "120216000000003637",
+              "sprintInfo": {
+                "owner": "120216000000175003",
+                "no": "6",
+                "name": "Sprint5: APR-2025 Last integration ",
+                "id": "120216000002462746",
+                "type": 3
+              },
+              "parentItem": "",
+              "projItemTypeId": "120216000000593045",
+              "itemTypeName": "Story",
+              "userIdVsWorkhours": {
+                "120216000000535227": "0",
+                "120216000000002003": "0"
+              },
+              "startDate": "2025-04-20T13:00:00.000Z",
+              "description": "",
+              "leadTime": "613200000",
+              "sharedItemCount": 0,
+              "addedVia": 0,
+              "hasCheckList": false,
+              "UDF_CHKBOX2": "",
+              "duration": "9d",
+              "UDF_CHKBOX1": "120216000000420553,120216000000420559,120216000000420557",
+              "diffDays": "14d 1h 31m",
+              "statusName": "Done",
+              "totalWorkhours": "0",
+              "isDocsAdded": false,
+              "UDF_FORMULASTR1": "4/2025",
+              "UDF_RADIO1": "120216000000851697",
+              "UDF_DATE1": "-1",
+              "baseItemType": 2,
+              "UDF_EMAIL1": "",
+              "depth": "0",
+              "createdBy": "120216000000535227",
+              "UDF_MULTIUSERPKL1": [
+                "120216000000175003"
+              ],
+              "UDF_ROLLUP10": "21h",
+              "tagCount": 0,
+              "voteCount": 0,
+              "completedBy": "120216000000175003",
+              "plannedHours": "0"
+            }
+          ],
+          "zsuserIdvsZUID": {
+            "120216000000535227": "830852660",
+            "120216000000175003": "793914823",
+            "120216000000002003": "767679078"
+          },
+          "status": "success"
+        }
+      }
+    }
+  },
+  {
+    "ok": true,
+    "method": "tools/call",
+    "params": "ZohoSprints_GetItemDetails",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"userDisplayName\":{\"120216000000535227\":\"Abdullah Al-Ansi\",\"120216000000175003\":\"Eissa Musleh\"},\"items\":[{\"priorityName\":\"None\",\"statusType\":1,\"endDate\":\"2025-04-17T20:00:00.000Z\",\"releaseCount\":1,\"isNotesAdded\":false,\"itemNo\":\"43\",\"ownerId\":[\"120216000000535227\"],\"points\":6,\"itemBlockId\":\"\",\"UDF_CHAR8\":\"\",\"estimationPoints\":13,\"itemName\":\"Integrate with central identity-As a system administrator,\\r\\nI want to integrate the application with a central identity provider,\\r\\nSo that users can log in using a unified, secure, and centralized authentication system.\",\"UDF_CHAR7\":\"Amr\",\"isOverDue\":true,\"projectInfo\":{\"no\":\"37\",\"name\":\"Invoicing MService\",\"id\":\"120216000000593007\"},\"UDF_CHAR6\":\"\",\"startAfter\":\"-1\",\"createdTime\":\"2025-04-07T20:35:08.362Z\",\"isIntegrated\":\"0\",\"sharedType\":-1,\"rootItem\":\"\",\"UDF_CHAR5\":\"\",\"UDF_CHAR4\":\"Integrate with central identity\",\"UDF_CHAR3\":\"الربط مع نظام الهوية الموحد\",\"workhourType\":0,\"projPriorityId\":\"120216000000593033\",\"UDF_ROLLUP8\":\"9\",\"UDF_ROLLUP9\":\"0\",\"isParent\":true,\"cycleTime\":\"111840000\",\"UDF_TEXT1\":\"\",\"userGroupCount\":0,\"UDF_ROLLUP3\":\"06/04/2025 04:00 PM\",\"UDF_ROLLUP4\":\"13\",\"UDF_ROLLUP5\":\"9\",\"completedDate\":\"2025-04-18T23:47:36.340Z\",\"UDF_ROLLUP6\":\"18/04/2025 11:00 PM\",\"UDF_ROLLUP7\":\"0\",\"commentCount\":0,\"itemId\":\"120216000002384835\",\"sequence\":\"4\",\"sprintId\":\"120216000002384793\",\"UDF_FORMULADBL1\":11,\"epicId\":\"120216000002409263\",\"statusId\":\"120216000000003637\",\"sprintInfo\":{\"owner\":\"120216000000175003\",\"no\":\"5\",\"name\":\"Sprint4: APR-2025 First integration \",\"id\":\"120216000002384793\",\"type\":3},\"parentItem\":\"\",\"projItemTypeId\":\"120216000000593045\",\"itemTypeName\":\"Story\",\"userIdVsWorkhours\":{\"120216000000535227\":\"0\"},\"startDate\":\"2025-04-06T13:00:00.000Z\",\"description\":\"<div><b>User Story:<\\/b><br /><\\/div><div><b>As<\\/b> a system administrator ,<br /><\\/div><div><b>I want<\\/b> to integrate the application with a central identity provider,<br /><\\/div><div><b>So that<\\/b> users can log in using a unified, secure, and centralized authentication system.<br /><\\/div><div><br /><\\/div><div><b>Acceptance Criteria:<\\/b><br /><\\/div><p style=\\\"margin: 0px 0in 0in 0.5in; text-indent: -0.25in\\\" class=\\\"MsoListParagraph\\\"><span class=\\\"font\\\" style=\\\"font-family: &quot;Times New Roman&quot;, serif\\\"><span class=\\\"size\\\" style=\\\"font-size: 12pt; margin: 0px 0in 0in 0.5in; text-indent: -0.25in\\\"><span style=\\\"\\\">1.<span class=\\\"font\\\" style=\\\"font-family: &quot;Times New Roman&quot;\\\"><span class=\\\"size\\\" style=\\\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\\\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <\\/span><\\/span><\\/span><b>Authentication Flow:<\\/b><br /><\\/span><\\/span><\\/p><p style=\\\"margin-left: 0.75in; text-indent: -0.25in; margin-top: 0px; margin-bottom: 0px\\\"><span class=\\\"font\\\" style=\\\"font-family: Symbol\\\"><span class=\\\"size\\\" style=\\\"font-size: 10pt\\\"><span style=\\\"\\\">·<span class=\\\"font\\\" style=\\\"font-family: &quot;Times New Roman&quot;\\\"><span class=\\\"size\\\" style=\\\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\\\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <\\/span><\\/span><\\/span><\\/span><\\/span>Users must be redirected to\\nthe central identity provider for login.<br /><\\/p><p style=\\\"margin-left: 0.75in; text-indent: -0.25in; margin-top: 0px; margin-bottom: 0px\\\"><span class=\\\"font\\\" style=\\\"font-family: Symbol\\\"><span class=\\\"size\\\" style=\\\"font-size: 10pt\\\"><span style=\\\"\\\">·<span class=\\\"font\\\" style=\\\"font-family: &quot;Times New Roman&quot;\\\"><span class=\\\"size\\\" style=\\\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\\\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <\\/span><\\/span><\\/span><\\/span><\\/span>Upon successful\\nauthentication, the user is redirected back with a valid token/session.<br /><\\/p><p style=\\\"margin: 0px 0in 0in 0.5in; text-indent: -0.25in\\\" class=\\\"MsoListParagraph\\\"><span class=\\\"font\\\" style=\\\"font-family: &quot;Times New Roman&quot;, serif\\\"><span class=\\\"size\\\" style=\\\"font-size: 12pt; margin: 0px 0in 0in 0.5in; text-indent: -0.25in\\\"><span style=\\\"\\\">2.<span class=\\\"font\\\" style=\\\"font-family: &quot;Times New Roman&quot;\\\"><span class=\\\"size\\\" style=\\\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\\\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <\\/span><\\/span><\\/span><b>SSO Support:<\\/b><br /><\\/span><\\/span><\\/p><p style=\\\"margin-left: 0.75in; text-indent: -0.25in; margin-top: 0px; margin-bottom: 0px\\\"><span class=\\\"font\\\" style=\\\"font-family: Symbol\\\"><span class=\\\"size\\\" style=\\\"font-size: 10pt\\\"><span style=\\\"\\\">·<span class=\\\"font\\\" style=\\\"font-family: &quot;Times New Roman&quot;\\\"><span class=\\\"size\\\" style=\\\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\\\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <\\/span><\\/span><\\/span><\\/span><\\/span>Users should be able to log\\nin once and access all integrated systems without re-authenticating.<br /><\\/p><p style=\\\"margin: 0px 0in 0in 0.5in; text-indent: -0.25in\\\" class=\\\"MsoListParagraph\\\"><span class=\\\"font\\\" style=\\\"font-family: &quot;Times New Roman&quot;, serif\\\"><span class=\\\"size\\\" style=\\\"font-size: 12pt; margin: 0px 0in 0in 0.5in; text-indent: -0.25in\\\"><span style=\\\"\\\">3.<span class=\\\"font\\\" style=\\\"font-family: &quot;Times New Roman&quot;\\\"><span class=\\\"size\\\" style=\\\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\\\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <\\/span><\\/span><\\/span><b>Token Validation:<\\/b><br /><\\/span><\\/span><\\/p><p style=\\\"margin-left: 0.75in; text-indent: -0.25in; margin-top: 0px; margin-bottom: 0px\\\"><span class=\\\"font\\\" style=\\\"font-family: Symbol\\\"><span class=\\\"size\\\" style=\\\"font-size: 10pt\\\"><span style=\\\"\\\">·<span class=\\\"font\\\" style=\\\"font-family: &quot;Times New Roman&quot;\\\"><span class=\\\"size\\\" style=\\\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\\\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <\\/span><\\/span><\\/span><\\/span><\\/span>The application must\\nvalidate identity tokens (e.g., JWT, SAML, OAuth2) from the central provider.<br /><\\/p><p style=\\\"margin: 0px 0in 0in 0.5in; text-indent: -0.25in\\\" class=\\\"MsoListParagraph\\\"><span class=\\\"font\\\" style=\\\"font-family: &quot;Times New Roman&quot;, serif\\\"><span class=\\\"size\\\" style=\\\"font-size: 12pt; margin: 0px 0in 0in 0.5in; text-indent: -0.25in\\\"><span style=\\\"\\\">4.<span class=\\\"font\\\" style=\\\"font-family: &quot;Times New Roman&quot;\\\"><span class=\\\"size\\\" style=\\\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\\\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <\\/span><\\/span><\\/span><b>Role and Permission Mapping:<\\/b><br /><\\/span><\\/span><\\/p><p style=\\\"margin-left: 0.75in; text-indent: -0.25in; margin-top: 0px; margin-bottom: 0px\\\"><span class=\\\"font\\\" style=\\\"font-family: Symbol\\\"><span class=\\\"size\\\" style=\\\"font-size: 10pt\\\"><span style=\\\"\\\">·<span class=\\\"font\\\" style=\\\"font-family: &quot;Times New Roman&quot;\\\"><span class=\\\"size\\\" style=\\\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\\\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <\\/span><\\/span><\\/span><\\/span><\\/span>Roles or groups from the\\nidentity provider should be mapped correctly to in-app permissions.<br /><\\/p><p style=\\\"margin: 0px 0in 0in 0.5in; text-indent: -0.25in\\\" class=\\\"MsoListParagraph\\\"><span class=\\\"font\\\" style=\\\"font-family: &quot;Times New Roman&quot;, serif\\\"><span class=\\\"size\\\" style=\\\"font-size: 12pt; margin: 0px 0in 0in 0.5in; text-indent: -0.25in\\\"><span style=\\\"\\\">5.<span class=\\\"font\\\" style=\\\"font-family: &quot;Times New Roman&quot;\\\"><span class=\\\"size\\\" style=\\\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\\\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <\\/span><\\/span><\\/span><b>Security Compliance:<\\/b><br /><\\/span><\\/span><\\/p><p style=\\\"margin-left: 0.75in; text-indent: -0.25in; margin-top: 0px; margin-bottom: 0px\\\"><span class=\\\"font\\\" style=\\\"font-family: Symbol\\\"><span class=\\\"size\\\" style=\\\"font-size: 10pt\\\"><span style=\\\"\\\">·<span class=\\\"font\\\" style=\\\"font-family: &quot;Times New Roman&quot;\\\"><span class=\\\"size\\\" style=\\\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\\\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <\\/span><\\/span><\\/span><\\/span><\\/span>Token expiration, refresh\\nmechanisms, and secure storage must comply with industry standards.<br /><\\/p><div><br /><\\/div>\",\"leadTime\":\"213120000\",\"sharedItemCount\":0,\"addedVia\":0,\"hasCheckList\":false,\"UDF_CHKBOX2\":\"\",\"duration\":\"10d\",\"UDF_CHKBOX1\":\"120216000000420557,120216000000420559,120216000000420563\",\"diffDays\":\"3h 47m\",\"statusName\":\"Done\",\"totalWorkhours\":\"0\",\"isDocsAdded\":false,\"UDF_FORMULASTR1\":\"4/2025\",\"UDF_RADIO1\":\"120216000000851697\",\"UDF_DATE1\":\"-1\",\"baseItemType\":2,\"UDF_EMAIL1\":\"\",\"depth\":\"0\",\"createdBy\":\"120216000000175003\",\"UDF_MULTIUSERPKL1\":[\"120216000000175003\"],\"UDF_ROLLUP10\":\"2d 15h\",\"tagCount\":0,\"voteCount\":0,\"completedBy\":\"120216000000535227\",\"plannedHours\":\"0\"}],\"zsuserIdvsZUID\":{\"120216000000535227\":\"830852660\",\"120216000000175003\":\"793914823\"},\"status\":\"success\"}"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "status": "success",
+        "data": {
+          "userDisplayName": {
+            "120216000000535227": "Abdullah Al-Ansi",
+            "120216000000175003": "Eissa Musleh"
+          },
+          "items": [
+            {
+              "priorityName": "None",
+              "statusType": 1,
+              "endDate": "2025-04-17T20:00:00.000Z",
+              "releaseCount": 1,
+              "isNotesAdded": false,
+              "itemNo": "43",
+              "ownerId": [
+                "120216000000535227"
+              ],
+              "points": 6,
+              "itemBlockId": "",
+              "UDF_CHAR8": "",
+              "estimationPoints": 13,
+              "itemName": "Integrate with central identity-As a system administrator,\r\nI want to integrate the application with a central identity provider,\r\nSo that users can log in using a unified, secure, and centralized authentication system.",
+              "UDF_CHAR7": "Amr",
+              "isOverDue": true,
+              "projectInfo": {
+                "no": "37",
+                "name": "Invoicing MService",
+                "id": "120216000000593007"
+              },
+              "UDF_CHAR6": "",
+              "startAfter": "-1",
+              "createdTime": "2025-04-07T20:35:08.362Z",
+              "isIntegrated": "0",
+              "sharedType": -1,
+              "rootItem": "",
+              "UDF_CHAR5": "",
+              "UDF_CHAR4": "Integrate with central identity",
+              "UDF_CHAR3": "الربط مع نظام الهوية الموحد",
+              "workhourType": 0,
+              "projPriorityId": "120216000000593033",
+              "UDF_ROLLUP8": "9",
+              "UDF_ROLLUP9": "0",
+              "isParent": true,
+              "cycleTime": "111840000",
+              "UDF_TEXT1": "",
+              "userGroupCount": 0,
+              "UDF_ROLLUP3": "06/04/2025 04:00 PM",
+              "UDF_ROLLUP4": "13",
+              "UDF_ROLLUP5": "9",
+              "completedDate": "2025-04-18T23:47:36.340Z",
+              "UDF_ROLLUP6": "18/04/2025 11:00 PM",
+              "UDF_ROLLUP7": "0",
+              "commentCount": 0,
+              "itemId": "120216000002384835",
+              "sequence": "4",
+              "sprintId": "120216000002384793",
+              "UDF_FORMULADBL1": 11,
+              "epicId": "120216000002409263",
+              "statusId": "120216000000003637",
+              "sprintInfo": {
+                "owner": "120216000000175003",
+                "no": "5",
+                "name": "Sprint4: APR-2025 First integration ",
+                "id": "120216000002384793",
+                "type": 3
+              },
+              "parentItem": "",
+              "projItemTypeId": "120216000000593045",
+              "itemTypeName": "Story",
+              "userIdVsWorkhours": {
+                "120216000000535227": "0"
+              },
+              "startDate": "2025-04-06T13:00:00.000Z",
+              "description": "<div><b>User Story:</b><br /></div><div><b>As</b> a system administrator ,<br /></div><div><b>I want</b> to integrate the application with a central identity provider,<br /></div><div><b>So that</b> users can log in using a unified, secure, and centralized authentication system.<br /></div><div><br /></div><div><b>Acceptance Criteria:</b><br /></div><p style=\"margin: 0px 0in 0in 0.5in; text-indent: -0.25in\" class=\"MsoListParagraph\"><span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;, serif\"><span class=\"size\" style=\"font-size: 12pt; margin: 0px 0in 0in 0.5in; text-indent: -0.25in\"><span style=\"\">1.<span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;\"><span class=\"size\" style=\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><b>Authentication Flow:</b><br /></span></span></p><p style=\"margin-left: 0.75in; text-indent: -0.25in; margin-top: 0px; margin-bottom: 0px\"><span class=\"font\" style=\"font-family: Symbol\"><span class=\"size\" style=\"font-size: 10pt\"><span style=\"\">·<span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;\"><span class=\"size\" style=\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span></span></span>Users must be redirected to\nthe central identity provider for login.<br /></p><p style=\"margin-left: 0.75in; text-indent: -0.25in; margin-top: 0px; margin-bottom: 0px\"><span class=\"font\" style=\"font-family: Symbol\"><span class=\"size\" style=\"font-size: 10pt\"><span style=\"\">·<span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;\"><span class=\"size\" style=\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span></span></span>Upon successful\nauthentication, the user is redirected back with a valid token/session.<br /></p><p style=\"margin: 0px 0in 0in 0.5in; text-indent: -0.25in\" class=\"MsoListParagraph\"><span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;, serif\"><span class=\"size\" style=\"font-size: 12pt; margin: 0px 0in 0in 0.5in; text-indent: -0.25in\"><span style=\"\">2.<span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;\"><span class=\"size\" style=\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><b>SSO Support:</b><br /></span></span></p><p style=\"margin-left: 0.75in; text-indent: -0.25in; margin-top: 0px; margin-bottom: 0px\"><span class=\"font\" style=\"font-family: Symbol\"><span class=\"size\" style=\"font-size: 10pt\"><span style=\"\">·<span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;\"><span class=\"size\" style=\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span></span></span>Users should be able to log\nin once and access all integrated systems without re-authenticating.<br /></p><p style=\"margin: 0px 0in 0in 0.5in; text-indent: -0.25in\" class=\"MsoListParagraph\"><span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;, serif\"><span class=\"size\" style=\"font-size: 12pt; margin: 0px 0in 0in 0.5in; text-indent: -0.25in\"><span style=\"\">3.<span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;\"><span class=\"size\" style=\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><b>Token Validation:</b><br /></span></span></p><p style=\"margin-left: 0.75in; text-indent: -0.25in; margin-top: 0px; margin-bottom: 0px\"><span class=\"font\" style=\"font-family: Symbol\"><span class=\"size\" style=\"font-size: 10pt\"><span style=\"\">·<span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;\"><span class=\"size\" style=\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span></span></span>The application must\nvalidate identity tokens (e.g., JWT, SAML, OAuth2) from the central provider.<br /></p><p style=\"margin: 0px 0in 0in 0.5in; text-indent: -0.25in\" class=\"MsoListParagraph\"><span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;, serif\"><span class=\"size\" style=\"font-size: 12pt; margin: 0px 0in 0in 0.5in; text-indent: -0.25in\"><span style=\"\">4.<span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;\"><span class=\"size\" style=\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><b>Role and Permission Mapping:</b><br /></span></span></p><p style=\"margin-left: 0.75in; text-indent: -0.25in; margin-top: 0px; margin-bottom: 0px\"><span class=\"font\" style=\"font-family: Symbol\"><span class=\"size\" style=\"font-size: 10pt\"><span style=\"\">·<span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;\"><span class=\"size\" style=\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span></span></span>Roles or groups from the\nidentity provider should be mapped correctly to in-app permissions.<br /></p><p style=\"margin: 0px 0in 0in 0.5in; text-indent: -0.25in\" class=\"MsoListParagraph\"><span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;, serif\"><span class=\"size\" style=\"font-size: 12pt; margin: 0px 0in 0in 0.5in; text-indent: -0.25in\"><span style=\"\">5.<span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;\"><span class=\"size\" style=\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><b>Security Compliance:</b><br /></span></span></p><p style=\"margin-left: 0.75in; text-indent: -0.25in; margin-top: 0px; margin-bottom: 0px\"><span class=\"font\" style=\"font-family: Symbol\"><span class=\"size\" style=\"font-size: 10pt\"><span style=\"\">·<span class=\"font\" style=\"font-family: &quot;Times New Roman&quot;\"><span class=\"size\" style=\"font-size: 7pt; font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-feature-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span></span></span>Token expiration, refresh\nmechanisms, and secure storage must comply with industry standards.<br /></p><div><br /></div>",
+              "leadTime": "213120000",
+              "sharedItemCount": 0,
+              "addedVia": 0,
+              "hasCheckList": false,
+              "UDF_CHKBOX2": "",
+              "duration": "10d",
+              "UDF_CHKBOX1": "120216000000420557,120216000000420559,120216000000420563",
+              "diffDays": "3h 47m",
+              "statusName": "Done",
+              "totalWorkhours": "0",
+              "isDocsAdded": false,
+              "UDF_FORMULASTR1": "4/2025",
+              "UDF_RADIO1": "120216000000851697",
+              "UDF_DATE1": "-1",
+              "baseItemType": 2,
+              "UDF_EMAIL1": "",
+              "depth": "0",
+              "createdBy": "120216000000175003",
+              "UDF_MULTIUSERPKL1": [
+                "120216000000175003"
+              ],
+              "UDF_ROLLUP10": "2d 15h",
+              "tagCount": 0,
+              "voteCount": 0,
+              "completedBy": "120216000000535227",
+              "plannedHours": "0"
+            }
+          ],
+          "zsuserIdvsZUID": {
+            "120216000000535227": "830852660",
+            "120216000000175003": "793914823"
+          },
+          "status": "success"
+        }
+      }
+    }
+  },
+  {
+    "ok": true,
+    "method": "tools/call",
+    "params": "ZohoSprints_GetItemDetails",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"userDisplayName\":{\"120216000000535227\":\"Abdullah Al-Ansi\",\"120216000000175003\":\"Eissa Musleh\",\"120216000000809689\":\"devopssme\"},\"items\":[{\"priorityName\":\"None\",\"statusType\":1,\"endDate\":\"2024-08-31T20:00:00.000Z\",\"releaseCount\":1,\"isNotesAdded\":false,\"itemNo\":\"11\",\"ownerId\":[\"120216000000535227\",\"120216000000809689\"],\"points\":6,\"itemBlockId\":\"\",\"UDF_CHAR8\":\"SMEs\",\"estimationPoints\":13,\"itemName\":\"Provider portal-As a provider user, I want to log into the system and perform granted functions like uploading invoices, updating uploaded files, and exporting paid invoices, so that I can manage and process invoices efficiently.\",\"UDF_CHAR7\":\"Alriadi\",\"isOverDue\":true,\"projectInfo\":{\"no\":\"37\",\"name\":\"Invoicing MService\",\"id\":\"120216000000593007\"},\"UDF_CHAR6\":\"\",\"startAfter\":\"-1\",\"createdTime\":\"2024-07-21T21:57:08.053Z\",\"isIntegrated\":\"0\",\"sharedType\":-1,\"rootItem\":\"\",\"UDF_CHAR5\":\"Alriadi\",\"UDF_CHAR4\":\"Provider portal\",\"UDF_CHAR3\":\"\",\"workhourType\":0,\"projPriorityId\":\"120216000000593033\",\"UDF_ROLLUP8\":\"5\",\"UDF_ROLLUP9\":\"0\",\"isParent\":true,\"cycleTime\":\"553260000\",\"UDF_TEXT1\":\"\",\"userGroupCount\":0,\"UDF_ROLLUP3\":\"01/08/2024 04:00 PM\",\"UDF_ROLLUP4\":\"13\",\"UDF_ROLLUP5\":\"5\",\"completedDate\":\"2024-09-01T19:10:25.091Z\",\"UDF_ROLLUP6\":\"31/08/2024 11:00 PM\",\"UDF_ROLLUP7\":\"0\",\"commentCount\":0,\"itemId\":\"120216000000810659\",\"sequence\":\"1\",\"sprintId\":\"120216000000831619\",\"UDF_FORMULADBL1\":\"\",\"epicId\":\"\",\"statusId\":\"120216000000003637\",\"sprintInfo\":{\"owner\":\"120216000000175003\",\"no\":\"3\",\"name\":\"Sprint 2: Aug-24-Merchant portal\",\"id\":\"120216000000831619\",\"type\":3},\"parentItem\":\"\",\"projItemTypeId\":\"120216000000593045\",\"itemTypeName\":\"Story\",\"userIdVsWorkhours\":{\"120216000000535227\":\"0\",\"120216000000809689\":\"0\"},\"startDate\":\"2024-08-01T13:00:00.000Z\",\"description\":\"<div><b>User Story:<\\/b><br><\\/div><p style=\\\"margin-bottom: 8pt; line-height: 107%; margin-top: 0px\\\"><br><\\/p><div><b>As a Provider&nbsp;<\\/b>user,<br><\\/div><div><b>I want<\\/b> to log into the system and perform granted functions like\\nuploading invoices, updating uploaded files, and exporting paid invoices,<br><\\/div><div><b>so that<\\/b> I can manage and process invoices efficiently.<br><\\/div><div><br><\\/div><div><b>Acceptance Criteria:<\\/b><br><\\/div><p><br><\\/p><ol style=\\\"margin-top: 0in\\\"><li style=\\\"margin-bottom: 8pt; line-height: 107%\\\"><b>User Authentication<\\/b>:<br><\\/li><ul style=\\\"margin-top: 0in\\\"><li style=\\\"margin-bottom: 8pt; line-height: 107%\\\">Users must be able to log in using a\\n      secure authentication mechanism (username/password, two-factor\\n      authentication).<br><\\/li><li style=\\\"margin-bottom: 8pt; line-height: 107%\\\">Display appropriate error messages\\n      for failed login attempts (e.g., incorrect credentials, account locked).<br><\\/li><\\/ul><li style=\\\"margin-bottom: 8pt; line-height: 107%\\\"><b>Role-Based Access Control<\\/b>:<br><\\/li><ul style=\\\"margin-top: 0in\\\"><li style=\\\"margin-bottom: 8pt; line-height: 107%\\\">Users should have access to\\n      functions based on their roles and permissions.<br><\\/li><li style=\\\"margin-bottom: 8pt; line-height: 107%\\\">Define roles such as Admin, Manager,\\n      and Regular User, with corresponding access rights.<br><\\/li><\\/ul><li style=\\\"margin-bottom: 8pt; line-height: 107%\\\"><b>Invoice Upload Functionality<\\/b>:<br><\\/li><ul style=\\\"margin-top: 0in\\\"><li style=\\\"margin-bottom: 8pt; line-height: 107%\\\">Users with the appropriate\\n      permissions should be able to upload invoice files (PDF, Excel, CSV).<br><\\/li><li style=\\\"margin-bottom: 8pt; line-height: 107%\\\">Validate the uploaded file format\\n      and content before processing.<br><\\/li><li style=\\\"margin-bottom: 8pt; line-height: 107%\\\">Provide a confirmation message upon\\n      successful upload and an error message for failed attempts.<br><\\/li><\\/ul><li style=\\\"margin-bottom: 8pt; line-height: 107%\\\"><b>Update Uploaded File<\\/b>:<br><\\/li><ul style=\\\"margin-top: 0in\\\"><li style=\\\"margin-bottom: 8pt; line-height: 107%\\\">Allow users to view a list of their\\n      uploaded invoices.<br><\\/li><li style=\\\"margin-bottom: 8pt; line-height: 107%\\\">Provide an option to update or\\n      replace an existing uploaded invoice.<br><\\/li><li style=\\\"margin-bottom: 8pt; line-height: 107%\\\">Ensure changes are logged and\\n      tracked for audit purposes.<br><\\/li><\\/ul><li style=\\\"margin-bottom: 8pt; line-height: 107%\\\"><b>Export Paid Invoices<\\/b>:<br><\\/li><ul style=\\\"margin-top: 0in\\\"><li style=\\\"margin-bottom: 8pt; line-height: 107%\\\">Users should be able to filter and\\n      export a list of paid invoices.<br><\\/li><li style=\\\"margin-bottom: 8pt; line-height: 107%\\\">Support export formats such as PDF,\\n      Excel, and CSV.<br><\\/li><li style=\\\"margin-bottom: 8pt; line-height: 107%\\\">Ensure the export process is secure\\n      and that data integrity is maintained.<br><\\/li><\\/ul><\\/ol><p style=\\\"margin-bottom: 8pt; line-height: 107%; margin-top: 0px\\\"><br><\\/p><div><br><\\/div><p><br><\\/p><div><br><\\/div>\",\"leadTime\":\"807180000\",\"sharedItemCount\":0,\"addedVia\":0,\"hasCheckList\":false,\"UDF_CHKBOX2\":\"\",\"duration\":\"22d\",\"UDF_CHKBOX1\":\"120216000000420553\",\"diffDays\":\"1d 10m\",\"statusName\":\"Done\",\"totalWorkhours\":\"0\",\"isDocsAdded\":false,\"UDF_FORMULASTR1\":\"8/2024\",\"UDF_RADIO1\":\"\",\"UDF_DATE1\":\"-1\",\"baseItemType\":2,\"UDF_EMAIL1\":\"\",\"depth\":\"0\",\"createdBy\":\"120216000000175003\",\"UDF_MULTIUSERPKL1\":[\"120216000000175003\"],\"UDF_ROLLUP10\":\"6d 8h\",\"tagCount\":0,\"voteCount\":0,\"completedBy\":\"120216000000175003\",\"plannedHours\":\"0\"}],\"zsuserIdvsZUID\":{\"120216000000535227\":\"830852660\",\"120216000000175003\":\"793914823\",\"120216000000809689\":\"10085229706\"},\"status\":\"success\"}"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "status": "success",
+        "data": {
+          "userDisplayName": {
+            "120216000000535227": "Abdullah Al-Ansi",
+            "120216000000175003": "Eissa Musleh",
+            "120216000000809689": "devopssme"
+          },
+          "items": [
+            {
+              "priorityName": "None",
+              "statusType": 1,
+              "endDate": "2024-08-31T20:00:00.000Z",
+              "releaseCount": 1,
+              "isNotesAdded": false,
+              "itemNo": "11",
+              "ownerId": [
+                "120216000000535227",
+                "120216000000809689"
+              ],
+              "points": 6,
+              "itemBlockId": "",
+              "UDF_CHAR8": "SMEs",
+              "estimationPoints": 13,
+              "itemName": "Provider portal-As a provider user, I want to log into the system and perform granted functions like uploading invoices, updating uploaded files, and exporting paid invoices, so that I can manage and process invoices efficiently.",
+              "UDF_CHAR7": "Alriadi",
+              "isOverDue": true,
+              "projectInfo": {
+                "no": "37",
+                "name": "Invoicing MService",
+                "id": "120216000000593007"
+              },
+              "UDF_CHAR6": "",
+              "startAfter": "-1",
+              "createdTime": "2024-07-21T21:57:08.053Z",
+              "isIntegrated": "0",
+              "sharedType": -1,
+              "rootItem": "",
+              "UDF_CHAR5": "Alriadi",
+              "UDF_CHAR4": "Provider portal",
+              "UDF_CHAR3": "",
+              "workhourType": 0,
+              "projPriorityId": "120216000000593033",
+              "UDF_ROLLUP8": "5",
+              "UDF_ROLLUP9": "0",
+              "isParent": true,
+              "cycleTime": "553260000",
+              "UDF_TEXT1": "",
+              "userGroupCount": 0,
+              "UDF_ROLLUP3": "01/08/2024 04:00 PM",
+              "UDF_ROLLUP4": "13",
+              "UDF_ROLLUP5": "5",
+              "completedDate": "2024-09-01T19:10:25.091Z",
+              "UDF_ROLLUP6": "31/08/2024 11:00 PM",
+              "UDF_ROLLUP7": "0",
+              "commentCount": 0,
+              "itemId": "120216000000810659",
+              "sequence": "1",
+              "sprintId": "120216000000831619",
+              "UDF_FORMULADBL1": "",
+              "epicId": "",
+              "statusId": "120216000000003637",
+              "sprintInfo": {
+                "owner": "120216000000175003",
+                "no": "3",
+                "name": "Sprint 2: Aug-24-Merchant portal",
+                "id": "120216000000831619",
+                "type": 3
+              },
+              "parentItem": "",
+              "projItemTypeId": "120216000000593045",
+              "itemTypeName": "Story",
+              "userIdVsWorkhours": {
+                "120216000000535227": "0",
+                "120216000000809689": "0"
+              },
+              "startDate": "2024-08-01T13:00:00.000Z",
+              "description": "<div><b>User Story:</b><br></div><p style=\"margin-bottom: 8pt; line-height: 107%; margin-top: 0px\"><br></p><div><b>As a Provider&nbsp;</b>user,<br></div><div><b>I want</b> to log into the system and perform granted functions like\nuploading invoices, updating uploaded files, and exporting paid invoices,<br></div><div><b>so that</b> I can manage and process invoices efficiently.<br></div><div><br></div><div><b>Acceptance Criteria:</b><br></div><p><br></p><ol style=\"margin-top: 0in\"><li style=\"margin-bottom: 8pt; line-height: 107%\"><b>User Authentication</b>:<br></li><ul style=\"margin-top: 0in\"><li style=\"margin-bottom: 8pt; line-height: 107%\">Users must be able to log in using a\n      secure authentication mechanism (username/password, two-factor\n      authentication).<br></li><li style=\"margin-bottom: 8pt; line-height: 107%\">Display appropriate error messages\n      for failed login attempts (e.g., incorrect credentials, account locked).<br></li></ul><li style=\"margin-bottom: 8pt; line-height: 107%\"><b>Role-Based Access Control</b>:<br></li><ul style=\"margin-top: 0in\"><li style=\"margin-bottom: 8pt; line-height: 107%\">Users should have access to\n      functions based on their roles and permissions.<br></li><li style=\"margin-bottom: 8pt; line-height: 107%\">Define roles such as Admin, Manager,\n      and Regular User, with corresponding access rights.<br></li></ul><li style=\"margin-bottom: 8pt; line-height: 107%\"><b>Invoice Upload Functionality</b>:<br></li><ul style=\"margin-top: 0in\"><li style=\"margin-bottom: 8pt; line-height: 107%\">Users with the appropriate\n      permissions should be able to upload invoice files (PDF, Excel, CSV).<br></li><li style=\"margin-bottom: 8pt; line-height: 107%\">Validate the uploaded file format\n      and content before processing.<br></li><li style=\"margin-bottom: 8pt; line-height: 107%\">Provide a confirmation message upon\n      successful upload and an error message for failed attempts.<br></li></ul><li style=\"margin-bottom: 8pt; line-height: 107%\"><b>Update Uploaded File</b>:<br></li><ul style=\"margin-top: 0in\"><li style=\"margin-bottom: 8pt; line-height: 107%\">Allow users to view a list of their\n      uploaded invoices.<br></li><li style=\"margin-bottom: 8pt; line-height: 107%\">Provide an option to update or\n      replace an existing uploaded invoice.<br></li><li style=\"margin-bottom: 8pt; line-height: 107%\">Ensure changes are logged and\n      tracked for audit purposes.<br></li></ul><li style=\"margin-bottom: 8pt; line-height: 107%\"><b>Export Paid Invoices</b>:<br></li><ul style=\"margin-top: 0in\"><li style=\"margin-bottom: 8pt; line-height: 107%\">Users should be able to filter and\n      export a list of paid invoices.<br></li><li style=\"margin-bottom: 8pt; line-height: 107%\">Support export formats such as PDF,\n      Excel, and CSV.<br></li><li style=\"margin-bottom: 8pt; line-height: 107%\">Ensure the export process is secure\n      and that data integrity is maintained.<br></li></ul></ol><p style=\"margin-bottom: 8pt; line-height: 107%; margin-top: 0px\"><br></p><div><br></div><p><br></p><div><br></div>",
+              "leadTime": "807180000",
+              "sharedItemCount": 0,
+              "addedVia": 0,
+              "hasCheckList": false,
+              "UDF_CHKBOX2": "",
+              "duration": "22d",
+              "UDF_CHKBOX1": "120216000000420553",
+              "diffDays": "1d 10m",
+              "statusName": "Done",
+              "totalWorkhours": "0",
+              "isDocsAdded": false,
+              "UDF_FORMULASTR1": "8/2024",
+              "UDF_RADIO1": "",
+              "UDF_DATE1": "-1",
+              "baseItemType": 2,
+              "UDF_EMAIL1": "",
+              "depth": "0",
+              "createdBy": "120216000000175003",
+              "UDF_MULTIUSERPKL1": [
+                "120216000000175003"
+              ],
+              "UDF_ROLLUP10": "6d 8h",
+              "tagCount": 0,
+              "voteCount": 0,
+              "completedBy": "120216000000175003",
+              "plannedHours": "0"
+            }
+          ],
+          "zsuserIdvsZUID": {
+            "120216000000535227": "830852660",
+            "120216000000175003": "793914823",
+            "120216000000809689": "10085229706"
+          },
+          "status": "success"
+        }
+      }
+    }
+  },
+  {
+    "ok": false,
+    "method": "tools/call",
+    "params": "ZohoSprints_GetItemDetails",
+    "error": "{\"code\":-32001,\"message\":\"mcp-remote: terminated\"}"
+  },
+  {
+    "ok": true,
+    "method": "tools/call",
+    "params": "ZohoSprints_GetEpicDetails",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"userDisplayName\":{\"120216000000175003\":\"Eissa Musleh\"},\"epics\":[{\"hasDeletePermission\":true,\"endDate\":\"-1\",\"epicType\":0,\"hasAssocItemPermission\":true,\"description\":\"\",\"fieldPerm_EndDate\":true,\"isNotesAdded\":false,\"duration\":\"-1\",\"fieldPerm_Color\":true,\"epicNo\":\"1\",\"isOverDue\":false,\"diffDays\":0,\"okrCount\":0,\"startAfter\":\"-1\",\"fieldPerm_Owner\":true,\"epicStatus\":0,\"createdTime\":\"2025-04-08T16:54:52.542Z\",\"owner\":\"120216000000175003\",\"fieldPerm_StartDate\":true,\"epicName\":\"Invoice management\",\"commentCount\":0,\"hasEditPermission\":true,\"sequence\":1,\"epicId\":\"120216000002409263\",\"createdBy\":\"120216000000175003\",\"completedOn\":\"-1\",\"tagCount\":0,\"colorCode\":\"#4fc0e8\",\"hasViewPermission\":true,\"hasAddItemPermission\":true,\"UDF_BOOLEAN1\":\"\",\"startDate\":\"-1\",\"UDF_MULTIPKL1\":\"\"}],\"zsuserIdvsZUID\":{\"120216000000175003\":\"793914823\"},\"status\":\"success\"}"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "status": "success",
+        "data": {
+          "userDisplayName": {
+            "120216000000175003": "Eissa Musleh"
+          },
+          "epics": [
+            {
+              "hasDeletePermission": true,
+              "endDate": "-1",
+              "epicType": 0,
+              "hasAssocItemPermission": true,
+              "description": "",
+              "fieldPerm_EndDate": true,
+              "isNotesAdded": false,
+              "duration": "-1",
+              "fieldPerm_Color": true,
+              "epicNo": "1",
+              "isOverDue": false,
+              "diffDays": 0,
+              "okrCount": 0,
+              "startAfter": "-1",
+              "fieldPerm_Owner": true,
+              "epicStatus": 0,
+              "createdTime": "2025-04-08T16:54:52.542Z",
+              "owner": "120216000000175003",
+              "fieldPerm_StartDate": true,
+              "epicName": "Invoice management",
+              "commentCount": 0,
+              "hasEditPermission": true,
+              "sequence": 1,
+              "epicId": "120216000002409263",
+              "createdBy": "120216000000175003",
+              "completedOn": "-1",
+              "tagCount": 0,
+              "colorCode": "#4fc0e8",
+              "hasViewPermission": true,
+              "hasAddItemPermission": true,
+              "UDF_BOOLEAN1": "",
+              "startDate": "-1",
+              "UDF_MULTIPKL1": ""
+            }
+          ],
+          "zsuserIdvsZUID": {
+            "120216000000175003": "793914823"
+          },
+          "status": "success"
+        }
+      }
+    }
+  },
+  {
+    "ok": true,
+    "method": "tools/call",
+    "params": "ZohoSprints_GetEpicDetails",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"userDisplayName\":{\"120216000000359035\":\"Mohammed  Alaqari\"},\"epics\":[{\"hasDeletePermission\":true,\"endDate\":\"2026-05-30T21:00:00.000Z\",\"epicType\":0,\"hasAssocItemPermission\":true,\"description\":\"\",\"fieldPerm_EndDate\":true,\"isNotesAdded\":false,\"duration\":\"67d 2h\",\"fieldPerm_Color\":true,\"epicNo\":\"2\",\"isOverDue\":true,\"diffDays\":108,\"okrCount\":0,\"startAfter\":\"-1\",\"fieldPerm_Owner\":true,\"epicStatus\":0,\"createdTime\":\"2026-03-30T18:55:53.080Z\",\"owner\":\"120216000000359035\",\"fieldPerm_StartDate\":true,\"epicName\":\"S:DEVOPS & ENVIROMENT\",\"commentCount\":0,\"hasEditPermission\":true,\"sequence\":2,\"epicId\":\"120216000004089726\",\"createdBy\":\"120216000000359035\",\"completedOn\":\"-1\",\"tagCount\":0,\"colorCode\":\"#0064ca\",\"hasViewPermission\":true,\"hasAddItemPermission\":true,\"UDF_BOOLEAN1\":\"\",\"startDate\":\"2026-02-28T21:00:00.000Z\",\"UDF_MULTIPKL1\":\"120216000003934517,120216000004039628\"}],\"zsuserIdvsZUID\":{\"120216000000359035\":\"814269634\"},\"status\":\"success\"}"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "status": "success",
+        "data": {
+          "userDisplayName": {
+            "120216000000359035": "Mohammed  Alaqari"
+          },
+          "epics": [
+            {
+              "hasDeletePermission": true,
+              "endDate": "2026-05-30T21:00:00.000Z",
+              "epicType": 0,
+              "hasAssocItemPermission": true,
+              "description": "",
+              "fieldPerm_EndDate": true,
+              "isNotesAdded": false,
+              "duration": "67d 2h",
+              "fieldPerm_Color": true,
+              "epicNo": "2",
+              "isOverDue": true,
+              "diffDays": 108,
+              "okrCount": 0,
+              "startAfter": "-1",
+              "fieldPerm_Owner": true,
+              "epicStatus": 0,
+              "createdTime": "2026-03-30T18:55:53.080Z",
+              "owner": "120216000000359035",
+              "fieldPerm_StartDate": true,
+              "epicName": "S:DEVOPS & ENVIROMENT",
+              "commentCount": 0,
+              "hasEditPermission": true,
+              "sequence": 2,
+              "epicId": "120216000004089726",
+              "createdBy": "120216000000359035",
+              "completedOn": "-1",
+              "tagCount": 0,
+              "colorCode": "#0064ca",
+              "hasViewPermission": true,
+              "hasAddItemPermission": true,
+              "UDF_BOOLEAN1": "",
+              "startDate": "2026-02-28T21:00:00.000Z",
+              "UDF_MULTIPKL1": "120216000003934517,120216000004039628"
+            }
+          ],
+          "zsuserIdvsZUID": {
+            "120216000000359035": "814269634"
+          },
+          "status": "success"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,227 @@
+[
+  {
+    "itemId": "120216000004656142",
+    "itemNo": "122",
+    "status": 200,
+    "name": "[ Shared ] خدمة تسجيل وإدارة مديونية الاصدقاء",
+    "ownerId": [
+      "120216000000293163",
+      "120216000000535227"
+    ],
+    "radio": "120216000000851695",
+    "udf3": "خدمة تسجيل وإدارة مديونية الأصدقاء",
+    "udf4": "Friends Debt Registration & Management",
+    "udf5": "Nidhal",
+    "descLength": 24678,
+    "hasSeparator": true,
+    "oldPreserved": true,
+    "apiStatus": "success"
+  },
+  {
+    "itemId": "120216000004657003",
+    "itemNo": "123",
+    "status": 200,
+    "name": "S2 — هوية وتسجيل دخول مستقلان لفاتورتي | Standalone Fatoorati Identity & Login",
+    "ownerId": [
+      "120216000000535227"
+    ],
+    "radio": "120216000000851697",
+    "udf3": "هوية وتسجيل دخول مستقلان لفاتورتي",
+    "udf4": "Standalone Fatoorati Identity & Login",
+    "udf5": "Nidhal",
+    "descLength": 7008,
+    "hasSeparator": true,
+    "oldPreserved": true,
+    "apiStatus": "success"
+  },
+  {
+    "itemId": "120216000004656296",
+    "itemNo": "124",
+    "status": 200,
+    "name": "S3 — ترحيل مستأجر بنكي واستمرارية الخدمة | Banky Tenant Migration & Continuity",
+    "ownerId": [
+      "120216000000535227"
+    ],
+    "radio": "",
+    "udf3": "ترحيل مستأجر بنكي واستمرارية الخدمة",
+    "udf4": "Banky Tenant Migration & Continuity",
+    "udf5": "Nidhal",
+    "descLength": 6380,
+    "hasSeparator": true,
+    "oldPreserved": true,
+    "apiStatus": "success"
+  },
+  {
+    "itemId": "120216000004655019",
+    "itemNo": "125",
+    "status": 200,
+    "name": "S4 — دفتر التسويات المالية لمالك المستأجر | Tenant Owner Settlement Ledger",
+    "ownerId": [
+      "120216000000535227"
+    ],
+    "radio": "120216000000851697",
+    "udf3": "دفتر التسويات المالية لمالك المستأجر",
+    "udf4": "Tenant Owner Settlement Ledger",
+    "udf5": "Nidhal",
+    "descLength": 6940,
+    "hasSeparator": true,
+    "oldPreserved": true,
+    "apiStatus": "success"
+  },
+  {
+    "itemId": "120216000004655023",
+    "itemNo": "127",
+    "status": 200,
+    "name": "S7 — إدارة النزاعات على الفواتير | Invoice Disputes Management",
+    "ownerId": [
+      "120216000000535227"
+    ],
+    "radio": "120216000000851697",
+    "udf3": "إدارة النزاعات على الفواتير",
+    "udf4": "Invoice Disputes Management",
+    "udf5": "Nidhal",
+    "descLength": 6879,
+    "hasSeparator": true,
+    "oldPreserved": true,
+    "apiStatus": "success"
+  },
+  {
+    "itemId": "120216000004656300",
+    "itemNo": "126",
+    "status": 200,
+    "name": "قبول ورفض المديونية وتعديل البنود | Debt Acceptance & Line Edit Approval",
+    "ownerId": [
+      "120216000000293163",
+      "120216000000535227"
+    ],
+    "radio": "120216000000851695",
+    "udf3": "قبول ورفض المديونية وتعديل البنود",
+    "udf4": "Debt Acceptance & Line Edit Approval",
+    "udf5": "Nidhal",
+    "descLength": 4986,
+    "hasSeparator": true,
+    "oldPreserved": true,
+    "apiStatus": "success"
+  },
+  {
+    "itemId": "120216000004656304",
+    "itemNo": "128",
+    "status": 200,
+    "name": "تكامل API بنكي لايت | Banky Lite API Integration",
+    "ownerId": [
+      "120216000000535227"
+    ],
+    "radio": "",
+    "udf3": "تكامل API بنكي لايت",
+    "udf4": "Banky Lite API Integration",
+    "udf5": "Nidhal",
+    "descLength": 4862,
+    "hasSeparator": true,
+    "oldPreserved": true,
+    "apiStatus": "success"
+  },
+  {
+    "itemId": "120216000004655029",
+    "itemNo": "129",
+    "status": 200,
+    "name": "تهيئة بنكي كمزود ومستأجر | Banky Provider & Tenant Setup",
+    "ownerId": [
+      "120216000000535227"
+    ],
+    "radio": "",
+    "udf3": "تهيئة بنكي كمزود ومستأجر",
+    "udf4": "Banky Provider & Tenant Setup",
+    "udf5": "Nidhal",
+    "descLength": 4310,
+    "hasSeparator": true,
+    "oldPreserved": true,
+    "apiStatus": "success"
+  },
+  {
+    "itemId": "120216000004657007",
+    "itemNo": "130",
+    "status": 200,
+    "name": "الدفع الجزئي والتحقق الخلفي | Partial Payment & Backend Verification",
+    "ownerId": [
+      "120216000000535227"
+    ],
+    "radio": "",
+    "udf3": "الدفع الجزئي والتحقق الخلفي",
+    "udf4": "Partial Payment & Backend Verification",
+    "udf5": "Nidhal",
+    "descLength": 4820,
+    "hasSeparator": true,
+    "oldPreserved": true,
+    "apiStatus": "success"
+  },
+  {
+    "itemId": "120216000004655033",
+    "itemNo": "131",
+    "status": 200,
+    "name": "المشتركون وتسجيل الأصدقاء | Subscribers & Friend Registration",
+    "ownerId": [
+      "120216000000293163",
+      "120216000000535227"
+    ],
+    "radio": "120216000000851695",
+    "udf3": "المشتركون وتسجيل الأصدقاء",
+    "udf4": "Subscribers & Friend Registration",
+    "udf5": "Nidhal",
+    "descLength": 4729,
+    "hasSeparator": true,
+    "oldPreserved": true,
+    "apiStatus": "success"
+  },
+  {
+    "itemId": "120216000004657094",
+    "itemNo": "132",
+    "status": 200,
+    "name": "نموذج أطراف الفاتورة: المزود والمصدر والمشترك | Invoice Provider, Issuer & Subscriber",
+    "ownerId": [
+      "120216000000535227"
+    ],
+    "radio": "120216000000851697",
+    "udf3": "نموذج أطراف الفاتورة",
+    "udf4": "Invoice Provider, Issuer & Subscriber",
+    "udf5": "Nidhal",
+    "descLength": 4660,
+    "hasSeparator": true,
+    "oldPreserved": true,
+    "apiStatus": "success"
+  },
+  {
+    "itemId": "120216000004656360",
+    "itemNo": "133",
+    "status": 200,
+    "name": "تنفيذ خدمة مديونية الأصدقاء | Friend Debt Service",
+    "ownerId": [
+      "120216000000535227"
+    ],
+    "radio": "",
+    "udf3": "تنفيذ خدمة مديونية الأصدقاء",
+    "udf4": "Friend Debt Service",
+    "udf5": "Nidhal",
+    "descLength": 4873,
+    "hasSeparator": true,
+    "oldPreserved": true,
+    "apiStatus": "success"
+  },
+  {
+    "itemId": "120216000004655091",
+    "itemNo": "134",
+    "status": 200,
+    "name": "سجل المديونية ومصادر التسوية | Debt History & Settlement Sources",
+    "ownerId": [
+      "120216000000293163",
+      "120216000000535227"
+    ],
+    "radio": "120216000000851695",
+    "udf3": "سجل المديونية ومصادر التسوية",
+    "udf4": "Debt History & Settlement Sources",
+    "udf5": "Nidhal",
+    "descLength": 4814,
+    "hasSeparator": true,
+    "oldPreserved": true,
+    "apiStatus": "success"
+  }
+]

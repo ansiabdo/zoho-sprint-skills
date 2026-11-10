@@ -1,0 +1,32 @@
+[
+  {
+    "no": "129",
+    "itemId": "120216000004655029",
+    "postStatus": 200,
+    "postBody": "{\"description\":\"Business Requester: Nidhal\\nEpic: بنكي لايت: الفواتير والأصدقاء والمديونية\\n\\nكـ مدير منصة، أريد تعريف بنكي لايت كمزود ومستأجر مع بيانات اعتماد API وعزل بيانات، حتى يستخدم فاتورتي بأمان.\\n\\nمعايير القبول:\\n1. سجل مزود/مستأجر لبنكي لايت بحالة نشطة وعملة وبيانات اتصال.\\n2. إصدار API Cl",
+    "getStatus": 200,
+    "liveLength": 7585,
+    "separator": true,
+    "oldPreserved": true
+  },
+  {
+    "no": "131",
+    "itemId": "120216000004655033",
+    "postStatus": 200,
+    "postBody": "{\"description\":\"Business Requester: Nidhal\\nEpic: بنكي لايت: الفواتير والأصدقاء والمديونية\\n\\nكـ تاجر/مصدر، أريد تسجيل الأصدقاء كمشتركين وربطهم بالمستخدم الحالي، حتى أستطيع إصدار فواتير ومديونيات لهم.\\n\\nمعايير القبول:\\n1. جدول/API للمشتركين: user_id, provider_id, issuer_id, status, nickname, contac",
+    "getStatus": 200,
+    "liveLength": 6409,
+    "separator": true,
+    "oldPreserved": true
+  },
+  {
+    "no": "126",
+    "itemId": "120216000004656300",
+    "postStatus": 200,
+    "postBody": "{\"description\":\"Business Requester: Nidhal\\nEpic: بنكي لايت: الفواتير والأصدقاء والمديونية\\n\\nكـ مدين/دائن، أريد قبول أو رفض المديونية وتعديل بنودها، حتى نتفق على المبلغ النهائي دون حذف.\\n\\nمعايير القبول:\\n1. المدين يقبل/يرفض المديونية؛ الرفض ينهيها مع سبب.\\n2. المصدر يلغي قبل القبول فقط.\\n3. أي طرف",
+    "getStatus": 200,
+    "liveLength": 9138,
+    "separator": true,
+    "oldPreserved": true
+  }
+]

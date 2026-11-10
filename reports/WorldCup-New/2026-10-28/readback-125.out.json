@@ -1,0 +1,114 @@
+[
+  {
+    "ok": true,
+    "tool": "ZohoSprints_GetItemDetails",
+    "isError": false,
+    "data": {
+      "userDisplayName": {
+        "120216000000535227": "Abdullah Al-Ansi",
+        "120216000000359035": "Mohammed  Alaqari"
+      },
+      "items": [
+        {
+          "priorityName": "Medium",
+          "statusType": 0,
+          "endDate": "2026-10-31T17:00:00.000Z",
+          "releaseCount": 1,
+          "isNotesAdded": false,
+          "itemNo": "125",
+          "ownerId": [
+            "120216000000535227"
+          ],
+          "points": 4,
+          "itemBlockId": "",
+          "UDF_CHAR8": "",
+          "estimationPoints": 5,
+          "itemName": "Competition Reports Cache and Realtime Consistency",
+          "UDF_CHAR7": "إدارة الأفراد",
+          "isOverDue": false,
+          "projectInfo": {
+            "no": "52",
+            "name": "Sports Activities As A service",
+            "id": "120216000004162606"
+          },
+          "UDF_CHAR6": "",
+          "startAfter": "-1",
+          "createdTime": "2026-10-05T19:15:45.470Z",
+          "isIntegrated": "0",
+          "sharedType": -1,
+          "rootItem": "",
+          "UDF_CHAR5": "محمد الاخفش",
+          "UDF_CHAR4": "Competition Reports Cache",
+          "UDF_CHAR3": "ذاكرة تقارير المسابقات واتساق البيانات الفورية",
+          "workhourType": 1,
+          "projPriorityId": "120216000004162626",
+          "UDF_ROLLUP8": "1",
+          "UDF_ROLLUP9": "0",
+          "isParent": false,
+          "cycleTime": "-1",
+          "UDF_TEXT1": "",
+          "userGroupCount": 0,
+          "UDF_ROLLUP3": "01/10/2026 01:00 PM",
+          "UDF_ROLLUP4": "5",
+          "UDF_ROLLUP5": "0",
+          "completedDate": "-1",
+          "UDF_ROLLUP6": "31/10/2026 08:00 PM",
+          "UDF_ROLLUP7": "1",
+          "commentCount": 0,
+          "itemId": "120216000004558552",
+          "sequence": "11",
+          "sprintId": "120216000004162608",
+          "UDF_FORMULADBL1": "",
+          "epicId": "120216000004557316",
+          "statusId": "120216000000003629",
+          "sprintInfo": {
+            "owner": "120216000000010017",
+            "no": "0",
+            "name": "Backlog",
+            "id": "120216000004162608",
+            "type": 5
+          },
+          "parentItem": "",
+          "projItemTypeId": "120216000004162630",
+          "itemTypeName": "Story",
+          "userIdVsWorkhours": {
+            "120216000000535227": "0"
+          },
+          "startDate": "2026-10-01T10:00:00.000Z",
+          "description": "As a tenant administrator, I want reports and realtime updates to use the same season scope as user APIs, so that operational totals and user rankings remain consistent.\n\n**Acceptance Criteria**\n1  Season-filtered ranking and engagement report totals match the APIs for the same tenant and scope. Exports identify competition, season and date range.\n2  Correcting a fixture result invalidates affected overall, season, friends and report caches only. Other tenants remain unaffected.\n3  SignalR updates include fixtureId, competitionId, seasonId and configVersion without exposing another tenant's user information.\n4  Overall responses keep display filters separate from historical reward balances. Removing access must not cancel an existing redemption or create a new balance.\n\nRequired Changes  Update Reporting/LeaderboardRankingReportAppService, engagement reports, cache-key builders, SignalR contracts and query indexes. Prevent joins from multiplying aggregate results.\n\nDependencies  BE06 and BE07; BE05 governs cache invalidation after settings changes.",
+          "leadTime": "-1",
+          "sharedItemCount": 0,
+          "addedVia": 3,
+          "hasCheckList": false,
+          "UDF_CHKBOX2": "120216000000850751,120216000000850745,120216000000850747",
+          "duration": "22d",
+          "UDF_CHKBOX1": "120216000000420553",
+          "diffDays": "1d 4h 25m",
+          "statusName": "To do",
+          "totalWorkhours": "0",
+          "isDocsAdded": false,
+          "UDF_FORMULASTR1": "10/2026",
+          "UDF_RADIO1": "120216000000851697",
+          "UDF_DATE1": "-1",
+          "baseItemType": 2,
+          "UDF_EMAIL1": "",
+          "depth": "0",
+          "createdBy": "120216000000359035",
+          "UDF_MULTIUSERPKL1": [
+            "120216000000359035"
+          ],
+          "UDF_ROLLUP10": "22d",
+          "tagCount": 0,
+          "voteCount": 0,
+          "completedBy": "",
+          "plannedHours": "0"
+        }
+      ],
+      "zsuserIdvsZUID": {
+        "120216000000535227": "830852660",
+        "120216000000359035": "814269634"
+      },
+      "status": "success"
+    }
+  }
+]

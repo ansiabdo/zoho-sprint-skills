@@ -1,0 +1,58 @@
+[
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606", "sprintId": "120216000004162608", "itemId": "120216000004558554" },
+      "query_params": { "UDF_CHAR3": "إسناد المسابقات للمستأجرين من لوحة المشرف", "UDF_CHAR4": "Admin Tenant Assignment", "UDF_CHAR5": "محمد الاخفش", "UDF_CHAR7": "إدارة الأفراد", "newusers": "[\"120216000000359035\"]", "startdate": "2026-11-01T00:00:00+0300", "enddate": "2026-11-15T23:59:59+0300", "duration": "15d", "point": 5, "epicid": "120216000004557316", "projpriorityid": "120216000004162627", "statusid": "120216000000003629", "projitemtypeid": "120216000004162630" }
+    }
+  },
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606", "sprintId": "120216000004162608", "itemId": "120216000004558555" },
+      "query_params": { "UDF_CHAR3": "عمليات المباريات والتقارير للمشرف", "UDF_CHAR4": "Admin Match Operations", "UDF_CHAR5": "محمد الاخفش", "UDF_CHAR7": "إدارة الأفراد", "newusers": "[\"120216000000359035\"]", "startdate": "2026-11-01T00:00:00+0300", "enddate": "2026-11-15T23:59:59+0300", "duration": "15d", "point": 3, "epicid": "120216000004557316", "projpriorityid": "120216000004162626", "statusid": "120216000000003629", "projitemtypeid": "120216000004162630" }
+    }
+  },
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606", "sprintId": "120216000004162608", "itemId": "120216000004558556" },
+      "query_params": { "UDF_CHAR3": "مراقبة مزامنة المواسم المتعددة للمشرف", "UDF_CHAR4": "Admin Multi Season Monitoring", "UDF_CHAR5": "محمد الاخفش", "UDF_CHAR7": "إدارة الأفراد", "newusers": "[\"120216000000359035\"]", "startdate": "2026-11-01T00:00:00+0300", "enddate": "2026-11-15T23:59:59+0300", "duration": "15d", "point": 3, "epicid": "120216000004557316", "projpriorityid": "120216000004162626", "statusid": "120216000000003629", "projitemtypeid": "120216000004162630" }
+    }
+  },
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606", "sprintId": "120216000004162608", "itemId": "120216000004558557" },
+      "query_params": { "UDF_CHAR3": "تنقل اللاعب بين المسابقات والمواسم", "UDF_CHAR4": "Player Competition Navigation", "UDF_CHAR5": "محمد الاخفش", "UDF_CHAR7": "إدارة الأفراد", "newusers": "[\"120216000000359035\"]", "startdate": "2026-11-01T00:00:00+0300", "enddate": "2026-11-15T23:59:59+0300", "duration": "15d", "point": 5, "epicid": "120216000004557316", "projpriorityid": "120216000004162627", "statusid": "120216000000003629", "projitemtypeid": "120216000004162630" }
+    }
+  },
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606", "sprintId": "120216000004162608", "itemId": "120216000004558558" },
+      "query_params": { "UDF_CHAR3": "توقعات مباريات اللاعب والترتيب", "UDF_CHAR4": "Player Fixtures & Standings", "UDF_CHAR5": "محمد الاخفش", "UDF_CHAR7": "إدارة الأفراد", "startdate": "2026-11-01T00:00:00+0300", "enddate": "2026-11-15T23:59:59+0300", "duration": "15d", "point": 5, "epicid": "120216000004557316", "projpriorityid": "120216000004162627", "statusid": "120216000000003629", "projitemtypeid": "120216000004162630" }
+    }
+  },
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606", "sprintId": "120216000004162608", "itemId": "120216000004558559" },
+      "query_params": { "UDF_CHAR3": "توقعات اللاعب وتصنيفات الموسم والأصدقاء", "UDF_CHAR4": "Player Predictions & Rankings", "UDF_CHAR5": "محمد الاخفش", "UDF_CHAR7": "إدارة الأفراد", "newusers": "[\"120216000000359035\"]", "startdate": "2026-11-01T00:00:00+0300", "enddate": "2026-11-15T23:59:59+0300", "duration": "15d", "point": 3, "epicid": "120216000004557316", "projpriorityid": "120216000004162627", "statusid": "120216000000003629", "projitemtypeid": "120216000004162630" }
+    }
+  },
+  {
+    "tool": "ZohoSprints_UpdateItem",
+    "args": {
+      "headers": { "x-za-ui-version": "v2", "X-convert-response": "true" },
+      "path_variables": { "teamId": "767679505", "projectId": "120216000004162606", "sprintId": "120216000004162608", "itemId": "120216000004558560" },
+      "query_params": { "UDF_CHAR3": "روابط اللاعب والتعريب وأمان ذاكرة PWA", "UDF_CHAR4": "Player Links & PWA Cache", "UDF_CHAR5": "محمد الاخفش", "UDF_CHAR7": "إدارة الأفراد", "newusers": "[\"120216000000359035\"]", "startdate": "2026-11-01T00:00:00+0300", "enddate": "2026-11-15T23:59:59+0300", "duration": "15d", "point": 3, "epicid": "120216000004557316", "projpriorityid": "120216000004162626", "statusid": "120216000000003629", "projitemtypeid": "120216000004162630" }
+    }
+  }
+]

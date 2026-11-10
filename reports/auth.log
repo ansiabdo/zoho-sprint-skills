@@ -1,0 +1,46 @@
+[stderr] [37816] Using transport strategy: http-only
+[stderr] [37816] Using callback port derived from the server URL: 41544
+[stderr] [37816] Discovering OAuth server configuration...
+[stderr] [37816] Discovered authorization server: https://sprint-918973013.zohomcp.com
+[stderr] [37816] Initializing auth coordination on-demand
+[stderr] [37816] OAuth callback server running at http://127.0.0.1:41544
+[stderr] [37816] This instance is running the sign-in for this server (callback port 41544)
+[stderr] [37816] [37816] Connecting to remote server: https://sprint-918973013.zohomcp.com/mcp/d406618d63cc5990dab3c3830ff90f0e/message
+[stderr] [37816] Using transport strategy: http-only
+[stderr] [37816] 
+Please authorize this client by visiting:
+https://mcp.zoho.com/mcp-client/71042adb049dc698f9230c9d66a134f1/44399000000013038/oauth?response_type=code&client_id=1000.74OGCXOVDQ7CEELAD7VUSDCCDS433P&code_challenge=6JuieRqZoFANnrI3qUeNhcAMbDj4V-7JZOvUqMQh4ic&code_challenge_method=S256&redirect_uri=http%3A%2F%2F127.0.0.1%3A41544%2Foauth%2Fcallback&state=f757b07c-c5af-4e62-8d14-78d4c4bb0cd7&scope=zohosprints.release.create+zohosprints.epic.read+zohosprints.projects.create+zohosprints.items.read+zohosprints.comments.update+zohosprints.projects.read+zohosprints.items.update+zohosprints.epic.create+zohosprints.release.update+zohosprints.sprints.create+zohosprints.sprints.update+zohosprints.epic.update+zohosprints.items.create+zohosprints.projects.update+zohosprints.sprints.read+zohosprints.comments.create+zohosprints.comments.read+zohosprints.release.read+zohosprints.items.delete+zohosprints.settings.read+zohosprints.custommodulerecords.read+zohosprints.teamusers.read+zohosprints.custommodulerecords.create+zohosprints.timesheets.create+zohosprints.timesheets.update+zohosprints.teams.read+zohosprints.custommodulerecords.update+zohosprints.timesheets.read+zohosprints.projectgroups.read+ZohoMCP.tool.execute&resource=https%3A%2F%2Fsprint-918973013.zohomcp.com%2Fmcp%2Fd406618d63cc5990dab3c3830ff90f0e%2Fmessage
+[stderr] [37816] Browser opened automatically.
+[stderr] [37816] Authentication required. Initializing auth...
+[stderr] [37816] Authentication required. Waiting for authorization...
+[stderr] [37816] Auth code received, resolving promise
+[stderr] [37816] Completing authorization...
+[stderr] [37816] Recursively reconnecting for reason: authentication-needed
+[stderr] [37816] [37816] Connecting to remote server: https://sprint-918973013.zohomcp.com/mcp/d406618d63cc5990dab3c3830ff90f0e/message
+[37816] Using transport strategy: http-only
+[stderr] [37816] Connected to remote server using StreamableHTTPClientTransport
+[stderr] [37816] Local STDIO server running
+[stderr] [37816] Proxy established successfully between local STDIO and remote StreamableHTTPClientTransport
+[37816] Press Ctrl+C to exit
+[stderr] [37816] [Local→Remote] initialize
+[stderr] [37816] {
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "initialize",
+  "params": {
+    "protocolVersion": "2025-03-26",
+    "capabilities": {
+      "tools": {}
+    },
+    "clientInfo": {
+      "name": "zoho-workspace-client (via mcp-remote 0.15.2)",
+      "version": "1.0.0"
+    }
+  }
+}
+[stderr] [37816] [Remote→Local] 1
+[stderr] [37816] [Local→Remote] notifications/initialized
+[stderr] [37816] [Local→Remote] tools/list
+[stderr] [37816] [Remote→Local] 2
+[stderr] [37816] 
+Shutting down...

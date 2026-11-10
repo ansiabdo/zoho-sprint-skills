@@ -1,0 +1,61 @@
+[
+  {
+    "ok": true,
+    "method": "tools/call",
+    "params": "ZohoSprints_GetSprints",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"next\":false,\"userDisplayName\":{\"120216000000359035\":\"Mohammed  Alaqari\"},\"sprints\":[{\"canceledOn\":\"-1\",\"scrumMaster\":\"120216000000359035\",\"endDate\":\"2026-11-15T20:59:59.999Z\",\"canceledBy\":\"\",\"itemAlias\":\"additem_g82t7jx3jzyu3czla5w2v3vk90zmqdf2zzv7o8pfjs42hb5i@mailactions.zohosprints.com\",\"duration\":\"11d\",\"isOverDue\":\"\",\"diffDays\":-1,\"startAfter\":\"-1\",\"releaseId\":\"\",\"sprintType\":1,\"createdTime\":\"2026-10-28T18:47:52.520Z\",\"sprintName\":\"Sprint10: Oct-2026 \\u2014 Fatoorati Multi-Tenant\",\"startedOn\":\"-1\",\"sprintNo\":\"12\",\"isRolled\":false,\"sprintNotesAlias\":\"addcomment_g82t7jx3jzyu3czla6h3ttauto8rurf32j942p9y9getv6g2@mailactions.zohosprints.com\",\"businessDays\":11,\"userId\":\"120216000000359035\",\"sprintId\":\"120216000004656294\",\"sequence\":\"11\",\"createdBy\":\"120216000000359035\",\"completedOn\":\"-1\",\"tagCount\":0,\"projectId\":\"120216000000593007\",\"startDate\":\"2026-10-31T21:00:00.000Z\",\"completedBy\":\"\",\"workflowId\":\"120216000000593003\"}],\"zsuserIdvsZUID\":{\"120216000000359035\":\"814269634\"},\"status\":\"success\"}"
+        }
+      ],
+      "isError": false,
+      "structuredContent": {
+        "status": "success",
+        "data": {
+          "next": false,
+          "userDisplayName": {
+            "120216000000359035": "Mohammed  Alaqari"
+          },
+          "sprints": [
+            {
+              "canceledOn": "-1",
+              "scrumMaster": "120216000000359035",
+              "endDate": "2026-11-15T20:59:59.999Z",
+              "canceledBy": "",
+              "itemAlias": "additem_g82t7jx3jzyu3czla5w2v3vk90zmqdf2zzv7o8pfjs42hb5i@mailactions.zohosprints.com",
+              "duration": "11d",
+              "isOverDue": "",
+              "diffDays": -1,
+              "startAfter": "-1",
+              "releaseId": "",
+              "sprintType": 1,
+              "createdTime": "2026-10-28T18:47:52.520Z",
+              "sprintName": "Sprint10: Oct-2026 — Fatoorati Multi-Tenant",
+              "startedOn": "-1",
+              "sprintNo": "12",
+              "isRolled": false,
+              "sprintNotesAlias": "addcomment_g82t7jx3jzyu3czla6h3ttauto8rurf32j942p9y9getv6g2@mailactions.zohosprints.com",
+              "businessDays": 11,
+              "userId": "120216000000359035",
+              "sprintId": "120216000004656294",
+              "sequence": "11",
+              "createdBy": "120216000000359035",
+              "completedOn": "-1",
+              "tagCount": 0,
+              "projectId": "120216000000593007",
+              "startDate": "2026-10-31T21:00:00.000Z",
+              "completedBy": "",
+              "workflowId": "120216000000593003"
+            }
+          ],
+          "zsuserIdvsZUID": {
+            "120216000000359035": "814269634"
+          },
+          "status": "success"
+        }
+      }
+    }
+  }
+]

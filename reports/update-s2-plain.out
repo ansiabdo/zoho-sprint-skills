@@ -1,0 +1,24 @@
+[
+  {
+    "ok": true,
+    "method": "tools/call",
+    "params": "ZohoSprints_UpdateItem",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"code\":7600,\"message\":\"Given JSON is invalid\",\"status\":\"failed\"}"
+        }
+      ],
+      "isError": true,
+      "structuredContent": {
+        "data": {
+          "code": 7600,
+          "message": "Given JSON is invalid",
+          "status": "failed"
+        },
+        "status": "failure"
+      }
+    }
+  }
+]

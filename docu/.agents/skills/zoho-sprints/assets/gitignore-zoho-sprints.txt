@@ -1,0 +1,7 @@
+# Local Zoho profile, audit state, and reports; adjust if your team deliberately shares sanitized reports.
+.zoho-sprints/profile.yaml
+.zoho-sprints/config.yaml
+.zoho-sprints/audit-state.json
+.zoho-sprints/change-ledger.jsonl
+.zoho-sprints/pending-actions.json
+.zoho-sprints/reports/
